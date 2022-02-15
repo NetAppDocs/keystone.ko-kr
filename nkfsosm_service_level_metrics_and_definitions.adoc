@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: nkfsosm_service_level_metrics_and_definitions.html 
+keywords: netapp, keystone, service, level, metrics, definitions, 
+summary: Keystone 서비스 수준 메트릭 및 정의 
+---
+= 서비스 수준 메트릭 및 정의
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+다음 용어와 정의는 NetApp Keystone Flex 가입(Flex subscription) 서비스에서 사용됩니다.
+
+* * GiB, TiB 및 PiB. * 1024의 기수를 사용한 데이터 스토리지 용량 측정(1GiB = 1024^3^바이트, 1TiB = 1024^4^바이트, 1PiB = 1024^5^바이트)
+* * IOPS/TiB. * 애플리케이션에서 요청하는 초당 프로토콜 작업을 할당된 볼륨 논리 크기로 나눕니다.
+* * 가용성 * 은 서비스에 의해 성공적으로 응답한 I/O 요청 수의 백분율로 측정되며, 지정된 월에 서비스 분계에서 측정한 서비스의 총 I/O 요청 수로 나누어 측정되며, 예약된 서비스 가동 중지 시간 또는 필요한 시설의 사용 불가 등을 포함하지 않습니다. 고객이 제공할 네트워크 또는 기타 서비스.
+* * 내구성 * 은 고객 발생으로 인한 삭제 또는 손상을 제외하고 충실도 손실 없이 액세스되는 데이터의 비율입니다.
+* * Target IOPS per TiB. * 타겟 IOPs per TiB 임계값에 도달하기 전에 볼륨에 대한 모든 I/O 요청의 IOPS가 보장됩니다. 볼륨의 성능은 선택한 TiB당 IOPS로 제한됩니다.
+
+
+
+NOTE: 타겟 IOPS/TiB 성능 메트릭은 논리적 사용 용량(TiB)을 기준으로 계산됩니다.
+
+* * 지연 시간. * 클라이언트로부터 수신된 I/O 요청을 처리하는 데 걸리는 시간으로, 서비스 경계(스토리지 컨트롤러 I/O 포트)에서 측정됩니다.
+

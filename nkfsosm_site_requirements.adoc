@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: nkfsosm_site_requirements.html 
+keywords: netapp, keystone, sire, requirements, 
+summary: Keystone 사이트 요구사항 
+---
+= 사이트 요구 사항
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+귀사의 환경에서 공간, 랙, PDU, 전원, 디스크, 디스크, 디스크, 디스크, 디스크, 디스크, NetApp Keystone 그리고 냉각, 네트워크 및 보안 요구 사항 추가 논의.
+
+
+
+== 공간
+
+고객이 제공할 Flex Subscription 인프라 장비를 호스팅할 설치 공간. NetApp은 최종 구성을 기준으로 중량 사양을 제공합니다.
+
+
+
+== 랙
+
+고객이 운영하는 제품의 4개의 포스트 랙(고객이 제공) NetApp 운영 오퍼링의 요구사항에 따라 NetApp 또는 고객이 랙을 제공할 수 있습니다. NetApp은 42개의 세부 랙을 제공합니다.
+
+
+
+== PDU를 사용합니다
+
+충분한 C13 콘센트가 있는 2개의 독립된 보호 회로에 연결된 PDU(Power Distribution Unit)를 제공해야 합니다. 고객 운영 서비스의 경우 경우에 따라 C19 아울렛이 필요합니다. NetApp에서 운영하는 오퍼링의 경우 요구사항에 따라 NetApp 또는 고객이 PDU를 제공할 수 있습니다.
+
+
+
+== 전원
+
+필요한 전원을 제공해야 합니다. NetApp은 200V 등급(일반 A, 최대 A, 일반 W, 최대 W, 전원 코드 유형, 및 수량), 최종 구성 기준 모든 구성 요소에는 중복 전원 공급 장치가 있습니다. NetApp은 캐비닛 내 전원 코드를 제공합니다.
+
+
+
+== 냉각
+
+NetApp은 최종 구성 및 요구사항에 따라 냉각 요구사항 사양(일반 BTU, 최대 BTU)을 제공할 수 있습니다.
+
+
+
+== 네트워킹
+
+NetApp은 고객의 요구사항과 사용된 스토리지 컨트롤러에 따라 고객 사이트에서 10Gb, 40Gb 및 100Gb 연결을 제공할 수 있습니다.
+
+NetApp은 NetApp에서 제공하는 Flex Subscription Infrastructure 장치에 필요한 트랜시버만 제공합니다. 고객 장치에 필요한 송수신기 및 NetApp에서 제공하는 Flex Subscription 인프라 장치에 케이블을 연결해야 합니다.

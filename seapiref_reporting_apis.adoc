@@ -1,0 +1,107 @@
+---
+sidebar: sidebar 
+permalink: seapiref_reporting_apis.html 
+keywords: netapp, keystone, reporting, apis, 
+summary: Keystone 보고 API 
+---
+= API 보고
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+다음 표의 메소드를 사용하여 보고서를 검색하고 생성합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 
+
+
+| "내려가세요 | '/v2.1/reports' | 모든 보고서 목록을 가져옵니다. 
+
+
+| POST를 누릅니다 | '/v2.1/reports/{filename}' | 보고서를 검색합니다. 
+|===
+
+
+=== 보고서 목록을 가져옵니다
+
+다음 표에 나열된 방법을 사용하여 보고서 목록을 검색합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| "내려가세요 | '/v2.1/reports' | 테넌트의 사용 가능한 모든 보고서를 검색합니다. 보고서는 날짜 범위별로 필터링할 수 있습니다.  a| 
+* 'tenant_id(string)'입니다
+* '시작(문자열)': 검색 시 시작 날짜에 지정된 날짜가 더 최근 것으로 표시됩니다.
+* 종료(문자열): 검색 날짜가 마지막에 지정된 날짜가 오래된 보고서를 검색합니다
+
+
+|===
+요청 본문 속성: 없음
+
+* 요청 본문 예: *
+
+....
+none
+....
+* 응답 바디 예: *
+
+....
+{
+  "status": {
+    "user_message": "string",
+    "verbose_message": "string",
+    "code": "string"
+  },
+  "result": {
+    "returned_records": 1,
+    "records": [
+      {
+        "filename": "string"
+      }
+    ]
+  }
+}
+....
+
+
+==== 파일 이름으로 식별되는 보고서를 가져옵니다
+
+다음 표의 메소드를 사용하여 파일 이름으로 식별되는 보고서를 검색합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| "내려가세요 | '/v2.1/reports/{filename}' | 파일 이름으로 식별되는 보고서를 가져옵니다. | 파일 이름(string): 보고서 파일 이름입니다. 
+|===
+요청 본문 속성: 없음
+
+* 요청 본문 예: *
+
+....
+none
+....
+* 응답 바디 예: *
+
+....
+{
+  "status": {
+    "user_message": "string",
+    "verbose_message": "string",
+    "code": "string"
+  },
+  "result": {
+    "total_records": 1,
+    "records": [
+      {
+        "filename": "string"
+      }
+    ]
+  }
+}
+....

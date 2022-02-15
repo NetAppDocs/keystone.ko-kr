@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: sewebiug_initialize_object_storage.html 
+keywords: netapp, keystone, initialize, object, storage, 
+summary: 'Keystone: 오브젝트 스토리지 초기화' 
+---
+= 오브젝트 스토리지 초기화
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+오브젝트 스토리지를 사용하려면 먼저 초기화해야 합니다.
+
+아직 초기화되지 않은 오브젝트 스토리지에 스토리지 버킷을 생성하려고 하면 스토리지를 초기화하라는 메시지가 표시됩니다. 다음 섹션에서는 프로세스에 대해 설명합니다.
+
+.단계
+. 를 봅니다 link:sewebiug_view_buckets.html#view-buckets["버킷 목록"] 버킷을 생성할 서브테넌트를 선택합니다.
+. 이 서브테넌트에 대해 오브젝트 스토리지가 초기화되지 않은 경우 다음 메시지가 표시됩니다.
++
+image:sewebiug_image31.png["오류: 그래픽 이미지가 없습니다"]
+
+. 오브젝트 스토리지 초기화 * 를 클릭합니다.
+. 오브젝트 스토리지 초기화 대화 상자에서 오브젝트 스토리지에 대한 할당량을 선택하고 * 생성 * 을 클릭합니다.
++
+image:sewebiug_image32.png["오류: 그래픽 이미지가 없습니다"]
+
+. 작업 목록을 확인하여 오브젝트 스토리지가 성공적으로 초기화되었는지 확인합니다.
+

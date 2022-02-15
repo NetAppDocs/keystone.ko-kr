@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: sewebiug_billing.html 
+keywords: netapp, keystone, monthly charges, billing, flex subscription, flex utility, cloud services 
+summary: 청구 세부 정보를 보고 다운로드합니다 
+---
+= 청구 보기
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Service Engine 대시보드 및 청구 화면에서 NetApp Keystone Flex Subscription(Flex 가입)의 모든 서비스에 대한 월별 요금을 확인할 수 있습니다.
+
+지난 달 동안 Flex Subscription에 가입한 모든 서비스에 대한 청구 세부 정보를 볼 수 있습니다. 월별 사용량 급증에 대비한 용량 청구 항목이 강조 표시됩니다.
+
+
+NOTE: 구독에 연간 요금이 청구되는 경우 송장에는 실제 월별 송장 금액 대신 비례 배분된 금액이 반영됩니다.
+
+표의 데이터를 월별로 정렬하고 해당 월의 모든 저장소 구독 목록을 볼 수 있습니다.
+
+.단계
+. 메뉴에서 * administration * > * Billing * 을 선택합니다.
++
+
+NOTE: 대시보드의 * 월간 청구 * 위젯 오른쪽 상단 모서리에 있는 화살표를 클릭하거나 위젯에서 월을 나타내는 막대를 클릭하여 청구 페이지를 볼 수도 있습니다. 선택한 월에 대한 모든 구독이 표시됩니다.
+
+. 필요에 따라 월을 나타내는 막대 위로 마우스를 가져가면 추가 세부 정보를 볼 수 있습니다.
+. 표에 나열된 월을 선택합니다. 해당 월에 대한 모든 구독과 관련 청구가 테이블에 표시됩니다. 비용은 약정 용량 및 버스트 사용량에 따라 분할됩니다.
+

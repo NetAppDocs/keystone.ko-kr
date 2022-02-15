@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: seapiref_overview_of_netapp_service_engine_apis.html 
+keywords: netapp, overview, service, engine, apis, 
+summary: NetApp 서비스 엔진 API 개요 
+---
+= NetApp 서비스 엔진 API 개요
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 서비스 엔진은 RESTful 웹 서비스 인터페이스를 통해 지원되는 스토리지 시스템에서 타사 통합을 위한 스토리지 리소스를 관리하는 일련의 API를 제공합니다. API는 GUI를 통해 지원되는 모든 기능을 포함합니다. NetApp은 API 문서를 제공하지만 고객의 애플리케이션에 통합하는 것은 고객의 책임입니다.
+
+API 및 샘플 코드에 대한 자세한 내용은 이 NetApp Service Engine API 참조 가이드를 참조하십시오. 가이드에 포함된 정보를 사용하여 NetApp 서비스 엔진의 RESTful 클라이언트를 생성할 수 있습니다. API는 REST(Representational State Transfer) 아키텍처 스타일을 기반으로 합니다.
+
+
+
+=== 대상
+
+이 가이드는 REST API를 통해 NetApp 서비스 엔진 소프트웨어와 연동되는 애플리케이션을 개발하는 개발자를 위한 것입니다.
+
+스토리지 공급자, NetApp ONTAP 클러스터 및 스토리지 관리를 위한 관리 API를 사용하려면 이 가이드를 사용해야 합니다.
+
+
+
+=== NetApp 서비스 엔진 API 액세스 및 범주
+
+
+
+==== REST API에 직접 액세스하기 위한 URL을 생성하는 중입니다
+
+Python, C#, C++, JavaScript 등 프로그래밍 언어를 통해 REST API에 직접 액세스할 수 있습니다. 등. 'https://<hostname>/api' 형식으로 REST API에 액세스하려면 호스트 이름 또는 IP 주소와 URL을 입력합니다.
+
+
+
+==== 소비자 및 관리자 API
+
+이 문서에서는 다음 두 섹션으로 구성된 API 설명을 분할합니다.
+
+* 소비자 API
+* 관리자 API
+
+
+
+
+=== NetApp Service Engine의 주요 개념
+
+NetApp 서비스 엔진은 아래 그림과 같이 지역 및 지역의 개념을 지원합니다. 영역은 데이터 센터 또는 사이트를 나타내고 영역은 영역 내의 스토리지 하위 단위(기술적으로 데이터 센터/사이트 내의 클러스터)를 나타냅니다. 여러 존을 통해 데이터 가용성 및 데이터 보호(DP) 기능 지원
+
+image:seapiref_image1.png["오류: 그래픽 이미지가 없습니다"]
+
+단일 NetApp 서비스 엔진 인스턴스에서 하나 이상의 테넌트를 지원할 수 있습니다. NetApp 서비스 엔진은 테넌트 및 서브테넌트의 개념을 스토리지 서비스를 소유 또는 관리하는 계층적 엔터티로 사용합니다.
+
+테넌트는 고객, 파트너 또는 청구 주체가 될 수 있습니다. 테넌트는 Flex Subscription 서비스에 대한 가입(또는 여러 서브스크립션)을 보유합니다.
+
+서브테넌트는 테넌트 내에 있는 엔티티입니다. 쇼백, 보안 분리 등에 사용할 수 있습니다.
+
+스토리지 항목은 서브테넌트별로 생성됩니다. 각 서브테넌트는 해당 서브테넌트에 적합한 유형과 번호의 여러 스토리지 항목을 보유할 수 있습니다.
+
+NetApp 서비스 엔진은 다음과 같은 유형의 스토리지를 지원합니다.
+
+* 블록 저장소 및 디스크의 블록 스토리지
+* 파일 서버 및 파일 공유 내의 파일 스토리지
+* 버킷의 오브젝트 스토리지
+

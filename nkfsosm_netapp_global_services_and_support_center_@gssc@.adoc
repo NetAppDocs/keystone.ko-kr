@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: nkfsosm_netapp_global_services_and_support_center_@gssc@.html 
+keywords: netapp, keystone, global, services, support, center, gssc, 
+summary: 'NetApp 글로벌 서비스 및 지원 센터(GSSC)' 
+---
+= 유연한 구독 서비스 운영
+
+
+[role="lead"]
+NetApp Keystone 유연한 구독 서비스는 NetApp 글로벌 서비스 및 지원 센터(GSSC), NetApp Keystone 성공 관리자 및 NetApp Keystone 서비스 제공 관리자를 활용하여 실행됩니다.
+
+
+
+== NetApp 글로벌 서비스 및 지원 센터(GSSC)
+
+NetApp은 NetApp Keystone 고객에게 운영 서비스를 원격으로 제공합니다. 이러한 서비스에는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트, 인시던트 및 문제 관리, 서비스 요청 이행, 보고 등 스토리지 관리 활동 전반에 걸쳐 광범위한 운영 분야가 포함됩니다. NetApp은 필요에 따라 제어 상태와 지원 증거를 보여줍니다.
+
+
+
+== 추가 정보 및 지원 연락처
+
+NetApp 글로벌 서비스 및 지원 센터(GSSC) 팀은 기본적으로 NetApp Keystone 유연한 구독 고객에 대한 서비스를 지원합니다.
+
+NetApp 서비스 엔진 포털(* 지원 > 서비스 요청*)에서 지원 관련 문제에 대한 자세한 내용을 확인하십시오.
+
+다음 정보를 사용하여 지원 팀에 연락할 수도 있습니다.
+
+* 글로벌 서비스 연락처:https://www.netapp.com/us/contact-us/support.aspx[]
+* 에스컬레이션해야 하는 미해결 케이스/티켓이 있는 경우 다음 주소 중 하나로 이메일을 보내주시기 바랍니다. Keystone.services@netapp.com Keystone.escalations@netapp.com
+* NetApp은 문제 해결을 위해 클라우드 기반 원격 게이트웨이 솔루션인 OpsRamp를 사용하여 NetApp Keystone 환경을 능동적으로 모니터링하고 연결합니다. OpsRamp에 대한 자세한 내용은 를 참조하십시오 https://www.opsramp.com/#[].
+
+
+
+NOTE: 파트너 운영 모델에서는 테넌트 및 서브테넌트의 서비스 요청이 파트너의 서비스 데스크에 할당됩니다. 파트너의 지원 툴은 OpsRamp 및 GSSC 애플리케이션과 통합할 수 있습니다. L3 문제만 GSSC를 통해 NetApp으로 에스컬레이션됩니다.
+
+이 문서에 설명된 정보에 대해 자세히 알아보려면 다음 문서 및/또는 웹 사이트를 검토하십시오.
+
+* NetApp Keystonehttps://www.netapp.com/us/solutions/keystone/index.aspx["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
+* NetApp 제품 설명서https://docs.netapp.com["https://docs.netapp.com"^]
+

@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: sewebiug_view_servers.html 
+keywords: netapp, keystone, view, servers, 
+summary: Keystone 뷰 서버 
+---
+= 서버 보기
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+서버 목록에는 선택한 테넌트에 속한 파일 서버가 표시됩니다. 목록을 보려면 메뉴에서 파일 서비스 > 서버 를 선택합니다.
+
+목록에는 다음과 같은 각 서버에 대한 간단한 정보가 표시됩니다.
+
+* 서버 이름입니다
+* IP 주소입니다
+* 서브테넌트
+* Zone(영역)
+* 작동 상태입니다
+* 사용 중인 프로토콜(NFS, CIFS)
+* CIFS 서버 이름(해당하는 경우)
++
+목록의 기능을 사용하는 방법에 대한 자세한 내용은 을 참조하십시오 link:sewebiug_netapp_service_engine_web_interface_overview.html#list-view["목록 보기"].
+
+

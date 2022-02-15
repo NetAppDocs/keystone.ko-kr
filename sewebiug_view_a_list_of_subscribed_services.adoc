@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: sewebiug_view_a_list_of_subscribed_services.html 
+keywords: netapp, keystone, view, list, cloud, services, 
+summary: Keystone 클라우드 서비스 목록 보기 
+---
+= 클라우드 서비스 목록 보기
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+클라우드 서비스 목록에는 선택한 테넌시의 모든 클라우드 서비스 목록이 표시됩니다.
+
+목록을 보려면 메뉴에서 * 클라우드 서비스 * > * 클라우드 서비스 * 를 선택합니다.
+
+목록에는 각 클라우드 서비스에 대한 간단한 정보가 표시됩니다.
+
+각 클라우드 서비스 옆에 있는 작업 아이콘을 사용하여 클라우드 서비스를 수정 또는 삭제할 수 있습니다.

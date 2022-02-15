@@ -1,0 +1,109 @@
+---
+sidebar: sidebar 
+permalink: seapiref_backups_apis.html 
+keywords: netapp, keystone, backups, apis, 
+summary: Keystone 백업 API 
+---
+= 백업 API
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+백업 API를 사용하여 사용자 환경에서 볼륨(파일 공유 및 디스크)의 스냅샷(백업 또는 복구 지점)을 보고 관리할 수 있습니다.
+
+[cols="1,1,3,2"]
+|===
+| HTTP 동사 | 경로 | 설명 | 필수 매개 변수/요청 본문 
+
+
+ a| 
+"내려가세요
+ a| 
+'/v2.1/백업'
+| 테넌트 아래에 있는 서브테넌트에 대해 생성된 모든 볼륨에 대한 모든 백업 객체의 세부 정보를 검색할 수 있습니다. 백업 정책, 영역 및 태그와 같은 소스 볼륨 및 백업 객체의 세부 정보를 검색합니다.  a| 
+오프셋: 결과 집합 수집을 시작하기 전에 건너뛸 항목 수입니다. 제한값: 반환할 항목 수입니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+"/v2.1/backups/{id}"
+| 테넌트 아래에 있는 서브테넌트의 볼륨에 대해 생성된 특정 백업 객체의 세부 정보를 검색할 수 있습니다. 입력한 ID를 기준으로 소스 볼륨과 백업 정책, 영역 및 태그와 같은 백업 객체의 세부 정보를 검색합니다.  a| 
+id: 백업 객체의 ID입니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+"/v2.1/backups/{id}/"recovery_points"
+| 특정 백업 개체의 모든 복구 지점에 대한 세부 정보를 검색할 수 있습니다. 타임스탬프 및 이름과 같은 세부 정보가 검색됩니다.  a| 
+id: 백업 객체의 ID입니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/v2.1/backups/{id}/'recovery_points/{name}'
+| 특정 백업 개체의 복구 지점에 대한 세부 정보를 검색할 수 있습니다. 타임스탬프 및 이름과 같은 세부 정보가 검색됩니다.  a| 
+id: 백업 객체의 ID입니다. 이름: 복구 지점의 이름입니다.
+
+
+
+ a| 
+POST를 누릅니다
+ a| 
+'/v2.1/백업'
+| 특정 소스 볼륨에 대한 백업 객체를 생성할 수 있습니다. 백업 정책, 보존할 백업 복제본 수 및 소스 리소스 ID와 같은 지정된 매개 변수를 사용하여 백업 객체를 생성하려면 요청 본문의 값을 추가합니다.  a| 
+""{"primary_resource_type":"<Resource Type>", "source_resource_id":"<ID>", "backup_zone":"<Backup Zone>", "backup_policy": {"daily_backups_to_keep":<Number of daily_backups_to_keep>," weekly_backups:<number>","<keyTag to_weekly_keybackups:<number>", "keep_number",",","=keyTag to_weekly backups:<keybackups:<number> "<태그 N>"}"
+
+
+
+ a| 
+POST를 누릅니다
+ a| 
+"/v2.1/backups/{id}/tags"
+| 서브테넌트의 백업 객체에 대한 태그를 생성하거나 교체할 수 있습니다. 요청 본문의 "key:value pair" 형식으로 백업 객체의 ID와 태그 값을 추가합니다.  a| 
+id: 백업 객체의 ID입니다. "{"key1":"<태그 1>","key2":"<태그 2>","keyn":"<태그 N>"}"
+
+
+
+ a| 
+패치
+ a| 
+"/v2.1/backups/{id}"
+ a| 
+볼륨의 ID를 기준으로 볼륨에 대한 백업 개체를 수정할 수 있습니다. 백업 객체의 ID와 백업 정책 세부 정보, 보존할 백업 수, 소스 리소스 ID 등 요청 본문에서 수정할 값을 추가합니다.
+
+[NOTE]
+====
+패치 요청에서는 'source_resource_id' 매개 변수의 값을 null로 설정하여 백업 객체를 분리된 상태로 만들 수 있습니다. 이렇게 하면 SnapMirror 관계가 제거되지만 백업 볼륨과 복구 지점은 그대로 유지됩니다.
+
+==== a| 
+id: 백업 객체의 ID입니다. ""{"source_resource_id":"<Resource ID>", "backup_policy": {"daily_backups_to_keep":<Number of daily backups to keep>, "weekly_backups_to_keep":<Number of weekly backups to keep>,"monthly_backups_to_keyTag","<keyTag>"<keyTag>"2:","<keyTag>"<keyTag>"<keyTag>"<keyTag>"<keyTag>"<keyTag>"<keybackups:2:
+
+
+
+ a| 
+"삭제"
+ a| 
+"/v2.1/backups/{id}"
+| 볼륨에 대한 모든 복구 지점과 함께 모든 백업 객체를 삭제할 수 있습니다.  a| 
+id: 백업 객체의 ID입니다.
+
+
+
+ a| 
+"삭제"
+ a| 
+'/v2.1/backups/{id}/'recovery_points/{name}'
+| 볼륨에 대한 특정 백업 개체의 복구 지점을 삭제할 수 있습니다.  a| 
+id: 백업 객체의 ID입니다. 이름: 복구 지점의 이름입니다.
+
+|===

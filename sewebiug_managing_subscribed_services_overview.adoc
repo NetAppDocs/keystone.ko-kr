@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: sewebiug_managing_subscribed_services_overview.html 
+keywords: netapp, keystone, managing, cloud, services, overview, 
+summary: Keystone 클라우드 서비스 관리 개요 
+---
+= 개요
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 서비스 엔진에 등록되면 NetApp 서비스 엔진 웹 포털을 통해 CVS(Cloud Volumes Services)를 관리할 수 있습니다. 여기에는 다음이 포함됩니다.
+
+* Azure NetApp Files(ANF)
+* (향후) AWS(Amazon Web Services)
+* (향후) Google Cloud Platform(GCP)
++
+기존 CVS 구독은 NetApp 서비스 엔진에서만 등록할 수 있습니다. 새 구독을 만들려면 일반적인 방법으로 CVS 구독을 생성한 다음 구독 자격 증명을 사용하여 NetApp 서비스 엔진에 등록하십시오.
+
++
+이 섹션에서는 클라우드 서비스를 관리하는 방법에 대해 설명합니다
+
+
+
+
+NOTE: 클라우드 서비스를 관리하려면 고객 관리자 액세스 권한이 필요합니다.
+
+다음을 수행할 수 있습니다.
+
+* 클라우드 서비스 목록 보기
+* 클라우드 서비스 추가
+* 클라우드 서비스 세부 정보를 수정합니다
+* 클라우드 서비스를 삭제합니다
+

@@ -1,0 +1,97 @@
+---
+sidebar: sidebar 
+permalink: sewebiug_log_in_to_the_netapp_service_engine_web_interface.html 
+keywords: netapp, keystone, log, in, netapp, service, engine, web, interface, 
+summary: NetApp 서비스 엔진 웹 인터페이스에 로그인합니다 
+---
+= NetApp Service Engine 웹 인터페이스에 로그인합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 서비스 엔진 웹 인터페이스를 사용하려면 계정이 있어야 합니다. 귀하의 계정에는 귀사의 권한 및 NetApp Service Engine 포털에서 수행할 수 있는 활동을 결정하는 하나 이상의 역할(NetApp Service Engine 관리자)이 할당됩니다.
+
+NetApp 서비스 엔진을 사용하여 다음 자격 증명을 사용하여 로그인할 수 있습니다.
+
+* 사용자 이름 및 암호(참조 link:sewebiug_log_in_to_the_netapp_service_engine_web_interface.html#log-in-with-user-name-and-password["사용자 이름 및 암호를 사용하여 로그인합니다"])
+* NetApp SSO(참조 link:sewebiug_log_in_to_the_netapp_service_engine_web_interface.html#log-in-with-netapp-sso["NetApp SSO로 로그인하십시오"])
++
+NetApp Service Engine 관리자에게 NetApp Service Engine 인스턴스와 함께 사용 중인 로그인 옵션을 확인하십시오.
+
+
+
+
+
+=== 역할 기반 액세스
+
+다음 표에는 역할 기반 액세스 설명이 나와 있습니다.
+
+|===
+| 역할 | 액세스 
+
+
+| 파트너 관리자/어카운트 소유자 | 테넌트 및 해당 가입의 관리에 대한 모든 작업을 수행할 수 있습니다. 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/keystone/sewebiug_partner_service_provider.html["이 링크"]. 
+
+
+| 고객/테넌트 관리자 | 고객 또는 테넌트 관리자는 하위 테넌트 관리와 관련된 모든 작업을 수행할 수 있습니다. 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/keystone/sewebiug_partner_service_provider.html["이 링크"]. 
+
+
+| NetApp 관리자(읽기) | 모든 구성 요소에 대한 읽기 전용 액세스 
+
+
+| NetApp 관리자 | NetApp 서비스 엔진 웹 포털에서 모든 기능을 수행할 수 있는 전체 액세스 권한 및 사용 권한을 통해 NetApp Keystone 유연한 구독을 관리하고 파트너 및 테넌트 관리를 위한 모든 활동을 수행할 수 있습니다. 
+|===
+
+
+=== 사용자 이름 및 암호를 사용하여 로그인합니다
+
+사용자 이름과 암호를 사용하여 로그인하려면 다음이 필요합니다.
+
+* NetApp Service Engine 웹 인터페이스 사용자 이름 및 암호
+* NetApp 서비스 엔진 포털의 URL
+* 웹 브라우저
+
+
+.단계
+. 웹 브라우저에서 NetApp Service Engine 포털 URL로 이동합니다. 로그인 페이지가 표시됩니다.
+. 로컬 사용자 로그인 * 을 선택합니다.
+. NetApp Keystone에 로그인 페이지에서 사용자 이름과 암호를 입력하고 * 로그인 * 을 클릭합니다.
+. 로그인이 성공하면 NetApp Service Engine 웹 인터페이스가 로드되고 대시보드에서 열립니다. GUI에 대한 개요는 을 참조하십시오 link:sewebiug_netapp_service_engine_web_interface_overview.html#netapp-service-engine-web-interface-overview["NetApp 서비스 엔진 웹 인터페이스 개요"].
+
+
+
+NOTE: 로그인에 성공했지만 대시보드가 표시되지 않는 경우 NetApp 서비스 엔진 포털 관리자에게 문의하여 NetApp 서비스 엔진 포털 계정에 올바른 역할이 할당되었는지 확인하십시오.
+
+
+
+=== NetApp SSO로 로그인하십시오
+
+NetApp SSO로 로그인하려면 다음이 필요합니다.
+
+* NetApp SSO 계정 NetApp Support 사이트에서 계정을 요청할 수 있습니다. 로그인 화면에서 * NetApp SSO 계정 생성 * 을 선택하고 다음 단계를 따르면 됩니다.
+* NetApp 서비스 엔진 포털의 URL
+* 웹 브라우저.
+
+
+.단계
+. 웹 브라우저에서 NetApp Service Engine 포털 URL로 이동합니다. 로그인 페이지가 표시됩니다.
+. NetApp SSO를 선택하십시오.
+. SSO 로그인 페이지에서 사용자 이름과 암호를 입력하고 * 로그인 * 을 클릭합니다.
++
+NetApp Service Engine 웹 인터페이스가 로드되면 Flex Subscription 대시보드가 표시됩니다. GUI에 대한 개요는 을 참조하십시오 link:sewebiug_netapp_service_engine_web_interface_overview.html#netapp-service-engine-web-interface-overview["NetApp 서비스 엔진 웹 인터페이스 개요"].
+
+
+
+
+
+=== NetApp Service Engine 웹 인터페이스에서 로그아웃합니다
+
+.단계
+. 인터페이스에서 로그아웃하려면 사용자 아이콘을 클릭하고 * 로그아웃 * 을 클릭합니다.
+
+
+image:sewebiug_image7.png["오류: 그래픽 이미지가 없습니다"]

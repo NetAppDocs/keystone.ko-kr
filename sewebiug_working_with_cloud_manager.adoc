@@ -1,0 +1,45 @@
+---
+sidebar: sidebar 
+permalink: sewebiug_working_with_cloud_manager.html 
+keywords: netapp, keystone, working, cloud, manager, 
+summary: Keystone과 클라우드 관리자의 협력 
+---
+= Cloud Manager와 협력
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Service Engine은 NetApp Cloud Manager에 연결할 수 있습니다. 이 섹션에서는 NetApp 관리자가 다음 작업을 수행하는 방법을 설명합니다.
+
+* Cloud Manager에 연결
+* Cloud Manager와의 연결 상태를 봅니다
+
+
+
+
+=== Cloud Manager에 연결
+
+필요한 사항:
+
+* Cloud Manager API 엔드포인트 URL
+* Cloud Manager SaaS 서비스의 클라이언트 ID입니다
+* Cloud Manager SaaS 서비스의 업데이트 토큰
+
+
+.단계
+. 메뉴에서 관리 > OCCM 연결을 선택합니다.
+. OCCM API 끝점 URL을 지정합니다
+. 클라이언트 ID를 입력합니다.
+. OCCM 새로 고침 토큰을 입력하십시오.
+. Update * 를 클릭합니다.
+
+
+
+
+=== Cloud Manager와의 연결 상태를 봅니다
+
+https://jira.ngage.netapp.com/browse/NSEKEY-1703["https://jira.ngage.netapp.com/browse/NSEKEY-1703"^]

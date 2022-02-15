@@ -1,0 +1,20 @@
+---
+sidebar: sidebar 
+permalink: nkfsosm_equinix.html 
+keywords: netapp, keystone, Equinix 
+summary: 유연한 Keystone 구독 및 Equinix 
+---
+= Equinix를 기반으로 하는 유연한 구독
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp은 Equinix 데이터 센터에서 NetApp Keystone 유연한 구독(Flex Subscription)을 호스팅하여 통합 솔루션을 제공하기 위해 Equinix와 파트너 관계를 맺었습니다.
+
+Equinix가 제공하는 유연한 구독은 표준 유연한 구독 오퍼링과 동일합니다.
+
+표준 Flex Subscription 서비스 외에도 Flex Subscription 장비를 호스팅하기 위해 Equinix 데이터 센터를 선택해야 합니다.

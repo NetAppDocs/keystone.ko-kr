@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: sewebiug_create_an_adhoc_snapshot_of_a_disk.html 
+keywords: netapp, keystone, create, adhoc, snapshot, disk 
+summary: Keystone 디스크에 대한 임시 스냅샷을 만듭니다 
+---
+= 디스크의 임시 스냅샷을 생성합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+이 섹션에서는 디스크의 애드혹 스냅샷을 생성하는 방법에 대해 설명합니다.
+
+.단계
+. 를 봅니다 link:sewebiug_view_disks.html#view-disks["디스크 목록"].
+. 목록에서 디스크를 찾고 해당 디스크의 스냅샷 아이콘을 클릭합니다. 목록의 항목 작업에 대한 자세한 내용은 을 참조하십시오 link:sewebiug_netapp_service_engine_web_interface_overview#list-view["목록 보기 작업"])를 클릭합니다.
+. 스냅샷 생성 대화 상자에서 스냅샷 이름을 입력하고 * 생성 * 을 클릭합니다.
+
+
+스냅샷을 사용할 수 있게 되기까지 몇 분 정도 걸릴 수 있습니다.

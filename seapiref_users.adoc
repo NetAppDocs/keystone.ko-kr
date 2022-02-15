@@ -1,0 +1,413 @@
+---
+sidebar: sidebar 
+permalink: seapiref_users.html 
+keywords: netapp, keystone, users, 
+summary: Keystone 사용자 
+---
+= 사용자
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+다음 표에 나열된 방법을 사용하여 하위 테넌트를 검색, 생성, 수정 및 삭제할 수 있습니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 
+
+
+| "내려가세요 | '/v2.1/사용자' | 모든 사용자의 목록을 가져옵니다. 
+
+
+| "내려가세요 | '/v2.1/users/{id}' | 사용자 ID로 사용자를 검색합니다. 
+
+
+| POST를 누릅니다 | '/v2.1/사용자' | 새 사용자를 생성합니다. 
+
+
+| 'Put' | '/v2.1/users/{id}' | 사용자 세부 정보를 수정합니다. 
+
+
+| "삭제" | '/v2.1/users/{id}' | 사용자를 삭제합니다. 
+
+
+| "내려가세요 | '/v2.1/users/{userName}' | 사용자 이름으로 사용자를 검색합니다. 
+|===
+
+
+=== 사용자 속성
+
+다음 표에서는 사용자 특성을 보여 줍니다.
+
+|===
+| 속성 | 유형 | 설명 
+
+
+| "아이드" | 문자열 | 사용자의 고유 식별자입니다. 
+
+
+| '사용자 이름' | 문자열 | 사용자 이름입니다. 
+
+
+| "암호" | 문자열 | 사용자의 암호입니다. 
+
+
+| 이름 | 문자열 | 사용자의 이름입니다. 
+
+
+| 성 | 문자열 | 사용자의 성. 
+
+
+| 'dissplayName'입니다 | 문자열 | 사용자의 표시 이름입니다. 
+
+
+| 이메일 | 문자열 | 사용자의 이메일 주소입니다. 
+
+
+| 전화 | 문자열 | 사용자의 전화 번호입니다. 
+
+
+| profileImageURL | 문자열 | 사용자 프로필 이미지의 URL입니다. 
+
+
+| 테넌트_id | 문자열 | 이 사용자의 기본 테넌트 식별자입니다. 
+
+
+| '연고' | –  a| 
+사용자가 속한 테넌시, 다음으로 구성된 스토리지:
+
+* 테넌트_id와
+* 'role_name' 사용자, 관리자, 읽기, 파트너 중 하나인 사용자 역할입니다. 또는 루트.
+
+
+
+
+| '공급자'입니다 | 문자열 | 인증 공급자: 로컬 또는 ActiveDirectory 
+
+
+| '공급자 데이터' | –  a| 
+다음으로 구성된 인증 공급자 세부 정보:
+
+* e-메일_주소, 및
+* Member_of(그룹 회원)
+
+
+|===
+
+
+=== 모든 사용자를 검색합니다
+
+다음 표에 나열된 방법을 사용하여 모든 사용자를 검색합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| "내려가세요 | '/v2.1/사용자' | 모든 사용자를 검색합니다. | 없음 
+|===
+요청 본문 속성: 없음
+
+* 요청 본문 예: *
+
+....
+none
+....
+* 응답 바디 예: *
+
+....
+{
+  "status": {
+    "user_message": "Okay. Returned 1 record.",
+    "verbose_message": "",
+    "code": 200
+  },
+  "result": {
+    "total_records": 1,
+    "records": [
+      {
+        "id": "5dddbe0ef071fe0001b889fd",
+        "username": "TestUser3",
+        "firstName": "Test",
+        "lastName": "User",
+        "displayName": "",
+        "email": "testuser@netapp.com",
+        "tenancies": [
+          {
+            "id": "5d914499869caefed0f39eee",
+            "name": "MyOrg",
+            "code": "myorg",
+            "role": "admin"
+          }
+        ]
+      }
+    ]
+  }
+}
+....
+
+
+=== ID로 사용자를 검색합니다
+
+다음 표에 나열된 방법을 사용하여 ID별로 사용자를 검색합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| "내려가세요 | '/v2.1/사용자' | ID로 사용자를 검색합니다. | "id(string)": 사용자의 고유 식별자입니다. 
+|===
+요청 본문 속성: 없음
+
+* 요청 본문 예: *
+
+....
+none
+....
+* 응답 바디 예: *
+
+....
+{
+  "status": {
+    "user_message": "Okay. Returned 1 record.",
+    "verbose_message": "",
+    "code": 200
+  },
+  "result": {
+    "total_records": 1,
+    "records": [
+      {
+        "id": "5e585df6896bd80001dd4b44",
+        "username": "testuser01",
+        "firstName": "",
+        "lastName": "",
+        "displayName": "",
+        "email": "",
+        "tenancies": [
+          {
+            "id": "5d914499869caefed0f39eee",
+            "name": "MyOrg",
+            "code": "myorg",
+            "role": "user"
+          }
+        ]
+      }
+    ]
+  }
+}
+....
+
+
+=== 사용자 이름으로 사용자를 검색합니다
+
+다음 표에 나열된 방법을 사용하여 사용자 이름으로 사용자를 검색합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| "내려가세요 | '/v2.1/사용자' | 사용자 이름으로 사용자를 검색합니다. | 사용자 이름(string): 사용자의 사용자 이름입니다. 
+|===
+요청 본문 속성: 없음
+
+* 요청 본문 예: *
+
+....
+none
+....
+* 응답 바디 예: *
+
+....
+{
+  "status": {
+    "user_message": "Okay. Returned 1 record.",
+    "verbose_message": "",
+    "code": 200
+  },
+  "result": {
+    "total_records": 1,
+    "records": [
+      {
+        "id": "5e61aa814559c20001df1a5f",
+        "username": "MyName",
+        "firstName": "MyFirstName",
+        "lastName": "MySurname",
+        "displayName": "CallMeMYF",
+        "email": "user@example.com",
+        "tenancies": [
+          {
+            "id": "5e5f1c4f253c820001877839",
+            "name": "MyTenant",
+            "code": "testtenantmh",
+            "role": "user"
+          }
+        ]
+      }
+    ]
+  }
+}
+....
+
+
+=== 사용자를 생성합니다
+
+다음 표에 나열된 방법을 사용하여 사용자를 만듭니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| POST를 누릅니다 | '/v2.1/사용자' | 새 사용자를 생성합니다. | 없음 
+|===
+요청 본문 속성: 사용자 이름, 테넌트_id, 텐진, 공급자
+
+* 요청 본문 예: *
+
+....
+{
+  "username": "MyUser",
+  "password": "mypassword",
+  "firstName": "My",
+  "lastName": "User",
+  "displayName": "CallMeMyUser",
+  "email": "user@example.com",
+  "phone": "string",
+  "profileImageURL": "string",
+  "tenant_id": "5e7c3af7aab46c00014ce877",
+  "tenancies": [
+    {
+      "tenant_id": "5e7c3af7aab46c00014ce877",
+      "role_name": "admin"
+    }
+  ],
+  "provider": "local",
+  "provider_data": {
+    "email": "user@example.com",
+    "member_of": "string"
+  }
+}
+....
+* 응답 바디 예: *
+
+....
+{
+  "status": {
+    "user_message": "Okay. New resource created.",
+    "verbose_message": "",
+    "code": 201
+  },
+  "result": {
+    "returned_records": 1,
+    "records": [
+      {
+        "id": "5ed6f463129e5d000102f7e1",
+        "username": "MyUser",
+        "firstName": "My",
+        "lastName": "User",
+        "displayName": "CallMeMyUser",
+        "email": "user@example.com",
+        "tenancies": [
+          {
+            "id": "5e7c3af7aab46c00014ce877",
+            "name": "MyTenant",
+            "code": "mytenantcode",
+            "role_name": "admin"
+          }
+        ]
+      }
+    ]
+  }
+}
+....
+
+
+=== ID별로 사용자를 수정합니다
+
+다음 표에 나열된 방법을 사용하여 사용자 ID별로 사용자를 수정합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| 'Put' | '/v2.1/users/{id}' | 사용자 ID로 식별된 사용자를 수정합니다. 사용자 이름, 표시 이름, 암호, 전자 메일 주소, 전화 번호, 프로필 이미지 URL 및 테넌시 세부 정보 | "id(string)": 사용자의 고유 식별자입니다. 
+|===
+요청 본문 속성: 없음
+
+* 요청 본문 예: *
+
+....
+{
+  "password": "MyNewPassword",
+   "firstName": "MyFirstName",
+   "lastName": "MySurname",
+   "displayName": "CallMeMYF",
+   "email": "user@example.com",
+   "phone": "string",
+  "profileImageURL": "string",
+  "tenant_id": "5e5f1c4f253c820001877839",
+  "tenancies": [
+    {
+      "tenant_id": "5e5f1c4f253c820001877839",
+      "role_name": "user"
+    }
+  ]
+}
+....
+* 응답 바디 예: *
+
+....
+{
+  "status": {
+    "user_message": "Okay. Returned 1 record.",
+    "verbose_message": "",
+    "code": 200
+  },
+  "result": {
+    "total_records": 1,
+    "records": [
+      {
+        "id": "5e61aa814559c20001df1a5f",
+        "username": "MyName",
+        "firstName": "MyFirstName",
+        "lastName": "MySurname",
+        "displayName": "CallMeMYF",
+        "email": "user@example.com",
+        "tenancies": [
+          {
+            "id": "5e5f1c4f253c820001877839",
+            "name": "MyTenant",
+            "code": "testtenantmh",
+            "role": "user"
+          }
+        ]
+      }
+    ]
+  }
+}
+....
+
+
+=== ID로 사용자를 삭제합니다
+
+다음 표에 나열된 방법을 사용하여 ID별로 사용자를 삭제합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| "삭제" | '/v2.1/users/{name}' | ID로 식별된 사용자를 삭제합니다. | "id(string)": 사용자의 고유 식별자입니다. 
+|===
+요청 본문 속성: 없음
+
+* 요청 본문 예: *
+
+....
+none
+....
+* 응답 바디 예: *
+
+....
+No content for succesful delete
+....

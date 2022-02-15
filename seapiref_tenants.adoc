@@ -1,0 +1,386 @@
+---
+sidebar: sidebar 
+permalink: seapiref_tenants.html 
+keywords: netapp, keystone, tenants, 
+summary: Keystone 테넌트 
+---
+= 테넌트
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+다음 표에 나열된 방법을 사용하여 테넌트를 검색, 생성, 수정 및 삭제할 수 있습니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 
+
+
+| "내려가세요 | '/v2.1/Tenants' | 모든 테넌트 목록을 가져옵니다. 
+
+
+| "내려가세요 | '/v2.1/Tenants/{id}' | 테넌트 ID로 테넌트를 검색합니다. 
+
+
+| POST를 누릅니다 | '/v2.1/Tenants' | 새 테넌트를 생성합니다. 
+
+
+| 'Put' | '/v2.1/Tenants/{id}' | 테넌트의 세부 정보를 수정합니다. 
+
+
+| "삭제" | '/v2.1/Tenants/{id}' | 테넌트를 삭제합니다. 
+|===
+
+
+=== 테넌트 특성
+
+다음 표에는 테넌트 속성이 나와 있습니다.
+
+|===
+| 속성 | 유형 | 설명 
+
+
+| "아이드" | 문자열 | 테넌트의 고유 식별자입니다. 
+
+
+| '코드' | 문자열 | 테넌트를 나타내는 고객 지정(또는 기본값) 코드입니다. 이 특성은 소문자, 숫자 및 밑줄을 포함할 수 있습니다. 
+
+
+| 이름 | 문자열 | 테넌트 이름입니다. 
+
+
+| 'Zuora_ACCOUNT_NAME' | 문자열 | 청구 계정 이름: Zuora의 구독 이름입니다. 
+
+
+| "Zuora_ACCOUNT_NUMBER" | 문자열 | 청구 계정 번호: Zuora의 구독 번호입니다. 
+
+
+| 설명 | 문자열 | 테넌트에 대한 설명입니다. 
+
+
+| 사용 | – | 테넌트에 적용할 수 있는 서비스 및 서비스 세부 정보입니다. 각 서비스 수준에 대해 이 속성은 다음을 표시합니다. * 이름: * 서비스 수준 이름 * used_size_GB: * 서비스 수준 이름 * role_name: * 사용자 역할(사용자, 관리자, 읽기, 파트너 또는 루트) 
+|===
+
+
+=== 모든 테넌트를 검색합니다
+
+다음 표에 나열된 방법을 사용하여 모든 테넌트 또는 모든 테넌트의 하위 집합을 검색할 수 있습니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| "내려가세요 | '/v2.1/Tenants' | 모든 테넌트를 검색합니다. | '오프셋'과 '한계'는 를 참조하십시오 link:seapiref_netapp_service_engine_rest_apis.html#pagination>["공통 페이지 매김"] 
+|===
+요청 본문 속성: 없음
+
+* 요청 본문 예: *
+
+....
+none
+....
+* 응답 바디 예: *
+
+....
+{
+  "status": {
+    "user_message": "Okay. Returned 2 records.",
+    "verbose_message": "",
+    "code": 200
+  },
+  "result": {
+    "returned_records": 2,
+    "total_records": 23,
+    "sort_by": "created",
+    "order_by": "desc",
+    "offset": 0,
+    "limit": 2,
+    "records": [
+      {
+        "id": "5e7c3af7aab46c00014ce877",
+        "name": "MyTenant",
+        "zuora_account_name": "MyAccount",
+        "zuora_account_number": "A00000415",
+        "description": "",
+        "code": "mytenantcode",
+        "usage": {
+          "A-S00003875": [
+            {
+              "service_level": "extreme",
+              "consumed": 0,
+              "committed": 10,
+              "burst": 0
+            },
+            {
+              "service_level": "standard",
+              "consumed": 1.94,
+              "committed": 30,
+              "burst": 0
+            }
+          ],
+          "A-S00004566": [
+            {
+              "service_level": "object",
+              "consumed": 3.31,
+              "committed": 300,
+              "burst": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "5d914499869caefed0f39eee",
+        "name": "MyOrg",
+        "zuora_account_name": "MyOrg Inc",
+        "zuora_account_number": "A00000415",
+        "description": "",
+        "code": "myorg",
+        "usage": {
+          "A-S00003875": [
+            {
+              "service_level": "standard",
+              "consumed": 12.33,
+              "committed": 30,
+              "burst": 0
+            },
+            {
+              "service_level": "object",
+              "consumed": 0,
+              "committed": 40,
+              "burst": 0
+            }
+          ],
+          "A-S00003969": [
+            {
+              "service_level": "extreme",
+              "consumed": 0,
+              "committed": 5,
+              "burst": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+....
+
+
+=== ID로 테넌트를 검색합니다
+
+다음 표에 나열된 방법을 사용하여 ID별로 테넌트를 검색합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| "내려가세요 | '/v2.1/Tenants/{id}' | ID로 지정된 테넌트를 검색합니다. | ID(string): 테넌트의 고유 식별자입니다. 
+|===
+요청 본문 속성: 없음
+
+요청 본문 예:
+
+....
+none
+....
+* 응답 바디 예: *
+
+....
+{
+  "status": {
+    "user_message": "Okay. Returned 1 record.",
+    "verbose_message": "",
+    "code": 200
+  },
+  "result": {
+    "returned_records": 1,
+    "records": [
+      {
+        "id": "5e7c3af7aab46c00014ce877",
+        "name": "MyTenant",
+        "zuora_account_name": "MyAccount",
+        "zuora_account_number": "A00000415",
+        "description": "",
+        "code": "mytenantcode",
+        "usage": {
+          "A-S00003875": [
+            {
+              "service_level": "extreme",
+              "consumed": 0,
+              "committed": 10,
+              "burst": 0
+            },
+            {
+              "service_level": "premium",
+              "consumed": 2.4,
+              "committed": 20,
+              "burst": 0
+            },
+            {
+              "service_level": "standard",
+              "consumed": 1.94,
+              "committed": 30,
+              "burst": 0
+            },
+            {
+              "service_level": "object",
+              "consumed": 0,
+              "committed": 40,
+              "burst": 0
+            }
+          ],
+          "A-S00003969": [
+            {
+              "service_level": "extreme",
+              "consumed": 0,
+              "committed": 5,
+              "burst": 0
+            },
+            {
+              "service_level": "standard",
+              "consumed": 0,
+              "committed": 30,
+              "burst": 0
+            }
+          ],
+          "A-S00004566": [
+            {
+              "service_level": "object",
+              "consumed": 3.31,
+              "committed": 300,
+              "burst": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+....
+
+
+=== 테넌트를 생성합니다
+
+다음 표에 나열된 방법을 사용하여 테넌트를 생성합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| POST를 누릅니다 | '/v2.1/Tenants' | 새 테넌트를 생성합니다. | 없음 
+|===
+필요한 요청 본문 속성: 코드, 이름, 주오라_계정_이름, 주오라_계정_번호
+
+* 요청 본문 예: *
+
+....
+{
+  "name": "MyNewTenant",
+  "code": "mytenant",
+  "zuora_account_name": "string",
+  "zuora_account_number": "A00000415",
+  "description": "DescriptionOfMyTenant"
+}
+....
+* 응답 바디 예: *
+
+....
+{
+  "status": {
+    "user_message": "Okay. New resource created.",
+    "verbose_message": "",
+    "code": 201
+  },
+  "result": {
+    "returned_records": 1,
+    "records": [
+      {
+        "id": "5ed5ac802c356a0001a735af",
+        "name": "MyNewTenant",
+        "zuora_account_name": "string",
+        "zuora_account_number": "A00000415",
+        "description": "DescriptionOfMyTenant",
+        "code": "mytenant",
+        "usage": null
+      }
+    ]
+  }
+}
+....
+
+
+=== 테넌트를 수정합니다
+
+다음 표에 나열된 방법을 사용하여 테넌트를 수정합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| 'Put' | '/v2.1/Tenants/{id}' | ID로 지정된 테넌트를 수정합니다. 이름, Zuora 구독 정보(계정 이름 또는 구독 번호) 및 테넌트 설명을 변경할 수 있습니다. | ID(string): 테넌트의 고유 식별자입니다. 
+|===
+필요한 요청 본문 속성: 'code'
+
+* 요청 본문 예: *
+
+....
+{
+  "name": "MyNewTenant",
+  "code": "mytenant",
+  "zuora_account_name": "string",
+  "zuora_account_number": "A00000415",
+  "description": "New description of my tenant"
+}
+....
+* 응답 바디 예: *
+
+....
+{
+  "status": {
+    "user_message": "Okay. Returned 1 record.",
+    "verbose_message": "",
+    "code": 200
+  },
+  "result": {
+    "returned_records": 1,
+    "records": [
+      {
+        "id": "5ed5ac802c356a0001a735af",
+        "name": "MyNewTenant",
+        "zuora_account_name": "string",
+        "zuora_account_number": "A00000415",
+        "description": "New description of my tenant",
+        "code": "mytenant",
+        "usage": null
+      }
+    ]
+  }
+}
+....
+
+
+=== 테넌트를 삭제합니다
+
+다음 표에 나열된 방법을 사용하여 테넌트를 삭제합니다.
+
+|===
+| HTTP 메서드 | 경로 | 설명 | 매개 변수 
+
+
+| "삭제" | '/v2.1/Tenants/{id}' | ID로 지정된 테넌트를 삭제합니다. | ID(string): 테넌트의 고유 식별자입니다. 
+|===
+요청 본문 속성: 없음
+
+* 요청 본문 예: *
+
+....
+none
+....
+* 응답 바디 예: *
+
+....
+No content for successful delete
+....

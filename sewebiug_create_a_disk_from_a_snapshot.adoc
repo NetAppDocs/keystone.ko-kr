@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: sewebiug_create_a_disk_from_a_snapshot.html 
+keywords: netapp, keystone, create, disk, Snapshot 
+summary: 스냅샷으로부터 디스크를 생성합니다 
+---
+= 스냅샷으로부터 디스크를 생성합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+기존 스냅샷에서 새 디스크를 생성할 수 있습니다. 스냅샷에서 복제된 새 디스크의 속성은 스냅샷이 생성된 디스크와 동일합니다.
+
+.단계
+. 왼쪽 탐색 창에서 * 블록 스토리지 * 를 선택하고 * 디스크 * 를 선택합니다.
+. Create Disk * 를 클릭하고 * Clone from snapshot * 을 선택합니다. 디스크 선택 * 화면이 테넌트의 모든 디스크와 함께 표시됩니다. 영역, 영역 및 서브테넌트별로 디스크를 필터링할 수 있습니다. 작동 중인 디스크를 선택할 수 있습니다.
+. 원하는 디스크 옆의 확인란을 선택하고 * 다음 * 을 클릭합니다. 스냅샷 선택 * 화면이 디스크에 대한 모든 스냅샷과 함께 표시됩니다.
++
+
+NOTE: 선택한 디스크의 경우 NetApp 서비스 엔진 외부의 SnapCenter 환경에서 생성된 일부 스냅샷이 있을 경우, 해당 스냅샷을 가져온 스냅샷이 해당 선택 사항에 나열되어 있습니다. 가져온 스냅샷을 선택하고 새 디스크를 복제할 수 있습니다.
+
++
+특정 스냅샷을 검색하거나 스케줄 유형을 선택하여 스냅샷을 필터링할 수 있습니다.
+
+. 복제할 스냅샷 옆의 확인란을 선택하고 * 다음 * 을 클릭합니다. 새 디스크는 선택한 스냅샷의 속성을 상속합니다.
+. 이름 * 과 * 디스크 경로 * 를 추가합니다. 서비스 수준 할당 * 과 같은 다른 설정을 업데이트하고 * 생성 * 을 클릭합니다.
+
+
+* Create Disk * 는 비동기 작업으로 실행됩니다. 다음을 수행할 수 있습니다.
+
+* 작업 목록에서 작업의 상태를 확인합니다. 작업 추적에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/keystone/sewebiug_netapp_service_engine_web_interface_overview.html#jobs-and-job-status-indicator["여기"].
+* 작업이 완료된 후 * Disks * 목록에서 디스크의 상태를 확인합니다.
+

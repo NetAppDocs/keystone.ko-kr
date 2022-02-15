@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: sewebiug_create_an_s3_key_for_a_user.html 
+keywords: netapp, keystone, create, S3, key, user, 
+summary: Keystone 사용자를 위한 S3 키를 생성합니다 
+---
+= 사용자의 S3 키를 생성합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+이 방법을 사용하여 사용자에 대한 S3 키를 생성합니다.
+
+키가 생성된 직후 키를 캡처해야 합니다. 키 세부 정보를 생성한 후에는 검색할 수 없습니다.
+
+.단계
+. 를 봅니다 link:sewebiug_view_a_list_of_users.html#view-a-list-of-users["사용자 목록"].
+. 올바른 서브테넌트가 선택되어 있고 디스플레이에 사용자(그룹 아님)가 표시되는지 확인합니다.
+. 목록에서 사용자를 찾고 해당 그룹의 키 아이콘을 클릭합니다.
++
+목록의 항목 작업에 대한 자세한 내용은 을 참조하십시오 link:sewebiug_netapp_service_engine_web_interface_overview.html#list-view["목록 보기 작업"].
+
+. S3 키 관리 대화 상자에 사용자의 키 목록이 표시됩니다.
+. 사용자의 기존 키가 없는 경우 * S3 키 생성 * 을 클릭하여 키를 생성할 필드를 봅니다.
+. 키가 만료되도록 하려면 UTC에서 만료 날짜 및 만료 시간을 지정합니다. 그렇지 않으면 이러한 필드의 기본값을 그대로 둡니다.
+. 키를 만들려면 확인 표시를 클릭합니다. 액세스 키와 비밀 키를 보여주는 S3 키 세부 정보 대화 상자가 표시됩니다.
+. 사용자에게 세부 정보를 알려 줄 수 있도록 준비하면서 액세스 키와 비밀 키를 모두 복사합니다.
++
+S3 키 세부 정보 대화 상자를 닫기 전에 키 세부 정보를 캡처해야 합니다. 닫히면 키 세부 정보가 가려져 검색할 수 없게 됩니다.
+
+. 닫기 * 를 클릭합니다.
+. 닫기 * 를 다시 클릭하여 S3 키 관리 대화 상자를 닫습니다.
+

@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: nkfsosm_keystone_service_delivery_architecture_overview.html 
+keywords: netapp, keystone, service, delivery, architecture, overview, 
+summary: 서비스 제공 아키텍처 개요 
+---
+= 유연한 구독 인프라
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+이 섹션에서는 NetApp 및 고객 운영 환경을 위한 NetApp Keystone 유연한 구독(Flex Subscription) 인프라 아키텍처 및 관리 애플리케이션에 대해 설명합니다.
+
+유연한 구독 인프라 아키텍처, 설계, 기술 선택 및 구성요소 제품은 NetApp의 전적인 재량에 따라 집니다. NetApp은 다음과 같은 조치를 취할 권리를 보유합니다.
+
+* 제품을 선택, 대체 또는 재활용합니다.
+* 적절하다고 판단되는 경우 새로운 기술로 제품을 업데이트합니다.
+* 서비스 요구사항에 맞게 제품의 용량을 늘리거나 줄입니다.
+* 서비스 요구사항에 맞게 아키텍처, 기술 및/또는 제품을 수정합니다.
+
+
+Flex Subscription 인프라에는 다음과 같은 여러 구성 요소가 포함되어 있습니다.
+
+* NetApp 서비스 엔진의 사용자 인터페이스(웹 포털)
+* 통합을 위한 NetApp 서비스 엔진 API
+* 스토리지 컨트롤러가 포함된 Flex Subscription 인프라
+* OpsRamp, Active IQ 및 Active IQ Unified Manager와 같은 서비스를 관리하고 운영하는 도구.
+
+
+NetApp Keystone와 Active IQ 통합에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/active-iq/["Active IQ 디지털 자문 문서"]
+
+image:nkfsosm_image8.png["오류: 그래픽 이미지가 없습니다"]
+
+
+
+== NetApp 서비스 엔진
+
+NetApp Service Engine 웹 포털을 사용하면 NetApp, 파트너 또는 고객이 운영하는 모델에서 Flex Subscription 서비스를 관리하고 모니터링할 수 있습니다. 포털은 다음과 같은 기능으로 구성되어 있습니다.
+
+* 모니터링 및 간단한 스토리지 프로비저닝을 지원하는 그래픽 인터페이스(NetApp Service Engine 웹 인터페이스)
+* 고급 설정 및 스토리지 관리 작업을 지원하는 NetApp Service Engine REST API 세트
+
+
+image:nkfsosm_image9.png["오류: 그래픽 이미지가 없습니다"]
+
+NetApp 서비스 엔진 포털은 고객이 다음 작업을 수행할 수 있는 단일 인터페이스입니다.
+
+* 구독 대시보드. 서비스 용량 상태 및 사용 중인 용량을 봅니다.
+* 스토리지 프로비저닝 NFS/CIFS 파일 공유, FC/iSCSI 디스크 및 S3 버킷을 생성하는 워크플로우
+* 데이터 보호: 스냅샷을 생성하고 프로비저닝된 파일 공유 또는 디스크에 백업 정책 또는 데이터 복제를 설정합니다.
+* 보고서: 파일 공유 및 디스크 인벤토리를 확인하고 다양한 서비스 수준에 따른 용량 사용 추세를 파악할 수 있습니다.
+* 구독 관리. 포털을 통해 기존 구독 또는 새 서비스에 대한 추가 용량을 주문합니다.
+* 서비스 요청 또는 지원 문제를 제출하고 상태를 확인합니다
+
+
+NetApp 서비스 엔진의 전체 기능은 NetApp이 운영하는 모델에서만 사용할 수 있습니다. 고객 또는 파트너가 운영하는 모델에서는 NetApp 서비스 엔진 기능이 보고 및 구독 관리로 제한됩니다.

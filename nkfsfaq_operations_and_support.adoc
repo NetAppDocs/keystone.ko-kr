@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: nkfsfaq_operations_and_support.html 
+keywords: netapp, keystone, operations, support, 
+summary: 운영 및 지원 
+---
+= 유연한 구독 운영 및 지원
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+사용하지 않음 나중에 제거하십시오
+
+* Flex Subscription 사용량을 보려면 어떻게 해야 합니까? * NetApp 서비스 엔진은 구독하는 모든 서비스와 소비되는 양에 대한 정보가 포함된 대시보드 뷰를 제공합니다. NetApp 서비스 엔진에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/keystone/sewebiug_overview.html["여기"].
+
+* 서비스와 관련된 문제는 어떻게 보고합니까? * NetApp Keystone 지원은 다음과 같은 다양한 채널을 통해 제공됩니다.
+
+* 지원 이메일: mailto:keystone.services@netapp.com[keystone.services@netapp.com^]
+* 에스컬레이션 이메일: mailto:keystone.escalations@netapp.com[keystone.escalations@netapp.com^]
+
+
+* 새 스토리지 서비스를 주문할 수 있습니까? * 예. NetApp 서비스 엔진 포털에서 새 스토리지 서비스 또는 스토리지 서비스 확장을 요청할 수 있습니다. 이 요청은 NetApp Keystone 운영 팀에서 처리한 후 사용할 수 있도록 합니다.
+
+* 스토리지 관련 약속은 즉시 이용할 수 있습니까? * * 요청된 용량의 양에 따라 용량이 이미 배포되었는지 또는 추가 장비를 배송하고 설치해야 하는지 여부가 결정됩니다.
+
+* 계층 간에 워크로드를 이동할 수 있습니까? * 예. 워크로드가 이동하는 계층에 사용자가 가입되어 있는 경우 계층 간에 워크로드를 이동할 수 있습니다. 하지만 성능이 저하될 수 있으므로 상위 계층에서 하위 계층으로 이동하는 것은 권장되지 않습니다. 이 프로세스는 파일 공유를 편집하고 서비스 수준 설정을 변경하는 것만으로 수행됩니다.
+
+* 서비스 계층에 따라 어떤 소프트웨어 버전(예: ONTAP)이 기본적으로 설치됩니까? * 서비스 계층에 따라(예: 파일 및 블록 서비스가 포함된 ONTAP, 블록용 SANtricity 및 객체용 StorageGRID) 지원 팀이 보안 또는 기능 문제 없이 가장 안정적인 최신 릴리스를 설치합니다.
+
+* 특정 소프트웨어 버전을 요청할 수 있습니까? * 아니오 NetApp Keystone은 모든 고객 기반에서 소프트웨어 버전을 표준화했습니다.
+
+* 소프트웨어 업그레이드에 대한 정보를 받을 수 있습니까? * 예. 모든 유지 보수/업그레이드 작업은 NetApp Keystone 성공 관리자가 고객과 상호 합의된 시간에 전달하고 스케줄합니다.
