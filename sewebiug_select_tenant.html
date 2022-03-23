@@ -16,20 +16,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/>
-  
-  <meta name="description" content="Keystone 테넌트 선택">
-  <meta name="keywords" content=" netapp, keystone select, tenant,">
-  
-  
-
-  <!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Keystone 테넌트 선택">
+  <meta name="keywords" content=" netapp, keystone select, tenant,"><!-- Icons -->
   <link rel="icon" href="/ko-kr/keystone/images/favicon.ico" type="image/x-icon">
 
-  <!-- RSS Feed -->
-  
-
-  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
 
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
@@ -59,27 +50,11 @@
   
   <link rel="stylesheet" href="/ko-kr/keystone/css/landing-page.css" type="text/css">
   <link rel="stylesheet" href="/ko-kr/keystone/css/tabbed-blocks.css" type="text/css">
-  <link rel="stylesheet" href='/ko-kr/keystone/css/product-family.css' type="text/css">
-  
-
-  
-  <link rel='stylesheet' href='/ko-kr/keystone/css/na-feature.css' type='text/css'>
-  
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel='stylesheet' href='/ko-kr/keystone/css/na-feature.css' type='text/css'><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-  <!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
-  
-    <script src='/ko-kr/keystone/js/na-search.js'></script>
-  
 
-  
-  <script src='/ko-kr/keystone/js/na-pagenav.js'></script>
-  
-
-  <link rel='stylesheet' href='/ko-kr/keystone/css/prism.css' type='text/css'>
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone/js/na-search.js'></script><script src='/ko-kr/keystone/js/na-pagenav.js'></script><link rel='stylesheet' href='/ko-kr/keystone/css/prism.css' type='text/css'>
   <link rel='stylesheet' href='/ko-kr/keystone/css/prism-netapp.css' type='text/css'>
 
 
@@ -97,9 +72,7 @@
   <script src='/ko-kr/keystone/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src='/ko-kr/keystone/js/toc.js'></script>
-  <script src='/ko-kr/keystone/js/customscripts.js'></script>
-
-  <script>
+  <script src='/ko-kr/keystone/js/customscripts.js'></script><script>
       $(document).ready(function() {
           
           var collapseOnInit = true;
@@ -158,7 +131,6 @@
   }
   </script>
   <script src='/ko-kr/keystone/js/version-dropdown.js'></script>
-  <script src='/ko-kr/keystone/js/product-family.js'></script>
   <script src='/ko-kr/keystone/js/FileSaver.min.js'></script>
   <script src='/ko-kr/keystone/js/jszip-utils.min.js'></script>
   <script src='/ko-kr/keystone/js/jszip.min.js'></script>
@@ -171,6 +143,25 @@
       <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
       <div class="n-off-canvas-menu__content-wrap">
         <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div id="version-dropdown"></div>
+    <div class="page-nav-contribute"  >
+      <a target="_blank" href="https://github.com/NetAppDocs/keystone/issues/new?body=Page%3A%20[Tenant를 선택합니다](https://docs.netapp.com/ko-kr/keystone/sewebiug_select_tenant.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/keystone/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/keystone/blob/main/sewebiug_select_tenant.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/keystone/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/keystone/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">이 페이지의 내용</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
   <!-- Start top_hat -->
   <div class="n-top-hat">
     <div class="n-container">
@@ -433,6 +424,8 @@
             릴리즈 노트
           </a>
           
+
+
 
 
 
@@ -1035,6 +1028,8 @@
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/ko-kr/keystone/rn_whats_new.html">
         새로운 소식
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/keystone/rn_fixed_issues.html">
+        해결된 문제
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/keystone/rn_known_issues.html">
         알려진 문제
       </a></li></ul></li><li class="subfolders "><a href="/ko-kr/keystone/nkfsfaq_overview.html">
@@ -1270,26 +1265,22 @@
   
 
   <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
-    <!-- Begin of page container -->
-    <article class="page-content">
+    <!-- Begin of page container --><article class="page-content">
       <div class="ie-utility">
   <div class="ie-menu">
     <div class="n-breadcrumb">
       <ul class="n-breadcrumb__list">
         <li class="n-breadcrumb__list-item">
-          <a href="https://www.netapp.com">홈</a>
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          <a href="https://docs.netapp.com">설명서</a>
-        </li>
+        
+
         
 
         <li class="n-breadcrumb__list-item">
           <a href="/ko-kr/keystone/">Keystone</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          Tenant를 선택합니다
-        </li>
+
       </ul>
     </div>
     <div style="clear: both"></div><!-- Main needs to have height -->
@@ -1322,28 +1313,8 @@
     
   
 
-<span>기여자
-  <a target="_blank" href="https://github.com/ciarm">
-    <img  class="avatar avatar-small"
-          alt="ciarm"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/68733805?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
-  <a target="_blank" href="https://github.com/dmp-netapp">
-    <img  class="avatar avatar-small"
-          alt="dmp-netapp"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/50704017?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
-</span>
-
 
 </p>
-
 
 <div class="paragraph lead">
 <p>NetApp Service Engine 웹 인터페이스를 사용하는 경우 표시되는 모든 데이터와 사용자가 수행하는 작업이 선택한 테넌트와 관련이 있습니다. 아래와 같이 화면 상단에서 테넌트를 볼 수 있습니다.</p>
@@ -1359,27 +1330,7 @@
     <!-- Page Container -->
   </div>
 
-  
-  <!-- Start Page Toolbar -->
-  <div class="page-nav-toolbar">
-    <div id="version-dropdown"></div>
-    <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/keystone/issues/new?body=Page%3A%20[Tenant를 선택합니다](https://docs.netapp.com/ko-kr/keystone/sewebiug_select_tenant.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/keystone/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
-      <a target="_blank" href="https://github.com/NetAppDocs/keystone/blob/main/sewebiug_select_tenant.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/keystone/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a>
-      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/keystone/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a>
-    </div>
-    <div class="page-nav-container">
-      <nav class="page-nav-fixed">
-        <div class="page-nav-title">이 페이지의 내용</div>
-        <div class="page-nav-links">
-          <ul class="page-nav-inner" id="page-menu"></ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-  
-  <div style="clear: both"></div><!-- Main needs to have height -->
-</div>
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
 
         </main>
 
@@ -1481,9 +1432,7 @@
 </div>
 </footer>
 
-      </div>
-
-      <!-- Elasticsearch JS -->
+      </div><!-- Elasticsearch JS -->
       <script type="text/javascript" src='/ko-kr/keystone/js/bundle.js'></script>
 
       <!-- Syntax Highlighting -->
@@ -1498,7 +1447,4 @@
     </script>
     <script src='/ko-kr/keystone/js/www-ntap.js'></script>
     <script src='/ko-kr/keystone/js/tabbed-blocks.js'></script>
-  </body>
-
-  
-</html>
+  </body></html>
