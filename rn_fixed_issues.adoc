@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: rn_fixed_issues.html 
+keywords: netapp, keystone, release notes, fixed issues, hot fixes 
+summary: NetApp Service Engine의 문제 해결 
+---
+= NetApp Service Engine의 문제 해결
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+이전 릴리스의 NetApp Service Engine에서 발견되는 다음과 같은 문제는 NetApp Keystone 유연한 구독 서비스를 성공적으로 사용하도록 수정되었습니다.
+
+[cols="3*"]
+|===
+| 문제 설명 | 수정 후 | 버전에서 수정되었습니다 
+
+
+| 비 FabricPool 애그리게이트는 클러스터에 존재하는 시점에 볼륨 이동이 자동으로 트리거되었습니다. 볼륨 또는 디스크를 수정하면 볼륨이 다른 aggregate로 이동되었습니다. | 볼륨 작업에 대해 볼륨 이동이 트리거되지 않습니다. | NetApp 서비스 엔진 2.2 
+
+
+| 호스트 그룹을 삭제할 경우 NetApp Service Engine UI(사용자 인터페이스)에서 호스트 그룹이 제거되었지만 클러스터에서는 제거되지 않습니다. | 간략 해제. | NetApp 서비스 엔진 2.2 
+
+
+| 호스트 그룹은 NetApp Service Engine UI의 디스크에서 매핑 해제할 수 있지만 클러스터에서는 매핑 해제할 수 없습니다. | 간략 해제. | NetApp 서비스 엔진 2.2 
+
+
+| NetApp 서비스 엔진 UI에서 엑스포트 정책을 삭제할 수 없습니다. | 변경된 정책은 UI에서 저장할 수 있습니다. | NetApp 서비스 엔진 2.2 
+|===

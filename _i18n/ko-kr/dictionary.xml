@@ -3115,4 +3115,25 @@
   <block id="2f12e5ae44c9cf77ed83b5e5e83ea318" category="sidebar">네트워크 관리</block>
   <block id="2bd05dd0cbc467a7641e108606fa1c5a" category="sidebar">NetApp 서비스 엔진 API 참조</block>
   <block id="ab4eeed97074daacb19be5e9f701fc55" category="sidebar">API를 사용하여 서브넷을 생성합니다</block>
+  <block id="c158748a3e69a9b1c13a961e778ec66b" category="paragraph">성능 서비스 수준이 변경하더라도 볼륨은 이동되지 않습니다</block>
+  <block id="1783b0f8371d7661f74ab43e7076b5ef" category="paragraph">동일한 클러스터에 있는 두 개의 서로 다른 애그리게이트가 두 서비스 수준에 사용되는 경우 볼륨의 서비스 레벨을 다른 애그리게이트로 변경해도 볼륨이 다른 애그리게이트로 이동하지 않습니다. 적응형 QoS 정책만 적용됩니다.</block>
+  <block id="44d15e01a306125fbc9b5a504261f2c3" category="paragraph">FCP SVM을 생성하려면 iSCSI 활성화가 필요합니다</block>
+  <block id="452ff3a7d441b2a105350eaeb7f00609" category="paragraph">SVM(스토리지 가상 시스템)을 생성하고 FCP 지원을 활성화하려면 iSCSI 인터페이스를 활성화해야 합니다.</block>
+  <block id="25af90aa8eda6df4dff2dd44b18198ab" category="paragraph">동일한 이니시에이터를 사용하는 여러 호스트 그룹으로 제한</block>
+  <block id="d5a6291a0291469140c54e77e4b9ffce" category="paragraph">여러 호스트 그룹이 동일한 이니시에이터 이름으로 생성되고 디스크가 모든 호스트 그룹에 매핑되면 디스크는 클러스터의 한 호스트 그룹에만 매핑됩니다.</block>
+  <block id="b6727396faa1e4cf255c182ddc668fb9" category="summary">NetApp Service Engine의 문제 해결</block>
+  <block id="33659bd1c7f876bf4e9d181ffeebe959" category="doc">NetApp Service Engine의 문제 해결</block>
+  <block id="08742bb18ffa6199e545bb58248ee780" category="paragraph">이전 릴리스의 NetApp Service Engine에서 발견되는 다음과 같은 문제는 NetApp Keystone 유연한 구독 서비스를 성공적으로 사용하도록 수정되었습니다.</block>
+  <block id="3e6913b831218e5028d3a4532f801a65" category="cell">문제 설명</block>
+  <block id="ad7fffc52967fac2195a87d71ddfefed" category="cell">수정 후</block>
+  <block id="c2d43cce4d21238bde127e51e8abf23a" category="cell">버전에서 수정되었습니다</block>
+  <block id="31e90b75256e52a204cc966bbcfc52ec" category="cell">비 FabricPool 애그리게이트는 클러스터에 존재하는 시점에 볼륨 이동이 자동으로 트리거되었습니다. 볼륨 또는 디스크를 수정하면 볼륨이 다른 aggregate로 이동되었습니다.</block>
+  <block id="1a54cda28aa8548ea53bccf486f1fae0" category="cell">볼륨 작업에 대해 볼륨 이동이 트리거되지 않습니다.</block>
+  <block id="2f7daf18759a2f708f89c67f9ea296e0" category="cell">NetApp 서비스 엔진 2.2</block>
+  <block id="5e5483d38497c131d13b217cfbe624a7" category="cell">호스트 그룹을 삭제할 경우 NetApp Service Engine UI(사용자 인터페이스)에서 호스트 그룹이 제거되었지만 클러스터에서는 제거되지 않습니다.</block>
+  <block id="af70f3681f4f3ba4f5b6940d7863a08b" category="cell">간략 해제.</block>
+  <block id="1b0fa9db56937e5f35319d185505e24d" category="cell">호스트 그룹은 NetApp Service Engine UI의 디스크에서 매핑 해제할 수 있지만 클러스터에서는 매핑 해제할 수 없습니다.</block>
+  <block id="38e55e934e595693c4955be6041102a9" category="cell">NetApp 서비스 엔진 UI에서 엑스포트 정책을 삭제할 수 없습니다.</block>
+  <block id="a9835757eaec1d4ebc950e91ee095db7" category="cell">변경된 정책은 UI에서 저장할 수 있습니다.</block>
+  <block id="69464e68a5cdd0b54694ac92276fa1a3" category="sidebar">해결된 문제</block>
 </blocks>
