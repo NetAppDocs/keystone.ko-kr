@@ -6,6 +6,7 @@ summary: Keystone 파일 서버를 만듭니다
 ---
 = 파일 서버를 생성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

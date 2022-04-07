@@ -6,6 +6,7 @@ summary: Keystone 설명서 포털에 오신 것을 환영합니다.
 ---
 = NetApp Keystone Flex Subscription 문서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary:
 ---
 = 클라우드 오케스트레이션 API
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

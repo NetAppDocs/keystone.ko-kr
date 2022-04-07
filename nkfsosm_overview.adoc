@@ -6,6 +6,7 @@ summary: NetApp Flex Subscription 개요
 ---
 = 운영 모델, 역할 및 책임
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

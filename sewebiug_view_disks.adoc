@@ -6,6 +6,7 @@ summary: Keystone 뷰 디스크
 ---
 = 디스크를 봅니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

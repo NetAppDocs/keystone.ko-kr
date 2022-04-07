@@ -6,6 +6,7 @@ summary: Azure NetApp 계정 관리
 ---
 = Azure NetApp 계정 관리
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 백업에서 백업 또는 복구를 생성, 수정 및 삭제합니다
 ---
 = 파일 공유 및 디스크를 백업합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: NetApp 서비스 엔진에서 알려진 문제
 ---
 = NetApp 서비스 엔진에서 알려진 문제
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

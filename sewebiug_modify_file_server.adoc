@@ -6,6 +6,7 @@ summary: 파일 서버를 수정합니다
 ---
 = 파일 서버를 수정합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

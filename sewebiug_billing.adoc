@@ -6,6 +6,7 @@ summary: 청구 세부 정보를 보고 다운로드합니다
 ---
 = 청구 보기
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

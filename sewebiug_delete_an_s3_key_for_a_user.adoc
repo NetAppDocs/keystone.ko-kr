@@ -6,6 +6,7 @@ summary: Keystone 사용자의 S3 키를 삭제합니다
 ---
 = 사용자의 S3 키를 삭제합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

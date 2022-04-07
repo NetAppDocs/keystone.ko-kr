@@ -6,6 +6,7 @@ summary: 대시보드 뷰
 ---
 = Flex Subscription 대시보드 보기
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

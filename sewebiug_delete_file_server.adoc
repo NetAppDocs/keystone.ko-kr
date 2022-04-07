@@ -6,6 +6,7 @@ summary: Keystone 파일 서버 삭제
 ---
 = 파일 서버를 삭제합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

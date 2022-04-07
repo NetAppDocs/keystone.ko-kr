@@ -6,6 +6,7 @@ summary: Keystone 오브젝트 스토리지 그룹 및 사용자 보기
 ---
 = 오브젝트 스토리지 그룹 및 사용자를 확인합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

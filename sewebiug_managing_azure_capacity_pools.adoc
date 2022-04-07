@@ -6,6 +6,7 @@ summary: Keystone Azure 용량 풀 관리
 ---
 = Azure 용량 풀 관리
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

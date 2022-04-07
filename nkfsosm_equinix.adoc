@@ -6,6 +6,7 @@ summary: 유연한 Keystone 구독 및 Equinix
 ---
 = Equinix를 기반으로 하는 유연한 구독
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

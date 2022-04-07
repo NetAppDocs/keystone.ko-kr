@@ -6,6 +6,7 @@ summary: 유연한 Keystone 구독 및 Equinix
 ---
 = 반품 불가 디스크 서비스입니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

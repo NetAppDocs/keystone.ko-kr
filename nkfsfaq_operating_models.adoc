@@ -6,6 +6,7 @@ summary: 운영 모델
 ---
 = 운영 모델 및 책임
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

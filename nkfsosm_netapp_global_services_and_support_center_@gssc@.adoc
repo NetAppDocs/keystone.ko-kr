@@ -5,6 +5,7 @@ keywords: netapp, keystone, global, services, support, center, gssc,
 summary: 'NetApp 글로벌 서비스 및 지원 센터(GSSC)' 
 ---
 = 유연한 구독 서비스 운영
+:allow-uri-read: 
 
 
 [role="lead"]

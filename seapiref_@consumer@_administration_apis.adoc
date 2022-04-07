@@ -6,6 +6,7 @@ summary: 'Keystone(소비자) 관리 API'
 ---
 = (소비자) 관리 API
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

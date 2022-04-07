@@ -6,6 +6,7 @@ summary: Keystone 테넌트 선택
 ---
 = Tenant를 선택합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: Keystone 클라우드 서비스 세부 정보 수정
 ---
 = 클라우드 서비스 세부 정보를 수정합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

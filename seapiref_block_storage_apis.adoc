@@ -6,6 +6,7 @@ summary: Keystone 블록 스토리지 API
 ---
 = 블록 스토리지 API
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

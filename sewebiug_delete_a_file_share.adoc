@@ -6,6 +6,7 @@ summary: Keystone 파일 공유를 삭제합니다
 ---
 = 파일 공유를 삭제합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

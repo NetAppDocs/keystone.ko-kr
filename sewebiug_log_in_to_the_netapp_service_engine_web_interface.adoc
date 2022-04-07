@@ -6,6 +6,7 @@ summary: NetApp 서비스 엔진 웹 인터페이스에 로그인합니다
 ---
 = NetApp Service Engine 웹 인터페이스에 로그인합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

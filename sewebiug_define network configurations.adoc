@@ -6,6 +6,7 @@ summary: 서브넷을 생성하고 삭제합니다
 ---
 = 테넌트 및 하위 테넌트에 대한 네트워크 구성을 정의합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

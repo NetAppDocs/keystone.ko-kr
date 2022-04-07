@@ -6,6 +6,7 @@ summary: Keystone 파일 서비스 API
 ---
 = 파일 서비스 API
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: Keystone 네트워크 API
 ---
 = 서브넷 API를 사용하여 네트워크 구성을 정의합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

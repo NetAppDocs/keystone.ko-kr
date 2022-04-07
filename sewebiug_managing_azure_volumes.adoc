@@ -6,6 +6,7 @@ summary: Keystone Azure 볼륨 관리
 ---
 = Azure 볼륨 관리
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

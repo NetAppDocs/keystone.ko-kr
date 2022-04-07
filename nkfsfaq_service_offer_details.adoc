@@ -6,6 +6,7 @@ summary: 서비스 제공 세부 정보
 ---
 = 유연한 구독 서비스 제공 세부 정보
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

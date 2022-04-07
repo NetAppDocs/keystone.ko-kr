@@ -6,6 +6,7 @@ summary: 'Keystone: 오브젝트 스토리지 초기화'
 ---
 = 오브젝트 스토리지 초기화
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

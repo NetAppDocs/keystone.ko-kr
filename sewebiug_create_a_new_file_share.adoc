@@ -6,6 +6,7 @@ summary: Keystone 새 파일 공유를 생성합니다
 ---
 = 파일 공유를 생성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: Keystone 새 디스크를 만듭니다
 ---
 = 디스크를 만듭니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

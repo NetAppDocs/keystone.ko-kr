@@ -6,6 +6,7 @@ summary: NetApp 서비스 엔진의 새로운 기능
 ---
 = NetApp Keystone 유연한 구독 서비스의 이번 릴리스의 새로운 기능
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

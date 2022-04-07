@@ -6,6 +6,7 @@ summary: Keystone에서 버킷 생성
 ---
 = 버킷을 생성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

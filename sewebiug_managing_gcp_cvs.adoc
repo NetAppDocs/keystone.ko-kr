@@ -6,6 +6,7 @@ summary: Google Cloud Platform에서 Cloud Volume 서브스크립션 관리
 ---
 = Cloud Volumes Service for GCP 관리
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

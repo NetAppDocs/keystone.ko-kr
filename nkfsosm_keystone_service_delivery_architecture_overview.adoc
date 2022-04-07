@@ -6,6 +6,7 @@ summary: 서비스 제공 아키텍처 개요
 ---
 = 유연한 구독 인프라
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

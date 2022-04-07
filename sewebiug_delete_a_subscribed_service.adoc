@@ -6,6 +6,7 @@ summary: Keystone 클라우드 서비스 삭제
 ---
 = 클라우드 서비스를 삭제합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

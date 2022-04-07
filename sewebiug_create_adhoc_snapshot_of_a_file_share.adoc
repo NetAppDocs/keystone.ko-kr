@@ -6,6 +6,7 @@ summary: Keystone 파일 공유의 임시 스냅샷을 생성합니다
 ---
 = 파일 공유의 임시 스냅샷을 생성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 스냅샷에서 파일 공유를 생성합니다
 ---
 = 스냅샷에서 파일 공유를 생성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

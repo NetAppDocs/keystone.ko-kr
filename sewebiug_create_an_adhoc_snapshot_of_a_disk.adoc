@@ -6,6 +6,7 @@ summary: Keystone 디스크에 대한 임시 스냅샷을 만듭니다
 ---
 = 디스크의 임시 스냅샷을 생성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
