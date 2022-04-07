@@ -18,15 +18,15 @@ summary: 'Keystone(소비자) 관리 API'
 * 로그인하고 암호를 설정한 다음 인증 토큰을 새로 고칩니다.
 * 작업을 검색하고 작업 세부 정보를 봅니다.
 +
-을 참조하십시오 link:seapiref_jobs.html#retrieve-jobs["작업을 검색합니다"] 및 .
+을 참조하십시오 link:seapiref_jobs.html#retrieve-jobs["작업을 검색합니다"] 및 link:seapiref_jobs.html#retrieve-a-job-by-job-id["작업별 ID를 가져옵니다"].
 
 * 영역 검색.
 +
-을 참조하십시오 link:seapiref_regions.html#retrieve-regions["영역 검색"] 및 .
+을 참조하십시오 link:seapiref_regions.html#retrieve-regions["영역 검색"] 및 link:seapiref_regions.html#retrieve-a-region-by-name["이름별로 지역을 조회한다"].
 
 * 서비스 수준 검색
 +
-을 참조하십시오 link:seapiref_service_levels.html#retrieve-service-levels["서비스 수준 검색"] 및 .
+을 참조하십시오 link:seapiref_service_levels.html#retrieve-service-levels["서비스 수준 검색"] 및 link:seapiref_service_levels.html#retrieve-service-levels-by-name["이름별로 서비스 수준을 검색합니다"].
 
 * 하위 테넌트와 함께 작업합니다.
 +
@@ -53,11 +53,11 @@ summary: 'Keystone(소비자) 관리 API'
 
 * 사용자를 검색합니다.
 +
-link:seapiref_users.html#retrieve-all-users["모든 사용자를 검색합니다"], , 및 .
+link:seapiref_users.html#retrieve-all-users["모든 사용자를 검색합니다"], link:seapiref_users.html#retrieve-a-user-by-id["ID로 사용자를 검색합니다"], 및 link:seapiref_users.html#retrieve-a-user-by-user-name["사용자 이름으로 사용자를 검색합니다"].
 
 * 영역 검색.
 +
-을 참조하십시오 link:seapiref_zones.html#retrieve-all-zones["모든 Zone을 조회한다"] 및 
+을 참조하십시오 link:seapiref_zones.html#retrieve-all-zones["모든 Zone을 조회한다"] 및 link:seapiref_zones.html#retrieve-a-zone-by-name["이름으로 Zone을 조회한다"]
 
 
 

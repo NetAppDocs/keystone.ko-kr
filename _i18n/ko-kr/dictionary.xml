@@ -394,8 +394,6 @@
   <block id="a6a3bee28fe66348826c742871e5920e" category="paragraph">다음 표에는 지정된 테넌트에 대한 검색 서비스 요청 범주가 나와 있습니다.</block>
   <block id="ef64390758ed006361a142422376a39e" category="cell">서비스 요청 범주를 검색합니다.</block>
   <block id="ea56ca71a57b3800165f4d81ba320151" category="cell">``tenant_id:’(선택 사항) 지정된 테넌트에 대한 서비스 요청을 반환합니다.</block>
-  <block id="91ddc16de769a9f97aed8824a94f4eff" category="summary">Keystone: 블록 스토리지 사용</block>
-  <block id="378550b5a79b735cc6584d4de45ce11c" category="doc">블록 스토리지 작업</block>
   <block id="85dac96112743e58b2685d4be2d26037" category="summary">Keystone Azure 용량 풀 관리</block>
   <block id="c8b1502f7cf0ad4e087f224a2c408756" category="doc">Azure 용량 풀 관리</block>
   <block id="6cd169fe355cb205cd1b4f241e34baab" category="paragraph">이 섹션에서는 Azure 용량 풀을 관리하는 방법에 대해 설명합니다.</block>
@@ -426,10 +424,7 @@
   <block id="d58b3c04fd0dbdacc5a9fa2a5ac2d5a4" category="paragraph">이 방법을 사용하여 Azure 용량 풀을 삭제합니다.</block>
   <block id="df22fdee98bdc5b7f902b0eb3d589885" category="list-text">목록에서 Azure 용량 풀을 찾고 삭제 아이콘을 클릭합니다.</block>
   <block id="a7b56e7d77b5e12d417d0361594ad521" category="list-text">삭제 확인 대화 상자에서 삭제할 Azure 용량 풀의 이름을 입력합니다.</block>
-  <block id="7a59e920c74c196d0f57ba4b6a8d1185" category="summary">Keystone 관리자 API</block>
   <block id="ec1b7e7cfe1ccc10863feb992dae9df6" category="doc">관리자 API</block>
-  <block id="189883a9b3994b084f540d287e546a8e" category="summary">Keystone 시작</block>
-  <block id="cb59b87e00d11222bfd9159d0d23836f" category="doc">시작하기</block>
   <block id="2b1eac122dc9fcff6b6ff126ea055f08" category="summary">Keystone 오브젝트 스토리지 그룹 생성</block>
   <block id="3a0fa53d8552e260a7a716c8225d4b21" category="doc">오브젝트 스토리지 그룹을 생성합니다</block>
   <block id="02cdea300670fae8df4e5787f5a48a55" category="paragraph">이 방법을 사용하여 새 오브젝트 스토리지 그룹을 생성합니다.</block>
@@ -483,8 +478,6 @@
   <block id="6d2083b0fad7c68e1983451837672427" category="list-text">Create * 를 클릭합니다. 이렇게 하면 서버를 생성할 작업이 생성됩니다.</block>
   <block id="5dde7b4f25d75b0885591b0a8e8c39b4" category="paragraph">Create Server가 비동기 작업으로 실행됩니다. 다음을 수행할 수 있습니다.</block>
   <block id="d7a669d10b2d6780ac266c7cd02c54e7" category="list-text">작업이 완료된 후 서버 목록에서 서버의 상태를 확인합니다.</block>
-  <block id="6f2229565e303cc23cce957bf5939451" category="summary">Keystone 오브젝트 스토리지 작업</block>
-  <block id="491da0d77ad2ffda662200ba7b8bb157" category="doc">오브젝트 스토리지 작업</block>
   <block id="d04ce80ab6bc0577ccedc997e72b254e" category="summary">NetApp Flex Subscription 개요</block>
   <block id="e05f09acc74a61d40006159057e349de" category="doc">운영 모델, 역할 및 책임</block>
   <block id="50a653d58eec4a3ccc1d7790bc9d4067" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독)은 테넌시 모델을 기반으로 합니다.</block>
@@ -912,8 +905,6 @@
   <block id="7c0a8133d524d744dc1d309ff2d635de" category="list-text">테넌시에서 사용자의 역할을 변경하려면 Tenancy 목록에서 Tenancy를 찾아 새 역할을 선택합니다.</block>
   <block id="560da9d680f7592a9fd4dc57688710e5" category="list-text">다른 테넌시에 대한 사용자 액세스 권한을 부여하려면 * Tenancy 추가 * 를 클릭하고 새 항목 필드에서 해당 테넌트와 사용자의 역할을 선택합니다.</block>
   <block id="40e31965143342f756d5d254e77a2687" category="list-text">테넌시에 대한 사용자의 액세스를 제거하려면 Tenancy 목록에서 Tenancy를 찾아 삭제 아이콘을 선택합니다.</block>
-  <block id="09d86387c57736659bbab38839c5f2da" category="summary">Keystone 클라우드 서비스 관리</block>
-  <block id="27ee5c08c2a81e9de81aff03196f5e43" category="doc">클라우드 서비스 관리</block>
   <block id="44b0b983528d36c638cfe11e34569844" category="summary">Keystone 오브젝트 스토리지 사용자 생성</block>
   <block id="086935e12a9a16e561e3fea09863edd0" category="doc">오브젝트 스토리지 사용자를 생성합니다</block>
   <block id="45b69bc024321d8e2b973c0b31b40920" category="paragraph">오브젝트 스토리지 사용자는 오브젝트 스토리지 그룹에 속해 있으므로 사용자를 생성하기 전에 오브젝트 스토리지 그룹이 있어야 합니다.</block>
@@ -1041,21 +1032,8 @@
   <block id="bf5d0983486b43f2fbc013a6b7ca87ea" category="paragraph">백업 시 사용 및 비용은 다음과 같은 부담으로 구성됩니다.</block>
   <block id="d6c6880366faecba13d8f1240fd0df56" category="list-text">사용 가능한 최저 성능 계층에서 백업 볼륨이 충전됩니다(백업 복사본은 사용 가능한 최저 계층에 저장됨).</block>
   <block id="3f84db7e8a661a85dd96cd6b2f4e3a07" category="paragraph"><block ref="3f84db7e8a661a85dd96cd6b2f4e3a07" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5b2f0bd4fc7bb59187f107fcb9a848fa" category="summary">Keystone 서비스 요청 관리</block>
-  <block id="cbf99d0314c4530c4f7c8155643e7e2d" category="doc">서비스 요청 관리</block>
-  <block id="d700018034ba1791acaf8b8f2d55cf06" category="summary">운영 및 지원</block>
-  <block id="3f4323f493fa17b2a55be0cb5d3fc084" category="doc">유연한 구독 운영 및 지원</block>
-  <block id="5418a29e251ddd457b45c4728c44077b" category="paragraph">사용하지 않음 나중에 제거하십시오</block>
-  <block id="4419434a1b65d14caa10786114db3112" category="paragraph">* Flex Subscription 사용량을 보려면 어떻게 해야 합니까? * NetApp 서비스 엔진은 구독하는 모든 서비스와 소비되는 양에 대한 정보가 포함된 대시보드 뷰를 제공합니다. NetApp 서비스 엔진에 대한 자세한 내용은 을 참조하십시오 <block ref="8d35461a50e9d2cb480a76a035c5e522" category="inline-link-macro-rx"></block>.</block>
-  <block id="5a3115449a2b3065d5bb7484cfe4f999" category="paragraph">* 서비스와 관련된 문제는 어떻게 보고합니까? * NetApp Keystone 지원은 다음과 같은 다양한 채널을 통해 제공됩니다.</block>
   <block id="f65085dc4bb69a27d3e266d2c5504a2b" category="list-text">지원 이메일: mailto:keystone.services@netapp.com[keystone.services@netapp.com^]</block>
   <block id="d0a96adfc74a1b7215d05e43eb9ac7eb" category="list-text">에스컬레이션 이메일: mailto:keystone.escalations@netapp.com[keystone.escalations@netapp.com^]</block>
-  <block id="00b8e318a80a143ca212b4f3b0cb449f" category="paragraph">* 새 스토리지 서비스를 주문할 수 있습니까? * 예. NetApp 서비스 엔진 포털에서 새 스토리지 서비스 또는 스토리지 서비스 확장을 요청할 수 있습니다. 이 요청은 NetApp Keystone 운영 팀에서 처리한 후 사용할 수 있도록 합니다.</block>
-  <block id="eff136c1ba2e8a2d6e4b14ddd6a80383" category="paragraph">* 스토리지 관련 약속은 즉시 이용할 수 있습니까? * * 요청된 용량의 양에 따라 용량이 이미 배포되었는지 또는 추가 장비를 배송하고 설치해야 하는지 여부가 결정됩니다.</block>
-  <block id="f71fb6dbf8a02dfaed157786a5d1337e" category="paragraph">* 계층 간에 워크로드를 이동할 수 있습니까? * 예. 워크로드가 이동하는 계층에 사용자가 가입되어 있는 경우 계층 간에 워크로드를 이동할 수 있습니다. 하지만 성능이 저하될 수 있으므로 상위 계층에서 하위 계층으로 이동하는 것은 권장되지 않습니다. 이 프로세스는 파일 공유를 편집하고 서비스 수준 설정을 변경하는 것만으로 수행됩니다.</block>
-  <block id="0d5e545b2de42575e5208d3abb79f68c" category="paragraph">* 서비스 계층에 따라 어떤 소프트웨어 버전(예: ONTAP)이 기본적으로 설치됩니까? * 서비스 계층에 따라(예: 파일 및 블록 서비스가 포함된 ONTAP, 블록용 SANtricity 및 객체용 StorageGRID) 지원 팀이 보안 또는 기능 문제 없이 가장 안정적인 최신 릴리스를 설치합니다.</block>
-  <block id="f02a13196264a51fda1b26c5e2a551ec" category="paragraph">* 특정 소프트웨어 버전을 요청할 수 있습니까? * 아니오 NetApp Keystone은 모든 고객 기반에서 소프트웨어 버전을 표준화했습니다.</block>
-  <block id="1a5e72df744341345327e87c09268047" category="paragraph">* 소프트웨어 업그레이드에 대한 정보를 받을 수 있습니까? * 예. 모든 유지 보수/업그레이드 작업은 NetApp Keystone 성공 관리자가 고객과 상호 합의된 시간에 전달하고 스케줄합니다.</block>
   <block id="387d94b48f6e34eb9f5d76e4b5c34fa6" category="summary">Keystone 클라우드 서비스 세부 정보 수정</block>
   <block id="b737fcde1a9b42a49be2af9921837940" category="doc">클라우드 서비스 세부 정보를 수정합니다</block>
   <block id="8680c26030b9a27c21af17a744eac5b4" category="paragraph">이 방법을 사용하여 클라우드 서비스의 세부 정보를 수정할 수 있습니다. 다음을 수행할 수 있습니다.</block>
@@ -1239,9 +1217,6 @@
   <block id="497031794414a552435f90151ac3b54b" category="cell">오브젝트</block>
   <block id="346ddf53d2d569d0bb73eb7826cf95d8" category="cell">미디어 저장소, 아카이브</block>
   <block id="29de402441037919e9b47a4ad8a12baa" category="cell">500TiB^3^</block>
-  <block id="c5ffad16a8fef3a87dd99f3ee19c48b2" category="summary">Keystone 및 Cloud Manager 통합</block>
-  <block id="86ab31ff62a64b275109761b712760ae" category="doc">Cloud Volumes ONTAP에서 Flex 서브스크립션을 통해 어떤 이점을 얻을 수 있는지 알아보십시오</block>
-  <block id="12ab7d2a453cfba801dd3a48030aa11a" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독) 서비스를 구독하면 Cloud Volumes ONTAP 사용에 대한 사용 및 청구 요구사항을 원활하게 충족할 수 있습니다. NetApp Keystone 유연한 구독 고객이고 Cloud Volumes ONTAP 구독이 있는 경우, 유연한 구독을 사용하여 Cloud Volumes ONTAP 사용 요금을 청구하고 청구 및 소비 상세 정보를 볼 수 있습니다.</block>
   <block id="bbf5c00a5a74c975684f1ea9625170dc" category="summary">NetApp 서비스 엔진에서 알려진 문제</block>
   <block id="df2d7d810d56e2ac1424497ce621a5b4" category="doc">NetApp 서비스 엔진에서 알려진 문제</block>
   <block id="f1e15aa54b6335c950ebc7c78df7f652" category="paragraph">NetApp 서비스 엔진에서 다음과 같은 알려진 문제가 보고되었습니다. Flex Subscription의 일부로 스토리지를 프로비저닝하거나 사용할 경우 이러한 문제가 발생할 수 있습니다.</block>
@@ -1305,12 +1280,8 @@
   <block id="19709f95e2f7cabc9fabb37976eb0fb8" category="paragraph">다음 표의 메소드를 사용하여 파일 이름으로 식별되는 보고서를 검색합니다.</block>
   <block id="b70bd5e05fa0187ee018a83a5138d67b" category="cell">파일 이름으로 식별되는 보고서를 가져옵니다.</block>
   <block id="09118463562b5775f9ff30e47161c4f9" category="cell">파일 이름(string): 보고서 파일 이름입니다.</block>
-  <block id="b9f431015005979712525d673ef8e68a" category="summary">Keystone 추가 정보 찾기</block>
-  <block id="3887d417240a72ab69f6d0301efd3b2b" category="doc">추가 정보를 찾을 수 있는 위치</block>
   <block id="7d5b957cd473f6eaf5ad335a9c63c4ff" category="paragraph">이 문서에 설명된 정보에 대해 자세히 알아보려면 다음 문서 및/또는 웹 사이트를 검토하십시오.</block>
-  <block id="bc4fe2352063642d68529f2aa0ca7ca3" category="paragraph">NetApp 제품 설명서</block>
   <block id="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link"><block ref="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link-rx"></block></block>
-  <block id="2e85fc867cab94d246e0bf6043b361cd" category="paragraph"><block ref="2e85fc867cab94d246e0bf6043b361cd" category="inline-link-rx"></block></block>
   <block id="21a1e68164f738b8be1dae11d5a694b3" category="doc">데이터 보호</block>
   <block id="f748cdecc7002e854af01b7f1d36ebb1" category="paragraph">NetApp Keystone 유연한 구독(Flex Subscription) 데이터 보호 서비스는 데이터를 백업할 수 있으며 필요한 경우 복구할 수 있습니다. 사용 가능한 데이터 보호 서비스는 다음과 같습니다.</block>
   <block id="7da490627b0929eb399424269ef46d7f" category="list-text">디스크 및 공유 백업(구독의 일부로 데이터 보호 서비스 필요)</block>
@@ -1663,20 +1634,6 @@
   <block id="0b2c78b413a92fa3d683991180e6b149" category="paragraph">월별 청구서 = (약정 용량 [TiB] * 확정된 속도[$/TiB]) + (일별 평균 프로비저닝된 버스트 용량 [TiB] * 버스트 비율[$/TiB]) 월별 계산서에는 약정 용량에 따른 최소 요금이 포함됩니다.</block>
   <block id="51ac471fe8e265dbab97472d8ec286d7" category="inline-link-macro">유연한 구독 요금 청구</block>
   <block id="ed76c58e3897de50263e43ae793ed27f" category="paragraph">월별 청구 요금은 일일 평균 사용 용량에 따라 최소 청구비 이상으로 다릅니다. 청구에 대한 자세한 내용은 를 참조하십시오 <block ref="d823bdbe3ab2a5d92501c2ec4317d1f7" category="inline-link-macro-rx"></block>.</block>
-  <block id="161ad817030874893546af0d58614618" category="summary">Keystone과 클라우드 관리자의 협력</block>
-  <block id="dce9eeb81c0ba57d0b2f61915e5252c5" category="doc">Cloud Manager와 협력</block>
-  <block id="db86d84f317b816ba1a698ab59703ba1" category="paragraph">NetApp Service Engine은 NetApp Cloud Manager에 연결할 수 있습니다. 이 섹션에서는 NetApp 관리자가 다음 작업을 수행하는 방법을 설명합니다.</block>
-  <block id="213cfa9430289b17153b74af2bf4838c" category="list-text">Cloud Manager에 연결</block>
-  <block id="0d5eb8aed41b9ec328e17b1255fb7adc" category="list-text">Cloud Manager와의 연결 상태를 봅니다</block>
-  <block id="ed8f5a635964432920379bf2e5e8627d" category="list-text">Cloud Manager API 엔드포인트 URL</block>
-  <block id="d339114e912d2c7ce09638812f77dd96" category="list-text">Cloud Manager SaaS 서비스의 클라이언트 ID입니다</block>
-  <block id="5f448ec8d9c86c57e21f44790cfe7aa2" category="list-text">Cloud Manager SaaS 서비스의 업데이트 토큰</block>
-  <block id="3cb7a7d3c577f380ab4045baaceb18dc" category="list-text">메뉴에서 관리 &gt; OCCM 연결을 선택합니다.</block>
-  <block id="91ff0584115ddaface4284e480ac8de4" category="list-text">OCCM API 끝점 URL을 지정합니다</block>
-  <block id="05ce373a0178041c09cbd3115554885e" category="list-text">클라이언트 ID를 입력합니다.</block>
-  <block id="2a10e639a91338d915c46d1dcfb06495" category="list-text">OCCM 새로 고침 토큰을 입력하십시오.</block>
-  <block id="f8666bf87bae2c9aef8090ddc6d3b590" category="inline-link"><block ref="f8666bf87bae2c9aef8090ddc6d3b590" category="inline-link-rx"></block></block>
-  <block id="e582f390ab8b6e0709976f564e66d228" category="paragraph"><block ref="e582f390ab8b6e0709976f564e66d228" category="inline-link-rx"></block></block>
   <block id="e8f221d15eb31d00b8a988529a3e2527" category="summary">Keystone에서 서비스 요청을 제기합니다</block>
   <block id="711953faa9bb8cc628e913011d0e5b33" category="paragraph">서비스 요청 화면에서는 자체 지원 팀 또는 NetApp GSSC에 대한 새로운 서비스 요청을 제출할 수 있습니다.</block>
   <block id="0db330634d2013b5c1d235072b61db84" category="paragraph">대시보드의 * Service Requests * 위젯에서 가장 최근의 서비스 요청 요약을 우선순위 및 생성 시간별로 정렬할 수 있습니다. 서비스 요청 화면으로 이동하여 사용자 환경에서 발생한 모든 서비스 요청의 세부 정보를 검색하고 볼 수도 있습니다.</block>
@@ -1762,9 +1719,6 @@
   <block id="f558e5e5755f7a5de96e9cfc5b309d21" category="paragraph">다음과 같은 간단한 정보가 각 버킷에 표시됩니다.</block>
   <block id="1218caa99c5210e89e89f6c92b0512c2" category="list-text">만든 날짜</block>
   <block id="c64518704ce0c0d5501a45763f464276" category="list-text">사용</block>
-  <block id="eb7dc54ae67b4113bd8f2e3cfdd3cd99" category="summary">Keystone 관리 사용자</block>
-  <block id="93e4e8b56119093f81b4aed41ceeea38" category="doc">사용자 관리</block>
-  <block id="603f84c5ec6ba84bbd05890b124d6501" category="summary">Keystone 소비자 API</block>
   <block id="47b9d5f42a74044cd25601337489f3e6" category="doc">소비자 API</block>
   <block id="9acc902d21500513ac0509fb07109ca2" category="summary">서브넷을 생성하고 삭제합니다</block>
   <block id="5ab6c625ae9e9658d23c23fa36eed108" category="doc">테넌트 및 하위 테넌트에 대한 네트워크 구성을 정의합니다</block>
@@ -1855,12 +1809,6 @@
   <block id="6aabc28e97e5b07ba5874eb058e7c779" category="paragraph">이 방법을 사용하여 Azure 볼륨을 삭제합니다.</block>
   <block id="d473b43cbc289b5d22f96515d63627bd" category="list-text">목록에서 Azure 볼륨을 찾고 삭제 아이콘을 클릭합니다.</block>
   <block id="b88fffaac19d5aeb6ed0d2a1b5b615d8" category="list-text">삭제 확인 대화 상자에서 삭제할 Azure 볼륨의 이름을 입력합니다.</block>
-  <block id="57ca22f6724957bd8f72afe27628993a" category="summary">Keystone 사용자 관리 개요</block>
-  <block id="e8ff30361af2dd520948eb0660b6d477" category="paragraph">이 섹션에서는 사용자를 관리하는 방법에 대해 설명합니다.</block>
-  <block id="8c843ad1aee6e372e5633948a6640fbe" category="admonition">사용자를 관리하려면 고객 관리자 액세스 권한이 필요합니다.</block>
-  <block id="9d83936f36f2c3a28508e6773d80030b" category="list-text">사용자 목록을 봅니다.</block>
-  <block id="548af37b2544b71473c1539bb4a68df9" category="list-text">사용자를 추가합니다.</block>
-  <block id="1cebf46707524678b62437238f0c5bb5" category="list-text">이름, 성, 표시 이름, 사용자가 액세스할 수 있는 기간, 해당 기간 내의 사용자 역할 등의 사용자 세부 정보를 수정합니다.</block>
   <block id="9e6a9bc413f130a4dbd0233b18e642e1" category="list-text">사용자를 삭제합니다.</block>
   <block id="835ec88181faf673cc24962ceb5aeef2" category="summary">Keystone 디스크를 삭제합니다</block>
   <block id="73494a18ae9fbef152b3f87f10909fea" category="doc">디스크를 삭제합니다</block>
@@ -2718,8 +2666,6 @@
   <block id="817f3b83b5cf8d6998d86253d328cfa8" category="admonition">대시보드의 * 월간 청구 * 위젯 오른쪽 상단 모서리에 있는 화살표를 클릭하거나 위젯에서 월을 나타내는 막대를 클릭하여 청구 페이지를 볼 수도 있습니다. 선택한 월에 대한 모든 구독이 표시됩니다.</block>
   <block id="8e694bf2e1747edf7543b2e2df0bf434" category="list-text">필요에 따라 월을 나타내는 막대 위로 마우스를 가져가면 추가 세부 정보를 볼 수 있습니다.</block>
   <block id="2f5581d8cc6f970e6c70eac91215546f" category="list-text">표에 나열된 월을 선택합니다. 해당 월에 대한 모든 구독과 관련 청구가 테이블에 표시됩니다. 비용은 약정 용량 및 버스트 사용량에 따라 분할됩니다.</block>
-  <block id="b268d7d0d9afd8d193fa80aa1622a161" category="summary">Keystone 파일 서비스 작업</block>
-  <block id="a5ad8b42722c291ff0a2b6ad207fa790" category="doc">파일 서비스 작업</block>
   <block id="742ef9f3b9cf3b40d63f3f7a076f1fc7" category="summary">Keystone 구독 관리</block>
   <block id="95a0841b9a7d083d0e92b10bbb2d9538" category="doc">구독 관리</block>
   <block id="0ab18403e50bd7c93f06357102158121" category="paragraph">구독 관리에는 NetApp Keystone 유연한 구독(Flex Subscription) 및 테넌트 구독 서비스에 서비스 수준을 할당하거나 NetApp 서비스 엔진 인터페이스를 사용하여 서비스 수준에 용량을 할당 및 변경하는 것이 포함됩니다.</block>
@@ -3136,4 +3082,6 @@
   <block id="38e55e934e595693c4955be6041102a9" category="cell">NetApp 서비스 엔진 UI에서 엑스포트 정책을 삭제할 수 없습니다.</block>
   <block id="a9835757eaec1d4ebc950e91ee095db7" category="cell">변경된 정책은 UI에서 저장할 수 있습니다.</block>
   <block id="69464e68a5cdd0b54694ac92276fa1a3" category="sidebar">해결된 문제</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
+  <block id="c59ae8d7beeb519a23478ab048af482c" category="paragraph"><block ref="c59ae8d7beeb519a23478ab048af482c" category="inline-link-macro-rx"></block></block>
 </blocks>

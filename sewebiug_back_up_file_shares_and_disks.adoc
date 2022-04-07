@@ -34,7 +34,7 @@ NOTE: 임시(예약되지 않은) 백업은 언제든지 GUI를 통해 수동으
 
 == 백업 객체를 생성합니다
 
-백업 정책을 정의할 때 볼륨에 대한 스냅샷을 생성할 수 있습니다 link:https://docs.netapp.com/us-en/keystone/sewebiug_create_a_new_file_share.html["파일 공유를 생성합니다"] 또는 .
+백업 정책을 정의할 때 볼륨에 대한 스냅샷을 생성할 수 있습니다 link:https://docs.netapp.com/us-en/keystone/sewebiug_create_a_new_file_share.html["파일 공유를 생성합니다"] 또는 link:https://docs.netapp.com/us-en/keystone/sewebiug_create_a_new_disk.html["디스크를 만듭니다"].
 
 .단계
 . 백업 정책 * 을 활성화합니다.

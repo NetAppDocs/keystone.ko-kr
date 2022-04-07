@@ -30,7 +30,7 @@ NetApp Keystone 유연한 구독(유연한 구독) 고객이고 Cloud Volumes ON
 
 
 자세한 내용은 Cloud Manager 문서에서 다음 링크를 참조하십시오.link:https://docs.netapp.com/us-en/occm/concept_licensing.html#keystone-flex-subscription["유연한 Keystone 구독"]
-
+link:https://docs.netapp.com/us-en/occm/task_managing_licenses.html#manage-keystone-flex-subscriptions["Keystone Flex 구독 관리"]
 
 {SP}+{SP}+{SP}NetApp Keystone 유연한 구독(유연한 구독)을 통해 제공되는 향상된 기능을 지원하기 위해 NetApp 서비스 엔진 여러 릴리즈에서 다음과 같은 기능이 도입되었습니다.
 

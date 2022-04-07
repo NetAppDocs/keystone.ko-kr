@@ -261,3 +261,5 @@ sidebar:
         url: "/seapiref_service_requests.html"
       - title: 작업
         url: "/seapiref_jobs.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
