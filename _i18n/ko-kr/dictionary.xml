@@ -1438,7 +1438,6 @@
   <block id="6365a10673e69e63960434eee08936a3" category="paragraph">NetApp Keystone 유연한 구독은 NetApp Keystone 서비스 오퍼링의 일부입니다. NetApp Keystone은 NetApp Keystone 유연한 지불 및 NetApp Keystone 유연한 구독 서비스를 통해 클라우드 환경으로 전환할 수 있도록 지원하기 위해 사내 자본 지출(CapEx) 대체 포트폴리오를 제공합니다. NetApp Keystone은 사내와 클라우드에 있는 스토리지 서비스를 통해 원활한 하이브리드 클라우드 경험을 제공합니다. NetApp Keystone에 대한 자세한 내용은 를 참조하십시오 <block ref="17e1729d4a77db88a0bc2ee74a2207b1" category="inline-link-macro-rx"></block></block>
   <block id="a47bcecd4f4a1f89ad4e82bca88975ab" category="inline-link-macro">유연한 Keystone 구독</block>
   <block id="84df3063bf7c9a845b2944da17dc7ada" category="paragraph">NetApp Keystone 유연한 구독에 대한 자세한 내용은 을 참조하십시오 <block ref="dd62aedd4673206c815c56eddc5536f2" category="inline-link-macro-rx"></block></block>
-  <block id="ac6330b2ef35ed0beec99df3fdccc9e2" category="paragraph">Flex Subscription은 클라우드 연결을 통해 온프레미스 시스템에서 클라우드 수준의 경험을 제공하는 서비스형 스토리지 오퍼링입니다. * * NetApp Keystone 유연한 지불 * - NetApp Keystone 유연한 지불(Flex Pay)은 고객의 현금 흐름 요구를 충족하기 위해 기존의 금융, 임대 및 고정/가변 옵션을 포함하는 유연한 금융 대안 포트폴리오입니다. * * NetApp Keystone 유연한 구독 * - NetApp Keystone 유연한 구독(유연한 구독)은 확장 가능한 결과 기반 구독 서비스로서 온프레미스 클라우드 방식의 경험을 제공합니다.</block>
   <block id="3799607edcd82b379d62cf94110a1f1a" category="paragraph"><block ref="3799607edcd82b379d62cf94110a1f1a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fdba3cae37eccb96c4307e07af690784" category="section-title">유연한 구독</block>
   <block id="60e9d00fe6da3c4a7ff384bed342bf02" category="paragraph">Flex Subscription은 종량제 구독 기반 서비스 모델로, OpEx 소비 모델을 선호하는 사용자에게 원활한 하이브리드 클라우드 경험을 제공하여 자본 지출 또는 임대를 지원합니다. 따라서 고객은 예측할 수 없는 용량 증가를 관리하고 복잡한 조달 주기를 따르는 데 따르는 복잡성을 줄임으로써 가치 창출 시간을 단축할 수 있습니다. Flex Subscription을 통해 고객은 비즈니스 우선 순위에 따라 경제성과 운영을 조정할 수 있습니다.</block>
@@ -3094,4 +3093,7 @@
   <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="65b034376f8c6863d7282690b92e3bf9" category="paragraph">Flex Subscription은 클라우드 연결을 통해 온프레미스 시스템에서 클라우드 수준의 경험을 제공하는 서비스형 스토리지 오퍼링입니다.</block>
+  <block id="e49cf55687c692a556892a0f614ce9bf" category="list-text">* NetApp Keystone 유연한 지불 * - NetApp Keystone 유연한 지불(Flex Pay)은 고객의 현금 흐름 요구를 충족하기 위해 기존의 금융, 임대 및 고정/가변 옵션을 포함하는 유연한 금융 대안 포트폴리오입니다.</block>
+  <block id="cf7ec62445091377db24ebd1c9fd2d93" category="list-text">* NetApp Keystone 유연한 구독 * - NetApp Keystone 유연한 구독(유연한 구독)은 확장 가능한 성과 기반 구독 서비스로, 온프레미스 클라우드 방식의 경험을 제공합니다.</block>
 </blocks>
