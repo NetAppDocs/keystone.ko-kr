@@ -277,39 +277,31 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/keystone/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/keystone/nkfsfaq_service_offer_details.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/keystone/nkfsfaq_service_offer_details.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/keystone/nkfsfaq_service_offer_details.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/keystone/nkfsfaq_service_offer_details.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/keystone/nkfsfaq_service_offer_details.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/de-de/keystone/nkfsfaq_service_offer_details.html" class="n-menu__header-text"><span translate="no" class="notranslate">Deutsch</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/fr-fr/keystone/nkfsfaq_service_offer_details.html" class="n-menu__header-text"><span translate="no" class="notranslate">Français</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/keystone/nkfsfaq_service_offer_details.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/keystone/nkfsfaq_service_offer_details.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/keystone/nkfsfaq_service_offer_details.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/keystone/nkfsfaq_service_offer_details.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/keystone/nkfsfaq_service_offer_details.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/de-de/keystone/nkfsfaq_service_offer_details.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/fr-fr/keystone/nkfsfaq_service_offer_details.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -1069,7 +1061,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class="subfolders "><a href="/ko-kr/keystone/index.html">
         <div class="na-navbar-padding"> NetApp Keystone 유연한 구독</div>
       </a>
@@ -1395,76 +1387,113 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-18 06:17:56 +0000">04/18/2022</time>
+    <time datetime="2022-06-09 10:19:34 +0000">06/09/2022</time>
     
   
 
 
 </p>
 
-<div id="preamble">
-<div class="sectionbody">
 <div class="paragraph lead">
 <p>다음 질문을 통해 NetApp Keystone Flex Subscription 서비스 제공에 대한 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>커밋된 최소 용량은 얼마입니까? *</p>
+</li>
+</ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="최소-커밋된-용량은-얼마입니까">최소 커밋된 용량은 얼마입니까?</h3>
 <div class="paragraph">
 <p>NetApp Keystone 유연한 구독(유연한 구독)의 최소 약정 용량은 하나 이상의 서비스 계층에 대해 사이트당 100TiB입니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>Flex Subscription 계약의 일반적인 기간은 얼마입니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="flex-subscription-계약의-일반적인-기간은-얼마입니까">Flex Subscription 계약의 일반적인 기간은 얼마입니까?</h3>
 <div class="paragraph">
 <p>Flex Subscription은 12개월, 24개월 및 36개월 기간을 제공합니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>스토리지에 액세스하는 방법은 무엇입니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="스토리지에-어떻게-액세스할-수-있습니까">스토리지에 어떻게 액세스할 수 있습니까?</h3>
 <div class="paragraph">
 <p>NetApp에서 운영하는(표준) 모델에서는 스토리지 컨트롤러(ONTAP System Manager 또는 시스템에 대한 관리 액세스)가 NetApp이 소유 및 관리합니다. NetApp 서비스 엔진 UI 및 API를 통해서만 스토리지를 모니터링 및 관리할 수 있습니다. NetApp 서비스 엔진 UI 및 API가 주로 청구 기능에 사용되는 고객 관리(또는 Lite) 배포에서는 Active IQ Unified Manager 및 ONTAP System Manager와 같은 스토리지 컨트롤러에 액세스하고 ONTAP 클러스터에 직접 액세스할 수 있습니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>서비스를 어떻게 관리합니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="서비스를-어떻게-관리합니까">서비스를 어떻게 관리합니까?</h3>
 <div class="paragraph">
 <p>NetApp Service Engine은 스토리지를 프로비저닝하고 서비스 사용에 대한 보고서를 얻는 데 사용할 수 있는 오케스트레이션 및 관리 툴입니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>구독에서 커밋된 용량을 어떻게 늘릴 수 있습니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="구독에서-커밋된-용량을-어떻게-늘릴-수-있습니까">구독에서 커밋된 용량을 어떻게 늘릴 수 있습니까?</h3>
 <div class="paragraph">
 <p>NetApp 서비스 엔진 관리 툴 또는 NetApp Keystone 성공 관리자를 통해 용량 추가 요청을 제출할 수 있습니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>용량을 늘리면 용어가 확장됩니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="용량을-늘리면-용어가-확장됩니까">용량을 늘리면 용어가 확장됩니까?</h3>
 <div class="paragraph">
 <p>가입 후 마지막 90일 이내에 요청이 이루어지면 최소 12개월 동안 기간이 연장되어야 하는 경우를 제외하고 모든 추가 사항은 기존 기간 동안 상호 적용됩니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>새 가입은 새로운 연례에 따라 유연하게 사용할 수 있습니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="새-가입은-새로운-연례에-따라-유연하게-사용할-수-있습니까">새 가입은 새로운 연례에 따라 유연하게 사용할 수 있습니까?</h3>
 <div class="paragraph">
 <p>예. 새 구독은 기존 구독과 별도로 새 용어를 사용할 수 있습니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>테넌트 구독 조건은 파트너의 구독 기간 이후에도 연장될 수 있습니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="테넌트-구독-조건은-파트너의-구독-기간-이후에도-연장될-수-있습니까">테넌트 구독 조건은 파트너의 구독 기간 이후에도 연장될 수 있습니까?</h3>
 <div class="paragraph">
 <p>테넌트 구독은 파트너의 현재 Flex Subscription 기간 이상으로 확장될 수 있습니다. 구독이 생성될 때 및 사용 현황 보고서에 경고가 표시됩니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>동일한 ONTAP 클러스터에서 여러 서브스크립션을 혼합할 수 있습니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="동일한-ontap-클러스터에서-여러-서브스크립션을-혼합할-수-있습니까">동일한 ONTAP 클러스터에서 여러 서브스크립션을 혼합할 수 있습니까?</h3>
 <div class="paragraph">
 <p>아니요. 각 클러스터는 특정 구독에 할당됩니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>모니터링 및 작업은 누가 합니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="모니터링-및-작업은-누가-수행합니까">모니터링 및 작업은 누가 수행합니까?</h3>
 <div class="paragraph">
 <p>NetApp 운영 서비스의 경우, NetApp은 합의된 기대치에 따라 서비스를 제공할 수 있도록 인프라를 원격으로 모니터링하는 역할을 합니다.</p>
 </div>
@@ -1474,30 +1503,38 @@
 <div class="paragraph">
 <p>고객 운영 서비스의 경우 고객은 인프라를 모니터링하고 NetApp에 문제를 제기할 책임이 있습니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>서비스를 일찍 종료하면 어떻게 됩니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="서비스를-일찍-종료하면-어떻게-됩니까">서비스를 일찍 종료하면 어떻게 됩니까?</h3>
 <div class="paragraph">
 <p>최소 서비스 기간은 12개월입니다. 서비스를 일찍 취소하는 경우 잔여 금액을 선불로 지불해야 합니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>초기 기간이 완료된 후 구매로 전환할 수 있는 기회가 있습니까? * 아니요 이 특가에는 구매로 전환할 수 있는 옵션이 포함되어 있지 않습니다. 또한 이전에 구매한 NetApp 제품은 이 프로그램의 범위를 벗어납니다.</p>
+</li>
+<li>
+<p>특정 소프트웨어 버전을 요청할 수 있습니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="최초-학기가-완료된-후-구매로-전환할-수-있는-기회가-있습니까">최초 학기가 완료된 후 구매로 전환할 수 있는 기회가 있습니까?</h3>
-<div class="paragraph">
-<p>아니요 이 특가에는 구매로 전환할 수 있는 옵션이 포함되어 있지 않습니다. 또한 이전에 구매한 NetApp 제품은 이 프로그램의 범위를 벗어납니다.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="특정-소프트웨어-버전을-요청할-수-있습니까">특정 소프트웨어 버전을 요청할 수 있습니까?</h3>
 <div class="paragraph">
 <p>아니요 NetApp Keystone은 모든 고객 기반에서 소프트웨어 버전을 표준화했습니다.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>소프트웨어 업그레이드에 대한 정보를 받을 수 있습니까? *</p>
+</li>
+</ul>
 </div>
-<div class="sect2">
-<h3 id="소프트웨어-업그레이드에-대한-정보가-제공됩니까">소프트웨어 업그레이드에 대한 정보가 제공됩니까?</h3>
 <div class="paragraph">
 <p>예. 모든 유지 보수/업그레이드 작업은 NetApp Keystone 성공 관리자가 고객과 상호 합의된 시간에 전달하고 스케줄합니다.</p>
-</div>
 </div>
 
     </article>
@@ -1645,4 +1682,5 @@
     </script>
     <script src='/ko-kr/keystone/js/www-ntap.js'></script>
     <script src='/ko-kr/keystone/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/keystone/js/sidebar.js'></script>
   </body></html>

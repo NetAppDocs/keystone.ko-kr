@@ -277,39 +277,31 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/keystone/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/keystone/seapiref_authorization_and_authentication.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/keystone/seapiref_authorization_and_authentication.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/keystone/seapiref_authorization_and_authentication.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/keystone/seapiref_authorization_and_authentication.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/keystone/seapiref_authorization_and_authentication.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/de-de/keystone/seapiref_authorization_and_authentication.html" class="n-menu__header-text"><span translate="no" class="notranslate">Deutsch</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/fr-fr/keystone/seapiref_authorization_and_authentication.html" class="n-menu__header-text"><span translate="no" class="notranslate">Français</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/keystone/seapiref_authorization_and_authentication.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/keystone/seapiref_authorization_and_authentication.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/keystone/seapiref_authorization_and_authentication.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/keystone/seapiref_authorization_and_authentication.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/keystone/seapiref_authorization_and_authentication.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/de-de/keystone/seapiref_authorization_and_authentication.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/fr-fr/keystone/seapiref_authorization_and_authentication.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -1069,7 +1061,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class="subfolders "><a href="/ko-kr/keystone/index.html">
         <div class="na-navbar-padding"> NetApp Keystone 유연한 구독</div>
       </a>
@@ -1395,7 +1387,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-18 06:17:56 +0000">04/18/2022</time>
+    <time datetime="2022-06-09 10:19:34 +0000">06/09/2022</time>
     
   
 
@@ -1409,8 +1401,9 @@
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="http-상태-코드입니다">HTTP 상태 코드입니다</h3>
+<div class="sect1">
+<h2 id="http-상태-코드입니다">HTTP 상태 코드입니다</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>API를 실행하거나 문제를 해결하는 동안 NetApp Service Engine API에서 사용되는 다양한 HTTP 상태 코드 및 오류 코드를 알고 있어야 합니다.</p>
 </div>
@@ -1484,8 +1477,10 @@
 </tbody>
 </table>
 </div>
-<div class="sect2">
-<h3 id="api-사용을-위한-권장-사항">API 사용을 위한 권장 사항</h3>
+</div>
+<div class="sect1">
+<h2 id="api-사용을-위한-권장-사항">API 사용을 위한 권장 사항</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>API를 사용할 때는 다음과 같은 몇 가지 권장 방법을 따라야 합니다.</p>
 </div>
@@ -1506,6 +1501,7 @@
 <p>필터 연산자 와일드카드(*')와 파이프('|')를 조합하여 개체를 쿼리하지 마십시오. 잘못된 개체 수를 검색할 수 있습니다.</p>
 </li>
 </ul>
+</div>
 </div>
 </div>
 
@@ -1654,4 +1650,5 @@
     </script>
     <script src='/ko-kr/keystone/js/www-ntap.js'></script>
     <script src='/ko-kr/keystone/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/keystone/js/sidebar.js'></script>
   </body></html>

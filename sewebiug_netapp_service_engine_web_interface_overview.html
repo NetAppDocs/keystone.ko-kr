@@ -277,39 +277,31 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/keystone/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/de-de/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">Deutsch</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/fr-fr/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" class="n-menu__header-text"><span translate="no" class="notranslate">Français</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/de-de/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/fr-fr/keystone/sewebiug_netapp_service_engine_web_interface_overview.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -1069,7 +1061,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class="subfolders "><a href="/ko-kr/keystone/index.html">
         <div class="na-navbar-padding"> NetApp Keystone 유연한 구독</div>
       </a>
@@ -1395,7 +1387,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-18 06:17:56 +0000">04/18/2022</time>
+    <time datetime="2022-06-09 10:19:34 +0000">06/09/2022</time>
     
   
 
@@ -1453,11 +1445,8 @@
 <div class="paragraph">
 <p>대시보드에는 사용된 용량, 사용량에 대한 비용 청구, 최근 알림 및 서비스 요청 등 NetApp Keystone 스토리지 구독에 대한 정보가 표시됩니다. NetApp 서비스 엔진에 처음 로그인할 때 기본 보기가 됩니다. 대시보드에 대한 자세한 내용은 을 참조하십시오 <a href="sewebiug_dashboard.html">"Flex Subscription 대시보드 보기"</a>.</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="목록-보기">목록 보기</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="목록-보기">목록 보기</h3>
 <div class="paragraph">
 <p>목록 보기는 개체 목록을 보는 데 사용됩니다. 예를 들어 아래 스크린샷과 같이 구독에서 파일 공유를 지원하는 서버 목록이 목록 보기에 표시됩니다.</p>
 </div>
@@ -1470,6 +1459,7 @@
 <p>목록의 항목에 대한 작업을 수행합니다. 을 참조하십시오 <a href="sewebiug_netapp_service_engine_web_interface_overview.html#list-view">"목록 보기 작업"</a>.</p>
 </li>
 </ul>
+</div>
 </div>
 <div class="sect2">
 <h3 id="목록-보기-작업">목록 보기 작업</h3>
@@ -1772,4 +1762,5 @@
     </script>
     <script src='/ko-kr/keystone/js/www-ntap.js'></script>
     <script src='/ko-kr/keystone/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/keystone/js/sidebar.js'></script>
   </body></html>
