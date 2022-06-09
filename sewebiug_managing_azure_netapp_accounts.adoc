@@ -29,7 +29,7 @@ NOTE: Azure NetApp 계정을 관리하려면 고객 관리자 액세스 권한�
 
 
 
-=== Azure NetApp 계정 목록을 봅니다
+== Azure NetApp 계정 목록을 봅니다
 
 Azure NetApp 계정 목록에는 로그인한 사용자가 액세스할 수 있는 모든 Azure NetApp 계정의 목록이 표시됩니다. 목록을 보려면 메뉴에서 * administration > Azure NetApp Accounts * 를 선택합니다.
 
@@ -37,7 +37,7 @@ Azure NetApp 계정 목록에는 로그인한 사용자가 액세스할 수 있�
 
 
 
-=== Azure NetApp 계정을 추가합니다
+== Azure NetApp 계정을 추가합니다
 
 이 섹션에서는 Azure NetApp 계정을 추가하는 방법을 설명합니다.
 
@@ -60,7 +60,7 @@ Azure NetApp 계정 목록에는 로그인한 사용자가 액세스할 수 있�
 
 
 
-=== Azure NetApp 계정 태그를 수정합니다
+== Azure NetApp 계정 태그를 수정합니다
 
 이 방법을 사용하여 Azure NetApp 계정과 연결된 태그를 수정할 수 있습니다.
 
@@ -73,7 +73,7 @@ Azure NetApp 계정 목록에는 로그인한 사용자가 액세스할 수 있�
 
 
 
-=== Azure NetApp 계정을 삭제합니다
+== Azure NetApp 계정을 삭제합니다
 
 이 방법을 사용하여 Azure NetApp 계정을 삭제합니다.
 

@@ -33,7 +33,7 @@ summary: Keystone StorageGRID 인스턴스
 |===
 
 
-=== StorageGRID 인스턴스 특성
+== StorageGRID 인스턴스 특성
 
 다음 표에서는 StorageGRID 인스턴스 특성을 보여 줍니다.
 
@@ -69,7 +69,7 @@ summary: Keystone StorageGRID 인스턴스
 |===
 
 
-=== StorageGRID 인스턴스를 검색합니다
+== StorageGRID 인스턴스를 검색합니다
 
 다음 표에 나열된 방법을 사용하여 StorageGRID 인스턴스를 검색합니다.
 
@@ -114,7 +114,7 @@ none
 ....
 
 
-=== ID별로 StorageGRID 인스턴스를 검색합니다
+== ID별로 StorageGRID 인스턴스를 검색합니다
 
 다음 표에 나열된 방법을 사용하여 ID별로 StorageGRID 인스턴스를 검색합니다.
 
@@ -159,7 +159,7 @@ none
 ....
 
 
-=== ID별로 StorageGRID 인스턴스를 만듭니다
+== ID별로 StorageGRID 인스턴스를 만듭니다
 
 다음 표에 나열된 방법을 사용하여 ID별로 StorageGRID 인스턴스를 만듭니다.
 
@@ -217,7 +217,7 @@ none
 ....
 
 
-=== ID별로 StorageGRID 인스턴스를 수정합니다
+== ID별로 StorageGRID 인스턴스를 수정합니다
 
 다음 표에 나열된 방법을 사용하여 ID별로 StorageGRID 인스턴스를 수정합니다.
 

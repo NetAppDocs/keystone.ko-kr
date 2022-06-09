@@ -64,4 +64,4 @@ GCP에서 클라우드 볼륨을 관리하기 전에 테넌트의 Cloud Volumes 
 
 다음 비디오에서 Cloud Volumes Service 및 NetApp 서비스 엔진을 통해 GCP에서 볼륨을 생성하는 방법을 알아보십시오.
 
-video::Crq5a1zi1Vg[youtube, width=750,height=400]
+video::Crq5a1zi1Vg[youtube,width=750,height=400]

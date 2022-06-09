@@ -379,21 +379,8 @@
   <block id="fecb9dccd78c98c8a04ddd9aac28b3af" category="list-text">"id": 서비스 요청 IDFor 예: SRQ0035952014</block>
   <block id="f64d86ad0a77d0b90407860c2cf4c433" category="section-title">서비스 요청을 생성합니다</block>
   <block id="482aeb27cec2ee6093ee574763c7a9ec" category="paragraph">다음 표에 나열된 방법을 사용하여 서비스 요청을 만듭니다.</block>
-  <block id="a57f88e039b309218996266b80792e58" category="cell">테넌트 ID: 테넌트 식별자입니다.</block>
   <block id="7f8a0fb4fe85ad8af0c7990fb7d44557" category="paragraph">필요한 요청 본문 속성: 필요한 속성은 서비스 요청 범주에 따라 달라집니다. 다음 표에서는 요청 본문 특성을 보여 줍니다.</block>
-  <block id="3adbdb3ac060038aa0e6e6c138ef9873" category="cell">범주</block>
-  <block id="b651efdb98a5d6bd2b3935d0c3f4a5e2" category="cell">필수 요소입니다</block>
-  <block id="787ad0b7a17de4ad6b1711bbf8d79fcb" category="cell">구독</block>
-  <block id="102da3147e28a4669677fece4454c61f" category="cell">'비문'과 '헌신'</block>
-  <block id="f92d949ea1f5479f6dd45574e5f59f28" category="cell">STORAGE_OBJECT_TYPE, Subtenant_id, STORAGE_OBJECT_ID</block>
-  <block id="ad1ec60c9e1f10f6a9f5d9f2c5254bc6" category="cell">기술</block>
-  <block id="1efcb45ce32fab1dd54282a048a8f6e3" category="cell">'service_type'이 파일 서비스 또는 블록 스토리지인 경우 'subtenant_id'와 'service_type'이 필요합니다.</block>
-  <block id="6311ae17c1ee52b36e68aaf4ad066387" category="cell">기타</block>
   <block id="b3ff996fe5c77610359114835baf9b38" category="cell">Zone(영역)</block>
-  <block id="ac10508ad70f95b289ff520585169501" category="section-title">서비스 요청 범주를 검색합니다</block>
-  <block id="a6a3bee28fe66348826c742871e5920e" category="paragraph">다음 표에는 지정된 테넌트에 대한 검색 서비스 요청 범주가 나와 있습니다.</block>
-  <block id="ef64390758ed006361a142422376a39e" category="cell">서비스 요청 범주를 검색합니다.</block>
-  <block id="ea56ca71a57b3800165f4d81ba320151" category="cell">``tenant_id:’(선택 사항) 지정된 테넌트에 대한 서비스 요청을 반환합니다.</block>
   <block id="85dac96112743e58b2685d4be2d26037" category="summary">Keystone Azure 용량 풀 관리</block>
   <block id="c8b1502f7cf0ad4e087f224a2c408756" category="doc">Azure 용량 풀 관리</block>
   <block id="6cd169fe355cb205cd1b4f241e34baab" category="paragraph">이 섹션에서는 Azure 용량 풀을 관리하는 방법에 대해 설명합니다.</block>
@@ -875,23 +862,16 @@
   <block id="ac7d21b63f88f561c798cfcfabd678f4" category="summary">NetApp 서비스 엔진/셀프 서비스 액세스 포털</block>
   <block id="fb7268175d0ac71e5fdf71ab277aca4b" category="doc">NetApp Service Engine/셀프 서비스 액세스 포털</block>
   <block id="4836fbf45f5520deb90da1ffc3cc5d3a" category="paragraph">다음 FAQ는 NetApp 서비스 엔진에 적용됩니다.</block>
-  <block id="bfb968021aa3c15a51565cbc5a1befba" category="section-title">NetApp 서비스 엔진이란 무엇입니까?</block>
   <block id="5e16440750c287c18b8d2735b4e7dce2" category="paragraph">NetApp 서비스 엔진은 NetApp에서 운영하는 모델에서 셀프 서비스 포털로 NetApp Keystone 유연한 구독 서비스에 기반하여 스토리지 로그인 및 프로비저닝할 수 있습니다. 또한 이 툴은 구독의 소비 수준에 대한 보고서를 제공하고 모든 서비스 요청 또는 구독 변경을 시작합니다.</block>
-  <block id="3ced580d0f966cf9a9e85c8ba102cf71" category="section-title">고객 운영 모델에 NetApp 서비스 엔진이 필요합니까?</block>
   <block id="a1eb2f9d0213b4b83bd94c3a7846c5fd" category="paragraph">고객이 운영하는 모델에는 NetApp 서비스 엔진이 필요합니다. 이 보고서는 소비 상세 정보에 대한 기본 보고서를 제공하며 청구 정보를 수집하고 보고하는 데 필요합니다.</block>
-  <block id="2830e1b8fd96958c68b6b537df47ade8" category="section-title">NetApp 서비스 엔진은 어디에 설치됩니까?</block>
   <block id="f187b98f99dd84c9bafea152f790cf76" category="paragraph">NetApp 운영 모델에서 NetApp 서비스 엔진은 NetApp에서 제공하는 컴퓨팅 리소스에 로컬로 설치됩니다. 고객 운영 모델에서 NetApp 서비스 엔진은 고객이 제공한 컴퓨팅 리소스에 설치됩니다.</block>
-  <block id="daf4c58bd86834d6dddba936e6ecc6c0" category="section-title">NetApp 서비스 엔진에 로그인할 수 있는 사람은 누구입니까?</block>
   <block id="2aab810ea61ea2be6fd50a111f7ed7b3" category="paragraph">NetApp 서비스 엔진에 구성된 NetApp SSO 또는 로컬 사용자에 대해 사용자를 인증할 수 있습니다.</block>
-  <block id="093ddb2f473e37b6da40f0e7e913a53d" category="section-title">액세스는 어떻게 제어됩니까?</block>
   <block id="2a1113e11190f4c58504b1a6ac688c29" category="paragraph">NetApp 서비스 엔진은 역할 기반 액세스 제어(RBAC) 기능을 제공하며, 각 사용자는 역할에 연결할 수 있으므로 사용자가 수행할 수 있는 작업을 정의합니다. RBAC 할당은 NetApp 서비스 엔진을 사용하여 고객이 수행합니다.</block>
-  <block id="d4dac52f2011c2c86664208849ba30b2" category="section-title">어떤 액세스 컨트롤을 사용할 수 있습니까?</block>
   <block id="7a023009399c5dc5b7b99e87871f89a2" category="paragraph">다음과 같은 액세스 컨트롤을 사용할 수 있습니다.</block>
   <block id="f7c7e4f4bf22f20e3672c098d35dd711" category="list-text">* 파트너 관리자 * 테넌트를 생성 및 관리하고, 테넌트에 대한 가입을 관리하고, 사용 보고서를 보고, 스토리지의 기술적 측면을 관리할 수 있는 권한을 가진 파트너 측의 관리자.</block>
   <block id="2f2e521c25a605c65d92478142c6765e" category="list-text">* 고객/테넌트 관리자 * 가입 변경 요청, 새 사용자 및 하위 테넌트 생성, 파일 공유, 디스크 및 버킷을 생성 및 볼 수 있는 권한을 가진 고객 측 관리자.</block>
   <block id="ecb8c2ec72825e47633f4d596f3042a4" category="list-text">* NetApp 관리자(읽기). * 웹 포털의 모든 구성 요소에 액세스할 수 있고 모든 NetApp Keystone 유연한 구독, 파트너 및 테넌트 구독, 스토리지 등의 모든 세부 정보를 볼 수 있는 NetApp 관리자. 그러나 이 사용자는 생성, 편집 또는 삭제할 권한이 없습니다.</block>
   <block id="bd2427f414d04cdbc0b99f1914d92f72" category="list-text">* NetApp Admin. * 이 사용자는 NetApp 서비스 엔진 웹 포털에서 모든 기능을 수행할 수 있는 모든 권한과 권한을 가지고 있어 NetApp Keystone 유연한 구독 관리와 파트너 및 테넌트 관리를 위한 모든 활동을 관리할 수 있습니다.</block>
-  <block id="ff73f07d33b95ca8cfc1150265940594" category="section-title">사용량에 대한 청구서는 어디에서 확인할 수 있습니까?</block>
   <block id="91c4b877df1393baf62833e39a8a1140" category="paragraph">대시보드의 * Monthly 요금 * 위젯에서 지난 3개월 동안의 구독에 대한 집계된 월별 요금을 볼 수 있습니다. 위젯을 클릭하거나 * 관리 * &gt; * 청구 * 로 이동하여 자세한 청구 정보를 볼 수 있습니다.</block>
   <block id="62683b8fa40c14a57c23013cf042b13f" category="summary">Keystone 사용자 세부 정보 수정</block>
   <block id="9f1ee7522c3138aa9b488991d06bcec9" category="doc">사용자 세부 정보를 수정합니다</block>
@@ -1004,9 +984,7 @@
   <block id="36e8c53798d70dd276ec873bd9daedea" category="paragraph">운영 볼륨에 대해 비동기식 재해 복구 복제를 사용하려면 다음이 필요합니다.</block>
   <block id="20a7636d7d202a8ca2df19231e59b397" category="list-text">재해 복구를 지원하기 위해 볼륨이 상주하는 파일 서버 또는 블록 저장소를 구성합니다.</block>
   <block id="11616f8eb46b74c6bff078f57cc68eb5" category="list-text">파일 공유 또는 디스크의 재해 복구 복제 활성화 또는 비활성화 재해 복구가 구성된 경우 기본적으로 공유 및 디스크가 재해 복구 복제에 사용하도록 설정됩니다.</block>
-  <block id="1a616d944b2a6237298adf4b4e0db510" category="section-title">비동기 재해 복구를 지원하도록 파일 서버 또는 블록 저장소를 구성합니다</block>
   <block id="15c4b752abce956fbbf106b341d841ee" category="paragraph">생성 시 또는 나중에 파일 서버 또는 블록 저장소에서 비동기식 재해 복구를 사용하도록 설정합니다. 재해 복구를 사용하도록 설정한 후에는 재해 복구를 비활성화할 수 없으며 재해 복구 영역을 변경할 수 없습니다. 재해 복구 스케줄은 데이터가 재해 복구 위치(시간별, 시간당, 매일)로 복제되는 빈도를 지정합니다.</block>
-  <block id="1e53e767469d41ddc55c1ff94e72e9a6" category="section-title">파일 공유 또는 디스크에서 비동기식 재해 복구를 설정합니다</block>
   <block id="ec9c28ece16dda721c388c1826025c31" category="paragraph">상위 파일 서버 또는 블록 저장소가 비동기식 재해 복구에 대해 처음 구성된 경우 비동기식 재해 복구 복제에만 파일 공유 또는 디스크를 구성할 수 있습니다. 기본적으로 상위 호스트에서 복제가 설정된 경우 상위 호스트가 호스팅하는 파일 공유 또는 디스크에서 복제가 설정됩니다. 공유/디스크에서 재해 복구를 비활성화하여 특정 공유 또는 디스크의 복제를 제외할 수 있습니다. 이러한 공유/디스크에서 복제 설정 및 해제 간에 전환할 수 있습니다.</block>
   <block id="7a0a70d776cf86d3de0837b534ab29ef" category="list-text">운영 파일 서버 또는 블록 저장소를 삭제하면 모든 재해 복구 복제 복제본이 삭제됩니다.</block>
   <block id="8ca9cd050d34dab0c72a2ab896f3423c" category="list-text">파일 서버 또는 블록 저장소당 하나의 재해 복구 영역만 구성할 수 있습니다.</block>
@@ -1252,16 +1230,11 @@
   <block id="713f90c3b39f5ec302eea94ea370dfb5" category="summary">운영 모델</block>
   <block id="50b8fe65928589d1dc9240987fbba099" category="doc">운영 모델 및 책임</block>
   <block id="d668e987609ce56cd4cdff0a933bd047" category="paragraph">Flex Subscription에는 세 가지 운영 모델이 있습니다. 이러한 FAQ는 이러한 운영 모델과 관련이 있습니다.</block>
-  <block id="e79cecc02786a6187c528cdd9910d44e" category="section-title">다른 운영 모델은 무엇이며 주요 활동을 책임지는 사람은 누구입니까?</block>
   <block id="f1dae87d14ba76423e263dc9a79acdd7" category="paragraph">다음 차트에는 고객이 선택할 수 있는 NetApp 운영, 파트너 운영, 고객 운영 모델의 세 가지 운영 모델이 개괄적으로 나와 있습니다.</block>
-  <block id="7372576bac1b28ddc28d31e41ea7e09b" category="section-title">NetApp에서 운영하는 모델이란 무엇입니까?</block>
   <block id="518a259308e0c3fe0d2f9d4c06253b58" category="paragraph">고객이 선택한 성능 계층 및 스토리지 서비스 유형에 따라 제공 서비스를 구독하고 추가 비용으로 NetApp 운영 옵션을 선택할 수 있는 운영 모델입니다. NetApp은 아키텍처 및 제품을 정의하고 고객 사내에 설치하며 NetApp은 스토리지와 IT 리소스를 사용하여 일상적인 인프라 관리 작업을 관리합니다. 사용 가능한 스토리지 서비스 유형은 파일, 블록(iSCSI) 및 객체입니다. Cloud Volumes Service for GCP 및 AWS도 지원됩니다.</block>
   <block id="5a5aa994cefd2447961b51fe606e923c" category="paragraph">또한 NetApp은 파트너, 테넌트(해당하는 경우)를 생성 및 관리하고 가입을 관리합니다.</block>
-  <block id="2d44c8845591ca1e84d35e7b40f93933" category="section-title">파트너 운영 모델이란 무엇입니까?</block>
   <block id="dda2dbbc5f337b2b9d4c5e2d4e3a7a96" category="paragraph">파트너 또는 서비스 공급자의 운영 모델은 NetApp 운영 모델과 유사하지만, 파트너가 최종 고객을 위해 서비스를 운영 체제로 작동하고 있습니다. 이 모델에서 파트너는 참조된 계약 당사입니다. 테넌트는 서비스 공급자의 고객이며 NetApp과 청구 관계가 없습니다. 테넌시와 고객을 관리합니다. 테넌트 지원 요청은 NetApp에 에스컬레이션되기 전에 서비스 공급자가 먼저 요청합니다.</block>
-  <block id="3423629b31ab53a941eb4e5227bbb13d" category="section-title">고객 운영 모델이란 무엇입니까?</block>
   <block id="e420ca3aff97026d69088f19643d4222" category="paragraph">이 운영 모델을 통해 고객은 선택한 성능 계층 및 스토리지 서비스 유형에 따라 제공된 서비스를 구독할 수 있습니다. NetApp은 고객 사내에 아키텍처 및 제품 및 설치를 정의하고 고객이 스토리지 및 IT 리소스를 사용하여 인프라를 관리할 수 있도록 지원합니다. 사용 가능한 스토리지 서비스 유형은 파일, 블록(iSCSI) 및 객체입니다. 이 모델에서 고객은 계약된 당사자를 참조했으며 최종 사용자 또는 파트너가 될 수 있습니다.</block>
-  <block id="a5448f9e69fe79711ffadab7fc45e6f8" category="section-title">장비 소유자는 누구입니까?</block>
   <block id="d786327190524a9c90e4131ef647a939" category="paragraph">세 가지 운영 모델 모두에서 NetApp은 고객 사내에 설치된 모든 하드웨어 및 소프트웨어에 대한 소유권을 보유합니다.</block>
   <block id="759e7843d36c258b186b25b47ffd9fd5" category="summary">Keystone 보고 API</block>
   <block id="eaee0458abc2f7ebb2c43ac13ace0f5f" category="doc">API 보고</block>
@@ -1468,13 +1441,10 @@
   <block id="c193250886a64f4f8dceac2b04f3ce3d" category="list-text">완료 * 를 클릭합니다. 이렇게 하면 디스크를 수정할 작업이 생성됩니다.</block>
   <block id="301c52ea6694cae943f6e1a606fc60b7" category="paragraph">디스크 수정 은 비동기 작업으로 실행됩니다. 다음을 수행할 수 있습니다.</block>
   <block id="e926c4b1e2cbc184aaebed3300b65528" category="summary">NetApp Keystone 개요</block>
-  <block id="20ad3368f1c0111bba151423b888352a" category="doc">NetApp Keystone FAQ 를 참조하십시오</block>
   <block id="f7182ba3d28df04fc9e3174e93f4e48f" category="paragraph">다음 질문을 통해 NetApp Keystone에 대한 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.</block>
-  <block id="895b14af35ea6854d4009fe0ca2d99a9" category="section-title">NetApp Keystone란 무엇입니까?</block>
   <block id="3771874bf7c86306e773082a180804e6" category="paragraph">NetApp Keystone은 NetApp Keystone 유연한 지불(Flex Pay) 및 NetApp Keystone 유연한 구독(Flex Subscription)으로 구성된 사내 자본 지출(CapEx) 대체 포트폴리오를 제공합니다.</block>
   <block id="dad1dbc2c04df177fc1751f2fe38a796" category="list-text">* 유연한 지불: * 고객의 현금 흐름 요구를 충족하는 기존의 금융, 리스 및 고정/가변 옵션을 포함한 결제 솔루션 포트폴리오.</block>
   <block id="c2710cd486d9b2ff77e0f74a5cee084f" category="list-text">* 유연한 구독: * 온프레미스에 클라우드형 경험을 제공하고 결과 기반 서비스 옵션(NetApp 운영)을 갖춘 종량제 구독 기반 서비스입니다. 자세한 내용은 을 참조하십시오 <block ref="0db14f220bcc161ea430c9d9c2a995b1" category="inline-link-macro-rx"></block>.</block>
-  <block id="4180ab7c8af931cea237f1fc98665e51" category="section-title">NetApp Keystone은 고객에게 어떤 이점을 제공합니까?</block>
   <block id="495428b6203b94e86f7bb39ebd14943f" category="paragraph">NetApp Keystone은 자본 지출 및 하이브리드 클라우드 전략의 핵심 요소를 연결하여 민첩성, 재무 유연성을 제공하고, 금융 위험을 줄여 고객이 현금 유동성과 비즈니스 요구사항을 충족하도록 지원합니다.</block>
   <block id="92924bd6e7a05a6c5f4784c329571449" category="paragraph">NetApp Keystone 브랜드는 유연한 지불 솔루션 포트폴리오를 제공합니다. 여기에는 유연한 구독과 함께 현금을 중요시하는 고객을 위한 기존 금융, 리스 및 고정/가변 옵션이 포함됩니다.</block>
   <block id="3bf24c0eb67771c3c758536741dd1ecb" category="list-text">* 유연한 지불(재무 유연성, 결제 솔루션): *</block>
@@ -1490,16 +1460,11 @@
   <block id="f3e17e2700838fbe03291dba4993cb5b" category="list-text">일반 스토리지 작업(마이그레이션, 기술 업데이트, 업그레이드 등)에서 IT 리소스 재할당</block>
   <block id="d42a5439b90649db32832c09d880e732" category="list-text">워크로드를 클라우드로 마이그레이션하기 전의 단기적인 솔루션</block>
   <block id="8a0c55f43c16d42ccdb61d2fc1a0b26e" category="list-text">워크로드를 클라우드에서 다시 온프레미스로 이동합니다</block>
-  <block id="22d8bac7bce19700db0c242175fbbb36" category="section-title">Flex Subscription이란 무엇입니까?</block>
   <block id="50132e06ede63dd88766d29a3458614d" category="paragraph">Flex Subscription은 새롭고 유연한 온프레미스 가입 기반 조달 모델입니다. 고객은 리소스 관리의 장애물을 제거하고 긴 조달 주기를 거치는 등, 가치 창출 시간을 앞당길 수 있습니다. Flex Subscription을 통해 고객은 비즈니스 우선 순위에 맞게 경제성을 조정할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="e54def7567bc3788d2fec2fa9a5026d4" category="inline-link-macro-rx"></block>.</block>
-  <block id="c4ffc4661f0bd5f3fd3eabc25603722a" category="section-title">온프레미스의 의미는 무엇입니까?</block>
   <block id="d3b10007d7035a7c568a3955a37eed8b" category="paragraph">사내는 코로케이션 시설에서 고객 소유 데이터 센터 또는 고객 소유 공간으로 정의됩니다. 고객은 공간, 전력 및 냉각에 대한 책임이 있습니다.</block>
-  <block id="ad146d70889d9752ab9ecf771d643988" category="section-title">Flex Subscription 서비스의 이점은 무엇입니까?</block>
   <block id="5af1ebb17edd2710a7d69e1d2bd260d5" category="paragraph">Flex Subscription 서비스의 몇 가지 이점은 다음과 같습니다.</block>
   <block id="6fbd5ba12eeaf6cdc7cb2be883e1855d" category="list-text">규정 준수, 성능 및 보안에 대한 적절한 제어 가능 자세한 내용은 을 참조하십시오 <block ref="074845093102bf29a3fca45f5b6d3cea" category="inline-link-macro-rx"></block>.</block>
   <block id="10288ddd3c9dd46deaa222ee129df3fb" category="doc">미국 시민 지원(USCS)</block>
-  <block id="b705fe2f9502ab5e1421d02eae05ad9f" category="paragraph">NetApp Keystone 유연한 구독(Flex Subscription)은 NetApp 글로벌 서비스 및 지원 센터(GSSC)를 통해 미국 시민 지원(USCS) 서비스에 대한 지속적인 모니터링 및 지원을 제공합니다.</block>
-  <block id="437e64ea2377702ad2881edf8040c7c0" category="paragraph">GSSC는 다양한 NetApp 고객에게 서비스를 제공하는 지리적으로 분산된 팀입니다. Flex Subscription을 위한 USCS 서비스는 미국에 거주하는 미국 시민이 Flex Subscription 서비스를 모니터링하고 지원할 수 있도록 보장합니다. 시스템 유지 관리에 필요한 경우 현장 지원 및 문제 해결도 포함됩니다.</block>
   <block id="84f6d3a5def8d6fdb2e670f351bd97ac" category="summary">Keystone 파일 공유를 수정합니다</block>
   <block id="96d7785fd8b4fc6102aa2bba06ea552b" category="doc">파일 공유를 수정합니다</block>
   <block id="c037be27281bba056da9ad07524116b5" category="paragraph">공유 이름, 공유 유형(CIFS, NFS, 멀티 프로토콜), 서비스 레벨, 용량, 스냅샷 정책, 엑스포트 정책, 액세스 제어 목록(ACL) 및 태그</block>
@@ -1895,35 +1860,20 @@
   <block id="10bc620b6bb0f1ce4ea88e07efee73a6" category="summary">서비스 제공 세부 정보</block>
   <block id="997afc95a691698524a6c0b1a47c998b" category="doc">유연한 구독 서비스 제공 세부 정보</block>
   <block id="dcfcd456039c89795733b344b389f008" category="paragraph">다음 질문을 통해 NetApp Keystone Flex Subscription 서비스 제공에 대한 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.</block>
-  <block id="56b1544f87c08dd0e8c7c59b1d1e1cdd" category="section-title">최소 커밋된 용량은 얼마입니까?</block>
   <block id="00e98aacc231867731d4db2a6b86250d" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독)의 최소 약정 용량은 하나 이상의 서비스 계층에 대해 사이트당 100TiB입니다.</block>
-  <block id="ebea9f7028f7d76c3f0dd5d1dfbf8d6b" category="section-title">Flex Subscription 계약의 일반적인 기간은 얼마입니까?</block>
   <block id="d83aac3c55590e08db3e10f99075aa77" category="paragraph">Flex Subscription은 12개월, 24개월 및 36개월 기간을 제공합니다.</block>
-  <block id="9772d2c3eb163e82ac0b2a6db26279a1" category="section-title">스토리지에 어떻게 액세스할 수 있습니까?</block>
   <block id="6d1d3be3b468abe5f06f8fe18df9ecbb" category="paragraph">NetApp에서 운영하는(표준) 모델에서는 스토리지 컨트롤러(ONTAP System Manager 또는 시스템에 대한 관리 액세스)가 NetApp이 소유 및 관리합니다. NetApp 서비스 엔진 UI 및 API를 통해서만 스토리지를 모니터링 및 관리할 수 있습니다. NetApp 서비스 엔진 UI 및 API가 주로 청구 기능에 사용되는 고객 관리(또는 Lite) 배포에서는 Active IQ Unified Manager 및 ONTAP System Manager와 같은 스토리지 컨트롤러에 액세스하고 ONTAP 클러스터에 직접 액세스할 수 있습니다.</block>
-  <block id="25cf226a42f4322a9f3ba3c14009c01c" category="section-title">서비스를 어떻게 관리합니까?</block>
   <block id="6999dbc7d78a26010127d5443d27a0bd" category="paragraph">NetApp Service Engine은 스토리지를 프로비저닝하고 서비스 사용에 대한 보고서를 얻는 데 사용할 수 있는 오케스트레이션 및 관리 툴입니다.</block>
-  <block id="dfa5d25da0b83cc41c788254af95eee0" category="section-title">구독에서 커밋된 용량을 어떻게 늘릴 수 있습니까?</block>
   <block id="70be4f90cd164170af78a484759eb66c" category="paragraph">NetApp 서비스 엔진 관리 툴 또는 NetApp Keystone 성공 관리자를 통해 용량 추가 요청을 제출할 수 있습니다.</block>
-  <block id="2efbf1fbbce8fe7a7f1e6316c7c9296d" category="section-title">용량을 늘리면 용어가 확장됩니까?</block>
   <block id="81ffcf182e9bafd1ef112dadd81c3f06" category="paragraph">가입 후 마지막 90일 이내에 요청이 이루어지면 최소 12개월 동안 기간이 연장되어야 하는 경우를 제외하고 모든 추가 사항은 기존 기간 동안 상호 적용됩니다.</block>
-  <block id="f43c2a8621b1179e1cec61cb621cead2" category="section-title">새 가입은 새로운 연례에 따라 유연하게 사용할 수 있습니까?</block>
   <block id="353851e3be472d2e7deedffb8c84e9cd" category="paragraph">예. 새 구독은 기존 구독과 별도로 새 용어를 사용할 수 있습니다.</block>
-  <block id="f19b3e7365ec5d1a0a7a9b5c59224f13" category="section-title">테넌트 구독 조건은 파트너의 구독 기간 이후에도 연장될 수 있습니까?</block>
   <block id="74bf4d2ceefbc7590499b5c325cfea92" category="paragraph">테넌트 구독은 파트너의 현재 Flex Subscription 기간 이상으로 확장될 수 있습니다. 구독이 생성될 때 및 사용 현황 보고서에 경고가 표시됩니다.</block>
-  <block id="fc491079d497d14569148eb853cbd243" category="section-title">동일한 ONTAP 클러스터에서 여러 서브스크립션을 혼합할 수 있습니까?</block>
   <block id="3d96ed4e7cf96c207eb55360531e63d1" category="paragraph">아니요. 각 클러스터는 특정 구독에 할당됩니다.</block>
-  <block id="dcc217f9748618baebad99aab47addfd" category="section-title">모니터링 및 작업은 누가 수행합니까?</block>
   <block id="7078b31ae5be77a7e25eb2d03d3bdadb" category="paragraph">NetApp 운영 서비스의 경우, NetApp은 합의된 기대치에 따라 서비스를 제공할 수 있도록 인프라를 원격으로 모니터링하는 역할을 합니다.</block>
   <block id="faced2ebacb2b268fcaefb1ff2dfd6bc" category="paragraph">파트너 운영 서비스의 경우 파트너는 합의된 기대치에 따라 서비스를 제공할 수 있도록 인프라를 원격으로 모니터링할 책임이 있습니다.</block>
   <block id="7d9cf83822ab7d2c72f16da8a358e341" category="paragraph">고객 운영 서비스의 경우 고객은 인프라를 모니터링하고 NetApp에 문제를 제기할 책임이 있습니다.</block>
-  <block id="a313cb4f572f282feb16774be9de7982" category="section-title">서비스를 일찍 종료하면 어떻게 됩니까?</block>
   <block id="a31f3e7467e53150995af65a049395c5" category="paragraph">최소 서비스 기간은 12개월입니다. 서비스를 일찍 취소하는 경우 잔여 금액을 선불로 지불해야 합니다.</block>
-  <block id="dcf112dc318b9420122f0a53fe21ed45" category="section-title">최초 학기가 완료된 후 구매로 전환할 수 있는 기회가 있습니까?</block>
-  <block id="7dbf31d33cf112c633b37c1ad90088c4" category="paragraph">아니요 이 특가에는 구매로 전환할 수 있는 옵션이 포함되어 있지 않습니다. 또한 이전에 구매한 NetApp 제품은 이 프로그램의 범위를 벗어납니다.</block>
-  <block id="0b5846399f2e6b14b7748017e567a036" category="section-title">특정 소프트웨어 버전을 요청할 수 있습니까?</block>
   <block id="84243f6b8d465b834e36cf58cd48fed9" category="paragraph">아니요 NetApp Keystone은 모든 고객 기반에서 소프트웨어 버전을 표준화했습니다.</block>
-  <block id="df1a5214600b52b2e71397e2ebdde540" category="section-title">소프트웨어 업그레이드에 대한 정보가 제공됩니까?</block>
   <block id="73e02951afd28d2508077afaf5bc798f" category="paragraph">예. 모든 유지 보수/업그레이드 작업은 NetApp Keystone 성공 관리자가 고객과 상호 합의된 시간에 전달하고 스케줄합니다.</block>
   <block id="7fdb44c4efca9cb2f8ad3b4db2328a89" category="summary">Keystone 백업 API</block>
   <block id="160dacdfe2b74f89864f2e85eafc1976" category="doc">백업 API</block>
@@ -1994,7 +1944,6 @@
   <block id="40354f7e00cd787df40570710076cedf" category="cell">이름(string): 지역 이름.</block>
   <block id="ff138ca03bebc3f223aa7473c49093cc" category="summary">NetApp 서비스 엔진 REST API</block>
   <block id="f85fe16835da940dc0eded602be1d88a" category="doc">NetApp 서비스 엔진 REST API</block>
-  <block id="cbb81506a7fe3ef03f7a89c76c52131a" category="section-title">페이지 매김</block>
   <block id="4bb8f28d1ae5f4c793395a1ce16ebd50" category="paragraph">많은 API 호출에서 많은 수의 레코드를 반환합니다. 오프셋 및 제한 값을 지정하여 레코드 수를 제한할 수 있습니다.</block>
   <block id="2c9821eb0bfa9053dd0b371fa82738f0" category="list-text">* Limit. * 반환할 레코드 수입니다.</block>
   <block id="75100d42069de12445ab076dab1a5044" category="list-text">* 오프셋. * 첫 번째 레코드를 반환하기 전에 건너뛸 레코드 수입니다. 예를 들어, 1의 오프셋은 첫 번째 레코드를 건너뛰고 2부터 레코드를 반환합니다.</block>
@@ -2777,47 +2726,7 @@
   <block id="f9452e95d52ebd12efeebe564007d35d" category="summary">NetApp Keystone 구독</block>
   <block id="dd476ad29752995a24a718ac007daee1" category="doc">NetApp Keystone 유연한 구독 FAQ</block>
   <block id="17fdf54028714053b0bba12405eaecd1" category="paragraph">다음 질문을 통해 NetApp Keystone 유연한 구독 서비스에 대한 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.</block>
-  <block id="73f7ecfd22f46b0ca864812944c99f09" category="section-title">NetApp Keystone 유연한 서브스크립션의 일부로 제공되는 것은 무엇입니까?</block>
-  <block id="1771982509e3d9209f34ffd1b4eaca53" category="paragraph">NetApp Keystone 유연한 구독(Flex Subscription)은 블록, 파일 및 오브젝트 데이터 서비스를 위한 구독 기반 서비스로, 사내에 구축할 수 있으며 NetApp, 파트너 또는 고객이 직접 운영할 수 있습니다.</block>
-  <block id="e61939fcc36e3f0f256adf22e9816969" category="section-title">Flex Subscription의 일부로 제공되는 스토리지 서비스는 무엇입니까?</block>
-  <block id="61813b3866df19ca76d72405fbac5ce9" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="eb5228f75c5e56b970f5ae0448055097" category="inline-link-macro-rx"></block></block>
-  <block id="e6df68e8257fbec40d2e98c80413136d" category="section-title">어떤 추가 서비스가 지원됩니까?</block>
-  <block id="4d38b0e1221211e8162a34c72f8413bc" category="paragraph">고급 데이터 보호(백업 및 재해 복구) 및 FabricPool를 지원하는 하이브리드 클라우드 계층화는 추가 비용으로 선택할 수 있는 애드온 서비스입니다.</block>
-  <block id="f6629ad264273c8be348e79ee1afafa8" category="section-title">NetApp은 서비스를 통해 어떤 서비스 수준을 보장합니까?</block>
-  <block id="8a6dfd42d0ac82ba8881e2297f593099" category="paragraph">NetApp 운영 시나리오에서 NetApp Keystone은 프로비저닝되는 스토리지에 대한 IOPS/TiB와 각 서비스 수준에 대한 지연 시간을 보장합니다.</block>
-  <block id="78581b95ff4d4425c41531494bda5211" category="section-title">Flex Subscription은 무엇에 매핑됩니까?</block>
-  <block id="9b4fc2969b2c90d6baa93f8dfa36f11f" category="paragraph">Flex Subscription은 단일 사이트 또는 단일 데이터 센터에 매핑되며 다양한 성능 서비스 수준으로 구성될 수 있습니다.</block>
-  <block id="c0264d66e7928c21d3476b4e798b01a0" category="section-title">익스트림 계층화 및 프리미엄 계층화 성능 레벨의 이점은 무엇입니까?</block>
-  <block id="0dad49754b7ea8c51c7759c604e3c2c6" category="paragraph">최고 수준의 계층화 및 프리미엄 계층화의 성능 수준을 통해 계층화가 이루어짐에 따라 스토리지 설치 공간과 관련 비용을 절감할 수 있습니다. NetApp은 데이터의 25%가 핫 데이터라고 가정하며, 나머지 75%는 사용 빈도가 적거나 콜드 스토리지로 이동합니다. 또한 사용 현황 보고서를 확인하여 데이터 액세스 빈도를 파악하고 해당 정보를 기반으로 계층화 서비스를 설정할 수 있습니다.</block>
-  <block id="d420a7af1be236a5e734a1e6bba0de03" category="section-title">파트너가 NetApp에서 고객에게 구입한 것보다 더 많은 용량을 판매할 수 있습니까?</block>
-  <block id="f0bc270e3ef04141bcac07684ae4ad66" category="paragraph">테넌트 가입은 파트너가 구입한 용량에 의해 제한되지 않습니다. 파트너는 NetApp에서 고객에게 판매한 용량보다 더 많은 용량을 판매할 수 있습니다. 구입한 용량을 초과하는 용량을 초과 할당이라고 합니다.</block>
-  <block id="717c88bad9af17098aa1fefdc98396d4" category="section-title">고객 툴과 통합하기 위해 API가 제공됩니까?</block>
   <block id="19dac31ef92aadf5c033c9154e144b27" category="inline-link-macro">Keystone 유연한 구독 API 가이드</block>
-  <block id="fc81ff8e28e1fadad7cbd4cb4634b04d" category="paragraph">예, RESTful API를 자체 애플리케이션에 통합할 수 있습니다. 지원 &gt; API Documentation * 으로 이동하여 Flex Subscription 서비스에 대한 API 설명서를 확인하십시오. 자세한 내용은 를 참조하십시오 <block ref="5b59c49596915ff0a388a418bca92047" category="inline-link-macro-rx"></block>.</block>
-  <block id="3484a1dcf9558d2b5b6189781e2c93e7" category="section-title">버스트 용량이란?</block>
-  <block id="abf5618d5e1333eab13c92ceaf73a55e" category="paragraph">사용량을 커밋된 용량보다 20% 이상 증가 및 감소시킬 수 있습니다. 최대 용량 사용량은 매일 측정되며 사용 시에만 비용이 청구됩니다. 예를 들어, 커밋된 용량이 100TiB인 경우 최대 120TiB까지 늘릴 수 있습니다.</block>
-  <block id="e4aac680b428772c98f7620e086f5e26" category="section-title">버스트 사용에 대한 프리미엄 요금이 있습니까?</block>
-  <block id="38c09cc92a132f967b3e77b300543718" category="paragraph">약정 용량의 최대 20%에 해당하는 버스트 용량 사용량은 약정 용량과 동일한 비율로 청구되며, 약정 용량의 20% 이상을 사용하는 경우 50% 프리미엄 요금입니다.</block>
-  <block id="93870a2fd753901b099d02a82da998b3" category="section-title">버스트 용량의 이점은 무엇입니까?</block>
-  <block id="a0e46e49bc163a72d6692ed9996ad212" category="paragraph">버스트 용량은 장기간에 걸쳐 커밋하는 것에 비해 필요할 때 스토리지를 사용할 수 있는 유연성을 제공합니다.</block>
-  <block id="a85ccd845093f8e54e28ce49e499da29" category="section-title">테넌트에 버스트 용량은 어떻게 할당됩니까?</block>
-  <block id="c70d5dbeae72932fc6b8fa6039bf2fba" category="paragraph">최대 용량은 파트너에게 할당되며 파트너는 요구사항에 따라 고객에게 추가로 할당합니다.</block>
-  <block id="e3761ebb5f81a7baf1e8a2c2538ef616" category="section-title">커밋된 용량 및 버스트 용량 사용량을 어디에서 확인할 수 있습니까?</block>
-  <block id="afdd26404ad02349bc9cb62d7ef0a0cc" category="paragraph">NetApp Service Engine에는 커밋된 용량에 대해 사용된 용량을 보고하는 대시보드가 내장되어 있습니다.</block>
-  <block id="ad965f43328354ec9b015570fd24e980" category="section-title">약정 용량 사용량의 특정 비율에 도달하면 알림이 표시됩니까?</block>
-  <block id="e7260442255a0f97105d66c3dad4baff" category="paragraph">예. 관리 툴에서 NetApp 서비스 엔진 대시보드를 통해 용량 사용에 대한 알림을 제공합니다.</block>
-  <block id="b56873db48bfa7b3fc1ab1181361d247" category="section-title">Flex Subscription 사용량은 어떻게 볼 수 있습니까?</block>
-  <block id="20db5ef7e42351b012d51ce4a23bc9f4" category="paragraph">NetApp Service Engine은 구독하는 모든 서비스와 소비되는 양이 포함된 대시보드 보기를 제공합니다. NetApp 서비스 엔진에 대한 자세한 내용은 을 참조하십시오 <block ref="8d35461a50e9d2cb480a76a035c5e522" category="inline-link-macro-rx"></block>.</block>
-  <block id="95ff4da1ee3d8daa27d594115a065c14" category="section-title">서비스와 관련된 문제를 어떻게 보고합니까?</block>
-  <block id="c92cb788a14d61abb2a7bb5b63881591" category="paragraph">다음과 같은 다양한 채널을 통해 NetApp Keystone 지원을 받을 수 있습니다.</block>
-  <block id="dd9afe0490efda8b120f93740675d9bf" category="section-title">새 스토리지 서비스를 주문할 수 있습니까?</block>
-  <block id="4ff5ee2c15890050cb37f8ed6f48173d" category="paragraph">예. NetApp Service Engine 포털에서 새로운 스토리지 서비스 또는 스토리지 서비스 확장을 요청할 수 있습니다. 이 요청은 NetApp Keystone 운영 팀에서 처리한 후 사용할 수 있도록 합니다.</block>
-  <block id="6fd2ab1c8a57e25b6112773aa471db47" category="section-title">스토리지 서비스 약속을 즉시 확인할 수 있습니까?</block>
-  <block id="76e83a78381ac0ab92f7e59cafae5aa8" category="paragraph">요청된 용량의 양에 따라 용량이 이미 배포되었는지 또는 추가 장비를 배송 및 설치해야 하는지 여부가 결정됩니다.</block>
-  <block id="b53836a887bdf3d20315059a945b66b5" category="section-title">계층 간에 워크로드를 이동할 수 있습니까?</block>
-  <block id="76f557c5004947c00c69ed100542e48d" category="paragraph">예. 워크로드가 이동하는 계층에 사용자가 가입한 경우 계층 간에 워크로드를 이동할 수 있습니다. 하지만 성능이 저하될 수 있으므로 상위 계층에서 하위 계층으로 이동하는 것은 권장되지 않습니다. 이 프로세스는 파일 공유를 편집하고 서비스 수준 설정을 변경하는 것만으로 수행됩니다.</block>
-  <block id="787085c4f3beb4117a673b422a348e5f" category="section-title">어떤 소프트웨어 버전(예: ONTAP)이 기본값으로 설치되어 있습니까?</block>
-  <block id="34e1c8f90cd0f76f40f57cd1bf1d557e" category="paragraph">서비스 계층에 따라(예: 파일 및 블록 서비스가 포함된 ONTAP, 블록용 SANtricity 및 객체용 StorageGRID) 지원 팀은 보안 또는 기능 문제 없이 가장 안정적인 최신 릴리즈를 설치합니다.</block>
   <block id="4d76839da96d12ecc14c456cf5c67834" category="summary">Keystone 서비스 레벨</block>
   <block id="1b4db106b3929030e7743e9c5a745ee1" category="paragraph">다음 표에 나열된 방법을 사용하여 서비스 수준을 검색, 생성, 수정 및 삭제할 수 있습니다.</block>
   <block id="2a4df15c0eac68c58729cdbad5afb7b9" category="cell">'/v2.1/서비스 수준'</block>
@@ -3096,4 +3005,74 @@
   <block id="65b034376f8c6863d7282690b92e3bf9" category="paragraph">Flex Subscription은 클라우드 연결을 통해 온프레미스 시스템에서 클라우드 수준의 경험을 제공하는 서비스형 스토리지 오퍼링입니다.</block>
   <block id="e49cf55687c692a556892a0f614ce9bf" category="list-text">* NetApp Keystone 유연한 지불 * - NetApp Keystone 유연한 지불(Flex Pay)은 고객의 현금 흐름 요구를 충족하기 위해 기존의 금융, 임대 및 고정/가변 옵션을 포함하는 유연한 금융 대안 포트폴리오입니다.</block>
   <block id="cf7ec62445091377db24ebd1c9fd2d93" category="list-text">* NetApp Keystone 유연한 구독 * - NetApp Keystone 유연한 구독(유연한 구독)은 확장 가능한 성과 기반 구독 서비스로, 온프레미스 클라우드 방식의 경험을 제공합니다.</block>
+  <block id="dbfc4f71a4b957c42860a7892c3f69ce" category="doc">NetApp Keystone FAQ(자주 묻는 질문)</block>
+  <block id="f6c9f270161fc54b8171600d1892aca1" category="paragraph">* NetApp Keystone란? *</block>
+  <block id="06c96924e7d69a8367e454a26634c43f" category="paragraph">* NetApp Keystone은 고객에게 어떤 이점을 제공합니까? *</block>
+  <block id="14f844051d2834775cfe8fc636854af6" category="paragraph">* Flex Subscription란 무엇입니까? *</block>
+  <block id="5aed86d713fb69dbe024ac9088076e73" category="paragraph">* 온프레미스의 의미는 무엇입니까? *</block>
+  <block id="a75a7cee34b949b2845063d48f4f6ce7" category="paragraph">* Flex Subscription 서비스의 이점은 무엇입니까? *</block>
+  <block id="a3bbf620adc7e7bcc0d6001db0d7e174" category="paragraph">* NetApp Keystone 유연한 구독의 일부로 제공되는 사항 * NetApp Keystone 유연한 구독(유연한 구독)은 블록, 파일 및 오브젝트 데이터 서비스에 대한 구독 기반 서비스로, 사내에 구축할 수 있으며 NetApp, 파트너 또는 고객이 직접 운영할 수 있습니다.</block>
+  <block id="7f3c8f66eb2c4902c4723ee68d1dd702" category="paragraph">* Flex Subscription의 일부로 제공되는 스토리지 서비스는 무엇입니까? * 자세한 내용은 를 참조하십시오 <block ref="eb5228f75c5e56b970f5ae0448055097" category="inline-link-macro-rx"></block></block>
+  <block id="78d9a5281ccb539856a1f4dd20094aea" category="paragraph">* 지원되는 애드온 서비스는 무엇입니까? * 고급 데이터 보호(백업 및 재해 복구) 및 FabricPool 지원 하이브리드 클라우드 계층화는 추가 비용으로 선택할 수 있는 애드온 서비스입니다.</block>
+  <block id="f51aca773a35af7c6804c9de4ec05591" category="paragraph">* NetApp이 서비스 수준에서 어떤 서비스 수준을 보장합니까? * NetApp 운영 시나리오에서, NetApp Keystone은 프로비저닝되는 스토리지에 대한 IOPS/TiB와 각 서비스 수준에 대한 지연 시간을 보장합니다.</block>
+  <block id="22fbbcf2456a5d7f160b510c7b3af3ae" category="paragraph">* Flex Subscription은 어떤 기능을 제공합니까? * Flex Subscription은 단일 사이트 또는 단일 데이터 센터에 매핑되며 서로 다른 성능 서비스 수준으로 구성될 수 있습니다.</block>
+  <block id="649571bfc7e1b8f98d07b3d829506d93" category="paragraph">* 최고 수준의 계층화 및 프리미엄 계층화 성능 수준의 이점은 무엇입니까? * 계층화는 최고 수준의 계층화 및 프리미엄 계층화 성능 수준에서 지원되며, 이를 통해 스토리지 설치 공간과 관련 비용을 줄일 수 있습니다. NetApp은 데이터의 25%가 핫 데이터라고 가정하며, 나머지 75%는 사용 빈도가 적거나 콜드 스토리지로 이동합니다. 또한 사용 현황 보고서를 확인하여 데이터 액세스 빈도를 파악하고 해당 정보를 기반으로 계층화 서비스를 설정할 수 있습니다.</block>
+  <block id="d6df6eff28ac44af1e13e275b0228621" category="paragraph">파트너는 NetApp에서 고객에게 구입한 것보다 더 많은 용량을 판매할 수 있습니까? * 테넌트 가입은 파트너가 구입한 용량에 의해 제한되지 않습니다. 파트너는 NetApp에서 고객에게 판매한 용량보다 더 많은 용량을 판매할 수 있습니다. 구입한 용량을 초과하는 용량을 초과 할당이라고 합니다.</block>
+  <block id="1ed1cac8cc85c7270eaad5bcd4a6157f" category="paragraph">* 고객 툴과 통합하기 위해 API가 제공됩니까? * 예, RESTful API를 자체 애플리케이션에 통합할 수 있습니다. 지원 &gt; API Documentation * 으로 이동하여 Flex Subscription 서비스에 대한 API 설명서를 확인하십시오. 자세한 내용은 를 참조하십시오 <block ref="5b59c49596915ff0a388a418bca92047" category="inline-link-macro-rx"></block>.</block>
+  <block id="c54f3024ff23dcfc42681979d3398492" category="paragraph">* 버스트 용량이란? * 사용량을 약정 용량보다 20% 이상 증가 또는 감소시킬 수 있습니다. 최대 용량 사용량은 매일 측정되며 사용 시에만 비용이 청구됩니다. 예를 들어, 커밋된 용량이 100TiB인 경우 최대 120TiB까지 늘릴 수 있습니다.</block>
+  <block id="b97f95dce25dbfc957db05f02efd82ea" category="paragraph">* 버스트 사용에 대한 프리미엄 요금이 있습니까? * 약정 용량의 최대 20%에 해당하는 버스트 용량 사용량에 대해서는 약정 용량과 동일한 비율로 청구되며, 약정 용량의 20%를 초과하는 사용은 50% 프리미엄으로 청구됩니다.</block>
+  <block id="a8ea445913e860dbecd22f3fee610a90" category="paragraph">* 버스트 용량의 이점은 무엇입니까? * 버스트 용량으로 장기간 커밋하는 대신 필요할 때 스토리지를 유연하게 사용할 수 있습니다.</block>
+  <block id="52f1a573da07f1d12b2d222128c410e1" category="paragraph">* 테넌트에 버스트 용량은 어떻게 할당됩니까? * 버스트 용량은 요구사항에 따라 고객에게 추가로 할당하는 파트너에게 할당됩니다.</block>
+  <block id="921cd7d2a595c1ff2d4f7183d236e5da" category="paragraph">* 커밋된 용량 및 버스트 용량 사용은 어디에 있습니까? * NetApp 서비스 엔진에는 약정 용량에 대해 사용된 용량을 보고하는 기본 대시보드가 있습니다.</block>
+  <block id="3b7f70a118579af4a1763cf34abef2a7" category="paragraph">* 약정 용량 사용량의 특정 비율에 도달하면 알림이 표시됩니까? * 예. 관리 툴은 NetApp Service Engine 대시보드를 통해 용량 사용에 대한 알림을 제공합니다.</block>
+  <block id="4419434a1b65d14caa10786114db3112" category="paragraph">* Flex Subscription 사용량을 보려면 어떻게 해야 합니까? * NetApp 서비스 엔진은 구독하는 모든 서비스와 소비되는 양에 대한 정보가 포함된 대시보드 뷰를 제공합니다. NetApp 서비스 엔진에 대한 자세한 내용은 을 참조하십시오 <block ref="8d35461a50e9d2cb480a76a035c5e522" category="inline-link-macro-rx"></block>.</block>
+  <block id="5a3115449a2b3065d5bb7484cfe4f999" category="paragraph">* 서비스와 관련된 문제는 어떻게 보고합니까? * NetApp Keystone 지원은 다음과 같은 다양한 채널을 통해 제공됩니다.</block>
+  <block id="00b8e318a80a143ca212b4f3b0cb449f" category="paragraph">* 새 스토리지 서비스를 주문할 수 있습니까? * 예. NetApp 서비스 엔진 포털에서 새 스토리지 서비스 또는 스토리지 서비스 확장을 요청할 수 있습니다. 이 요청은 NetApp Keystone 운영 팀에서 처리한 후 사용할 수 있도록 합니다.</block>
+  <block id="eff136c1ba2e8a2d6e4b14ddd6a80383" category="paragraph">* 스토리지 관련 약속은 즉시 이용할 수 있습니까? * * 요청된 용량의 양에 따라 용량이 이미 배포되었는지 또는 추가 장비를 배송하고 설치해야 하는지 여부가 결정됩니다.</block>
+  <block id="f71fb6dbf8a02dfaed157786a5d1337e" category="paragraph">* 계층 간에 워크로드를 이동할 수 있습니까? * 예. 워크로드가 이동하는 계층에 사용자가 가입되어 있는 경우 계층 간에 워크로드를 이동할 수 있습니다. 하지만 성능이 저하될 수 있으므로 상위 계층에서 하위 계층으로 이동하는 것은 권장되지 않습니다. 이 프로세스는 파일 공유를 편집하고 서비스 수준 설정을 변경하는 것만으로 수행됩니다.</block>
+  <block id="0d5e545b2de42575e5208d3abb79f68c" category="paragraph">* 서비스 계층에 따라 어떤 소프트웨어 버전(예: ONTAP)이 기본적으로 설치됩니까? * 서비스 계층에 따라(예: 파일 및 블록 서비스가 포함된 ONTAP, 블록용 SANtricity 및 객체용 StorageGRID) 지원 팀이 보안 또는 기능 문제 없이 가장 안정적인 최신 릴리스를 설치합니다.</block>
+  <block id="7ae9036783fb54e0a52aedfa26814f6b" category="paragraph">* 다른 운영 모델은 무엇이며 주요 활동을 책임지는 사람은 누구입니까? *</block>
+  <block id="f2ac98a13f280a4eeb27bb4780175f5e" category="paragraph">* NetApp 운영 모델이란? *</block>
+  <block id="7dd4b2b13e8a8a109244cccfafe4b5a5" category="paragraph">* 파트너 운영 모델이란? *</block>
+  <block id="39154db86ad669a527d87dd05e1655c5" category="paragraph">* 고객 운영 모델이란? *</block>
+  <block id="7eb973e02baa4e25734e8bed944c060a" category="paragraph">* 장비 소유자는 누구입니까? *</block>
+  <block id="3b4d5a194534074e4e26b153c90a2ef6" category="doc">미국 시민 지원(USCS)</block>
+  <block id="90770185e7f0d93f4befd67871a81092" category="paragraph">미국 시민 지원(USCS)은 NetApp Keystone 구독을 위한 추가 서비스입니다. 이 서비스를 통해 미국 Keystone의 지속적인 서비스 제공 및 지원을 받을 수 있습니다 미국 시민권입니다 제공됩니다.</block>
+  <block id="0298010e49da89b748a96d3dd60c3579" category="paragraph">다음 섹션을 읽고 이 애드온 서비스에 구속되는 구독 요소를 이해하십시오. 또한 NetApp Keystone 계약 약관에 따라 제공됩니다.각주: Disclaimer1 [여기에 설명된 서비스 및 오퍼링은 완전히 실행된 Keystone 계약의 적용을 받으며 제한됩니다.]</block>
+  <block id="616e342ef98270057c5d3a2f3e3e7338" category="section-title">NetApp 글로벌 서비스 지원 센터 모니터링</block>
+  <block id="c779911684ebe3ceed4035306e2997c3" category="paragraph">NetApp GSSC(글로벌 서비스 및 지원 센터)는 제품 및 서비스 상태를 모니터링하고, 원격 지원을 제공하고, Keystone 성공 매니저와 협업합니다. 관련 Keystone 가입 주문과 관련된 제품을 모니터링하는 모든 직원은 미국 시민이며 제공됩니다.</block>
+  <block id="b47b3a710484adb2c8cfacd64043b550" category="section-title">Keystone 성공 관리자</block>
+  <block id="42f709e8a5be1c018041912b530ca640" category="paragraph">Keystone Success Manager는 미국 미국 시민입니다 제공됩니다. 이러한 책임들의 책임은 NetApp Keystone 계약에 명시되어 있습니다.</block>
+  <block id="e8483ac20b1990d2362dd45e18cfb1d2" category="section-title">구축 활동</block>
+  <block id="221d560cb3a4127ba5fc624a195a7f29" category="paragraph">가능한 경우, 미국 에서는 현장 및 원격 배포 및 설치 활동을 수행합니다 미국 시민권입니다 제공됩니다. 각주: 법적 고지 [현장 활동에 적절한 직원의 가용성은 Keystone 시스템이 구축된 지리적 위치에 따라 다릅니다.]</block>
+  <block id="cedba9b370f4f8fb7584b8a96576dbce" category="paragraph">가능한 경우, 필요한 현장 문제 해결 및 지원 활동은 미국이 수행합니다 미국 시민권입니다 제공됩니다. 각주: 부인[]</block>
+  <block id="d5711d7ae3d6e6f47fa957a95d3142aa" category="paragraph">* 커밋된 최소 용량은 얼마입니까? *</block>
+  <block id="fd71b73700b422e3b4675c81159656ef" category="paragraph">* Flex Subscription 계약의 일반적인 기간은 얼마입니까? *</block>
+  <block id="09d09e7b7afd8ded500977e3cee6326f" category="paragraph">* 스토리지에 액세스하는 방법은 무엇입니까? *</block>
+  <block id="9fa797e742e7be6391aced52fdf5093a" category="paragraph">* 서비스를 어떻게 관리합니까? *</block>
+  <block id="f240946a05316b452971a7e9095ac4a2" category="paragraph">* 구독에서 커밋된 용량을 어떻게 늘릴 수 있습니까? *</block>
+  <block id="5d82a19ac986be3e28747ff2634e505b" category="paragraph">* 용량을 늘리면 용어가 확장됩니까? *</block>
+  <block id="b966cade5691b18bf62755c195447e05" category="paragraph">* 새 가입은 새로운 연례에 따라 유연하게 사용할 수 있습니까? *</block>
+  <block id="58308e954617b52ff118d3299ec8f228" category="paragraph">* 테넌트 구독 조건은 파트너의 구독 기간 이후에도 연장될 수 있습니까? *</block>
+  <block id="74fc177e4bef1cdf2bea4ccdadd13631" category="paragraph">* 동일한 ONTAP 클러스터에서 여러 서브스크립션을 혼합할 수 있습니까? *</block>
+  <block id="419ac205a5a84ff5f314afba4f5edb27" category="paragraph">* 모니터링 및 작업은 누가 합니까? *</block>
+  <block id="393da119bc3b207bcea2f02315c388ac" category="paragraph">* 서비스를 일찍 종료하면 어떻게 됩니까? *</block>
+  <block id="b387af4e718e4b5565ce87f74234f50f" category="paragraph">* 초기 기간이 완료된 후 구매로 전환할 수 있는 기회가 있습니까? * 아니요 이 특가에는 구매로 전환할 수 있는 옵션이 포함되어 있지 않습니다. 또한 이전에 구매한 NetApp 제품은 이 프로그램의 범위를 벗어납니다.</block>
+  <block id="a16dc1f5755db55741d2ae801d6aa73d" category="paragraph">* 특정 소프트웨어 버전을 요청할 수 있습니까? *</block>
+  <block id="ee62bd671134498c82c2878422e9f59a" category="paragraph">* 소프트웨어 업그레이드에 대한 정보를 받을 수 있습니까? *</block>
+  <block id="4b27d8b1b37284b9da0b4213e4e6675d" category="paragraph">|==| HTTP 메서드 | 경로 | 설명 | 매개 변수</block>
+  <block id="9104a21e58f1a69b57c6b2ae89602908" category="paragraph">|'POST'|'/v2.1/Tenants/{tenant_id}/service필수/카테고리'|서비스 요청을 작성합니다. | "tenant_id": 테넌트 식별자.</block>
+  <block id="58e00570185a83ad51f69b7079961f6b" category="paragraph">|Category| 필수 요소입니다</block>
+  <block id="4ef290f7b3c58a4e717e6cc36148b17f" category="paragraph">서비스 및 블록 스토리지인 경우, 서비스 유형, 서비스 유형, 서비스 유형 등이 필요합니다. 기타|구역</block>
+  <block id="0725399a92712a8b8a9b398144b43a68" category="cell">* 요청 본문 예: * {"subject":"string","comment":"string","category":"subscription","priority":"Normal","subscription":"a-S00003969", "약속":{"service_level":"standard", "new_substitment":10}, "zone":"au-east1-A", "subtenant_id":"5d2fb0fb4f47df00015274e3", "storage_object_type":"파일 서버", "storage_object_id":"5d2fb0fb4f47df00015274e3","service_type":"파일 서비스"} * 응답 본문 예: * {"status":{"user_message":"string", "verbose_message":"string", "code":"string"}, "result": {"returned_records":1, "records":[{"id":"string","description":"string","status":"new", "nd:"nd",", "n순위:"new",",", "createdDate":"2020-05-12T03:18:25+0000", "UpdatedDate":"2020-05-12T03:18:25+0000"}} == 서비스 요청 범주 검색 다음 표에서는 지정된 테넌트에 대한 검색 서비스 요청 범주를 보여 줍니다.</block>
+  <block id="b235a9ee30b02d07ff714bb1542b9b1d" category="paragraph">HTTP 메서드 | 경로 | 설명 | 매개 변수</block>
+  <block id="3cfc9b45a25da8c56ea24ecc26ed6f54" category="paragraph">|'Get'|'/v2.1/Tenants/{tenant_id}/servicerequests/categories'|서비스 요청 범주를 검색합니다. | "tenant_id:"(선택 사항) 지정된 테넌트에 대한 서비스 요청을 반환합니다.</block>
+  <block id="c31fc18f14b317fa271c222c8662ff0b" category="cell">필요한 요청 본문 속성: "없음" * 요청 본문 예: * 없음 * 응답 본문 예: * {"status":{"user_message":"좋습니다. 5개의 레코드를 반환했습니다.", "verbose_message":", "code":200}, "result": {"returned_records":5, "records":[{"key":"dr", "value":"Disaster Recovery Failover"}, {"key":"technical issue"},", "subscription value", {key":",", "기타 값:", "subscription value",",":",",",",",", "backup 값:" "백업 복원"}}.</block>
+  <block id="8615a49d222eeb50c22f60e749d36d5e" category="paragraph">* NetApp 서비스 엔진이란? *</block>
+  <block id="a5e1a7f3557344aca20fdd047ee9cace" category="paragraph">* 고객 운영 모델에 필요한 NetApp 서비스 엔진? *</block>
+  <block id="46eed4ec681c7ae2f6418744e02e8ba8" category="paragraph">* NetApp 서비스 엔진은 어디에 설치됩니까? *</block>
+  <block id="170e5a414316e2259d6b42a282c77c45" category="paragraph">* NetApp 서비스 엔진 * 에 로그인할 수 있는 사람은 누구입니까</block>
+  <block id="109d8311a672ab956bbde63f671b0b7c" category="paragraph">* 액세스는 어떻게 제어됩니까? *</block>
+  <block id="bfc9a9f184efe2a5063de0904d04a09f" category="paragraph">* 어떤 액세스 컨트롤을 사용할 수 있습니까? *</block>
+  <block id="dc621b6e8c29275d1ab76120be6c1392" category="paragraph">* 내 사용량에 대한 청구서는 어디에서 볼 수 있습니까? *</block>
 </blocks>

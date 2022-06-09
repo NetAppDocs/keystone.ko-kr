@@ -18,7 +18,7 @@ NetApp Service Engine REST API는 HTTP 요청을 보낼 수 있는 웹 브라우
 
 
 
-=== HTTP 상태 코드입니다
+== HTTP 상태 코드입니다
 
 API를 실행하거나 문제를 해결하는 동안 NetApp Service Engine API에서 사용되는 다양한 HTTP 상태 코드 및 오류 코드를 알고 있어야 합니다.
 
@@ -59,7 +59,7 @@ API를 실행하거나 문제를 해결하는 동안 NetApp Service Engine API�
 |===
 
 
-=== API 사용을 위한 권장 사항
+== API 사용을 위한 권장 사항
 
 API를 사용할 때는 다음과 같은 몇 가지 권장 방법을 따라야 합니다.
 
