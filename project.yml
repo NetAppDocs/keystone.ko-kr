@@ -18,7 +18,7 @@ sidebar:
       entries:
       - title: 서비스 용량 정의
         url: "/nkfsosm_keystone_service_capacity_definitions.html"
-      - title: 성능 서비스 수준
+      - title: 성능 서비스 레벨 또는 서비스 레벨
         url: "/nkfsosm_performance.html"
       - title: 서비스 수준 메트릭 및 정의
         url: "/nkfsosm_service_level_metrics_and_definitions.html"
@@ -170,15 +170,15 @@ sidebar:
         entries:
         - title: Azure NetApp 계정 관리
           url: "/sewebiug_managing_azure_netapp_accounts.html"
-        - title: Azure 용량 풀 관리
+        - title: Azure 용량 풀을 관리합니다
           url: "/sewebiug_managing_azure_capacity_pools.html"
-        - title: Azure 볼륨 관리
+        - title: Azure 볼륨을 관리합니다
           url: "/sewebiug_managing_azure_volumes.html"
-      - title: Google Cloud Platform용 Cloud Volumes Service 관리
+      - title: Google Cloud Platform용 Cloud Volumes Service를 관리합니다
         url: "/sewebiug_managing_gcp_cvs.html"
     - title: 보고서 보기
       url: "/sewebiug_working_with_reports.html"
-    - title: 백업 작업
+    - title: 볼륨을 백업합니다
       url: "/sewebiug_back_up_file_shares_and_disks.html"
     - title: 구독 관리
       url: "/sewebiug_managing_subscriptions.html"

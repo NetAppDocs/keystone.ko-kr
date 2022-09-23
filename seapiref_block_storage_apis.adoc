@@ -121,7 +121,7 @@ POST를 누릅니다
  a| 
 '/v2.1/disks'
 | 디스크를 만들 수 있습니다. 요청 본문의 값을 추가하여 서브테넌트 ID, 영역, 이름, 디스크 경로, 스냅샷 정책 등과 같은 지정된 매개 변수를 사용하여 디스크를 생성합니다. 백업 정책 및 태그.  a| 
-'Subtenant_id': 서브테넌트의 ID. 존 : 존의 이름. 이름: 디스크의 이름입니다. 디스크 경로. 프로토콜: 블록 디바이스 액세스에 사용되는 스토리지 프로토콜입니다. OS_TYPE: 호스트 운영체제의 종류이다. hostgroup_mappings: 호스트 그룹 매핑입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. size_gb: 디스크 크기(GB)입니다.
+'Subtenant_id': 서브테넌트의 ID. 존 : 존의 이름. 이름: 디스크의 이름입니다. 디스크 경로. 프로토콜: 블록 디바이스 액세스에 사용되는 스토리지 프로토콜입니다. OS_TYPE: 호스트 운영체제의 종류이다. hostgroup_mappings: 호스트 그룹 매핑입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. size_gb: GiB의 디스크 크기입니다.
 
 
 

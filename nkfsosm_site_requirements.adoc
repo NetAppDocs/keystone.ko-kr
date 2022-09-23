@@ -50,6 +50,6 @@ NetApp은 최종 구성 및 요구사항에 따라 냉각 요구사항 사양(�
 
 == 네트워킹
 
-NetApp은 고객의 요구사항과 사용된 스토리지 컨트롤러에 따라 고객 사이트에서 10Gb, 40Gb 및 100Gb 연결을 제공할 수 있습니다.
+고객의 요구사항과 사용된 스토리지 컨트롤러에 따라 NetApp은 고객 사이트에서 10GiB, 40GiB 및 100GiB 연결을 제공할 수 있습니다.
 
 NetApp은 NetApp에서 제공하는 Flex Subscription Infrastructure 장치에 필요한 트랜시버만 제공합니다. 고객 장치에 필요한 송수신기 및 NetApp에서 제공하는 Flex Subscription 인프라 장치에 케이블을 연결해야 합니다.

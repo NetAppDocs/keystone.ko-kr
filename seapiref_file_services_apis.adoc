@@ -125,7 +125,7 @@ POST를 누릅니다
  a| 
 '/v2.1/fileshaes'
 | 파일 공유를 생성할 수 있습니다. ID, 이름, 스냅샷 정책, 프로토콜 등의 지정된 매개 변수를 사용하여 파일 공유를 생성하려면 요청 본문의 값을 추가합니다. 파일 서버 IP 및 태그.  a| 
-이름 : 파일 공유의 이름입니다. '공유_경로': 파일 공유의 경로입니다. 'fileserver_id': 파일 서버의 ID. size_gb: GB의 파일 공유 크기입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. '프로토콜': 파일 공유(NFS, CIFS 또는 멀티 프로토콜)를 액세스하는 데 사용되는 프로토콜입니다. 보안 스타일(Unix 또는 NTFS). Export_policy: 파일 공유의 내보내기 정책입니다.
+이름 : 파일 공유의 이름입니다. '공유_경로': 파일 공유의 경로입니다. 'fileserver_id': 파일 서버의 ID. size_gb: 파일 공유 크기(gibs)입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. '프로토콜': 파일 공유(NFS, CIFS 또는 멀티 프로토콜)를 액세스하는 데 사용되는 프로토콜입니다. 보안 스타일(Unix 또는 NTFS). Export_policy: 파일 공유의 내보내기 정책입니다.
 
 
 
@@ -152,7 +152,7 @@ id: 파일 공유의 ID입니다.
  a| 
 '/v2.1/fileshaes/{id}'
 | ID를 기준으로 모든 파일 공유를 수정할 수 있습니다. 파일 서버의 ID와 이름, 프로토콜, 스냅샷 정책, 백업 정책, 태그 등 요청 본문에서 수정할 값을 추가합니다.  a| 
-id: 파일 공유의 ID입니다. 이름 : 파일 공유의 이름입니다. size_gb: GB의 파일 공유 크기입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. '프로토콜': 파일 공유(NFS, CIFS 또는 멀티 프로토콜)를 액세스하는 데 사용되는 프로토콜입니다. Export_policy: 파일 공유의 내보내기 정책입니다.
+id: 파일 공유의 ID입니다. 이름 : 파일 공유의 이름입니다. size_gb: 파일 공유 크기(gibs)입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. '프로토콜': 파일 공유(NFS, CIFS 또는 멀티 프로토콜)를 액세스하는 데 사용되는 프로토콜입니다. Export_policy: 파일 공유의 내보내기 정책입니다.
 
 
 

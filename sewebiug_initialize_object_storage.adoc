@@ -29,5 +29,5 @@ image:sewebiug_image31.png["오류: 그래픽 이미지가 없습니다"]
 +
 image:sewebiug_image32.png["오류: 그래픽 이미지가 없습니다"]
 
-. 작업 목록을 확인하여 오브젝트 스토리지가 성공적으로 초기화되었는지 확인합니다.
+. 작업 목록을 확인하여 오브젝트 스토리지가 성공적으로 초기화되었는지 확인합니다. 자세한 내용은 을 참조하십시오 link:sewebiug_netapp_service_engine_web_interface_overview.html#jobs-and-job-status-indicator["작업 및 작업 상태 표시기"].
 

@@ -33,7 +33,7 @@ Flex Subscription은 종량제 구독 기반 서비스 모델로, OpEx 소비 �
 
 image:nkfsosm_image2.png["오류: 그래픽 이미지가 없습니다"]
 
-Flex Subscription은 사전 정의된 성능 서비스 수준에서 스토리지 용량을 제공하는 구독 기반 서비스로, 사내에 구현할 수 있고 NetApp, 파트너 또는 고객이 운영하는 블록, 파일 및 오브젝트 데이터 유형을 제공합니다. Flex Subscription이 제공하는 기본 서비스 외에도 추가 서비스를 추가 비용으로 선택할 수 있습니다. 이러한 서비스는 아래 그림에 설명되어 있습니다.
+Flex Subscription은 사전 정의된 성능 서비스 수준(서비스 수준)에 스토리지 용량을 제공하는 구독 기반 서비스로, 사내에 구축할 수 있고 NetApp, 파트너 또는 고객이 운영할 수 있는 블록, 파일 및 오브젝트 데이터 유형을 제공합니다. Flex Subscription이 제공하는 기본 서비스 외에도 추가 서비스를 추가 비용으로 선택할 수 있습니다. 이러한 서비스는 아래 그림에 설명되어 있습니다.
 
 * * 데이터 보호 기본 * 서비스는 NetApp SnapMirror 및 NetApp SnapVault 기능을 기본 설정으로 제공합니다.
 * * 데이터 보호 고급 * 은 NetApp MetroCluster 기능을 활용하여 RPO 0의 SLA를 충족하는 서비스를 제공합니다.

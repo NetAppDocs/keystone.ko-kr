@@ -16,24 +16,7 @@ summary: NetApp 서비스 엔진의 새로운 기능
 [role="lead"]
 릴리즈 노트에서는 NetApp Keystone 유연한 구독(Flex Subscription) 서비스에 도입된 새로운 기능과 향상된 기능을 알려진 제한 사항 및 수정 사항과 함께 설명합니다.
 
-
-
-== Cloud Volumes ONTAP 사용 및 청구 보기(2021년 12월 5일)
-
-NetApp Keystone 유연한 구독(유연한 구독) 고객이고 Cloud Volumes ONTAP 구독이 있는 경우, 유연한 구독을 사용하여 Cloud Volumes ONTAP 사용량을 청구하고 청구 및 소비 상세 정보를 볼 수 있습니다. Cloud Manager는 이제 Flex Subscription 계정을 검색하고 Cloud Manager 인터페이스에 세부 정보를 표시할 수 있습니다. 모든 서비스 > Digital Wallet > Keystone Flex Subscription * 탭을 클릭하면 다음 작업을 수행할 수 있습니다.
-
-* Flex Subscription 관리자에게 문의하여 Cloud Manager 사용자 ID를 Flex Subscription 사용자 ID에 연결하고 * Keystone Flex Subscription * 탭에 액세스할 수 있는 시작 화면을 봅니다.
-* 온-프레미스 시스템 및 Cloud Volumes ONTAP에서 구독 서비스의 커밋된 용량 및 사용된 용량의 소비 데이터를 확인합니다.
-* Cloud Manager 계정과 연결된 Flex Subscription 세부 정보를 봅니다. 약정, 사용량, 버스트 용량과 같은 세부 정보가 표시됩니다.
-* Cloud Volumes ONTAP 계정을 유연한 구독 ID와 연결하여 청구 및 용량 사용 보고서를 위한 계정을 연결합니다.
-* 구독한 Flex Subscription 서비스에 대한 약정 용량을 늘리거나 줄일 것을 요청합니다.
-* 연결된 Flex 가입 ID를 보고 Cloud Volumes ONTAP 소비 청구(연결된 ID만 해당)의 청구 방법으로 사용합니다.
-
-
-자세한 내용은 Cloud Manager 문서에서 다음 링크를 참조하십시오.link:https://docs.netapp.com/us-en/occm/concept_licensing.html#keystone-flex-subscription["유연한 Keystone 구독"]
-link:https://docs.netapp.com/us-en/occm/task_managing_licenses.html#manage-keystone-flex-subscriptions["Keystone Flex 구독 관리"]
-
-{SP}+{SP}+{SP}NetApp Keystone 유연한 구독(유연한 구독)을 통해 제공되는 향상된 기능을 지원하기 위해 NetApp 서비스 엔진 여러 릴리즈에서 다음과 같은 기능이 도입되었습니다.
+NetApp Keystone 유연한 구독(유연한 구독)을 통해 제공되는 향상된 기능을 지원하기 위해 NetApp 서비스 엔진 다양한 릴리즈에는 다음과 같은 기능이 도입되었습니다.
 
 
 
@@ -112,7 +95,7 @@ NetApp Service Engine 사용자 인터페이스에서 다음과 같은 개선 �
 
 === 계층화
 
-NetApp Keystone 유연한 구독 서비스에는 NetApp FabricPool 기술을 활용하는 계층화 기능이 포함됩니다. NetApp에서 소유, 구축, 관리하는 콜드 스토리지에 덜 사용되는 데이터를 식별하고 계층화합니다. 익스트림 계층화 또는 프리미엄 계층화 성능 수준에 가입하여 계층화를 선택할 수 있습니다.
+NetApp Keystone 유연한 구독 서비스에는 NetApp FabricPool 기술을 활용하는 계층화 기능이 포함됩니다. NetApp에서 소유, 구축, 관리하는 콜드 스토리지에 덜 사용되는 데이터를 식별하고 계층화합니다. 익스트림 계층화 또는 프리미엄 계층화 서비스 수준에 가입하여 계층화를 선택할 수 있습니다.
 
 새 계층화 서비스 수준에 대한 새로운 속성 값을 포함하도록 다음 API가 수정되었습니다.
 
@@ -123,7 +106,7 @@ NetApp Keystone 유연한 구독 서비스에는 NetApp FabricPool 기술을 활
 자세한 내용은 다음 링크를 참조하십시오.
 
 * link:nkfsosm_tiering.html["계층화"]
-* link:nkfsosm_performance.html["성능 서비스 레벨"]
+* link:nkfsosm_performance.html["서비스 레벨"]
 
 
 {SP} + {SP} + {SP}입니다

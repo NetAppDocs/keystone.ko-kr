@@ -86,13 +86,9 @@
   <block id="5cdc9a60703b33501782736bc59bfe55" category="doc">오브젝트 스토리지 그룹 및 사용자를 확인합니다</block>
   <block id="542a28267baf12d46a137a45d18b4519" category="paragraph">사용자 관리 목록에는 지정된 서브테넌트에 대한 객체 스토리지 사용자 및 그룹이 표시됩니다.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
-  <block id="c5e91367085fa78087bf64a79eae911f" category="list-text">메뉴에서 오브젝트 스토리지 &gt; 사용자를 선택합니다.</block>
   <block id="4ad2f99cb9ccf769a0360a1814848446" category="list-text">필요한 경우 서브테넌트 드롭다운 메뉴를 사용하여 다른 서브테넌트를 선택합니다.</block>
-  <block id="c9427511a341644c98eed4fb4ae8f7cd" category="list-text">사용자 및 그룹 링크를 사용하여 사용자와 그룹 간에 표시를 전환할 수 있습니다.</block>
   <block id="ec5c3a103a46dd15df21ddc7b99bb845" category="list-text">사용자 목록에는 선택한 서브테넌트에 대해 정의된 객체 스토리지 사용자가 표시됩니다. 각 사용자에 대해 해당 이름과 해당 이름이 속한 오브젝트 스토리지 그룹이 표시됩니다.</block>
-  <block id="cea8e9449f5b2e5d5a5107b0c8a83b62" category="list-text">Groups 목록에는 선택한 서브테넌트에 대해 정의된 객체 스토리지 그룹이 표시됩니다. 각 그룹에 대해 그룹 이름과 S3 정책이 표시됩니다.</block>
   <block id="f13001876be336c48ead8577c8d809fe" category="inline-link-macro">목록 보기</block>
-  <block id="00c6a27075fa437da3bdccfb4614844b" category="paragraph">목록의 기능을 사용하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="06c69cf03ada5a3283b333d7ac5a7d25" category="inline-link-macro-rx"></block>.</block>
   <block id="7d8aab7fbddd3c5ce1dba6474d3016ae" category="summary">유연한 Keystone 구독 및 Equinix</block>
   <block id="4c74eb10725ef789a112d7196fc50814" category="doc">반품 불가 디스크 서비스입니다</block>
   <block id="a71a923ce460f262fee04be6c83b9215" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독)의 일부로, NetApp은 반품 불가 디스크(NRD) 오퍼링을 확장합니다.</block>
@@ -203,7 +199,6 @@
   <block id="8c880fe54cae171fa97132f8c5e82297" category="section-title">냉각</block>
   <block id="e49c1cb86b679c35d94b37728ee6dfb6" category="paragraph">NetApp은 최종 구성 및 요구사항에 따라 냉각 요구사항 사양(일반 BTU, 최대 BTU)을 제공할 수 있습니다.</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">네트워킹</block>
-  <block id="033aea8feb96b593bcfe0d568fd5782b" category="paragraph">NetApp은 고객의 요구사항과 사용된 스토리지 컨트롤러에 따라 고객 사이트에서 10Gb, 40Gb 및 100Gb 연결을 제공할 수 있습니다.</block>
   <block id="8769d35d5981adce65e2968f1fafd3e4" category="paragraph">NetApp은 NetApp에서 제공하는 Flex Subscription Infrastructure 장치에 필요한 트랜시버만 제공합니다. 고객 장치에 필요한 송수신기 및 NetApp에서 제공하는 Flex Subscription 인프라 장치에 케이블을 연결해야 합니다.</block>
   <block id="96147ac53c0d3221812e42683ea8a855" category="summary">Keystone 인증 및 인증</block>
   <block id="975484d67dbc4f44b1c0dffaa43d5eb1" category="doc">권한 부여 및 인증</block>
@@ -250,8 +245,6 @@
   <block id="f838226129b05ffc77d0cf6bd59de6df" category="list-text">필터 연산자 와일드카드(*')와 파이프('|')를 조합하여 개체를 쿼리하지 마십시오. 잘못된 개체 수를 검색할 수 있습니다.</block>
   <block id="319e2ff190f60a2826707dd7b65bdf7a" category="summary">Keystone 새 디스크를 만듭니다</block>
   <block id="17db5f18ccda229fb1c66baa28fccd34" category="doc">디스크를 만듭니다</block>
-  <block id="687af5982d08a7c3bbb5baa7612e8f13" category="inline-link-macro">스냅샷으로부터 디스크를 생성합니다</block>
-  <block id="077ee42303f6bb5bb96991de1b5b9fad" category="paragraph">이 섹션에서는 디스크 세부 정보를 직접 지정하여 새 디스크를 생성하는 방법에 대해 설명합니다. 기존 디스크의 스냅샷을 기반으로 디스크를 생성하는 방법에 대한 지침은 을(를) 참조하십시오 <block ref="0b82bb23ff49e855b2c1ce8c6215b692" category="inline-link-macro-rx"></block>.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
   <block id="4029563d115fc8cba882b6f5387ef1ba" category="list-text">블록 스토리지를 사용할 수 있지만 초기화되지 않은 경우 디스크를 생성하기 전에 초기화하라는 메시지가 표시됩니다. 블록 저장소를 초기화하려면 다음이 필요합니다.</block>
   <block id="03eb09ec7f9c134351b949c733a1f40e" category="list-text">블록 저장소의 서브넷입니다. 네트워크 환경에 익숙하지 않은 경우 IT 부서에 관련 값을 문의하십시오.</block>
@@ -298,16 +291,8 @@
   <block id="b0b2613591528cfef1de3fdc62285cfa" category="list-text">필요한 경우 태그 섹션의 호스트 그룹에 태그(키-값 쌍)를 추가합니다.</block>
   <block id="55fb90be7af95d28805d429c84ecc199" category="list-text">Create * 를 클릭합니다. 호스트 그룹이 생성되고 성공적으로 생성되면 메시지가 표시됩니다.</block>
   <block id="8c582e58c8d97b2f6658020de8670bab" category="list-text">새로 생성된 호스트 그룹을 디스크에 매핑하려면 호스트 그룹 필드로 이동하여 선택합니다.</block>
-  <block id="301784d4479810d4586f7f92217f2257" category="list-text">성능 서비스 수준을 선택합니다.</block>
-  <block id="26283967e0fd58211a1eb8c29428deaf" category="paragraph">해당 레벨에 대한 성능 세부 정보를 보려면 옵션을 선택합니다(최대/예상 IOPS/처리량). 요구 사항에 가장 적합한 서비스 수준을 선택하십시오.</block>
   <block id="bce62eb79cb10fb9baef267642ccfc57" category="list-text">디스크의 용량을 지정합니다.</block>
-  <block id="92d490fc486171d6e13645bd9d17b47e" category="list-text">이 디스크에 스냅샷이 필요한 경우:</block>
   <block id="12b0a93c73c00533ffa73dbcd3d3430c" category="list-text">스냅샷 정책 필드를 볼 수 있도록 스냅샷 정책을 사용하도록 설정합니다.</block>
-  <block id="de4ec7b31f42984d9a5754398d02c83d" category="list-text">스냅샷을 생성할 시기를 지정합니다.</block>
-  <block id="2e062d22d42c88e627af25ea8d94eac0" category="list-text">* 시간별. * 스냅샷을 생성할 분(시간)과 보존할 시간별 스냅샷 수를 지정합니다.</block>
-  <block id="a7ec1a713ff43e60cf9c6f1d3018e119" category="list-text">* 매일. * 스냅샷을 생성할 시간(시 및 분)과 보존할 시간별 스냅샷 수를 지정합니다. 스냅샷을 매일 촬영해야 하는 시간을 여러 번 지정하려면 시간 값을 쉼표로 구분된 목록(예: 5, 10, 15, 기타</block>
-  <block id="8869ba772e4211eb6517d3e10fe40f17" category="list-text">* Weekly. * Snapshot을 생성할 시기(요일, 시간, 분)와 보존할 주별 스냅샷의 수를 지정합니다.</block>
-  <block id="029bb8985aba6d2cfd51d70b7434adbf" category="list-text">* Monthly. * 스냅샷을 생성할 시기(월, 시간, 분)와 보존할 월별 스냅샷 수를 지정합니다.</block>
   <block id="c0aef1a6358da165458e5272e89dfca3" category="list-text">기본 블록 저장소에서 비동기식 재해 복구가 설정된 경우 새 디스크에 대해 비동기식 재해 복구 복제가 자동으로 설정됩니다. 비동기 재해 복구 복제에서 디스크를 제외하려면 비동기 재해 복구가 비활성화되도록 비동기 재해 복구 토글을 토글합니다.</block>
   <block id="f9a2c2bfc2b9e37f5e6b7c9a065465a0" category="list-text">MetroCluster가 활성화된 존에서 디스크를 생성하는 경우 동기식 재해 복구 버튼이 활성화되고 비활성화할 수 없습니다. 디스크가 Synchronous Disaster Recovery 패널에 표시된 영역으로 복제됩니다.</block>
   <block id="ece9fdd3547a42c2a334a7c6d26bf7e0" category="list-text">이 디스크에 대한 백업을 활성화하려면 다음을 수행합니다.</block>
@@ -414,25 +399,14 @@
   <block id="ec1b7e7cfe1ccc10863feb992dae9df6" category="doc">관리자 API</block>
   <block id="2b1eac122dc9fcff6b6ff126ea055f08" category="summary">Keystone 오브젝트 스토리지 그룹 생성</block>
   <block id="3a0fa53d8552e260a7a716c8225d4b21" category="doc">오브젝트 스토리지 그룹을 생성합니다</block>
-  <block id="02cdea300670fae8df4e5787f5a48a55" category="paragraph">이 방법을 사용하여 새 오브젝트 스토리지 그룹을 생성합니다.</block>
-  <block id="31541cb47a7ea77a3d3486866a7bebd0" category="inline-link-macro">사용자 목록</block>
-  <block id="3456598fa73e444341dca0376245fd90" category="list-text">를 봅니다 <block ref="95ffca3db6dbf1ebc06d650a9462964d" category="inline-link-macro-rx"></block>.</block>
-  <block id="a2903997a8345ed7638b30722c8f985d" category="list-text">올바른 서브테넌트가 선택되어 있고 디스플레이에 그룹(사용자 아님)이 표시되는지 확인합니다.</block>
   <block id="5f42b8d2367f44e7e55a3119fd3efca6" category="list-text">Create Group * 을 클릭합니다.</block>
   <block id="5dbc4cf9626a1f4328c17b6a4b0da0c0" category="list-text">그룹 만들기 대화 상자에서 그룹 이름을 입력합니다.</block>
-  <block id="b7550b952e401430e6631ab63cf05bf6" category="list-text">목록에서 S3 정책을 선택합니다.</block>
   <block id="d7a5226827a61d632eecd4b9dc607e3d" category="list-text">Create * 를 클릭합니다. 이렇게 하면 지정된 설정으로 그룹을 생성하는 작업이 생성됩니다.</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">여기</block>
-  <block id="4f61923a7d0d0fa7d7ecaabb1d92de2e" category="paragraph">객체 스토리지 그룹 생성은 비동기식 작업으로 실행됩니다. 작업 목록에서 작업의 상태를 확인할 수 있습니다. 작업 추적에 대한 자세한 내용은 을 참조하십시오 <block ref="745d0848b61028851eb2c98800bc0654" category="inline-link-macro-rx"></block>.</block>
   <block id="0f02e73a070b7c5e6af49819a14c1e59" category="summary">Keystone 파일 서버를 만듭니다</block>
   <block id="b87703d88dc9a8880b9d61547ad69520" category="doc">파일 서버를 생성합니다</block>
   <block id="e216e6dd4e8417c59cdf8365347a68ff" category="paragraph">파일 서버는 서브테넌트에 속하며 영역 내에서 만들어집니다. 서버를 생성할 때 선택적으로 다음을 수행할 수 있습니다.</block>
-  <block id="e984e5913268f172f36d79f463f29b8c" category="list-text">서버에 대해 재해 복구 DP를 설정합니다. NetApp 서비스 엔진에서 재해 복구의 작동 방식에 대한 자세한 내용은 를 참조하십시오 <block ref="a77c34ddf88ef814fd6a18a00bec0fb7" category="inline-link-macro-rx"></block>.</block>
-  <block id="12d9a773a71368993af0d815cc5a2ba1" category="list-text">CIFS를 사용하도록 설정합니다. CIFS 지원 서버의 경우:</block>
-  <block id="11bb5a6fe1e3cd04469851a2d7678816" category="list-text">Active Directory 사용자 이름, Active Directory 암호, 도메인, DNS 서버, 서버 이름 및 선택적으로 Active Directory OU(조직 구성 단위)를 사용할 수 있습니다.</block>
-  <block id="150819dca91da413528afcd39b49621b" category="list-text">Active Directory 자격 증명(Active Directory 사용자 이름 및 Active Directory 암호)은 컴퓨터를 Active Directory 도메인에 연결할 권한이 있는 사용자에 대한 자격 증명이어야 합니다.</block>
   <block id="e68501fa155e429cf0f38075317a449f" category="list-text">아래 이미지에 표시된 것처럼 Active Directory OU 구조가 계층화되면 가장 낮은 수준에서 맨 위까지 OU를 지정합니다. 이 예에서는 Melbourne OU를 지정하려면 "cifs_ou"를 ""cifs_ou":"ou=Melbourne, ou=cifs" 로 설정합니다</block>
-  <block id="c7e0d953db804fc2899c3d7dfab9e722" category="paragraph"><block ref="c7e0d953db804fc2899c3d7dfab9e722" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e9e4f5bb9f23ff700d3462b74db45279" category="paragraph">서버를 생성할 수 있는 다음 항목이 있는지 확인합니다.</block>
   <block id="e01ce08e5a41461d2ba70018f1d1e042" category="list-text">서버를 호스팅할 서브테넌트입니다.</block>
   <block id="4c9f71833f1da304590e2f64c06fffd0" category="list-text">서버가 속한 지역 및 영역입니다.</block>
@@ -456,15 +430,11 @@
   <block id="f7f5c2465be89b32822fda34d2b011f5" category="paragraph">NFS는 기본적으로 사용하도록 설정되어 있습니다. 사용 중인 NFS 프로토콜이 표시됩니다.</block>
   <block id="3531a26da3366b2d9e60057bc8026a03" category="paragraph">CIFS 지원 파일 서버를 생성하는 경우:</block>
   <block id="5c9c8ade0522fb2422d8abaecc5ea72e" category="list-text">CIFS 설정 버튼을 토글하여 CIFS 관련 필드를 봅니다.</block>
-  <block id="dc66e07633b34e9822d7c22f2ceeee31" category="list-text">Active Directory 사용자 이름, Active Directory 암호, 도메인, DNS 서버, 서버 이름 및 선택적으로 Active Directory 조직 구성 단위입니다. Active Directory 자격 증명은 컴퓨터를 Active Directory 도메인에 연결할 수 있는 권한이 있는 사용자에 대한 자격 증명이어야 합니다.</block>
   <block id="815ae3393960323ac85621ce7288df21" category="list-text">이 파일 서버에서 비동기식 재해 복구 DP를 활성화하려면 다음을 따르십시오.</block>
   <block id="8542611fe231680a87334496bb812803" category="list-text">비동기 재해 복구 단추를 전환하여 활성화합니다.</block>
   <block id="5daf3adc6ff4148e511c6f6e0b5b9e68" category="list-text">재해 복구 영역 및 영역을 선택합니다.</block>
   <block id="2765dd9ad922f803cc154a2d62e5e768" category="list-text">재해 복구 복제 일정을 선택합니다.</block>
-  <block id="534cad85076ec858423a2807a24f1331" category="list-text">동기식 재해 복구 DP가 활성화되면 동기식 재해 복구 토글이 활성화되며 비활성화할 수 없습니다.</block>
   <block id="6d2083b0fad7c68e1983451837672427" category="list-text">Create * 를 클릭합니다. 이렇게 하면 서버를 생성할 작업이 생성됩니다.</block>
-  <block id="5dde7b4f25d75b0885591b0a8e8c39b4" category="paragraph">Create Server가 비동기 작업으로 실행됩니다. 다음을 수행할 수 있습니다.</block>
-  <block id="d7a669d10b2d6780ac266c7cd02c54e7" category="list-text">작업이 완료된 후 서버 목록에서 서버의 상태를 확인합니다.</block>
   <block id="d04ce80ab6bc0577ccedc997e72b254e" category="summary">NetApp Flex Subscription 개요</block>
   <block id="e05f09acc74a61d40006159057e349de" category="doc">운영 모델, 역할 및 책임</block>
   <block id="50a653d58eec4a3ccc1d7790bc9d4067" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독)은 테넌시 모델을 기반으로 합니다.</block>
@@ -693,7 +663,6 @@
   <block id="7e0851cd4cd9c451bb0e47c589d02708" category="doc">파일 서버를 삭제합니다</block>
   <block id="539fdef2008e77ec30c5ba67e24c0d47" category="paragraph">* 주의: * 파일 서버를 삭제하면 다음 사항도 삭제됩니다.</block>
   <block id="0d473de4bb96fdf7268455666d7bea45" category="list-text">파일 서버와 연결된 모든 백업</block>
-  <block id="281806ce4924bea38be89ac1665eb75e" category="list-text">파일 서버와 연결된 모든 재해 복구 복제 복제본서버의 삭제를 실행 취소할 수 없습니다.</block>
   <block id="61d40c665ae573f703cc5b8ff71bdb71" category="paragraph">파일 서버를 삭제하려면 먼저 서버에 있는 모든 공유를 삭제해야 합니다.</block>
   <block id="1c8547704cbefbb4fc70b1f1d1083e92" category="inline-link-macro">목록 보기 작업</block>
   <block id="237162731c983eecb08371828e9bcc72" category="list-text">목록에서 서버를 찾고 해당 서버의 삭제 아이콘을 클릭합니다. 목록의 항목 작업에 대한 자세한 내용은 을 참조하십시오 <block ref="4a0d19ebe9aa0f2533119e3056a7b078" category="inline-link-macro-rx"></block>)를 클릭합니다.</block>
@@ -769,10 +738,6 @@
   <block id="65900113ed528b8b8e988ed7f8d72f87" category="cell">요청이 지원 통제 범위를 벗어나는 활동을 기다리고 있으며, 요청을 처리하는 데 약간의 시간이 걸릴 수 있습니다.</block>
   <block id="8c6ed17d43fdff1098f07504d08b6db2" category="cell">요청이 마감되었습니다.</block>
   <block id="49160028ef392112eb613b320b874fc3" category="paragraph">아래에 설명된 대로 NetApp Service Engine의 상태를 검토하여 서비스 요청 상태를 확인하거나 프로세스의 일부로 전송된 자동 이메일의 상태를 추적할 수 있습니다.</block>
-  <block id="a73b4517730ef9538f237813708636a8" category="list-text">메뉴에서 지원 &gt; 서비스 요청 을 선택합니다. 서비스 요청 목록이 표시됩니다.</block>
-  <block id="1032ee9fabd8a51e5f49e446bb1860ff" category="paragraph"><block ref="1032ee9fabd8a51e5f49e446bb1860ff" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b419d3866799d65a9cf771b17314178b" category="list-text">목록에서 서비스 요청을 찾아 상태 열에서 상태를 확인합니다.</block>
-  <block id="d1db2690de0f7a48e902196864ba0b74" category="paragraph"><block ref="d1db2690de0f7a48e902196864ba0b74" category="inline-image-macro-rx" type="image"></block></block>
   <block id="83c4eb7a803c2bd0505a4adc846cc12c" category="summary">Keystone 네트워크 API</block>
   <block id="79cc6b8554023345bdf567c5e72b1f50" category="doc">서브넷 API를 사용하여 네트워크 구성을 정의합니다</block>
   <block id="18f127aed2f68d295e25a89c0ac671a9" category="paragraph">서브넷 API를 사용하여 서브테넌트 및 존에 대한 서브넷을 보고 생성할 수 있습니다. 네트워크 구성을 정의하는 데 사용할 수 있습니다.</block>
@@ -793,28 +758,18 @@
   <block id="66fbdf11c8d11e5cf08a26480e76c41b" category="doc">사용자의 S3 키를 생성합니다</block>
   <block id="756ce271705621a55d77f25f42835876" category="paragraph">이 방법을 사용하여 사용자에 대한 S3 키를 생성합니다.</block>
   <block id="bc00c96c9325eeb46956d01d7a76e163" category="paragraph">키가 생성된 직후 키를 캡처해야 합니다. 키 세부 정보를 생성한 후에는 검색할 수 없습니다.</block>
-  <block id="8b0e47b79c0418d88095a1bd47b09045" category="list-text">올바른 서브테넌트가 선택되어 있고 디스플레이에 사용자(그룹 아님)가 표시되는지 확인합니다.</block>
   <block id="97f1a61a826425fa5b14bcf28e62e443" category="list-text">목록에서 사용자를 찾고 해당 그룹의 키 아이콘을 클릭합니다.</block>
-  <block id="2b6bed1ab5dc023d121deb7372f2a629" category="paragraph">목록의 항목 작업에 대한 자세한 내용은 을 참조하십시오 <block ref="4a0d19ebe9aa0f2533119e3056a7b078" category="inline-link-macro-rx"></block>.</block>
-  <block id="fbe07702643f38615e8de7c0d9072e70" category="list-text">S3 키 관리 대화 상자에 사용자의 키 목록이 표시됩니다.</block>
   <block id="8758e23e7960e73e6ab424225ab3813c" category="list-text">사용자의 기존 키가 없는 경우 * S3 키 생성 * 을 클릭하여 키를 생성할 필드를 봅니다.</block>
-  <block id="b2c8572e8e1a1bface03661007849304" category="list-text">키가 만료되도록 하려면 UTC에서 만료 날짜 및 만료 시간을 지정합니다. 그렇지 않으면 이러한 필드의 기본값을 그대로 둡니다.</block>
-  <block id="c501f05b9df7a562d8df47267a702966" category="list-text">키를 만들려면 확인 표시를 클릭합니다. 액세스 키와 비밀 키를 보여주는 S3 키 세부 정보 대화 상자가 표시됩니다.</block>
-  <block id="2565ea5925b3317ad199e25b57b45e88" category="list-text">사용자에게 세부 정보를 알려 줄 수 있도록 준비하면서 액세스 키와 비밀 키를 모두 복사합니다.</block>
-  <block id="52bba6b924927dcc0b9f160653963951" category="paragraph">S3 키 세부 정보 대화 상자를 닫기 전에 키 세부 정보를 캡처해야 합니다. 닫히면 키 세부 정보가 가려져 검색할 수 없게 됩니다.</block>
   <block id="00a06b08857b60c805bcaf007a9ddc9c" category="list-text">닫기 * 를 클릭합니다.</block>
   <block id="edea9398bafcc918142f79d91b628f61" category="list-text">닫기 * 를 다시 클릭하여 S3 키 관리 대화 상자를 닫습니다.</block>
   <block id="c77b594e66d073f4be45258af2ebdba0" category="summary">Keystone 새 파일 공유를 생성합니다</block>
   <block id="5cc9eae69d2b1c144936d7ff5494d2b5" category="doc">파일 공유를 생성합니다</block>
-  <block id="fbbefb1be1017a424ca4e62e9df7439e" category="inline-link-macro">스냅샷으로부터 공유를 생성합니다</block>
-  <block id="c55457198f00338e13690d82fa0d33ff" category="paragraph">이 섹션에서는 공유 세부 정보를 직접 지정하여 새 공유를 생성하는 방법에 대해 설명합니다. 기존 공유의 스냅샷을 기반으로 새 공유를 생성하려면 를 참조하십시오 <block ref="341a263447364b521767ca6e7573b4ed" category="inline-link-macro-rx"></block>.</block>
   <block id="8db4df87e08b019579007500bb9fc300" category="list-text">공유가 파일 서버에 생성됩니다. 새 파일 공유를 생성하려면 파일 서버가 존재하고 작동 상태여야 합니다.</block>
   <block id="1f196547bfaef7212e9c0eec75312d52" category="list-text">CIFS 또는 NFS 파일 공유를 생성하려면 해당 서비스에 대해 서버가 설정되어 있어야 합니다. 다중 프로토콜 파일 공유의 경우 서버는 CIFS 및 NFS 서비스를 모두 지원해야 합니다.</block>
   <block id="c54f0aba27df50e49cee2c735072e426" category="list-text">공유에 대해 비동기식 재해 복구 옵션을 설정하려면 비동기식 재해 복구가 설정된 서버에서 공유를 생성해야 합니다. 자세한 내용은 을 참조하십시오 <block ref="a77c34ddf88ef814fd6a18a00bec0fb7" category="inline-link-macro-rx"></block>.</block>
   <block id="8ab0e8562b63a657a012a4fa511b0df6" category="list-text">공유에 대한 동기식 재해 복구를 사용하려면 MetroCluster가 지원되는 존에서 공유를 생성합니다.</block>
   <block id="3ec53411254d84e584db2fb5cfff0b48" category="list-text">예약된 일정에 따라 파일 공유의 백업을 캡처하는 백업 정책을 정의할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="e05dcb26181a31e8f290bf1deef1bc37" category="inline-link-macro-rx"></block>.</block>
   <block id="9147e5e61a7b9260dec09f3a6eb3e5be" category="inline-link-macro">스냅샷 수</block>
-  <block id="668d6071a5f02cf4d7b03c66d38f4a05" category="list-text">Snapshot 정책을 정의하여 예약된 일정에 따라 파일 공유의 스냅샷을 캡처할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="c1f0dcbbcbcd1f1c8ac788893304a8d4" category="inline-link-macro-rx"></block>.</block>
   <block id="f5455c2377de48bae6f16c3cc467fe70" category="list-text">파일 서비스 &gt; 공유 * 로 이동합니다.</block>
   <block id="362e43d35380d580dc47a4a47d51688a" category="list-text">공유 생성 * 을 클릭합니다.</block>
   <block id="bac686712716c2a8121433c1b980d4ee" category="list-text">공유 생성 대화 상자에서 새 공유 생성 을 선택합니다.</block>
@@ -830,17 +785,11 @@
   <block id="f71f0959ca52eded5cc31e5cb2006d26" category="cell">공유를 호스팅할 파일 서버를 선택합니다. 파일 서버 목록은 선택한 영역, 영역 및 공유 유형에 따라 달라집니다.</block>
   <block id="5d4eed453fc4bdbbfcfb8af4661c2dbf" category="cell">보안 스타일</block>
   <block id="78c84da81749ed8f001b3e31e04db2d4" category="cell">파일 공유에 적용할 보안 스타일을 선택합니다. 이 목록은 선택한 공유 유형에 따라 자동으로 채워집니다.</block>
-  <block id="2af3493dc2490ea3d6815ee5c4af30aa" category="list-text">성능 서비스 수준을 선택합니다. IOPS 및 처리량 제한은 선택한 서비스 레벨에 따라 표시됩니다.</block>
   <block id="fc01918fedc280f220912ded5e2cb9a7" category="list-text">파일 공유의 용량을 지정합니다.</block>
   <block id="4f7d25c5c6d4aeddd18d27531841ed6e" category="admonition">NetApp 서비스 엔진은 지정된 용량이 소모된 용량을 최대(또는 이미 버스트 상태인 경우 그 이상)에 배치할 경우 경고를 표시하고 용량 표시줄의 색상을 변경합니다. 용량 검사는 테넌시의 모든 서브스크립션에 대한 총 용량에 대해 수행됩니다.</block>
   <block id="85c067abe14bc508f25275e8cac45dc4" category="list-text">기본 파일 서버에서 비동기식 재해 복구가 설정된 경우 새 공유에 대해 비동기식 재해 복구 복제가 자동으로 설정됩니다. 비동기식 재해 복구 복제에서 공유를 제외하려면 비동기식 재해 복구 단추를 전환하여 이 기능을 해제합니다.</block>
   <block id="b0e1384398cc0b8b2fe3f7a337590175" category="list-text">MetroCluster가 활성화된 영역에서 공유가 생성되는 경우 동기식 재해 복구 버튼이 자동으로 활성화되며 비활성화할 수 없습니다. 공유는 동기식 재해 복구 토글 아래 패널에 표시된 영역으로 복제됩니다.</block>
-  <block id="7296e3c59136a2e6d4e8e99fd3d9cf71" category="list-text">이 파일 공유에 스냅샷이 필요한 경우:</block>
   <block id="78936de5655136ed5b9ad23a83445da3" category="list-text">스냅샷 정책을 사용하도록 설정하고 스냅샷 정책 필드를 봅니다.</block>
-  <block id="1594e7a9a81a227b2bf872284b7db32e" category="list-text">* 시간별. * 스냅샷을 생성할 분(시간)과 보존할 시간별 스냅샷 수를 지정합니다.</block>
-  <block id="5f701f76b8d7811867dae7dbda94263c" category="list-text">* 매일. * 스냅샷을 생성할 시간(시 및 분)을 지정합니다. 스냅샷을 매일 촬영해야 하는 시간을 여러 번 지정하려면 시간 값을 쉼표로 구분된 목록(예: 5, 10, 15, 기타</block>
-  <block id="9bb02efe527bdf18d56f0ea68b04d2a0" category="list-text">* Weekly. * Snapshot을 생성할 시기(요일, 시간, 분)와 유지할 주별 스냅샷 수를 지정합니다.</block>
-  <block id="676f69d4302c54af0e7704d2a1682283" category="list-text">* Monthly. * 스냅샷을 생성할 시기(월, 시간, 분)와 보존할 월별 스냅샷 수를 지정합니다.</block>
   <block id="0f36bc4447a054a6ee3db1baecb08d20" category="list-text">이 파일 공유에 대한 백업을 설정하려면 다음을 따르십시오.</block>
   <block id="d2b9e5c0ec7d83306b5bbc78b92956b2" category="list-text">백업 정책 및 백업 정책 필드를 사용하도록 전환합니다.</block>
   <block id="da5fd02549a58b6b0f60b0929792eafa" category="list-text">NFS 또는 멀티 프로토콜 공유의 경우 내보내기 정책을 지정합니다. 공유에 여러 내보내기 정책을 적용할 수 있습니다. 이 섹션은 NFS 및 멀티 프로토콜 공유에만 사용할 수 있습니다.</block>
@@ -907,11 +856,7 @@
   <block id="e5ffa1b880c390251d23b9f6bd7fac33" category="list-text">구독 종료 날짜가 있는 확정된 기간이 있습니다</block>
   <block id="b7dac4bd150873027089e5da94dbb39b" category="list-text">구독과 연결된 추가 기능이 있을 수 있습니다</block>
   <block id="4257e9a525e46c507a044e5bef7b9faf" category="admonition">스토리지가 여러 데이터 센터에 필요할 경우 각 데이터 센터에 별도의 가입해야 하며 이는 별도의 의무입니다.</block>
-  <block id="08a21cd55803f5b6473a2c747d526cb8" category="paragraph">스토리지 서비스는 할당된 스토리지 용량이며 관련 성능 레벨이 있습니다. NetApp 서비스 엔진은 최고의 익스트림, 익스트림 계층화, 프리미엄, 프리미엄 계층화, 표준 성능 레벨, 오브젝트 성능 서비스 레벨에서 파일 및 블록 스토리지를 제공합니다.</block>
-  <block id="be2261d9090fb30195c21bab3e7d9953" category="paragraph">최고의 계층화 및 프리미엄 계층화 성능 수준을 통해 콜드 데이터 또는 비활성 데이터를 모니터링하고 저비용 오브젝트 스토리지 계층으로 계층화하여 스토리지 설치 공간 및 관련 비용을 절감할 수 있습니다. 계층화 정책은 자동으로 설정되며 31일 동안 비활성 상태로 유지된 데이터는 기본적으로 계층화되어 있습니다. 이 기간은 3일에서 61일 사이의 원하는 일 수로 수정할 수 있습니다.</block>
-  <block id="9cf4355a313433b8691e455b16ef9e32" category="paragraph">파일 및 블록 스토리지 항목을 생성하면 성능 레벨에 연결됩니다. 요구사항의 변화에 따라 성능 서비스 수준 간에 워크로드를 이동할 수 있습니다. 최고 수준의 익스트림 계층화, 프리미엄, 프리미엄 계층화, 표준 성능 수준은 요구사항에 맞게 스토리지를 조정할 수 있도록 다양한 수준의 I/O 성능(IOPS)과 처리량(MBPS)을 제공합니다.</block>
   <block id="2f5cb25349bfe5b9ac831c6e30173baf" category="inline-link-macro">최대 사용, 사용량, 초과 사용량</block>
-  <block id="06d3c5b245fcae60bf6c02dc814606be" category="paragraph">최대 특정 시점까지의 서비스에 대해 버스트 사용이 허용되며, 별도의 요금 청구(가입에 정의된 대로)로 모니터링 및 청구됩니다. 용량 및 사용량에 대한 자세한 내용은 를 참조하십시오 <block ref="30977b5dca5f56c115e7191316bc5fd6" category="inline-link-macro-rx"></block>. 백업 및 재해 복구를 지원하는 DP 서비스도 제공됩니다.</block>
   <block id="856fad7ebe17053b7a8c9466800f549c" category="paragraph">사용된 용량은 할당된 용량(반드시 사용되지는 않음)입니다. Committed capacity는 구독에 커밋된 용량입니다. 가입자는 사용 용량에 관계없이 확정된 용량에 대해 고정 비율로 청구됩니다.</block>
   <block id="3f42cabcd42e4941eeae70d0ad6b0b72" category="paragraph">최대 용량은 할당된 할당된 할당된 할당된 용량보다 큰 용량입니다.</block>
   <block id="3478e1baf80f84db91e5e49ee1836fc8" category="paragraph">버스트 용량 = 사용된 용량 – 약속된 용량</block>
@@ -935,13 +880,10 @@
   <block id="fe1f710a2a8ad596f7ed976cce5e12b2" category="cell">공유/디스크를 새 서비스 수준으로 이동합니다.</block>
   <block id="72a0e9096fa69af48a2a89b61f82e73b" category="cell">재해 복구가 설정된 파일 서버/블록 저장소에서 공유/디스크를 만들거나 크기를 조정합니다.</block>
   <block id="a3e479169f3a33c0a8cbe36a49a5a9af" category="list-text">해당 지역의 서비스 수준에 대한 약속을 초과합니다</block>
-  <block id="450931d2ede3ac1f9ca9debbcdcbdcfb" category="list-text">해당 지역의 DP에 대한 약속을 초과합니다</block>
   <block id="44c6dc0f17d551a7939e21b1cae7cdad" category="cell">자동으로 생성된 대상 공유/디스크를 통해 대상 영역의 서비스 수준 승인을 초과합니다.</block>
   <block id="ae91278918611796d90350de77ba6bf8" category="cell">재해 복구가 설정된 파일 서버/블록 저장소의 새 서비스 수준으로 공유/디스크를 이동합니다.</block>
-  <block id="883bcc42821c6ecf891b920094325b5f" category="list-text">해당 지역의 DP에 대한 약속을 초과합니다.</block>
   <block id="ce53260637dcdf46a9025506c4b75e08" category="cell">재배치된 대상 공유/디스크를 통해 대상 영역의 서비스 수준에 대한 승인을 초과합니다.</block>
   <block id="aad7c68b64cd22c6fb7f4f39424c7954" category="cell">공유/디스크에서 백업을 설정합니다.</block>
-  <block id="2123e42a9693489cbce5f2a4e164a970" category="cell">DP에 대한 약속을 초과합니다.</block>
   <block id="f66c10666ec7a209e50413842654d153" category="cell">새 오브젝트 저장소 테넌시를 만듭니다.</block>
   <block id="8cd126f4a3ceea68c85347acd2602379" category="cell">오브젝트 용량에 대한 약속을 초과할 수 있습니다.</block>
   <block id="863fe0485f6bdfc1ecd58974c17dae1a" category="cell">객체 저장소 테넌시의 할당량을 늘립니다</block>
@@ -949,15 +891,10 @@
   <block id="1b712656cedc4113b2801424d1cecf25" category="paragraph">가입이 버스트 상태일 때 다음과 같은 알림 배너가 표시됩니다. 알림은 고객 관리자에게 해당 임차에 대해 표시되며 알림을 확인할 때까지 표시됩니다.</block>
   <block id="0575d4bb3c4b0c2953b19ef95b31165d" category="paragraph"><block ref="0575d4bb3c4b0c2953b19ef95b31165d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="section-title">데이터 보호</block>
-  <block id="c9cb02687fd3e9aa6ad70b5322fa0cef" category="paragraph">DP는 데이터 백업을 지원하는 방법과 필요한 경우 복구하는 기능을 말합니다.</block>
-  <block id="1c4821714a843572d056ec5e0a443622" category="paragraph">NetApp 서비스 엔진 DP 기능은 다음과 같습니다.</block>
   <block id="6182b191e8f1d440f3420e614c1126de" category="list-text">디스크 및 공유의 스냅샷입니다</block>
-  <block id="183a92d8cf33f246d23be23aeeffac34" category="list-text">디스크 및 공유 백업(구독의 일부로 DP 서비스 필요)</block>
-  <block id="cf3ec92d0dace2d4d0b5e001ec5ff615" category="list-text">디스크 및 공유를 위한 재해 복구(구독의 일부로 DP 또는 DP 고급 서비스 필요)</block>
   <block id="9da2c8abea07b0620e54283b38639463" category="paragraph">스냅샷은 데이터의 시점 복제본입니다. 스냅샷을 복제하여 새 디스크를 만들거나 동일하거나 유사한 기능을 사용하여 공유할 수 있습니다.</block>
   <block id="f33624f85a3d1c3ca52b90526dd92c7d" category="paragraph">스냅샷은 스냅샷 정책에 정의된 일정에 따라 임시 또는 자동으로 생성할 수 있습니다. 스냅샷 정책은 스냅샷이 캡처되는 시기와 보존 기간을 결정합니다.</block>
   <block id="fc58f05528054519f34ed4e02b3efc04" category="admonition">스냅샷은 서비스의 사용된 용량에 기여합니다.</block>
-  <block id="debe60e3142beb5a48bce69dbd381739" category="paragraph">백업은 항목의 복사본을 만들고 복제하고 사본을 원래 존 이외의 존에 저장하는 것을 말합니다. 이 존에는 각 프로토콜이 활성화되어 있으며(블록 스토리지에만 해당) MetroCluster가 활성화되지 않습니다. NetApp 서비스 엔진은 파일 및 블록 스토리지에 대한 백업을 제공합니다(구독에 DP 서비스 필요). 공유/디스크 백업은 가입 시 최저 비용 성능 계층(표준)의 백업 영역에 저장됩니다.</block>
   <block id="2678f5be6e4ec5134a32df3dd7aaae4f" category="paragraph">새 공유/디스크를 생성할 때 또는 나중에 기존 공유/디스크에 추가할 때 백업을 구성할 수 있습니다.</block>
   <block id="fcbd19b726fdd6160dfe2ab43f285a55" category="paragraph">* 참고: *</block>
   <block id="065428ecbfeb33b7e84daf0f1735a248" category="list-text">백업은 0:00 UTC의 고정된 시간에 수행됩니다.</block>
@@ -970,7 +907,6 @@
   <block id="afa84c30fdc11f91b0e97598a8ccfbc4" category="list-text">하나의 존만 포함하는 NetApp 서비스 엔진 인스턴스에서 디스크 또는 공유 백업을 구성할 수 없습니다.</block>
   <block id="2875abbdb2d668a780cc0352c55e39a4" category="list-text">기본 공유 또는 디스크를 삭제하면 연결된 모든 백업이 삭제됩니다.</block>
   <block id="8c93c12fbb65af8cdbba54fc85b4fe38" category="inline-link-macro">데이터 보호, 사용된 용량 및 비용</block>
-  <block id="eaa3525bd4873929810239b6b6579d61" category="list-text">백업은 총 사용 용량을 차지합니다. 또한 DP 가입률에서 백업 비용이 발생합니다. 도 참조하십시오 <block ref="a47ae4dd88f3e58d3633165415728570" category="inline-link-macro-rx"></block>.</block>
   <block id="ec2892d9024d3fb4dfc6f3974b4a6a72" category="list-text">백업에서 복원: 백업에서 공유 또는 디스크를 복구하기 위한 서비스 요청을 제기합니다.</block>
   <block id="9c1a55444ca246b7668ef51e2b161113" category="paragraph">재해 복구는 재해 발생 시 정상적인 작업으로 복구하는 기능을 말합니다.</block>
   <block id="5dbb23912672dda24110971a38a6b2d7" category="paragraph">NetApp 서비스 엔진은 비동기 및 동기식의 두 가지 형태의 재해 복구를 지원합니다.</block>
@@ -979,7 +915,6 @@
   <block id="c7551cca2e64e9d70e0bd1aa35fa17a7" category="paragraph">NetApp 서비스 엔진은 다음과 같은 기능을 제공하여 비동기식 재해 복구를 지원합니다.</block>
   <block id="f1e5f779aa56bce965c10a7ab6c63203" category="list-text">운영 볼륨을 재해 복구 영역에 비동기식으로 복제합니다</block>
   <block id="4d95b210be32cb590432dd9478dabbab" category="list-text">장애 조치/장애 복구(서비스 요청 시에만 사용 가능)</block>
-  <block id="f25e8e8e07af86cf895d64ae365151a9" category="paragraph">비동기식 재해 복구는 파일 및 블록 스토리지에서 사용할 수 있으며, 가입형 정액제에 DP 서비스가 필요합니다.</block>
   <block id="66c3ed260f83767ec6cb5bea7063940a" category="paragraph">재해 복구 영역은 운영 볼륨이 생성되는 존과 다른 NetApp 서비스 엔진 내의 존이어야 하며, 소스 영역이 MetroCluster가 활성화된 경우 MetroCluster 파트너가 아니어야 합니다. 공유/디스크의 재해 복구 복제본은 원래 공유/디스크와 동일한 성능 계층의 재해 복구 영역에 저장됩니다.</block>
   <block id="36e8c53798d70dd276ec873bd9daedea" category="paragraph">운영 볼륨에 대해 비동기식 재해 복구 복제를 사용하려면 다음이 필요합니다.</block>
   <block id="20a7636d7d202a8ca2df19231e59b397" category="list-text">재해 복구를 지원하기 위해 볼륨이 상주하는 파일 서버 또는 블록 저장소를 구성합니다.</block>
@@ -988,23 +923,17 @@
   <block id="ec9c28ece16dda721c388c1826025c31" category="paragraph">상위 파일 서버 또는 블록 저장소가 비동기식 재해 복구에 대해 처음 구성된 경우 비동기식 재해 복구 복제에만 파일 공유 또는 디스크를 구성할 수 있습니다. 기본적으로 상위 호스트에서 복제가 설정된 경우 상위 호스트가 호스팅하는 파일 공유 또는 디스크에서 복제가 설정됩니다. 공유/디스크에서 재해 복구를 비활성화하여 특정 공유 또는 디스크의 복제를 제외할 수 있습니다. 이러한 공유/디스크에서 복제 설정 및 해제 간에 전환할 수 있습니다.</block>
   <block id="7a0a70d776cf86d3de0837b534ab29ef" category="list-text">운영 파일 서버 또는 블록 저장소를 삭제하면 모든 재해 복구 복제 복제본이 삭제됩니다.</block>
   <block id="8ca9cd050d34dab0c72a2ab896f3423c" category="list-text">파일 서버 또는 블록 저장소당 하나의 재해 복구 영역만 구성할 수 있습니다.</block>
-  <block id="fd600e7efca7d2dff0ee5eed9fff79f2" category="list-text">재해 복구 복제본은 총 사용 용량에 기여합니다. 또한 재해 복구에는 재해 복구 구독 속도로 비용이 발생합니다. 도 참조하십시오 <block ref="a47ae4dd88f3e58d3633165415728570" category="inline-link-macro-rx"></block>.</block>
   <block id="faac058c9a360482eb6ebec5ed13d6ac" category="section-title">재해 복구 - 동기식</block>
-  <block id="0a1a184f28bf44d79ecc75faa9c1cb2c" category="paragraph">MetroCluster는 서로 다른 위치 또는 장애 도메인에 상주하는 두 개의 개별 영역 간에 데이터와 구성을 동기식으로 복제하는 DP 기능입니다. 한 사이트에서 재해가 발생할 경우 관리자는 정상적인 사이트에서 데이터를 제공할 수 있습니다.</block>
   <block id="b5792f100bb2741e8b6c946a4e03d7e2" category="paragraph">MetroCluster로 구성된 NetApp 서비스 엔진 관리 사이트는 다음과 같은 방법으로 파일 및 블록 스토리지에 대한 동기식 재해 복구를 지원할 수 있습니다.</block>
   <block id="6b81548a0abeb8aeab129cbacd82f233" category="list-text">동기식 재해 복구를 지원하도록 영역을 구성할 수 있습니다.</block>
   <block id="67d407f7c42c73135169843a2f02b552" category="list-text">이러한 영역에서 생성된 디스크/공유는 재해 복구 영역에 동기식으로 복제됩니다.</block>
-  <block id="7bc83e7cc314b9d8518366556ff2092c" category="list-text">동기식 재해 복구는 동기식 재해 복구 서브스크립션 속도에 따른 비용을 발생시킵니다. 도 참조하십시오 <block ref="a47ae4dd88f3e58d3633165415728570" category="inline-link-macro-rx"></block>.</block>
   <block id="c452aedb9429b97988724fc22e9d9bcd" category="section-title">데이터 보호, 사용된 용량 및 비용을 나타냅니다</block>
-  <block id="26028acff38ab9249fca65149aa2c55d" category="paragraph">이 섹션의 그림에서는 DP 요금을 계산하는 방법을 설명합니다.</block>
   <block id="80ecb9ec32a0f1994e07ed41ba4bc1a8" category="section-title">비동기식 재해 복구</block>
   <block id="cb3ed381ced081f05218db21a6c1fd94" category="paragraph">비동기식 재해 복구에서는 다음과 같은 비용으로 사용 및 비용이 이루어집니다.</block>
   <block id="e4be9a6b2af2d6372fc95f51f34a5801" category="list-text">원래 볼륨 용량은 상주하는 성능 계층에서 충전됩니다.</block>
   <block id="5ad04b2520e7e6c8e4d216fd98dad6d5" category="list-text">대상 또는 재해 복구 영역의 동일한 성능 계층에서 충전되는 재해 복구 복사본(재해 복구 복사본은 동일한 계층에 저장됨)</block>
-  <block id="702c277579ece12c537572a6487c249e" category="list-text">DP 서비스 비용(원래 볼륨의 용량에 대한 비용)</block>
   <block id="6539af4a2e779040f3761a5b75e22ff6" category="paragraph"><block ref="6539af4a2e779040f3761a5b75e22ff6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="21557b177d1579d7482cba2913668884" category="section-title">동기식 재해 복구</block>
-  <block id="b2419fdabc287dc270408b44d65a3ce2" category="paragraph">동기식 재해 복구에서는 사용 및 비용이 다음 비용으로 구성됩니다.</block>
   <block id="52b8c8170d83686335cf95f055d3f0da" category="paragraph"><block ref="52b8c8170d83686335cf95f055d3f0da" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3500ba09d0538297440ca620c9dd46bf" category="section-title">백업</block>
   <block id="bf5d0983486b43f2fbc013a6b7ca87ea" category="paragraph">백업 시 사용 및 비용은 다음과 같은 부담으로 구성됩니다.</block>
@@ -1085,14 +1014,12 @@
   <block id="6553abd67741ef5838fc0023aaf3615f" category="cell">특정 파일 공유의 세부 정보를 검색할 수 있습니다. ID, 이름, 스냅샷 정책, 프로토콜, 파일 서버 IP 등의 파일 공유의 세부 정보를 검색합니다. 입력한 ID를 기준으로 태그를 지정합니다.</block>
   <block id="2a5ff174f20666e38177f30bbbf52df9" category="paragraph">id: 파일 공유의 ID입니다.</block>
   <block id="a43e7f2866500fb09988a026b172c003" category="cell">파일 공유를 생성할 수 있습니다. ID, 이름, 스냅샷 정책, 프로토콜 등의 지정된 매개 변수를 사용하여 파일 공유를 생성하려면 요청 본문의 값을 추가합니다. 파일 서버 IP 및 태그.</block>
-  <block id="5a77eaffb26a87d168aa5d6e60d62640" category="paragraph">이름 : 파일 공유의 이름입니다. '공유_경로': 파일 공유의 경로입니다. 'fileserver_id': 파일 서버의 ID. size_gb: GB의 파일 공유 크기입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. '프로토콜': 파일 공유(NFS, CIFS 또는 멀티 프로토콜)를 액세스하는 데 사용되는 프로토콜입니다. 보안 스타일(Unix 또는 NTFS). Export_policy: 파일 공유의 내보내기 정책입니다.</block>
   <block id="6b4589dd1f673dd20c554e4629271cfc" category="paragraph">'/v2.1/fileshaes/{id}/'s napshot/{name}'</block>
   <block id="0ab985e0989bbd29c8c64750d5a37f3e" category="cell">파일 공유의 스냅샷을 생성할 수 있습니다.</block>
   <block id="a5f0604810f259d4335f82cc9c98f684" category="paragraph">id: 파일 공유의 ID입니다. 이름: 스냅샷의 이름입니다.</block>
   <block id="fbf2f6a6616c79d6acebb10e89e8d366" category="paragraph">'/v2.1/fileshaes/{id}/''tags'</block>
   <block id="d06a73ba1fe59938f19091d068d767bf" category="cell">파일 공유에 대한 태그를 만들거나 바꿀 수 있습니다. 요청 본문의 "key:value pair" 형식으로 파일 공유의 ID와 태그 값을 추가합니다.</block>
   <block id="e228717fed12c512ebc56920046732e5" category="cell">ID를 기준으로 모든 파일 공유를 수정할 수 있습니다. 파일 서버의 ID와 이름, 프로토콜, 스냅샷 정책, 백업 정책, 태그 등 요청 본문에서 수정할 값을 추가합니다.</block>
-  <block id="2cc0cccb3249750330e90729ba60e5c3" category="paragraph">id: 파일 공유의 ID입니다. 이름 : 파일 공유의 이름입니다. size_gb: GB의 파일 공유 크기입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. '프로토콜': 파일 공유(NFS, CIFS 또는 멀티 프로토콜)를 액세스하는 데 사용되는 프로토콜입니다. Export_policy: 파일 공유의 내보내기 정책입니다.</block>
   <block id="05c4332128a79c0d23538f5a46334433" category="cell">ID로 모든 파일 공유를 삭제할 수 있습니다.</block>
   <block id="11685ea3b6cc30adb6eae859895cca3c" category="cell">파일 공유의 ID와 스냅샷의 이름으로 파일 공유의 모든 스냅샷을 삭제할 수 있습니다.</block>
   <block id="0bb5849ddc549d6d9a0166d3663f0d1e" category="admonition">CIFS 공유의 경우 공유 경로 끝에 '$' 문자를 추가하면 hidomyhidendshare$ 등의 숨겨진 공유가 됩니다.</block>
@@ -1123,7 +1050,6 @@
   <block id="e5eb15ca632df1aa494f209b327dbe7e" category="list-text">오브젝트 스토리지 초기화 * 를 클릭합니다.</block>
   <block id="535ff16d54c5fa7c75ddf6959f11a9a9" category="list-text">오브젝트 스토리지 초기화 대화 상자에서 오브젝트 스토리지에 대한 할당량을 선택하고 * 생성 * 을 클릭합니다.</block>
   <block id="7415f0fe2358bf6330318eca757e1ac6" category="paragraph"><block ref="7415f0fe2358bf6330318eca757e1ac6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7f14db3d656154c43331a7cd4850539f" category="list-text">작업 목록을 확인하여 오브젝트 스토리지가 성공적으로 초기화되었는지 확인합니다.</block>
   <block id="7feb8545e008b64a43a24668068761be" category="summary">고객이 Active IQ Keystone에 대해 확인할 수 있는 내용</block>
   <block id="262343e94e4c53e68a3899e4036dbba5" category="doc">Active IQ에서 Flex Subscription 고객은 무엇을 볼 수 있습니까?</block>
   <block id="902acbb4ec533e7ef722d0120abac953" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독) 서비스에 가입한 경우 Active IQ 디지털 자문 대시보드에서 사용 보고서 및 그래프를 볼 수 있습니다.</block>
@@ -1137,12 +1063,6 @@
   <block id="29cb371773858a73b7aca64ff6f208f4" category="inline-link-macro">NetApp Keystone 유연한 구독으로 용량 활용도를 확인할 수 있습니다</block>
   <block id="fc533fceebb994e8ef6bbeba15951fd9" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="30eccfcef2e1a5c7fe1b095bf8a3af1d" category="inline-link-macro-rx"></block>.</block>
   <block id="410c98fcb0c5c3d90c0e8a60a9dcc645" category="summary">유연한 Keystone 구독 성능</block>
-  <block id="9dc46e9b8e8e3325a5f950ba6b189e61" category="doc">성능 서비스 레벨</block>
-  <block id="eb47920f375e65c94fc36335aede0f2d" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독)은 미리 정의된 성능 수준에서 용량을 제공합니다.</block>
-  <block id="418852be623b3dd4f2d4b388a8087e02" category="paragraph">각 성능 서비스 수준은 I/O 밀도로 정의됩니다. 이 밀도는 IOPS/TiB에 해당하는 성능(초당 입출력 작업 수[IOPS])과 사용된 스토리지(저장된 데이터의 TiB)의 비율입니다.</block>
-  <block id="cfac68d8ffc92c1c9c46b9d5150bd845" category="paragraph">Flex Subscription 서비스로 관리되는 각 볼륨은 성능 서비스 수준과 연결됩니다. 각 볼륨에서 사용된 모든 I/O 작업과 사용된 모든 스토리지는 볼륨의 I/O 밀도 계산에 포함됩니다.</block>
-  <block id="a47468120853c1eae9253fff2798d8d6" category="paragraph">아래 표에는 성능 서비스 수준이 정의되어 있습니다.</block>
-  <block id="ae14ae08bc11163da49596ed847fb224" category="section-title">다른 스토리지 유형에 대한 성능 서비스 수준</block>
   <block id="28307c52fb9de3f0b2b26086b89eb8f3" category="paragraph">여기에 파일, 블록 및 오브젝트 스토리지의 서비스 수준이 나와 있습니다.</block>
   <block id="89c3a4001bb90f26ff84b68cb534b8ee" category="paragraph">볼륨 레벨의 I/O 밀도 계산은 이전 주 동안의 최대 I/O 밀도를 보여 주는 것으로 보고됩니다. 최대 성능은 시간별 시간 간격에 따라 결정됩니다. 볼륨별 I/O 밀도 보고서는 각 서비스 수준에 대한 준수 여부를 측정하기 위해 매월 생성됩니다.</block>
   <block id="e674e65192e6527dabaf52c23f514da4" category="section-title">파일 서비스</block>
@@ -1177,7 +1097,6 @@
   <block id="6b2c7dcd56a1cb15a3943cec9cbc288a" category="cell">15TiB^2^</block>
   <block id="2d46634ee64919ed31d1417b57f21934" category="cell">25TiB^2^</block>
   <block id="7d7a1cbef5663cabe63cfb0d8ca01cb8" category="cell">50TiB^2^</block>
-  <block id="b7a050dc1a51cdc992245ce9afb75060" category="admonition">^1^ NetApp 직접 기회에 대한 파일 공유와 블록 성능 서비스 수준의 조합에 대해 최소 1년 및 100TiB 최소 용량을 제공합니다. ^2^채널 주도 기회를 위해 선택한 각 서비스 계층당 최소 1년 간의 기간 및 최소 명시된 용량입니다.</block>
   <block id="4f0550f066ae72bb8c24fc3f59c323bf" category="section-title">블록 스토리지</block>
   <block id="8e634bafd4732f9f05a35ceb5ed54902" category="paragraph">* 지원되는 프로토콜 *: FC 및 iSCSI</block>
   <block id="2f569257101cf136a49d983584bfc44f" category="cell">HPC</block>
@@ -1189,7 +1108,6 @@
   <block id="f369b2981da1e28bb1901ae50eeb877a" category="cell">0.5ms 미만</block>
   <block id="bf9224ad67754b6fee4e952851b35d3e" category="cell">100TiB^3^</block>
   <block id="2378ad2afb80cd0122c6f07757ca1321" category="cell">300TiB^3^</block>
-  <block id="377805c2057aec33fb79fbe701c063df" category="admonition">^1^ NetApp 직접 기회에 대한 파일 공유와 블록 성능 서비스 수준의 조합에 대해 최소 1년 및 100TiB 최소 용량을 제공합니다. ^2^채널 주도 기회를 위해 선택한 서비스 계층당 최소 1년 기간 및 최소 명시된 용량. ^3^ 두 기회 유형 중 하나에 대해 선택한 서비스 계층당 최소 1년 기간 및 최소 명시된 용량.</block>
   <block id="670aaecb1a526fbed439dad3ec353a96" category="section-title">오브젝트 스토리지</block>
   <block id="58d801506333ab644845942779162cbc" category="paragraph">* 지원되는 프로토콜 *: S3</block>
   <block id="497031794414a552435f90151ac3b54b" category="cell">오브젝트</block>
@@ -1259,8 +1177,6 @@
   <block id="f748cdecc7002e854af01b7f1d36ebb1" category="paragraph">NetApp Keystone 유연한 구독(Flex Subscription) 데이터 보호 서비스는 데이터를 백업할 수 있으며 필요한 경우 복구할 수 있습니다. 사용 가능한 데이터 보호 서비스는 다음과 같습니다.</block>
   <block id="7da490627b0929eb399424269ef46d7f" category="list-text">디스크 및 공유 백업(구독의 일부로 데이터 보호 서비스 필요)</block>
   <block id="b0609401d759c5156292bcededa3ee06" category="list-text">디스크 및 공유의 재해 복구(구독의 일부로 데이터 보호 서비스 필요)</block>
-  <block id="e54199d839aec4367252780290236e17" category="admonition">백업 및 재해 복구 서비스는 추가 서비스로 제공되며 Snapshot은 기본 스토리지 서비스의 일부로 제공됩니다.</block>
-  <block id="f8f0d91ade238084163c368750f7e560" category="cell">단일 영역 스냅샷(기본 스토리지 서비스의 일부로 사용 가능)</block>
   <block id="53b8c0793d8e01e805f7baa48301f0cb" category="cell">다중 지역 백업(데이터 보호 애드온)</block>
   <block id="096f97b9f45eb7df5614230380360723" category="cell">다중 지역 재해 복구(데이터 보호 애드온)</block>
   <block id="f9468c81b3d59ac0030570c4f58e95f1" category="cell">사용 사례</block>
@@ -1269,7 +1185,6 @@
   <block id="85e4dd429192e345faa9e2c70c1916f6" category="cell">복구 시간 목표를 통해 인프라 손실 또는 장애로 인해 기본 볼륨에서 데이터가 완전히 손실될 위험을 완화하십시오</block>
   <block id="51359e8b51c63b87d50cb1bab73380e2" category="cell">정책</block>
   <block id="4c2814b8dac284c19012ca2d1822b5b3" category="cell">매시간, 매일, 매주 및 매월</block>
-  <block id="1c9afea4ef71092614eba4f4a54ff7f8" category="cell">시간별, 일별, 주별 및 월별 스냅샷을 기준으로 보존할 백업 수입니다</block>
   <block id="8a1e150d4dfb13fe97a51f4e6116b23b" category="cell">1시간, 4시간, 매일</block>
   <block id="99571eecaa5c5d622bb0d1f855752d5f" category="cell">토폴로지</block>
   <block id="425853ef2dd1e19d65e025514191b39e" category="cell">소스만</block>
@@ -1343,7 +1258,6 @@
   <block id="d1bd1fc145b2dd4e9c7d502087eff667" category="cell">특정 디스크의 세부 정보를 검색할 수 있습니다. 블록 저장소 ID, 이름, 디스크 경로, 프로토콜, 스냅샷 정책 등의 디스크 세부 정보를 검색합니다. 입력한 ID를 기준으로 태그를 지정합니다.</block>
   <block id="8363e9db6337aec458fad0542f86be76" category="paragraph">id: 디스크의 ID입니다.</block>
   <block id="0f3a3f9d00d1528c6a81cdbd42537a5c" category="cell">디스크를 만들 수 있습니다. 요청 본문의 값을 추가하여 서브테넌트 ID, 영역, 이름, 디스크 경로, 스냅샷 정책 등과 같은 지정된 매개 변수를 사용하여 디스크를 생성합니다. 백업 정책 및 태그.</block>
-  <block id="7be3b7a364383933a0a625f4986f488a" category="paragraph">'Subtenant_id': 서브테넌트의 ID. 존 : 존의 이름. 이름: 디스크의 이름입니다. 디스크 경로. 프로토콜: 블록 디바이스 액세스에 사용되는 스토리지 프로토콜입니다. OS_TYPE: 호스트 운영체제의 종류이다. hostgroup_mappings: 호스트 그룹 매핑입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. size_gb: 디스크 크기(GB)입니다.</block>
   <block id="318b0905a90c6a1cffb69d4449588db7" category="paragraph">"/v2.1/disks/{id}/"스냅샷/{name}"</block>
   <block id="ba3707d372f97ea71dc77216e4e0bd18" category="cell">디스크의 스냅샷을 생성할 수 있습니다.</block>
   <block id="ab0c5afc4b03b0877a98f18cc5ef2120" category="paragraph">id: 디스크의 ID입니다. 이름: 스냅샷의 이름입니다.</block>
@@ -1385,21 +1299,11 @@
   <block id="e075171d9f4a50b36e81437b2ab698e9" category="paragraph">버킷은 서브테넌트 아래에 생성됩니다.</block>
   <block id="1409d624fa12d109a857c057bbad2db7" category="list-text">를 봅니다 <block ref="0288897c3c1427493cce55288f39ec55" category="inline-link-macro-rx"></block> 버킷을 생성할 서브테넌트를 선택합니다.</block>
   <block id="f4687ab7882a3c0d42adf57ea9baa699" category="list-text">Create Bucket * 을 클릭합니다.</block>
-  <block id="d51f9a464ac0235324fddb6aa9d49d8d" category="list-text">버킷 생성 대화 상자에서 새 버킷의 이름을 입력하고 * 생성 * 을 클릭합니다. 그러면 버킷을 생성하는 작업이 생성됩니다.</block>
   <block id="85e8b5230d715e00d950ec38ae7e93fa" category="paragraph">Create Bucket은 비동기 작업으로 실행됩니다. 다음을 수행할 수 있습니다.</block>
-  <block id="5877dc247e1490bb848817ef9d900198" category="list-text">작업이 완료된 후 Bucket 목록에서 서버의 상태를 확인합니다.</block>
   <block id="976f723930b9c253badf5a8e50c023b1" category="summary">Keystone 오브젝트 스토리지 그룹 수정</block>
   <block id="1ca4a67c83c613046d26b191b0d3d48e" category="paragraph">이 방법을 사용하여 그룹 이름 및 S3 정책과 같은 오브젝트 스토리지 그룹의 세부 정보를 수정할 수 있습니다.</block>
-  <block id="a3619c46f80c117c82d9b8f5ce15c791" category="inline-link-macro">그룹 목록</block>
-  <block id="0fc473ae179e938ced45ce5884836388" category="list-text">를 봅니다 <block ref="af85d4ed6b92cbdb096c6e017a65dffc" category="inline-link-macro-rx"></block>.</block>
-  <block id="9ac2bdd1605743485b172df6bc2094b6" category="list-text">목록에서 그룹을 찾고 해당 그룹의 편집 아이콘을 클릭합니다.</block>
-  <block id="0b980fcb28f3b186400e7da565e6c22e" category="list-text">그룹 편집 대화 상자에서 사용자 이름을 입력합니다.</block>
-  <block id="b4dbcd371a0fc39b2fd294d848a43305" category="list-text">수정된 그룹에 적용되는 S3 정책을 선택합니다.</block>
-  <block id="a42e49df2998084772a70af48af44ee7" category="list-text">Create * 를 클릭합니다. 이렇게 하면 지정된 설정으로 그룹을 수정하는 작업이 생성됩니다.</block>
   <block id="a69d668d73ed9ea0922a525be4e0f1c3" category="summary">Keystone 시작 개요</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="doc">개요</block>
-  <block id="1711f3f349e27f79baf2679e426c7ef7" category="paragraph">이 섹션에서는 NetApp Service Engine 포털을 사용하여 를 시작하는 방법을 설명합니다. 여기에는 다음이 포함됩니다.</block>
-  <block id="be6e8736db2969895574ed3566dd6819" category="list-text">NetApp Service Engine 웹 인터페이스에 로그인합니다.</block>
   <block id="a852a6f32185c74dee9f0d17c66ba1fa" category="list-text">사용자 이름과 암호를 사용하여 로그인합니다</block>
   <block id="f6650b0d4b1f443020073cc3a6d83ffa" category="list-text">NetApp SSO로 로그인하십시오</block>
   <block id="0d718937cc87bb249b9df582d7731ec3" category="list-text">NetApp Service Engine 웹 인터페이스에서 로그아웃합니다</block>
@@ -1415,7 +1319,6 @@
   <block id="fdba3cae37eccb96c4307e07af690784" category="section-title">유연한 구독</block>
   <block id="60e9d00fe6da3c4a7ff384bed342bf02" category="paragraph">Flex Subscription은 종량제 구독 기반 서비스 모델로, OpEx 소비 모델을 선호하는 사용자에게 원활한 하이브리드 클라우드 경험을 제공하여 자본 지출 또는 임대를 지원합니다. 따라서 고객은 예측할 수 없는 용량 증가를 관리하고 복잡한 조달 주기를 따르는 데 따르는 복잡성을 줄임으로써 가치 창출 시간을 단축할 수 있습니다. Flex Subscription을 통해 고객은 비즈니스 우선 순위에 따라 경제성과 운영을 조정할 수 있습니다.</block>
   <block id="fb2c4a4567f19f497aa52f4fa9fe5ad4" category="paragraph"><block ref="fb2c4a4567f19f497aa52f4fa9fe5ad4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="af401326a6f27af7fc3bb2ff21b788dc" category="paragraph">Flex Subscription은 사전 정의된 성능 서비스 수준에서 스토리지 용량을 제공하는 구독 기반 서비스로, 사내에 구현할 수 있고 NetApp, 파트너 또는 고객이 운영하는 블록, 파일 및 오브젝트 데이터 유형을 제공합니다. Flex Subscription이 제공하는 기본 서비스 외에도 추가 서비스를 추가 비용으로 선택할 수 있습니다. 이러한 서비스는 아래 그림에 설명되어 있습니다.</block>
   <block id="173cfa01f909dadb1cc7bb7d43b24a2e" category="list-text">* 데이터 보호 기본 * 서비스는 NetApp SnapMirror 및 NetApp SnapVault 기능을 기본 설정으로 제공합니다.</block>
   <block id="1ca92842b9f8718a33770baa49c236e6" category="list-text">* 데이터 보호 고급 * 은 NetApp MetroCluster 기능을 활용하여 RPO 0의 SLA를 충족하는 서비스를 제공합니다.</block>
   <block id="02573cfb14818a9b260f4e31c28e893e" category="admonition">Flex Subscription은 백업 작업에 SnapVault 기술을 사용하고 재해 복구에 SnapMirror를 사용하여 데이터를 원격으로 복제하며 자동으로 페일오버하고 애플리케이션을 복원하지 않습니다.</block>
@@ -1432,9 +1335,7 @@
   <block id="a0a35eef0076381c8b78bfe2cdbed28b" category="paragraph"><block ref="a0a35eef0076381c8b78bfe2cdbed28b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e69a67ee29567c85d079a5da92e0021d" category="summary">Keystone 디스크를 수정합니다</block>
   <block id="33c370172fdc08408235c95f781a07a0" category="doc">디스크를 수정합니다</block>
-  <block id="99e386b08e85bd69bd5c2cf4790ac52c" category="paragraph">디스크 이름, 호스트 그룹 매핑, 성능 서비스 수준, 용량 및 스냅샷 정책을 변경할 수 있습니다. 이 방법을 사용하면 사용 가능한 경우 디스크를 다른 서비스 수준으로 이동할 수 있습니다.</block>
   <block id="800232749a16547198a7a3c89acbbd05" category="inline-link-macro">디스크를 봅니다</block>
-  <block id="01e4e789a3c7b5698552e1195e37cb41" category="paragraph">디스크가 작동 상태여야 합니다. 볼륨 상태 및 작동 단계에 대한 자세한 내용은 을 참조하십시오 <block ref="7e36d1153c26a010b4cff09ad58116d3" category="inline-link-macro-rx"></block> 및 <block ref="1dd0eaff8c7fecd5c80f4e2420f50d3b" category="inline-link-macro-rx"></block></block>
   <block id="896d052512c0fb4562720e6f8b2e04aa" category="list-text">목록에서 디스크를 찾고 해당 디스크의 편집 아이콘을 클릭합니다. 목록의 항목 작업에 대한 자세한 내용은 을 참조하십시오 <block ref="4a0d19ebe9aa0f2533119e3056a7b078" category="inline-link-macro-rx"></block>)를 클릭합니다.</block>
   <block id="a92119da3e686b632067f70b22063541" category="inline-link-macro">새 디스크를 만듭니다</block>
   <block id="282dc5a10162766e4fcb566b2af92759" category="list-text">필요에 따라 변경합니다. 을 참조하십시오 <block ref="57fea650aa9c9b401ce352b97a62b02e" category="inline-link-macro-rx"></block> 필드 설명을 참조하십시오.</block>
@@ -1467,9 +1368,6 @@
   <block id="10288ddd3c9dd46deaa222ee129df3fb" category="doc">미국 시민 지원(USCS)</block>
   <block id="84f6d3a5def8d6fdb2e670f351bd97ac" category="summary">Keystone 파일 공유를 수정합니다</block>
   <block id="96d7785fd8b4fc6102aa2bba06ea552b" category="doc">파일 공유를 수정합니다</block>
-  <block id="c037be27281bba056da9ad07524116b5" category="paragraph">공유 이름, 공유 유형(CIFS, NFS, 멀티 프로토콜), 서비스 레벨, 용량, 스냅샷 정책, 엑스포트 정책, 액세스 제어 목록(ACL) 및 태그</block>
-  <block id="ddbae29bcf08223262b9cceabb558475" category="admonition">이 방법을 사용하면 가능한 경우 공유를 다른 성능 수준으로 이동할 수 있습니다. 서버가 해당 서비스를 지원하는 경우에만 공유 유형을 변경할 수 있습니다.</block>
-  <block id="88e111944c1de058d51c02261793ca82" category="paragraph">파일 공유가 작동 상태여야 합니다. 볼륨 상태 및 작동 단계에 대한 자세한 내용은 을 참조하십시오 <block ref="7e36d1153c26a010b4cff09ad58116d3" category="inline-link-macro-rx"></block> 및 <block ref="1dd0eaff8c7fecd5c80f4e2420f50d3b" category="inline-link-macro-rx"></block></block>
   <block id="c871110fae62093309dc98c9c0f64df9" category="inline-link-macro">공유 목록</block>
   <block id="e4e1d77a63cd3aa6730e97c43e33e478" category="list-text">를 봅니다 <block ref="eecd99a55268013f6ef2da8b234f1345" category="inline-link-macro-rx"></block>.</block>
   <block id="e16c520bd846a3572e0833e4e518e67e" category="list-text">목록에서 공유를 찾고 해당 공유의 편집 아이콘을 클릭합니다. 목록의 항목 작업에 대한 자세한 내용은 을 참조하십시오 <block ref="4a0d19ebe9aa0f2533119e3056a7b078" category="inline-link-macro-rx"></block>)를 클릭합니다.</block>
@@ -1514,15 +1412,7 @@
   <block id="468c95ce8260e42060992d5c99daa33b" category="paragraph">이 방법을 사용하여 Azure NetApp 계정을 삭제합니다.</block>
   <block id="03ec8f9354501e9c2c8a10dfba0b8819" category="list-text">목록에서 Azure NetApp 계정을 찾고 삭제 아이콘을 클릭합니다.</block>
   <block id="d1bd03dea5e50660d5be4ae12156bba8" category="list-text">삭제 확인 대화 상자에서 삭제할 Azure NetApp 계정의 이름을 입력합니다.</block>
-  <block id="ee966310f09723c05298f5d7d7aa6f27" category="summary">스냅샷에서 파일 공유를 생성합니다</block>
-  <block id="298c17df37c9568ee5167ba1ad189316" category="paragraph">기존 스냅샷에서 새 파일 공유를 생성할 수 있습니다. 스냅샷에서 복제된 새 파일 공유는 스냅샷이 생성되는 파일 공유와 동일한 속성을 갖습니다.</block>
   <block id="ba791218e3e41923099db15abe057c18" category="list-text">왼쪽 탐색 창에서 * 파일 서비스 * 를 선택하고 * 공유 * 를 선택합니다.</block>
-  <block id="176bb6beb0437ca5de2e3106aa55ebc5" category="list-text">Create Share * 를 클릭하고 * Clone from snapshot * 을 선택합니다. 공유 선택 * 화면이 테넌트에 대한 모든 파일 공유와 함께 표시됩니다. 영역, 영역 및 하위 테넌트별로 파일 공유를 필터링할 수 있습니다. 작동 중인 파일 공유를 선택할 수 있습니다.</block>
-  <block id="ca7f98cdc8f658e2b3a6a84f43fdc689" category="list-text">원하는 파일 공유 옆의 확인란을 선택하고 * 다음 * 을 클릭합니다. 스냅샷 선택 * 화면이 파일 공유에 대한 모든 스냅샷과 함께 표시됩니다.</block>
-  <block id="48f97c1b6230094e74163fccfef5de16" category="admonition">선택한 파일 공유에 대해 NetApp 서비스 엔진 외부의 SnapCenter 환경에서 생성된 일부 스냅샷이 있을 경우, 선택한 스냅샷을 가져올 수 있습니다. 가져온 스냅샷을 선택하고 새 파일 공유를 복제할 수 있습니다.</block>
-  <block id="fcf40d84ad9d1429bb30cf5904e5ac09" category="paragraph">특정 스냅샷을 검색하거나 스케줄 유형을 선택하여 스냅샷을 필터링할 수 있습니다.</block>
-  <block id="e63a7810ce3ddcb554adeae7407cc780" category="list-text">복제할 스냅샷 옆의 확인란을 선택하고 * 다음 * 을 클릭합니다. 새 파일 공유는 선택한 스냅샷의 속성을 상속합니다.</block>
-  <block id="28e56d37d84600977d376fe03d5a6a37" category="list-text">이름 * 과 * 공유 경로 * 를 추가합니다. 서비스 수준 할당 * 과 같은 다른 설정을 업데이트하고 * 생성 * 을 클릭합니다.</block>
   <block id="3f715514a2bfe764cac754c65809be90" category="list-text">CIFS 유형 공유에만 해당: 호스트 이름으로 공유를 사용할 수 있도록 하려면 도메인 관리자가 CIFS 서버 이름 및 IP 주소로 DNS 레코드를 업데이트해야 합니다. 그렇지 않으면 IP 주소를 통해서만 공유에 액세스할 수 있습니다. 예를 들면 다음과 같습니다.</block>
   <block id="fba56c0d64944dc3214fe93c3c4dfaf9" category="list-text">DNS 레코드가 업데이트되지 않은 상태에서 IP 주소를 사용하여 공유에 액세스해야 합니다<block ref="314ebc4577f75d6d010afa65cfd7b78a" category="inline-link-rx"></block></block>
   <block id="20b429a1a1a9ba41ca6fe084dee89859" category="list-text">* 공유 생성 * 은 비동기 작업으로 실행됩니다. 다음을 수행할 수 있습니다.</block>
@@ -1541,9 +1431,7 @@
   <block id="bf733d8a933c1601697f364223fc7ecb" category="cell">액세스</block>
   <block id="cd179e66f0cac36f71df9d05a926dd0d" category="cell">파트너 관리자/어카운트 소유자</block>
   <block id="c2e2fce3a995f59900d7afbbe58683f5" category="inline-link-macro">이 링크</block>
-  <block id="9137eb08618eaa70f67d25c92564f6ee" category="cell">테넌트 및 해당 가입의 관리에 대한 모든 작업을 수행할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="e2cb732c8d5ec3f0b630f3b0e66fd3db" category="inline-link-macro-rx"></block>.</block>
   <block id="8c932f4b25b6b6a60a35564fa075f3d3" category="cell">고객/테넌트 관리자</block>
-  <block id="ec58dc667cdf001ad2eee1740a681056" category="cell">고객 또는 테넌트 관리자는 하위 테넌트 관리와 관련된 모든 작업을 수행할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="e2cb732c8d5ec3f0b630f3b0e66fd3db" category="inline-link-macro-rx"></block>.</block>
   <block id="062e892cc19c04dde512b97ac8c0daa2" category="cell">NetApp 관리자(읽기)</block>
   <block id="2eca39b4683fcf76619ce1d4a93bf9ee" category="cell">모든 구성 요소에 대한 읽기 전용 액세스</block>
   <block id="150de5f6f748e3153b4c658113417651" category="cell">NetApp 관리자</block>
@@ -1552,14 +1440,11 @@
   <block id="2bb4cbf1256e8a6a37285f059766e415" category="list-text">NetApp Service Engine 웹 인터페이스 사용자 이름 및 암호</block>
   <block id="c63762405cc3abcb62a695f3a23339b0" category="list-text">NetApp 서비스 엔진 포털의 URL</block>
   <block id="488469c0d75135f7c78adae8a72c1e8a" category="list-text">웹 브라우저</block>
-  <block id="e2e473f1846afad5c889437c379e6dc0" category="list-text">웹 브라우저에서 NetApp Service Engine 포털 URL로 이동합니다. 로그인 페이지가 표시됩니다.</block>
   <block id="f8262bc7f71fe7cc6293c9b6dddedfc6" category="list-text">로컬 사용자 로그인 * 을 선택합니다.</block>
-  <block id="5770e2e433e3acedf1bbe15badd701a8" category="list-text">NetApp Keystone에 로그인 페이지에서 사용자 이름과 암호를 입력하고 * 로그인 * 을 클릭합니다.</block>
   <block id="6c5a8015b36b917a66218b675eea92c2" category="inline-link-macro">NetApp 서비스 엔진 웹 인터페이스 개요</block>
   <block id="2e6df03be779eb981ba140f1f8b1e783" category="list-text">로그인이 성공하면 NetApp Service Engine 웹 인터페이스가 로드되고 대시보드에서 열립니다. GUI에 대한 개요는 을 참조하십시오 <block ref="2f9b8af2c7d5dd961826f7a81f97b9de" category="inline-link-macro-rx"></block>.</block>
   <block id="4c7f66e3f198b33e7bcbe1797fbd60f8" category="admonition">로그인에 성공했지만 대시보드가 표시되지 않는 경우 NetApp 서비스 엔진 포털 관리자에게 문의하여 NetApp 서비스 엔진 포털 계정에 올바른 역할이 할당되었는지 확인하십시오.</block>
   <block id="f4aa92e74e4f074569a506d6a8fff8df" category="paragraph">NetApp SSO로 로그인하려면 다음이 필요합니다.</block>
-  <block id="80f50d39fceb948a9e3d572982868795" category="list-text">NetApp SSO 계정 NetApp Support 사이트에서 계정을 요청할 수 있습니다. 로그인 화면에서 * NetApp SSO 계정 생성 * 을 선택하고 다음 단계를 따르면 됩니다.</block>
   <block id="dbafe9c960cbba19c353325bc02bcab4" category="list-text">NetApp 서비스 엔진 포털의 URL</block>
   <block id="17aceb7e9c24a70688626b92436e14f0" category="list-text">웹 브라우저.</block>
   <block id="9fc5f7aaf9e92662c4bcaccbd7573128" category="list-text">NetApp SSO를 선택하십시오.</block>
@@ -1574,9 +1459,7 @@
   <block id="bd1984523f235f050c7a687cbdffee96" category="paragraph">이 데이터는 고객이 Flex Subscription 인프라에 저장하는 데이터입니다. 모든 Flex Subscription 용량은 논리적 용량을 의미합니다. 예를 들어, 1TiB 파일이 Flex Subscription 인프라에 저장된 경우 1TiB 이상의 용량을 구매해야 합니다.</block>
   <block id="4ac938291a74f21a35352afb886d2d88" category="section-title">약속된 용량</block>
   <block id="03cd8c6bf7fa9b89369c8da2bc2063e7" category="paragraph">기간 동안 매월 청구하는 최소 논리적 용량:</block>
-  <block id="daec5abe68eb172b15758085f16c740e" category="list-text">용량은 각 성능 레벨에 따라 커밋됩니다.</block>
   <block id="65bdbd8437ca88c89824e2ddc621f54c" category="list-text">약정 용량은 기간 동안 줄일 수 없습니다.</block>
-  <block id="8ff64aaef80695cc5c145b3bef4a236f" category="list-text">약정 용량 및 추가 성능 레벨은 기간 동안 추가할 수 있습니다.</block>
   <block id="326cde132ee3d2c6dbda5e81887d37fd" category="section-title">약속된 용량의 변경</block>
   <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">서브스크립션 기간 동안 약정 용량을 변경할 수 있습니다. 그러나 다음과 같은 몇 가지 전제 조건이 있습니다.</block>
   <block id="f5d9b6b00fd78d80af103a392bba7c30" category="list-text">커밋된 용량을 줄일 수 없습니다</block>
@@ -1590,7 +1473,6 @@
   <block id="aec1005ee7c9c20d1a1b0df3290a5c34" category="list-text">최대 20%의 버스트 용량은 커밋된 용량과 동일한 속도로 충전됩니다.</block>
   <block id="e895579d02072ebda659dbda14a17726" category="list-text">약속된 버스트 용량의 20%를 초과하는 버스트 용량은 보험료로 부과됩니다. 20%를 초과하는 추가 버스트 요구 사항은 지원 팀에 문의하십시오.</block>
   <block id="94c94961a24325da0518d106d0d1d12a" category="section-title">사용/프로비저닝된 용량입니다</block>
-  <block id="c7c21d5830d05e2332e2cd7f088bc8f2" category="paragraph">사용된 용량은 서비스에서 현재 사용되고 있는 TiB 스토리지 용량을 나타냅니다. Flex Subscription 서비스는 특정 성능 서비스 수준의 모든 볼륨에 대해 프로비저닝된 크기(논리적 또는 물리적 용량 사용 안 함)의 합계를 해당 성능 서비스 수준의 사용된 용량으로 간주합니다. 여기에는 다음이 포함됩니다.</block>
   <block id="6fc8b176a9bd3f331984e2de9b5dbfab" category="list-text">볼륨의 생성, 수정, 삭제 또는 잠재적 자동 증가를 통해 프로비저닝되는 용량입니다.</block>
   <block id="202ac47fdd80de7d80018d24cb661fc9" category="list-text">Snapshot 복사본 및 클론</block>
   <block id="b33c6009150f806349f79306b0821192" category="admonition">프로비저닝된 용량 내에 저장된 데이터 양 또는 디스크에 실제로 기록된 데이터의 양은 고려되지 않습니다.</block>
@@ -1599,12 +1481,8 @@
   <block id="51ac471fe8e265dbab97472d8ec286d7" category="inline-link-macro">유연한 구독 요금 청구</block>
   <block id="ed76c58e3897de50263e43ae793ed27f" category="paragraph">월별 청구 요금은 일일 평균 사용 용량에 따라 최소 청구비 이상으로 다릅니다. 청구에 대한 자세한 내용은 를 참조하십시오 <block ref="d823bdbe3ab2a5d92501c2ec4317d1f7" category="inline-link-macro-rx"></block>.</block>
   <block id="e8f221d15eb31d00b8a988529a3e2527" category="summary">Keystone에서 서비스 요청을 제기합니다</block>
-  <block id="711953faa9bb8cc628e913011d0e5b33" category="paragraph">서비스 요청 화면에서는 자체 지원 팀 또는 NetApp GSSC에 대한 새로운 서비스 요청을 제출할 수 있습니다.</block>
-  <block id="0db330634d2013b5c1d235072b61db84" category="paragraph">대시보드의 * Service Requests * 위젯에서 가장 최근의 서비스 요청 요약을 우선순위 및 생성 시간별로 정렬할 수 있습니다. 서비스 요청 화면으로 이동하여 사용자 환경에서 발생한 모든 서비스 요청의 세부 정보를 검색하고 볼 수도 있습니다.</block>
   <block id="51eb35cbb4e3a4cefea470dcb9610124" category="paragraph">새 서비스 요청을 생성하려면 다음 절차를 따르십시오.</block>
   <block id="9187ea14b0030339be001019f5b66e57" category="list-text">메뉴에서 * 지원 &gt; 서비스 요청 * 을 선택하고 * 새 서비스 요청 * 을 클릭합니다.</block>
-  <block id="f2dcdabaded22e13ec16edb510458300" category="list-text">새 서비스 요청 페이지에서 요청의 범주 및 우선 순위를 선택하고 * 다음 * 을 클릭합니다.</block>
-  <block id="1bacea68b531028513d23df48579f200" category="list-text">세부 정보 화면의 필드는 선택한 범주에 따라 변경됩니다. 필수 세부 정보를 입력합니다. 다음 * 을 클릭합니다.</block>
   <block id="721b8bc2578cf4a3290ff3e1ae267444" category="list-text">요청 세부 정보를 검토합니다. 내용을 수정하려면 뒤로 버튼을 사용하여 이전 페이지로 돌아가서 세부 정보를 수정하십시오. 모든 세부 정보가 올바르면 * 제출 * 을 클릭합니다.</block>
   <block id="563d16503074b1783f0c64fc34fa990c" category="list-text">서비스 요청이 생성되고 Service Requests(서비스 요청) 화면에 나열됩니다. 새로 개설된 서비스 요청의 상태가 '신규'입니다.</block>
   <block id="385907468665e91a15044c37c13e9d76" category="paragraph">요청자에게 요청이 생성되었음을 알리는 이메일이 전송됩니다. NetApp 서비스 엔진 요청 사용자에 대해 등록된 주소로 이메일이 전송됩니다.</block>
@@ -1612,7 +1490,6 @@
   <block id="94aa9dc7e2488fdf523fa464cb4c393f" category="doc">보고서 보기</block>
   <block id="dafbc590b12f062c36c2aa85f50af973" category="paragraph">NetApp Keystone Flex 가입 사용량과 테넌트 사용량에 대한 용량 및 성능 보고서를 생성할 수 있습니다.</block>
   <block id="3c00f75ae9df654587444dd48c9c9d28" category="section-title">Keystone 구독 용량 사용 보고서</block>
-  <block id="1bce7866d6006486b8f977f92d42847f" category="paragraph">Keystone 가입 시 용량 사용량 페이지에는 시간별 가입형 정액제에 따른 각 스토리지 서비스의 용량 사용량이 표시됩니다. NetApp 관리자는 가입 시 모든 테넌트 및 파트너의 용량 사용 보고서를 확인할 수 있습니다. 파트너 관리자는 Flex Subscription 사용에 대한 용량 보고서를 볼 수 있습니다. 이 페이지의 그래픽 보고서를 사용하여 개별 탭에서 모든 스토리지 서비스의 사용 추세와 추가 데이터 보호 서비스를 확인할 수 있습니다. 서비스가 버스트 상태일 때 배너에는 현재 청구 주기에 사용된 버스트 용량이 표시됩니다.</block>
   <block id="c28e93c47e98f33d0df99a351e91e439" category="paragraph"><block ref="c28e93c47e98f33d0df99a351e91e439" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d8849b0da5f9fe49a159d88dedd6ae5f" category="paragraph">Keystone 가입 용량 사용 페이지를 보려면 메뉴에서 * 보고서 &gt; Keystone 사용 * 을 선택합니다.</block>
   <block id="d416faf28a81196ca783d5d5f9c31560" category="paragraph">서비스의 용량 사용을 보려면 다음 단계를 수행하십시오.</block>
@@ -1622,10 +1499,8 @@
   <block id="4b57217fab908dfebf6397733f6990c6" category="section-title">테넌트 할당 용량 사용량 보고서</block>
   <block id="b0358e653dab977a4aa369b80b762b4b" category="paragraph">테넌트 구독의 용량 사용 페이지에는 Flex Subscription의 구독된 스토리지 서비스에 대한 각 테넌트의 시간 경과에 따른 용량 사용량이 표시됩니다. 이 페이지는 NetApp, 파트너, 테넌트 또는 고객 관리자가 특정 테넌트의 용량 사용 보고서를 볼 수 있습니다.</block>
   <block id="aa4266103f12e434c37accf81a420528" category="admonition">테넌트 관리자의 경우 페이지가 "용량 사용량"으로 나타납니다.</block>
-  <block id="3f033a8bc97ed9eee168ee38abee2a91" category="paragraph">이 페이지의 그래픽 보고서를 사용하여 데이터 보호와 같은 추가 서비스 및 모든 스토리지 서비스의 사용 추세를 별도의 탭에서 확인할 수 있습니다. 서비스가 버스트 상태일 때 배너에는 현재 청구 주기에 사용된 버스트 용량이 표시됩니다.</block>
   <block id="f7d6b7e1da577f9887233efcc83582a0" category="paragraph">테넌트 구독의 용량 사용 페이지를 보려면 메뉴에서 * 보고서 &gt; 테넌트 사용/용량 사용 * 을 선택합니다.</block>
   <block id="2239c3f13d7bb4ae01394edf50e45043" category="paragraph">테넌트의 용량 사용을 보려면 다음 단계를 수행하십시오.</block>
-  <block id="bf757393ee48aa789339cee47e4d2d22" category="list-text">가입 드롭다운 목록에서 서비스가 포함된 가입 번호를 선택합니다.</block>
   <block id="c15dff73fc7e8c310ca40df5c628bb0e" category="list-text">각 탭을 선택하여 기본 서비스 수준 또는 데이터 보호 서비스의 용량 사용량을 확인할 수 있습니다. 이 페이지에는 기본적으로 서비스 수준 보기가 표시됩니다.</block>
   <block id="78cf0cc097f5e4cd99607d42852c01e6" category="section-title">성능 보고서</block>
   <block id="b307d074fbc113dff53e96b4a59b17a0" category="paragraph">성능 페이지(아래 이미지에 표시됨)에는 개별 디스크 또는 공유의 성능에 대한 정보가 표시됩니다. 세 가지 성과 측정값에 대한 정보가 표시됩니다.</block>
@@ -1671,24 +1546,17 @@
   <block id="1fd286a0ef9ebb70f89e840d54118b15" category="summary">Keystone 사용자의 S3 키를 삭제합니다</block>
   <block id="22cf807410cd29dbc5790af789ade748" category="doc">사용자의 S3 키를 삭제합니다</block>
   <block id="6cb2b7a45d5e350ef2b0599809b3902d" category="paragraph">이 방법을 사용하여 사용자의 S3 키를 삭제할 수 있습니다.</block>
-  <block id="f393d3f07d1733e88adb26884aa4c665" category="list-text">올바른 서브테넌트가 선택되어 있고 디스플레이에 사용자(그룹 아님)가 표시되는지 확인합니다.</block>
-  <block id="c30e88d8e89259b1b711afc39b92ba11" category="list-text">S3 키 관리 대화 상자에 사용자의 키 목록이 표시됩니다.</block>
-  <block id="7e06bfa3351dc0e3532ff0559e3d2f6f" category="list-text">키 목록에서 삭제할 키를 찾아 삭제 아이콘을 클릭합니다.</block>
   <block id="b0b8f434f881cc6dfaa079ff5f5e1b6c" category="list-text">삭제 작업을 확인하려면 * 확인 * 을 클릭합니다. 사용자 키 목록에서 키가 제거됩니다.</block>
   <block id="5b3aa46fae7e757fa7c3f917136a37d6" category="list-text">닫기 * 를 클릭하여 S3 키 관리 대화 상자를 닫습니다.</block>
   <block id="b7cd4ce52333c49bf2ebe2e81d7443af" category="summary">Keystone 뷰 버킷</block>
   <block id="d83d0c54783ef948cc85a1a9d70fff8d" category="doc">버킷을 봅니다</block>
   <block id="dabc991a3e5b3e5e1b1dd7c66b4f6af4" category="paragraph">Bucket 목록에는 선택한 서브테넌트의 기존 버킷을 표시합니다.</block>
-  <block id="da3f8669f6a7639d621bf42e3afe1870" category="list-text">목록을 보려면 메뉴에서 오브젝트 스토리지 &gt; 버킷 을 선택합니다.</block>
   <block id="f558e5e5755f7a5de96e9cfc5b309d21" category="paragraph">다음과 같은 간단한 정보가 각 버킷에 표시됩니다.</block>
-  <block id="1218caa99c5210e89e89f6c92b0512c2" category="list-text">만든 날짜</block>
-  <block id="c64518704ce0c0d5501a45763f464276" category="list-text">사용</block>
   <block id="47b9d5f42a74044cd25601337489f3e6" category="doc">소비자 API</block>
   <block id="9acc902d21500513ac0509fb07109ca2" category="summary">서브넷을 생성하고 삭제합니다</block>
   <block id="5ab6c625ae9e9658d23c23fa36eed108" category="doc">테넌트 및 하위 테넌트에 대한 네트워크 구성을 정의합니다</block>
   <block id="a0c08319cd36a9682e2dbdbcc3c9230d" category="paragraph">서비스 공급자 또는 파트너 관리자는 가입 영역에 따라 테넌트의 네트워크 구성을 정의하고 VLAN을 각 네트워크 구성에 할당할 수 있습니다. 또한 동일한 존과 테넌시에 속하는 각 VLAN을 가진 서브넷을 생성하고 해당 테넌시에 있는 서브테넌트에 할당할 수 있습니다.</block>
   <block id="2a65beb9c728aafed55f0b839d38fe86" category="paragraph">사전 구성된 테넌트 네트워크는 서브넷을 생성해야 합니다. 서브테넌트 또는 최종 고객이 파일 서버 또는 블록 저장소를 프로비저닝하는 경우 서브넷이 필요합니다. 파일 및 블록 스토리지 VM은 NetApp 서비스 엔진 의 서브테넌트가 소유하지만 ONTAP에서 IPspace가 소유합니다. 서브테넌트 레벨에서 네트워킹 경계를 정의할 경우 NetApp 서비스 엔진의 서브테넌트는 해당 영역에 대한 단일 ONTAP IPspace에 매핑됩니다. 이렇게 하면 위험이 제거되고 두 개의 개별 하위 테넌트가 동일한 VLAN ID를 선택하지 않고 동일한 IPspace에서 종료되도록 할 수 있습니다.</block>
-  <block id="10cbcb2bc0ee488720578114eb2cb967" category="list-text">각 영역에 여러 개의 서브넷이 생성될 수 있습니다. 테넌시의 각 영역에 대해 할당된 VLAN 목록이 있습니다. 사용 가능한 모든 VLAN에 대해 해당 서브넷을 생성할 수 있습니다. 서브넷과 VLAN 간에는 1:1 매핑이 있다. 반면, 영역과 서브넷 사이에 많은 매핑이 있습니다.</block>
   <block id="29a6f95d7ccf31d10c80b92995feff38" category="list-text">하나의 테넌트는 여러 개의 서브넷을 가질 수 있으며, 한 영역의 사용 가능한 각 VLAN에 대해 하나씩 가질 수 있습니다. 각 존에 대한 단일 네트워크 구성 아래에 표시됩니다.</block>
   <block id="bd3e7d93da4d11861fe61e2fa8a8c953" category="list-text">각 네트워크 서브넷마다 하나의 VLAN만 있을 수 있습니다. 각 네트워크 구성에는 사용 가능한 VLAN 목록이 표시됩니다.</block>
   <block id="c9fa2709091032a8f669a7e5fb105dce" category="list-text">서브테넌트의 영역 및 VLAN 조합에 대해 하나의 서브넷만 생성할 수 있습니다.</block>
@@ -1696,11 +1564,8 @@
   <block id="80fa4a1626c6b944210901bc9107e3dd" category="section-title">테넌트의 네트워크 구성을 정의합니다</block>
   <block id="600a2d3036bcf278466c97ee59040321" category="paragraph">파트너 관리자는 각 테넌트에 대해 네트워크 구성을 생성할 수 있습니다. 구성 가능하고 고유한 VLAN 풀은 요구 사항에 따라 각 테넌트에 할당될 수 있습니다. 테넌트가 삭제되면 해당 테넌트와 연결된 VLAN이 다시 테넌트 VLAN 풀로 해제됩니다.</block>
   <block id="1c951839f5b6577f61ffdb81ad0c2966" category="list-text">테넌트가 생성되었는지 확인합니다</block>
-  <block id="032f5fcccb2540660554e2617fbc9fae" category="list-text">영역, VLAN 및 포트 재정의 구성을 알아야 합니다</block>
   <block id="b5a62af61e90de7477c2962a4417b10e" category="list-text">administration * &gt; * Tenants * 에서 필요한 테넌트를 선택합니다.</block>
   <block id="25d77a4ca80d7a827240817660e76ac2" category="list-text">네트워크 아이콘을 클릭합니다. 네트워크 화면이 테넌트에 대한 네트워크 구성 목록과 함께 표시됩니다.</block>
-  <block id="e93884a4e7d6e8e34281d245be17c08d" category="list-text">네트워크 생성 * 을 클릭합니다. 해당하는 경우 존, VLAN 및 포트 재정의를 지정합니다.</block>
-  <block id="b56571833d818c4b4d441e2916560296" category="admonition">포트 재정의는 영역 구성 중에 지원 팀에 의해 구성됩니다. 포트 재정의가 지정되지 않은 경우 네트워크는 기본 포트를 사용하고 해당 테넌트에 대한 IPspace에서 새 VLAN을 생성합니다.</block>
   <block id="7d9d276673347af6329e003d710a723c" category="list-text">Create * 를 클릭합니다. 새 네트워크 구성이 네트워크 화면에 테넌트에 대해 나열됩니다.</block>
   <block id="90314b034f8ee25ea72aa4f182bad043" category="paragraph">영역에 대한 네트워크 구성이 생성된 경우 새 VLAN만 네트워크 구성에 할당할 수 있습니다. * + * 아이콘을 클릭하고 VLAN 및 포트 재정의 세부 정보를 추가합니다. Update * 를 클릭합니다.</block>
   <block id="d307682904302d385f9673a8d96b0d7a" category="section-title">서브테넌트에 대한 서브넷을 생성합니다</block>
@@ -1844,19 +1709,14 @@
   <block id="d382816a3cbeed082c9e216e7392eed1" category="cell">녹색</block>
   <block id="891ea11f4ec930c41a57e6691fb6dda8" category="cell">마지막 작업이 성공적으로 완료되었습니다.</block>
   <block id="2b60733bda81c40a216887beb4747c8c" category="paragraph">상태 표시기를 클릭하여 가장 최근 작업 10개의 상태를 봅니다.</block>
-  <block id="fe3173f25be041d3c6b308be02a46d9c" category="paragraph">대시보드에서는 NetApp Keystone 스토리지 구독에 대한 간략한 개요를 제공합니다. 사용된 용량에 대한 정보, 사용량에 대한 비용 청구, 최근 알림 및 서비스 요청 등이 표시됩니다.</block>
   <block id="f9ed75da3555257ca938c77e189c07a4" category="paragraph">대시보드는 심층 분석을 위해 클릭할 수 있는 다음 위젯에 걸쳐 중요한 정보를 표시합니다.</block>
-  <block id="af0bb0722f05fcc5cad936bc276df6a9" category="list-text">* 용량 활용률: * 구독한 서비스의 용량 활용률을 표시합니다(예: Keystone Flex Subscription, Keystone Flex Utility 및 클라우드 서비스). 막대 차트 위로 마우스를 가져가면 사용된 용량의 분할이 표시됩니다. 커밋된 용량과 사용된 용량을 확인할 수 있을 뿐 아니라 버스트 용량도 확인할 수 있으며 가입에 용량을 추가해야 하는지 여부를 확인할 수 있습니다. 막대 차트를 클릭하면 새 팝업에서 구독 서비스에 대한 모든 구독을 볼 수 있습니다. 이 팝업의 구독 차트를 클릭하면 서비스 수준별로 사용된 용량의 분류 상태를 확인할 수 있습니다. 필요한 경우 데이터 보호 및 고급 보호와 같은 추가 서비스 시 사용된 용량을 확인할 수도 있습니다.</block>
   <block id="6248db19c2de1402d7d089733e1d2bc8" category="inline-link-macro">청구 보기</block>
-  <block id="33c8c200b16895b7c3c094f7a7212c8e" category="list-text">* 월별 요금(청구): * 모든 구독에 대해 집계된 월별 요금이 표시됩니다. 지난 3개월 동안의 청구 세부 정보를 볼 수 있습니다. 차트 위에 커서를 올리면 약정 사용량 및 버스트 사용량에 따라 분할 요금을 볼 수 있습니다. 구독한 서비스에 대한 구독이 여러 개인 경우 월 막대 차트를 클릭하면 구독 목록이 청구 화면에 표시됩니다. 청구에 대한 자세한 내용은 를 참조하십시오 <block ref="ff5019e651b45dce6edea337a584798f" category="inline-link-macro-rx"></block>.</block>
   <block id="2ae145e579555cbdc76abe246b780993" category="inline-link-macro">알림을 생성하고 관리합니다</block>
   <block id="fb994140e833b58c3ba599dee0fa679b" category="list-text">* 경고: * 상태, 메시지, 생성 시기 등 가장 최근 경고의 요약을 표시합니다. 알림에 대한 자세한 내용은 을 참조하십시오 <block ref="0496064ad24390fb53c5f07bbecacf07" category="inline-link-macro-rx"></block>.</block>
   <block id="c0def6fc0af1233163f1454da45f3c7d" category="list-text">* 서비스 요청: * 가장 최근 서비스 요청의 요약을 우선순위와 생성 시점을 기준으로 정렬하여 표시합니다. 서비스 요청에 대한 자세한 내용은 을 참조하십시오 <block ref="afc02109994a487037ec15ea835679fe" category="inline-link-macro-rx"></block>.</block>
   <block id="ad4d1829005dd03f7cf9ab881abe5ea6" category="section-title">멀티 테넌시의 서비스 공급자에 대한 대시보드 뷰</block>
   <block id="fa88a38bcd21fdecbef74c2036b327e0" category="paragraph">멀티 테넌트(multi-tenant) 환경의 파트너 관리자인 경우 대시보드는 NetApp Keystone에 대해 구독한 모든 서비스에 대한 상위 수준의 개요를 제공합니다. 용량 활용률 및 청구 세부 정보의 위젯 데이터는 NetApp과의 구독 및 청구 관계를 나타냅니다.</block>
-  <block id="f177e1a19970ff5e25307154c24a4391" category="paragraph">오른쪽 위 모서리에서 특정 테넌트를 선택하여 각 테넌트의 용량 사용률을 볼 수도 있습니다. 용량 활용률 위젯의 데이터는 선택한 테넌트의 데이터 사용량을 나타내는 반면, 다른 모든 위젯의 데이터는 일정하게 유지되고 스토리지 구독이 표시됩니다.</block>
   <block id="089e685563941e94026d37cb86934aed" category="section-title">멀티 테넌시의 테넌트에 대한 대시보드 뷰</block>
-  <block id="130df011efb540e36544c1adf704710b" category="paragraph">멀티 테넌트 환경의 테넌트 관리자인 경우 테넌시에 대한 용량 활용도, 최근 알림 및 서비스 요청을 확인하고 위젯을 통해 자세한 내용을 확인할 수 있습니다. 청구 세부 정보는 서비스 공급자에게 문의하십시오.</block>
   <block id="10bc620b6bb0f1ce4ea88e07efee73a6" category="summary">서비스 제공 세부 정보</block>
   <block id="997afc95a691698524a6c0b1a47c998b" category="doc">유연한 구독 서비스 제공 세부 정보</block>
   <block id="dcfcd456039c89795733b344b389f008" category="paragraph">다음 질문을 통해 NetApp Keystone Flex Subscription 서비스 제공에 대한 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.</block>
@@ -1877,7 +1737,6 @@
   <block id="73e02951afd28d2508077afaf5bc798f" category="paragraph">예. 모든 유지 보수/업그레이드 작업은 NetApp Keystone 성공 관리자가 고객과 상호 합의된 시간에 전달하고 스케줄합니다.</block>
   <block id="7fdb44c4efca9cb2f8ad3b4db2328a89" category="summary">Keystone 백업 API</block>
   <block id="160dacdfe2b74f89864f2e85eafc1976" category="doc">백업 API</block>
-  <block id="0d7d4c02eb916025bec65984e23e01bf" category="paragraph">백업 API를 사용하여 사용자 환경에서 볼륨(파일 공유 및 디스크)의 스냅샷(백업 또는 복구 지점)을 보고 관리할 수 있습니다.</block>
   <block id="5da935d2552edc90c56bdb2e23aa859f" category="paragraph">'/v2.1/백업'</block>
   <block id="1c5fc969414d7c2c6acb3feae34feb73" category="cell">테넌트 아래에 있는 서브테넌트에 대해 생성된 모든 볼륨에 대한 모든 백업 객체의 세부 정보를 검색할 수 있습니다. 백업 정책, 영역 및 태그와 같은 소스 볼륨 및 백업 객체의 세부 정보를 검색합니다.</block>
   <block id="8b90939232e61860c624f39aa1eb4024" category="paragraph">"/v2.1/backups/{id}"</block>
@@ -1901,15 +1760,9 @@
   <block id="30ae80a1161063653836f6dae6c58e38" category="summary">Keystone 디스크에 대한 임시 스냅샷을 만듭니다</block>
   <block id="61af5d59426d1e9c60b178c39f9f8bce" category="doc">디스크의 임시 스냅샷을 생성합니다</block>
   <block id="d2bb0b688299d8e8ffd5a27eda65d5e6" category="paragraph">이 섹션에서는 디스크의 애드혹 스냅샷을 생성하는 방법에 대해 설명합니다.</block>
-  <block id="ff1672cea74e04083898fc607ea0cb03" category="list-text">목록에서 디스크를 찾고 해당 디스크의 스냅샷 아이콘을 클릭합니다. 목록의 항목 작업에 대한 자세한 내용은 을 참조하십시오 <block ref="52762e1c21e70b201ce4b2db09bd46e5" category="inline-link-macro-rx"></block>)를 클릭합니다.</block>
   <block id="25cad0e222a2727c5f173dc7c86c6430" category="list-text">스냅샷 생성 대화 상자에서 스냅샷 이름을 입력하고 * 생성 * 을 클릭합니다.</block>
-  <block id="2a9c6c6899ce9c4042a26caaa3889f7d" category="paragraph">스냅샷을 사용할 수 있게 되기까지 몇 분 정도 걸릴 수 있습니다.</block>
   <block id="388342d6d3429bc104039c1fe69fb5dc" category="summary">Keystone 오브젝트 스토리지 사용자 수정</block>
   <block id="d77f9ec7a91a670f3a5f8ac78f412f66" category="paragraph">이 방법을 사용하여 사용자 이름 및 개체 스토리지 사용자가 할당된 그룹과 같은 개체 스토리지 사용자의 세부 정보를 수정할 수 있습니다.</block>
-  <block id="fc39ceb014f53dd561c76f22c7f3aa15" category="list-text">목록에서 사용자를 찾고 해당 그룹의 편집 아이콘을 클릭합니다.</block>
-  <block id="ac42e3f82a32b7287b8ad6e42ffd4657" category="list-text">사용자 편집 대화 상자에서:</block>
-  <block id="914419765826daef952f5e99d9010aae" category="list-text">사용자가 속해 있는 객체 스토리지 그룹을 선택합니다.</block>
-  <block id="da814ae2cb3467d18b1937b19fa38f10" category="list-text">Update * 를 클릭합니다. 이렇게 하면 지정된 설정으로 사용자를 생성하는 작업이 생성됩니다.</block>
   <block id="d0985fb638fff3338e67dfcac77005d9" category="summary">키스톤 영역</block>
   <block id="5948f3347ebc02ebc690227c059661e1" category="doc">지역</block>
   <block id="7f0db89e1681884d3f307a466da352bb" category="paragraph">영역을 생성, 수정 및 삭제하려면 다음 표에 나열된 방법을 사용하십시오. 지역을 검색할 수 있는 API는 (소비자) 관리 API를 참조하십시오.</block>
@@ -1954,11 +1807,8 @@
   <block id="4c81f84de3c6cf1b71adecb694feb770" category="doc">Flex Subscription 서비스 약관 및 설명</block>
   <block id="1cbddcf2fa8e22cb8595706c00cc4371" category="list-text">NetApp Keystone Flex 가입(Flex 가입)은 최소 1년, 최대 3년간 사용할 수 있습니다. 최초 계약 기간 이후, 서비스는 매년 갱신됩니다. 용량은 1TiB의 증분 단위로 늘릴 수 있습니다.</block>
   <block id="9597eb938e2fba159aa254b3a95e6efb" category="list-text">최소 용량은 사이트당 100TiB이며, 각 사이트에는 최소 용량 요구사항을 충족하는 클러스터가 하나 이상 있을 수 있습니다. 파트너 운영 모델에서는 사용자, 사이트 및 서비스 레벨에 따라 최소 구성을 가진 구독이 생성됩니다.</block>
-  <block id="f38f3f039ea7e782f292fcc9c833f8cc" category="list-text">100TiB 용량은 단일 성능 수준 또는 레벨의 조합일 수 있습니다.</block>
   <block id="be9709b8de891bed2cb58977708e499e" category="list-text">테넌트 구독은 파트너가 구독하는 서비스 수준으로 제한됩니다.</block>
   <block id="87f73c8129d1f6a0026c085c19c37ee7" category="list-text">각 사이트에서 최대 용량의 20%를 사용할 수 있으며, 사용량이 증가하면 해당 청구 기간만 청구됩니다. 20% 이상의 추가 버스트 요구사항이 필요한 경우 지원팀에 문의하십시오.</block>
-  <block id="a47a3cb7ad9378252f33837be77823db" category="list-text">약정 기간 중에는 약정 용량 또는 성능 수준을 변경할 수 없습니다.</block>
-  <block id="decb099f0e323bfbd0236b90e0df7d20" category="list-text">용량 증가 또는 기간 중 보다 높은 성능 수준으로 변경할 수 있지만, 더 높은 성능 수준에서 더 낮은 수준으로 이동하는 것은 허용되지 않습니다.</block>
   <block id="958d7b0fc729753fa46342b2a5b0fdb4" category="list-text">계약 기간의 마지막 90일 동안의 변경 요청은 고객이 최소 1년 동안 서비스를 갱신해야 합니다.</block>
   <block id="fbef0a9d29760c7c18568951b8e097f4" category="doc">클라우드 오케스트레이션 API</block>
   <block id="56c6e4c990d94f44749d5a8d9dff8d25" category="paragraph">Cloud Orchestration API NetApp 서비스 엔진 지원: Cloud Volumes Services를 NetApp 서비스 엔진에 연결하고 NetApp 서비스 엔진 내에서 해당 서비스와 함께 사용할 수 있습니다. Azure NetApp Files(ANF) 및 Google Cloud Platform(GCP)은 Cloud Volumes Services에 대해 지원됩니다.</block>
@@ -2128,7 +1978,6 @@
   <block id="420e9e29ec303e1796b08965629319fb" category="cell">id: GCP 볼륨의 ID입니다. 'Subtenant_id': Cloud Volumes Service for Google Cloud에 가입된 서브테넌트의 ID입니다. 리기온: 서비스 가입 지역.</block>
   <block id="0484b3e3db1923f8acd57d1771b4aed2" category="summary">Keystone 블록 스토리지 작업 개요</block>
   <block id="419f5b4c51dcda57b81c0469b42f2d77" category="paragraph">블록 스토리지 시스템에서 데이터 스토리지는 고유한 식별자가 포함된 개별 조각으로 나뉩니다. NetApp 서비스 엔진은 블록 데이터 스토리지를 블록 저장소로, 개별 요소를 디스크로 지칭합니다.</block>
-  <block id="0bdccece87086c3f1c43e2fd37690da4" category="paragraph">블록 저장소는 서브테넌트에 속하며 영역 내에서 지정됩니다(서브테넌트당 영역당 블록 저장소 1개). 블록 저장소에는 iSCSI 또는 FC 프로토콜을 통해 디스크에 액세스하는 데 사용되는 네트워킹 특성(예: IP 주소 및 VLAN ID)이 있습니다. 블록 저장소에서 재해 복구 DP를 활성화할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="6e5280ca70b076218fdf37590a8a3024" category="inline-link-macro-rx"></block>.</block>
   <block id="ef27cbc1a350cce9a4d240653da0e2b7" category="paragraph">블록 저장소를 사용하려면 먼저 초기화해야 합니다. 블록 스토리지를 사용할 수 있고 초기화되지 않은 경우 디스크 생성 프로세스의 일부로 블록 저장소에 첫 번째 디스크를 생성하기 전에 블록 스토리지를 초기화할 수 있습니다.</block>
   <block id="da2ebd3b1e3cc5c86919f4c7745c7a12" category="paragraph">디스크는 블록 저장소에 생성됩니다. 디스크에는 용량 및 관련 서비스 수준을 포함하여 다양한 구성 가능한 속성이 있습니다. 과 같은 DP 옵션 <block ref="c1f0dcbbcbcd1f1c8ac788893304a8d4" category="inline-link-macro-rx"></block> 및 <block ref="a77c34ddf88ef814fd6a18a00bec0fb7" category="inline-link-macro-rx"></block> 디스크에 대해 활성화할 수 있습니다.</block>
   <block id="65a380203c718692478c22a00b908ddc" category="paragraph">디스크에 대한 액세스는 호스트 그룹을 통해 제어됩니다. 호스트 그룹은 이니시에이터 노드 이름으로 구성되며, 하나 이상의 호스트 그룹을 디스크에 매핑하여 디스크에 액세스할 수 있는 이니시에이터를 정의할 수 있습니다.</block>
@@ -2162,7 +2011,6 @@
   <block id="c5d0884bdfc55b506ec7fca86870e574" category="list-text">계층화 서비스 수준에서 볼륨에 대한 재해 복구를 설정 및 해제합니다.</block>
   <block id="29109dc5270edc08f080a36766a2a630" category="summary">Keystone 보기 호스트 그룹</block>
   <block id="dde43dbd895f6357fc850b7fd654a02b" category="doc">호스트 그룹 작업</block>
-  <block id="53fbfda0d450075d52315d5b09703b67" category="paragraph">호스트 그룹은 디스크에 대한 액세스를 결정하기 위해 정의됩니다. 호스트 그룹에 할당된 이니시에이터 노드에 따라 해당 호스트 그룹의 액세스가 결정됩니다.</block>
   <block id="5dca961b46ad55d205100890b5504f59" category="paragraph">호스트 그룹 목록을 보려면 메뉴에서 * 블록 스토리지 &gt; 호스트 그룹 * 을 선택합니다.</block>
   <block id="ccec1abead73b2972415f53f2a7e3bca" category="paragraph">이 목록에는 정의된 호스트 그룹이 표시됩니다.</block>
   <block id="22c28418ce1936d5c8773cb7eaf1c3f6" category="paragraph">이 페이지에서 새 호스트 그룹을 생성하고, 호스트 그룹을 수정하고, 호스트 그룹을 삭제할 수 있습니다.</block>
@@ -2189,16 +2037,13 @@
   <block id="4a44747284a03067a779d6829b89da44" category="paragraph">호스트 그룹을 생성한 후 디스크에 매핑할 수 있습니다.</block>
   <block id="9c21ac327685a7e70007e98ca4d2b6b2" category="section-title">호스트 그룹을 수정합니다</block>
   <block id="ddc45784b4bb27c03822de8233e6bba6" category="paragraph">호스트 그룹을 수정하여 이니시에이터를 추가, 제거 또는 수정할 수 있습니다.</block>
-  <block id="31e19de4adfcebc4a8c169d682d69ce5" category="paragraph">호스트 그룹을 수정하면 호스트 그룹에 매핑된 각 디스크에 대한 액세스가 수정됩니다.</block>
   <block id="cf3afc691c0a1c77742fc1e7e5f84baa" category="paragraph">이니시에이터의 별칭을 수정할 수 없습니다. 별칭을 변경하려면 그룹에서 이니시에이터를 삭제한 다음 다시 생성합니다.</block>
   <block id="9a07d76c5a0e3de82b33a4552c10bc5e" category="list-text">를 봅니다 <block ref="0bea521eb505cc9bf0a2550f72dbd49b" category="inline-link-macro-rx"></block> 목록.</block>
-  <block id="db438cb7b7df971147aae48cc5c75ca8" category="list-text">목록에서 호스트 그룹을 찾고 해당 호스트 그룹에 대한 편집 아이콘을 클릭합니다.</block>
   <block id="b5410d49b64d7ea9b7432f7346a9c7e2" category="paragraph">기존 이니시에이터를 수정하려면 목록에서 이니시에이터를 찾아 이니시에이터 값을 편집하고 * Update * 를 클릭합니다.</block>
   <block id="8aa913bec80964fddab40e3a30dcd8c2" category="paragraph">이니시에이터를 추가하려면</block>
   <block id="17d7b34ed5d8708d1132f26fae669e3e" category="list-text">Add Initiator * 를 클릭합니다.</block>
   <block id="8dc544295e04832e8030c9000dfdeb19" category="list-text">별칭 및 이니시에이터를 지정합니다.</block>
   <block id="659d86385594d523ba5ca7ae093d898f" category="paragraph">호스트 그룹에서 이니시에이터를 제거하려면 목록에서 이니시에이터를 찾아 삭제 아이콘을 클릭합니다.</block>
-  <block id="e13a15252a4dbf9779c44afe477e3343" category="list-text">완료 * 를 클릭합니다.</block>
   <block id="a0ad6ce41a7333a8b0d6195da1224c12" category="section-title">호스트 그룹을 삭제합니다</block>
   <block id="f5b3f163b6170e5ad89ef366f4ad4c0b" category="paragraph">호스트 그룹에 매핑된 디스크가 없는 경우 호스트 그룹을 삭제할 수 있습니다.</block>
   <block id="5cc2d514b461a0eadcfb670035ebc2a4" category="list-text">목록에서 호스트 그룹을 찾고 해당 호스트 그룹에 대한 삭제 아이콘을 클릭합니다.</block>
@@ -2206,8 +2051,6 @@
   <block id="51ef2e6beabfb88e0de5dcbc8aa4640a" category="summary">Keystone 뷰 디스크</block>
   <block id="9d58782328bf029c4e013523d481162d" category="paragraph">디스크 목록에는 선택한 테넌트에 속한 디스크가 표시됩니다. 목록을 보려면 메뉴에서 * 블록 스토리지 &gt; 디스크 * 를 선택합니다.</block>
   <block id="8c180861c0e670fead0665dd33764c3d" category="paragraph">기존 환경에 이미 포함되어 있고 NetApp 서비스 엔진에 구성된 스토리지 VM에 속한 디스크는 이 화면에서도 볼 수 있으며, NetApp Keystone 유연한 구독(Flex Subscription) 서비스의 일부로 관리할 수 있습니다. NetApp 서비스 엔진 외부에서 프로비저닝된 디스크를 이 페이지에 주기적으로 가져와서 해당 상태 코드와 함께 나열합니다.</block>
-  <block id="999bcf1c94889915b315debc991b8d7b" category="paragraph">가져온 디스크가 NetApp Service Engine에서 사용할 수 있는 표준인 경우, 즉 디스크 작동에 필요한 모든 매개 변수를 사용할 수 있으면 해당 디스크를 "Operational" 상태로 가져와서 NetApp Service Engine을 통해 직접 관리할 수 있습니다. 그러나 일부 디스크는 NetApp 서비스 엔진의 기존 디스크와 동일한 표준에 있지 않을 수 있습니다. 가져오기 후 가져온 디스크 또는 Non-Standard 상태로 분류된다. 디스크 상태 및 작동 단계에 대한 자세한 내용은 을 참조하십시오 <block ref="1dd0eaff8c7fecd5c80f4e2420f50d3b" category="inline-link-macro-rx"></block></block>
-  <block id="88860339fbef1254b1a14f5bd1d1c340" category="paragraph">디스크 목록에서 간단한 정보를 봅니다. 목록의 기능을 사용하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="06c69cf03ada5a3283b333d7ac5a7d25" category="inline-link-macro-rx"></block>.</block>
   <block id="fa3fe91daa4ed2920f22f461a9aebefa" category="list-text">디스크 이름입니다</block>
   <block id="25961c60eb320541411905573dd71445" category="list-text">디스크의 경로입니다</block>
   <block id="f308e6ca453d47a2876df6eae740d8f8" category="list-text">디스크 크기입니다</block>
@@ -2354,7 +2197,6 @@
   <block id="9e202767c699b7d57f29d8b3accf6986" category="paragraph">약정 용량은 관련 당사자(NetApp/파트너 및 고객)가 합의한 단일 가입으로 다양한 서비스의 용량을 가리킵니다. 이 용량은 각 Flex Subscription 주문에 명시되어 있으며 실제 소비에 관계없이 청구됩니다.</block>
   <block id="5fbe036f95448b0530984b414281a72c" category="paragraph">NetApp은 Flex Subscription 서비스 배포의 일부로 서비스 사용을 지속적으로 모니터링 및 측정합니다. 5분마다 시스템에서 서브스크립션 서비스 이용 용량을 상세히 설명하는 소비 레코드가 생성됩니다. 이러한 레코드는 청구서 및 사용 보고서를 생성하기 위해 청구 기간 동안 집계됩니다.</block>
   <block id="8a73a45becb1972a998dc8490856f730" category="section-title">버스트 소비에 기초한 청구</block>
-  <block id="a18664da3cba5476325ba94c20fa3bc5" category="paragraph">사용된 용량이 지정된 성능 서비스 수준에 대해 할당된 용량보다 크면 버스트 소비가 기록되고 그에 따라 비용이 적용됩니다. 이 프로세스는 생성된 각 소비 레코드에 대해 발생합니다. 따라서, 소비량의 급증은 당신의 헌신적인 능력 위에 소비된 용량의 잔기와 잔기를 모두 반영한다.</block>
   <block id="dfd0252d57910ac70c5c31013436bba6" category="section-title">청구 일정</block>
   <block id="95fcf55819b9f32cb4e634458cebf99f" category="paragraph">유연한 구독 서비스는 매월 및 매년 청구됩니다.</block>
   <block id="4984e08f464a2069cf4e4d2bc61ffe7e" category="paragraph">송장은 매월 발송됩니다. 서비스를 사용할 수 있는 달의 경우 다음 달에 송장이 전송됩니다. 예를 들어 1월에 사용한 서비스에 대한 송장은 2월 초에 배달됩니다. 이 송장에는 약정 용량에 대한 비용 및 해당되는 경우 버스트 사용료가 포함됩니다.</block>
@@ -2365,7 +2207,6 @@
   <block id="0e3a3dc0c3eeb16df240b7eafc4a840c" category="paragraph">ONTAP에서 볼륨을 클로닝하고 이를 사용하여 데이터를 백업 및 복원하는 경우 추가 비용 없이 클론을 계속 사용할 수 있습니다. 그러나 광범위한 기간 동안 비즈니스의 다른 목적으로 사용된 복제된 볼륨은 청구됩니다.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
   <block id="9ecca21c579121ef7bd72dc9d12e518a" category="list-text">클론 생성 후 처음 24시간 동안에는 클론 복제된 볼륨의 사용이 고려되지 않으며 이 시간 동안 비용이 발생하지 않습니다.</block>
-  <block id="5972bac7ea2a43507764cae1c13256a0" category="list-text">새 데이터가 볼륨에 기록되지 않은 경우 표준 및 가치 성능 서비스 수준을 사용하여 복제된 볼륨은 소비로 간주되지 않습니다. 예를 들어 백업 또는 복원 사용 사례에서는 클론 복제된 볼륨에서 데이터를 백업 또는 복원해도 클론 복제된 볼륨 자체의 데이터는 변경되지 않으며 소비로 간주되지 않습니다.</block>
   <block id="cded8c4b6c98886d10fcb9c2503ce0a4" category="section-title">MetroCluster에 대한 청구</block>
   <block id="bbfb635eb9c4f9ded36f5d58bec8cb65" category="paragraph">고급 데이터 보호 기능은 NetApp MetroCluster를 사용하여 물리적으로 분리된 두 클러스터 간에 데이터를 미러링합니다. MetroCluster 미러링된 애그리게이트에서는 데이터가 각 클러스터에 한 번씩 두 번 기록됩니다. Flex Subscription 서비스 요금은 각 측에서 독립적으로 소비하므로 동일한 2개의 소비 기록이 생성됩니다. ONTAP 시스템 관리자(System Manager) 또는 Active IQ Unified Manager(Unified Manager)를 통해 클러스터를 모니터링할 경우 이러한 툴과 유연한 구독에 보고된 소비 내용이 일치하지 않을 수 있습니다. System Manager와 Unified Manager는 미러링된(원격) 클러스터에 볼륨을 보고하지 않으며, Flex Subscription 서비스에서 보고하는 소비 메트릭의 절반을 보고합니다.</block>
   <block id="334e2bb51a2bf6027b7173d5c357308a" category="paragraph">예를 들어 사이트 A와 사이트 B는 MetroCluster 구성에서 설정됩니다. 사용자가 사이트 A에서 10TB의 볼륨을 생성하면 사이트 B에서 동일한 10TB의 볼륨이 생성됩니다 Flex Subscription은 볼륨을 구분하고 각 사이트에서 10TB의 추가 소비를 기록하며 총 20TB를 늘립니다. System Manager 및 Unified Manager에서 사이트 A에서 10TB 볼륨을 생성했다고 보고합니다</block>
@@ -2373,16 +2214,13 @@
   <block id="480da42f59e7a8b523d40d52ba830cb8" category="paragraph">볼륨을 이동할 때 임시(TMP) 볼륨이 ONTAP에 의해 생성되는 경우가 있습니다. 이러한 임시 볼륨은 수명이 짧으며 이러한 볼륨의 소비량은 청구 대상으로 측정되지 않습니다.</block>
   <block id="f3fd1171857d8ea7abb7920fd1fd0c55" category="section-title">청구 및 적응형 QoS 정책</block>
   <block id="bff19ffadab3b2c0f2336fe90bfd9be9" category="inline-link-macro">QoS 개요를 통해 처리량 보장</block>
-  <block id="425e38b195744df5f5136ad925efc16b" category="paragraph">Flex Subscription은 성능 서비스 수준에 따라 소비량을 측정합니다. 각 성능 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 배포 중에는 구독한 Flex Subscription 서비스에 대한 각 QoS 정책에 대한 세부 정보가 제공됩니다. 스토리지 관리 작업 중에 예상치 못한 청구가 발생하지 않도록 서비스 수준 구독에 따라 적절한 QoS 정책이 볼륨에 할당되었는지 확인합니다. ONTAP의 QoS 정책에 대한 자세한 내용은 을 참조하십시오 <block ref="7f8846f19a6367d0efc82511d70933cd" category="inline-link-macro-rx"></block>.</block>
   <block id="18b8a063bbf57f20dcdbb6f12a9dc0e9" category="section-title">SnapMirror 대상에 대한 청구</block>
-  <block id="73b8b41eb9fb2753d0aa2c1ae6b36a05" category="paragraph">SnapMirror 대상 볼륨의 가격은 소스에 할당된 성능 서비스 수준(서비스 수준)에 대한 QoS 정책에 따라 결정됩니다. 하지만 소스에 연결된 QoS 정책이 없는 경우 사용 가능한 최저 서비스 수준을 기준으로 대상에 비용이 청구됩니다.</block>
   <block id="4bda389d4364c3a5f8e0002b0f1d48a6" category="section-title">FlexGroups에 대한 청구</block>
   <block id="13a0b5a0cf8933d6ff04c50c4b84bac9" category="paragraph">FlexGroups는 FlexGroup의 적응형 QoS 정책을 기반으로 청구됩니다. 구성요소의 QoS 정책은 고려하지 않습니다.</block>
   <block id="c73be2f2aaeb82cecf852c49f3ea4cce" category="section-title">LUN에 대한 청구</block>
   <block id="05741b4ec38077cef83606c70f08f335" category="paragraph">LUN의 경우 일반적으로 QoS 정책이 적용되는 볼륨과 동일한 청구 패턴이 이어집니다. LUN에 별도의 QoS 정책이 설정된 경우 다음을 수행합니다.</block>
   <block id="cb1713b138a78b69b1922aa45131c2df" category="list-text">LUN의 크기는 해당 LUN의 연결된 서비스 수준에 따라 소비용으로 계산됩니다.</block>
   <block id="a0426b9dc757c80060e1b3657daf68d2" category="list-text">볼륨에 설정된 서비스 수준의 QoS 정책에 따라 볼륨의 나머지 공간이 청구되는 경우</block>
-  <block id="1eba80d57d3138b5dae3b976f061f9d9" category="section-title">시스템 및 루트 볼륨</block>
   <block id="076ac590232b28791043054102a0cc92" category="paragraph">시스템과 루트 볼륨은 Flex Subscription 서비스의 전체 모니터링의 일부로 모니터링되지만 계산되거나 청구되지는 않습니다. 이러한 볼륨에 대한 소비는 청구 대상에서 제외됩니다.</block>
   <block id="5fd02b27b33851cac519bb7aab9ea702" category="summary">Keystone 테넌트 선택</block>
   <block id="43639e8f38adc48b4a422a080cb873c2" category="paragraph">NetApp Service Engine 웹 인터페이스를 사용하는 경우 표시되는 모든 데이터와 사용자가 수행하는 작업이 선택한 테넌트와 관련이 있습니다. 아래와 같이 화면 상단에서 테넌트를 볼 수 있습니다.</block>
@@ -2432,35 +2270,15 @@
   <block id="0f83de51ee3f98244525029c39dd344f" category="list-text">클라우드 서비스 세부 정보를 수정합니다</block>
   <block id="0c0791c8f17636d874aea16efd7e8ed2" category="summary">백업에서 백업 또는 복구를 생성, 수정 및 삭제합니다</block>
   <block id="e6fc5d742fb314760c15319f57c10b66" category="doc">파일 공유 및 디스크를 백업합니다</block>
-  <block id="d5c88c8ef49bc3b4d7c15ca9db22ae64" category="paragraph">운영 파일 공유 및 디스크의 여러 복제본을 원격으로 유지 관리하기 위해 사용자 환경에서 생성된 볼륨(파일 공유 및 디스크)의 스냅샷(백업 또는 복구 지점)을 보고 관리할 수 있습니다.</block>
-  <block id="0566cb15388c158a45e9ab74db9ba190" category="paragraph">서로 다른 영역의 복제된 파일 공유 및 디스크는 각 클러스터의 전용 백업 스토리지 VM(SVM이라고도 함)에 저장됩니다. 서로 다른 영역에 있는 두 개의 개별 ONTAP 클러스터 간에 백업을 수행할 수 있습니다. NetApp Service Engine에서 지원하는 표준 백업 정책은 다음과 같습니다.</block>
   <block id="b1876aaaefa6fe06edb228974b736742" category="list-text">애드혹</block>
   <block id="c512b685438f41daa7386329a3b8f8d3" category="list-text">매일</block>
   <block id="6c25e6a6da95b3d583c6ec4c3f82ed4d" category="list-text">매주</block>
   <block id="9030e39f00132d583da4122532e509e9" category="list-text">매월</block>
-  <block id="ecd242fda0569865c9d53baff518ff03" category="paragraph">볼륨이 NetApp Service Engine에서 지원하는 표준 백업 정책을 따르지 않는 경우 다음을 수행할 수 있습니다 <block ref="e37ceb28c45a47909eddea846ff49620" category="inline-link-macro-rx"></block> 문제 해결을 위한 * 비표준 볼륨 * 범주.</block>
-  <block id="71a894272ba63934076edbd1c77cb3fa" category="admonition">임시(예약되지 않은) 백업은 언제든지 GUI를 통해 수동으로 또는 API를 사용하여 수행할 수 있습니다.</block>
-  <block id="51e7bf9a9bfe9a10e2140a304406dc5c" category="paragraph">백업 * 페이지에서 파일 공유 및 디스크에 대해 생성된 스냅샷 목록을 볼 수 있습니다. 선택한 테넌트를 기반으로 백업이 표시됩니다.</block>
-  <block id="3b831f55c9143f1b5cb37a93b8ee1673" category="section-title">백업 객체를 생성합니다</block>
   <block id="6db39557a4b297506ad4d09c194d4428" category="inline-link-macro">파일 공유를 생성합니다</block>
   <block id="0bf2cdd911508e029b083d29f0a5b1b0" category="inline-link-macro">디스크를 만듭니다</block>
-  <block id="4685c96d6b54e31343b4fb5af5e02168" category="paragraph">백업 정책을 정의할 때 볼륨에 대한 스냅샷을 생성할 수 있습니다 <block ref="40dd92abaf00c3696d356c13faf65e59" category="inline-link-macro-rx"></block> 또는 <block ref="aa2514445a50daa0bcd2961b6eeeb4ba" category="inline-link-macro-rx"></block>.</block>
   <block id="4a301354fd3e67146b05bf4c0213a524" category="list-text">백업 정책 * 을 활성화합니다.</block>
   <block id="2d79d0946ebf423bdce47cdbcbe3289a" category="list-text">백업 존 및 임시, 일별, 주별 및/또는 월별 기준으로 수행할 백업 수를 지정합니다.</block>
-  <block id="39aaf9a09816c44ef7d09bc9b29f445f" category="admonition">기존 파일 공유 또는 디스크에 대한 백업 정책을 편집하여 백업을 생성하거나 예약할 수도 있습니다.</block>
-  <block id="7d416d1610b5140f26de7d96470e40b5" category="section-title">백업 객체를 수정합니다</block>
   <block id="ff725475ecd544efd6edeb0a29f3b051" category="paragraph">파일 공유 또는 디스크의 선택된 백업 객체에 대해 백업을 비활성화하거나 백업 객체를 소스에서 분리하여 분리된 백업으로 만들 수 있습니다. 이 작업으로 소스의 SnapMirror 관계가 끊어집니다. 또한 임시, 일별, 주별 및/또는 월별 기준으로 수행할 백업 수를 수정할 수 있습니다.</block>
-  <block id="69e33f9b42f29bd2e15a2898a4d79204" category="list-text">목록에서 백업을 찾고 해당 개체의 행 끝에 있는 편집 아이콘을 클릭합니다.</block>
-  <block id="62100a7829b290eb9c850900c9e4c6b1" category="list-text">필요에 따라 백업 소스와 각 백업 유형의 수를 변경합니다. 백업 소스를 * 없음(분리됨) * 으로 변경하여 소스 볼륨과 SnapMirror 관계를 분리할 수 있습니다. 소스 볼륨이 삭제되더라도 백업은 복구를 위해 분리된 백업으로 유지됩니다. 백업 객체의 상태가 변경되고 소스 볼륨의 상태(분리된 볼륨 또는 삭제된 볼륨)가 동일한 목록의 소스 볼륨 이름에 추가됩니다. 개체 상태에 대한 자세한 내용은 을 참조하십시오 <block ref="07db4fd703f5abbcf7e28d1aea64d264" category="inline-link-macro-rx"></block></block>
-  <block id="d9bce07771139a773dfd41742dae2265" category="list-text">완료 * 를 클릭합니다. 스냅샷이 수정됩니다. 원본과 SnapMirror 관계를 끊어진 경우, 즉 백업 개체를 분리된 경우 * Backups * 탭의 소스 이름이 "삭제됨"으로 나타납니다.</block>
-  <block id="5967285923bb13f8722f1f497d2d87df" category="admonition">볼륨에 대한 * 백업 정책 * 을 비활성화하여 소스 볼륨과의 SnapMirror 관계를 분리할 수도 있습니다.</block>
-  <block id="de76a034b02382ba26fa8b0ca87455ea" category="section-title">백업 객체를 삭제합니다</block>
-  <block id="47457818aefd9dd3aaad6bb829410345" category="paragraph">사용하지 않는 백업 볼륨을 삭제하여 저장 공간을 늘리십시오.</block>
-  <block id="2c9f13eb11fd01cba126537eb24184e9" category="list-text">목록에서 백업을 찾고 해당 개체의 행 끝에 있는 삭제 아이콘을 클릭합니다.</block>
-  <block id="17805b2e8dbc3769268ce84ac4ebaf2a" category="list-text">삭제 확인 * 대화 상자에서 백업 이름(소스 볼륨 이름)을 입력하여 백업 객체를 삭제할 것인지 확인합니다.</block>
-  <block id="6a6dba4059cbfb6c365ea27c4766405e" category="admonition">백업이 삭제되면 백업의 모든 복구 지점이 삭제됩니다. 또한 기본 파일 공유 또는 디스크를 삭제하더라도 백업은 모든 복구 지점이 있는 분리된 백업으로 보존되어 복원할 수 있습니다. 삭제된 소스의 백업 볼륨 및 복구 지점을 삭제하려면 * Backups * 탭에서 백업 객체를 명시적으로 삭제해야 합니다.</block>
-  <block id="cc246bead7d06808781c69caf49f5a06" category="section-title">백업 복원</block>
-  <block id="7d0a77154a85974a52d444bfe7585f91" category="paragraph">가능합니다 <block ref="e37ceb28c45a47909eddea846ff49620" category="inline-link-macro-rx"></block> 특정 복구 지점에서 파일 공유 또는 디스크를 복원합니다.</block>
   <block id="1c028b83c509706e33189a511d88161c" category="list-text">왼쪽 탐색 창에서 * 지원 * 을 선택하고 * 서비스 요청 * 을 선택합니다.</block>
   <block id="558e74572a55dd0584a34d57d1931cb2" category="list-text">새 서비스 요청 * 을 클릭합니다.</block>
   <block id="4e5f2e10189244198cf8c389b7a45599" category="list-text">서비스 요청의 범주로 백업 복원 * 을 선택합니다.</block>
@@ -2502,17 +2320,9 @@
   <block id="e1b769719ccb6a19b5da0f54a9ce124a" category="list-text">백업 복원</block>
   <block id="baaf26c3cc1634b64f550cbbc10d58ed" category="list-text">재해 복구 페일오버</block>
   <block id="9aa339d0e01af256fa5c2221f6d6ed40" category="list-text">NetApp 서비스 엔진 관련 기술 문제</block>
-  <block id="96741ccff49069dd65f1235b247e5107" category="list-text">이 목록에 포함되지 않는 다른 모든 문제는 이 섹션에서 설명합니다.</block>
   <block id="8f20189d8110c58d44fe31826425eaa8" category="list-text">서비스 요청을 제기하는 방법</block>
   <block id="92200f42614e072053fb6e35af60b4bc" category="list-text">서비스 요청을 추적하는 방법</block>
   <block id="f52d6921b11e9d5d206f0e75471ff677" category="list-text">서비스 요청 프로세스</block>
-  <block id="ef0522dbdfebbf40eb2bbb6aebac15a7" category="paragraph">기존 스냅샷에서 새 디스크를 생성할 수 있습니다. 스냅샷에서 복제된 새 디스크의 속성은 스냅샷이 생성된 디스크와 동일합니다.</block>
-  <block id="b1d9bdfae5e81a400d591b576d306e8f" category="list-text">왼쪽 탐색 창에서 * 블록 스토리지 * 를 선택하고 * 디스크 * 를 선택합니다.</block>
-  <block id="2f12441ff316d66608b4d14651896775" category="list-text">Create Disk * 를 클릭하고 * Clone from snapshot * 을 선택합니다. 디스크 선택 * 화면이 테넌트의 모든 디스크와 함께 표시됩니다. 영역, 영역 및 서브테넌트별로 디스크를 필터링할 수 있습니다. 작동 중인 디스크를 선택할 수 있습니다.</block>
-  <block id="b4e4dcc9b726072edd64a96c8a6316e4" category="list-text">원하는 디스크 옆의 확인란을 선택하고 * 다음 * 을 클릭합니다. 스냅샷 선택 * 화면이 디스크에 대한 모든 스냅샷과 함께 표시됩니다.</block>
-  <block id="f67663048995223b5a3bca2d0bebbd78" category="admonition">선택한 디스크의 경우 NetApp 서비스 엔진 외부의 SnapCenter 환경에서 생성된 일부 스냅샷이 있을 경우, 해당 스냅샷을 가져온 스냅샷이 해당 선택 사항에 나열되어 있습니다. 가져온 스냅샷을 선택하고 새 디스크를 복제할 수 있습니다.</block>
-  <block id="eff181ad32ffb8fd98ba1eae2af717a7" category="list-text">복제할 스냅샷 옆의 확인란을 선택하고 * 다음 * 을 클릭합니다. 새 디스크는 선택한 스냅샷의 속성을 상속합니다.</block>
-  <block id="617236079547eaf12e48c916ee3a5716" category="list-text">이름 * 과 * 디스크 경로 * 를 추가합니다. 서비스 수준 할당 * 과 같은 다른 설정을 업데이트하고 * 생성 * 을 클릭합니다.</block>
   <block id="bbef23cf84481110210f99b7dca9a92d" category="paragraph">* Create Disk * 는 비동기 작업으로 실행됩니다. 다음을 수행할 수 있습니다.</block>
   <block id="c136dd75ef4d76c2f5a6206073c84661" category="list-text">작업이 완료된 후 * Disks * 목록에서 디스크의 상태를 확인합니다.</block>
   <block id="30c740c15df6835e786c16943f13c878" category="summary">Keystone 서비스 수준 메트릭 및 정의</block>
@@ -2547,9 +2357,7 @@
   <block id="86d596e8967d088b834c8d852be2f7ae" category="summary">Keystone 파일 공유의 임시 스냅샷을 생성합니다</block>
   <block id="79ddfbea235d8c6f69bef6a1289c1f02" category="doc">파일 공유의 임시 스냅샷을 생성합니다</block>
   <block id="2d3535fbad26c9ea70e83c687280c51c" category="paragraph">이 섹션에서는 파일 공유의 임시 스냅샷을 생성하는 방법에 대해 설명합니다.</block>
-  <block id="54e69480488d6c587a033693a5ffa656" category="list-text">목록에서 공유를 찾고 해당 공유의 스냅샷 아이콘을 클릭합니다. 목록의 항목 작업에 대한 자세한 내용은 을 참조하십시오 <block ref="4a0d19ebe9aa0f2533119e3056a7b078" category="inline-link-macro-rx"></block>.</block>
   <block id="6a556e6c635602587fe7f06e8d4026b7" category="list-text">스냅샷 생성 대화 상자에서 스냅샷 이름을 입력하고 * 생성 * 을 클릭합니다.</block>
-  <block id="dedf8dac5069ba657b1a7832116edb8d" category="paragraph">스냅샷을 사용할 수 있게 되기까지 몇 분 정도 걸릴 수 있습니다.</block>
   <block id="f569ddb7f5496c4d5a26458cb5f1dcf2" category="summary">NetApp Keystone 유연한 구독 임차 개요</block>
   <block id="dc05f19bc1dbd1ad1623c1ebde1aaf93" category="doc">유연한 서브스크립션의 테넌시 및 멀티 테넌시</block>
   <block id="22f01a1feb715725c8916d2d47ae2e77" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독)은 * Tenant * 및 * Subtenant * 의 개념을 논리적 스토리지 리소스를 소유하는 계층적 엔터티로 사용합니다. 다중 테넌시의 개념도 지원되며, 여러 테넌트가 파트너 또는 서비스 공급자에 종속됩니다. 엔터티 파트너 및 서비스 공급자는 여기에서 동일한 의미로 사용됩니다.</block>
@@ -2611,8 +2419,6 @@
   <block id="58a63b8f702f92fd3245851e54a6c44c" category="admonition">구독에 연간 요금이 청구되는 경우 송장에는 실제 월별 송장 금액 대신 비례 배분된 금액이 반영됩니다.</block>
   <block id="2b09ac5055682c23d8ba4e6a14e9f967" category="paragraph">표의 데이터를 월별로 정렬하고 해당 월의 모든 저장소 구독 목록을 볼 수 있습니다.</block>
   <block id="9688bae6343916e20e0218a59bd2f60d" category="list-text">메뉴에서 * administration * &gt; * Billing * 을 선택합니다.</block>
-  <block id="817f3b83b5cf8d6998d86253d328cfa8" category="admonition">대시보드의 * 월간 청구 * 위젯 오른쪽 상단 모서리에 있는 화살표를 클릭하거나 위젯에서 월을 나타내는 막대를 클릭하여 청구 페이지를 볼 수도 있습니다. 선택한 월에 대한 모든 구독이 표시됩니다.</block>
-  <block id="8e694bf2e1747edf7543b2e2df0bf434" category="list-text">필요에 따라 월을 나타내는 막대 위로 마우스를 가져가면 추가 세부 정보를 볼 수 있습니다.</block>
   <block id="2f5581d8cc6f970e6c70eac91215546f" category="list-text">표에 나열된 월을 선택합니다. 해당 월에 대한 모든 구독과 관련 청구가 테이블에 표시됩니다. 비용은 약정 용량 및 버스트 사용량에 따라 분할됩니다.</block>
   <block id="742ef9f3b9cf3b40d63f3f7a076f1fc7" category="summary">Keystone 구독 관리</block>
   <block id="95a0841b9a7d083d0e92b10bbb2d9538" category="doc">구독 관리</block>
@@ -2623,20 +2429,15 @@
   <block id="91430119e6b1998db13f32fe128e8bd4" category="list-text">서브스크립션 용량을 늘립니다</block>
   <block id="6be4feac711de31165af4cba34fada5b" category="list-text">구독에 서비스 추가(서비스 수준 및 용량 할당)</block>
   <block id="a975aeaab71bf656692c74b3c7391bbd" category="paragraph">서비스 요청은 지원 팀에서 수신 및 처리합니다.</block>
-  <block id="c05b09e138b5f629cc27da81326e9155" category="paragraph">또한 구독 중인 데이터 보호 및 고급 보호 서비스를 별도의 탭에서 확인 및 관리할 수 있습니다.</block>
   <block id="ee64fc5e899de234b52c1e6be0a42580" category="paragraph">구독한 서비스 수준에 대해 할당된 용량을 늘려 성장 요구 사항을 충족할 수 있습니다.</block>
   <block id="c3cc09e5904ef1c41a8e4b96fe492b7f" category="list-text">드롭다운 메뉴에서 용량을 늘릴 구독을 선택합니다.</block>
   <block id="e3cfe0459ce74221e44ecd1ac548921c" category="list-text">원하는 서비스 수준에 대해 * 용량 증가 * 를 클릭합니다.</block>
   <block id="abc5d91daecea5085ef3a04be9b83130" category="list-text">필요한 용량(TiB)을 지정합니다.</block>
   <block id="2e6983625c407f999b0f355ada28466d" category="section-title">구독에 서비스를 추가합니다</block>
   <block id="0eacfbc5d97cfe501e800487423aac77" category="paragraph">구독에 서비스를 추가할 수 있습니다. 서비스 추가에는 서비스 수준을 구독에 할당하고 동일한 서비스 수준에 대한 용량을 지정하는 작업이 포함됩니다.</block>
-  <block id="fba0091d689bfc70b9d5477adedbc602" category="paragraph">구독에는 각 성능 수준 중 하나만 있을 수 있습니다. 예를 들어 구독에 이미 Extreme 및 Standard 서비스가 포함되어 있는 경우 Premium 또는 Block 서비스를 추가할 수 있습니다.</block>
   <block id="30dde0ec345e8f4d767c6af115c09edd" category="list-text">서비스 추가 * 를 클릭합니다.</block>
-  <block id="ac10c01d8b5d36ab848b3fb8f29f13a8" category="list-text">드롭다운 메뉴에서 추가할 구독 서비스를 선택하고 서비스 수준에 커밋할 용량(TiB)을 추가합니다.</block>
-  <block id="0858d2f14514c46b802b407a319301df" category="admonition">익스트림 계층화 또는 프리미엄 계층화를 구독하는 경우 기존 구독의 성능 수준을 편집하고 계층화 지원 성능 수준을 선택할 수 있습니다. 또한 계층화 지원 성능 수준에서 비계층화 성능 수준으로 이동할 수도 있습니다.</block>
   <block id="aaf3d59b93a3de488a15d1c870971b31" category="section-title">테넌트 가입을 관리합니다</block>
   <block id="5710181962e9a5023838cb235a7438db" category="paragraph">파트너 관리자인 경우 * 서브스크립션 * &gt; * 테넌트 구독 * 에서 테넌트 구독을 생성, 보기 및 업데이트할 수 있습니다. 테넌트 관리자는 구독만 볼 수 있습니다.</block>
-  <block id="2fc4feadf65c10bb39cb2dca1d6dfec9" category="section-title">테넌트 가입을 생성합니다</block>
   <block id="e7c16a52c380efb3cac5c1704324c800" category="paragraph">테넌트에 대한 새 구독을 만들 수 있습니다.</block>
   <block id="b37aaef99a7196944d09738c9ab3a35e" category="list-text">새 구독 * 을 클릭합니다.</block>
   <block id="b854139f5ea445b74d2995db156891ed" category="list-text">지역, 구역, 가입 기간, 요금제 및 기타 세부 정보를 지정합니다. 테넌트 구독은 선택한 영역에 따라 Keystone 구독에 할당됩니다. 이는 각 Keystone 가입이 지역에 묶여 있기 때문입니다.</block>
@@ -2648,7 +2449,6 @@
   <block id="b16b9ef52e6b1a201cdcba5b837adb92" category="paragraph">멀티 테넌트(multi-tenant) 환경의 서비스 공급자 관리자로서 NetApp Service Engine 웹 UI를 통해 고객이 직접 가입하여 프로비저닝, 보고, 청구 및 관리 기능을 수행할 수 있습니다. 다음 기능을 수행할 수 있습니다.</block>
   <block id="fa5f81fd8a440d0b18d8557e443b5223" category="list-text">Flex Subscription 서비스의 일부로 서비스 및 프로비저닝된 스토리지를 확인합니다.</block>
   <block id="9da712668a551d8e5fdbd73337cd80e9" category="admonition">즉, 고객은 NetApp에서 구매한 용량(초과 할당)보다 더 많은 용량을 고객에게 판매할 수 있습니다. 테넌트 구독은 현재 Flex Subscription 기간 이상으로 연장할 수 있지만 구독 생성 시 대시보드/보고서에 경고가 표시됩니다.</block>
-  <block id="deda34113a7d7ce4c37163eeb99d80f2" category="list-text">영역, 영역, 영역, 영역, 영역, 테넌트, 하위 테넌트 및 사용자</block>
   <block id="2befb03c928f132c86b633802db5294b" category="list-text">Flex Subscription 서비스 내에서 여러 테넌트를 관리 및 호스팅: 테넌트 서브스크립션을 생성 및 관리하고 고유한 Flex Subscription 세부 정보를 확인합니다.</block>
   <block id="a47825ecf819dc90fda84d0c3b11b153" category="admonition">해당 존 및 Keystone Flex 구독에 따라 테넌트 구독을 생성할 수 있습니다. 이 서비스는 Flex Subscription의 서비스 용량에 따라 생성됩니다.</block>
   <block id="cde8354acfa3ed018e57ee58a3437455" category="list-text">테넌트의 각 스토리지 유형 프로비저닝에 대한 네트워크 요구사항을 알고 있으므로 파일 서버 또는 블록 저장소를 생성하고 블록, 파일 및 오브젝트 스토리지를 초기화합니다.</block>
@@ -2660,17 +2460,10 @@
   <block id="9f47971c2f904282c6112c7fae666665" category="section-title">고객/테넌트 관리자로 수행할 수 있는 활동</block>
   <block id="c5345358b99b46f0a70b33dbe9576e81" category="paragraph">테넌트 관리자는 자신의 테넌시에 대한 구독 세부 정보를 보고 하위 테넌트에 대한 관리 작업을 수행할 수 있는 권한을 얻을 수 있습니다. 다음 작업을 수행할 수 있습니다.</block>
   <block id="ac88fcccfde285ecb59b73859bcec157" category="list-text">테넌트 구독 서비스의 일부로 서비스 및 프로비저닝된 스토리지를 봅니다.</block>
-  <block id="ff765d3ff80f356ea55032314e29568e" category="list-text">테넌트 구독 서비스 내에서 여러 하위 테넌트 및 사용자를 관리하고 호스팅합니다.</block>
-  <block id="4a1c9085c04469de8b32328241d6f65d" category="list-text">영역, 영역, 테넌시, 서브넷을 봅니다.</block>
-  <block id="6e6abd2dbfbfbba739327cec43772d66" category="list-text">파일 서버를 보고 파일 공유, 디스크 및 버킷을 생성합니다.</block>
-  <block id="f67da1c38596a28ef3abe3fed17d089a" category="list-text">테넌트와 서브테넌트에 대한 보고서를 생성하여 테넌시와 서브테넌트에 대해 서비스 또는 프로비저닝된 스토리지에 대한 소비 데이터만 표시합니다.</block>
-  <block id="857a3fc93421e14268be55190cd9a8c8" category="list-text">서비스 공급자의 서비스 요청 도구 내에서 서비스 요청을 올리고 업데이트합니다.</block>
   <block id="4079122a50a5a352183468bbaa01d8dd" category="admonition">추가 구독의 경우 서비스 요청 도구를 사용할 수 있습니다.</block>
   <block id="60ba520f9d8839190b47177b0e5527c8" category="summary">Keystone 오브젝트 스토리지 그룹 삭제</block>
   <block id="4691d8c9f3b0d7214fca2297c340dedc" category="doc">오브젝트 스토리지 그룹을 삭제합니다</block>
   <block id="92f47837b80964ea23a98afa644af878" category="paragraph">오브젝트 스토리지 그룹을 삭제하려면 이 방법을 사용합니다.</block>
-  <block id="4014df0eabbcdafeeaa6af15088473c1" category="inline-link-macro">그룹 목록</block>
-  <block id="bcfec66a7b5deed3e3d648bf9acced29" category="list-text">보기 <block ref="ed64871e766a21bfbb9d1bd09d4d5a26" category="inline-link-macro-rx"></block>.</block>
   <block id="45545c2b846c151b6838b1e51a45e19a" category="list-text">목록에서 그룹을 찾고 해당 그룹의 삭제 아이콘을 클릭합니다.</block>
   <block id="6dd6917c8e34f161475893bacabd2f53" category="list-text">삭제 작업을 확인하려면 * 확인 * 을 클릭합니다. 오브젝트 스토리지 그룹이 목록에서 제거됩니다.</block>
   <block id="3806eaf292e4fda9458d265c7c856088" category="summary">Keystone StorageGRID 인스턴스</block>
@@ -2823,18 +2616,6 @@
   <block id="a569539ebc048051428ba08b3174903c" category="summary">NetApp 서비스 엔진의 새로운 기능</block>
   <block id="1754f916c701cd7759c35b6738e4fbc0" category="doc">NetApp Keystone 유연한 구독 서비스의 이번 릴리스의 새로운 기능</block>
   <block id="53a68c6a8d27bd5b379a7dc2368c5756" category="paragraph">릴리즈 노트에서는 NetApp Keystone 유연한 구독(Flex Subscription) 서비스에 도입된 새로운 기능과 향상된 기능을 알려진 제한 사항 및 수정 사항과 함께 설명합니다.</block>
-  <block id="5c333f255c8b8fe478018b592064ef12" category="section-title">Cloud Volumes ONTAP 사용 및 청구 보기(2021년 12월 5일)</block>
-  <block id="c3e11b13166205f01b3a91c292ed2ef8" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독) 고객이고 Cloud Volumes ONTAP 구독이 있는 경우, 유연한 구독을 사용하여 Cloud Volumes ONTAP 사용량을 청구하고 청구 및 소비 상세 정보를 볼 수 있습니다. Cloud Manager는 이제 Flex Subscription 계정을 검색하고 Cloud Manager 인터페이스에 세부 정보를 표시할 수 있습니다. 모든 서비스 &gt; Digital Wallet &gt; Keystone Flex Subscription * 탭을 클릭하면 다음 작업을 수행할 수 있습니다.</block>
-  <block id="5238fb622db8670699adbf5b482678e6" category="list-text">Flex Subscription 관리자에게 문의하여 Cloud Manager 사용자 ID를 Flex Subscription 사용자 ID에 연결하고 * Keystone Flex Subscription * 탭에 액세스할 수 있는 시작 화면을 봅니다.</block>
-  <block id="c1a093259dea21d070b755503e96dcdf" category="list-text">온-프레미스 시스템 및 Cloud Volumes ONTAP에서 구독 서비스의 커밋된 용량 및 사용된 용량의 소비 데이터를 확인합니다.</block>
-  <block id="85d3d7bdabae93d4846321bc050d6645" category="list-text">Cloud Manager 계정과 연결된 Flex Subscription 세부 정보를 봅니다. 약정, 사용량, 버스트 용량과 같은 세부 정보가 표시됩니다.</block>
-  <block id="1fe79890d855ed34bd46612c12db6061" category="list-text">Cloud Volumes ONTAP 계정을 유연한 구독 ID와 연결하여 청구 및 용량 사용 보고서를 위한 계정을 연결합니다.</block>
-  <block id="88f141f3566ea09da3443b01f7f089fb" category="list-text">구독한 Flex Subscription 서비스에 대한 약정 용량을 늘리거나 줄일 것을 요청합니다.</block>
-  <block id="b20b42d4f6cb65fa8e788ec44f8341a5" category="list-text">연결된 Flex 가입 ID를 보고 Cloud Volumes ONTAP 소비 청구(연결된 ID만 해당)의 청구 방법으로 사용합니다.</block>
-  <block id="46172ce69f0d69dc6b2a28ea9573950b" category="inline-link-macro">Keystone Flex 구독 관리</block>
-  <block id="dd8bfc39d1b97c46fd88e0e7b3533909" category="paragraph">자세한 내용은 Cloud Manager 문서에서 다음 링크를 참조하십시오.<block ref="4f790696e8e1be6ca66a4737e5e654e6" category="inline-link-macro-rx"></block>
-<block ref="1e99115c1a8b1bdb052bb8f16835e10f" category="inline-link-macro-rx"></block></block>
-  <block id="3be9d287dfe7e07ebfb53a3c94eb47ad" category="paragraph">{SP}+{SP}+{SP}NetApp Keystone 유연한 구독(유연한 구독)을 통해 제공되는 향상된 기능을 지원하기 위해 NetApp 서비스 엔진 여러 릴리즈에서 다음과 같은 기능이 도입되었습니다.</block>
   <block id="cd7a86fe2c68638edfc590d0348e2ac6" category="section-title">NetApp Service Engine 2.2에서 도입된 기능</block>
   <block id="d10191cc409a22b097fadfc82b9dc423" category="paragraph">이 릴리즈의 새로운 기능에는 청구서, 용량 활용률, 서비스 요청 및 알림에 대한 새로운 위젯을 위한 개선된 대시보드가 포함됩니다. 이 릴리스에는 청구 및 알림 관리를 위한 새로운 화면 및 구독한 서비스 메뉴의 이름을 클라우드 서비스로 바꾸는 기능도 포함되어 있습니다.</block>
   <block id="7e65194cd4a857baedc63512c62ee99a" category="section-title">향상된 대시보드 뷰</block>
@@ -2871,12 +2652,10 @@
   <block id="34a1628d8177bd814d041e80cc5bbfe7" category="list-text"><block ref="34a1628d8177bd814d041e80cc5bbfe7" category="inline-link-macro-rx"></block></block>
   <block id="c25ec10f452d7554efb64ee2fcb1fe87" category="inline-link-macro">테넌트 및 하위 테넌트에 대한 네트워크를 정의합니다</block>
   <block id="a5e64bd5bd172a87e39299de9ee21453" category="list-text"><block ref="a5e64bd5bd172a87e39299de9ee21453" category="inline-link-macro-rx"></block></block>
-  <block id="7b4219ec32695bc3518befa372ddf006" category="paragraph">NetApp Keystone 유연한 구독 서비스에는 NetApp FabricPool 기술을 활용하는 계층화 기능이 포함됩니다. NetApp에서 소유, 구축, 관리하는 콜드 스토리지에 덜 사용되는 데이터를 식별하고 계층화합니다. 익스트림 계층화 또는 프리미엄 계층화 성능 수준에 가입하여 계층화를 선택할 수 있습니다.</block>
   <block id="e63549c96b8e55ee68565f5ba8a07e7e" category="paragraph">새 계층화 서비스 수준에 대한 새로운 속성 값을 포함하도록 다음 API가 수정되었습니다.</block>
   <block id="798a6e7cd9ee58fef9fc3e96d8f6dd38" category="list-text">블록 저장소 API</block>
   <block id="c99a33ad99ce532b267aaef154dd9886" category="paragraph">자세한 내용은 다음 링크를 참조하십시오.</block>
   <block id="4488ca7c1dbfbc3a4a5cb0de9a5f943b" category="list-text"><block ref="4488ca7c1dbfbc3a4a5cb0de9a5f943b" category="inline-link-macro-rx"></block></block>
-  <block id="eb5228f75c5e56b970f5ae0448055097" category="list-text"><block ref="eb5228f75c5e56b970f5ae0448055097" category="inline-link-macro-rx"></block></block>
   <block id="60b9454b357d4028e1a44f67fe213faa" category="paragraph">{SP} + {SP} + {SP}입니다</block>
   <block id="44f95b8178b2bd2c0cde2f2b9c0f84c8" category="section-title">NetApp Service Engine 2.0.1에 도입된 기능</block>
   <block id="6100897489646888867118f23efef503" category="paragraph">이 릴리즈의 새로운 기능은 다음과 같습니다.</block>
@@ -2928,7 +2707,6 @@
   <block id="2cc86b2232035ca76bdff5455e3131d7" category="sidebar">NetApp Keystone 유연한 구독</block>
   <block id="d5d344bd3a97832ad0170ec3175aa230" category="sidebar">서비스 약관 및 설명</block>
   <block id="a872a8a274ed3a6109fbbf9f9123e4af" category="sidebar">서비스 용량 정의</block>
-  <block id="145b79de40b1feea046331090ababb5a" category="sidebar">성능 서비스 수준</block>
   <block id="780c462e85ba4399a5d42e88f69a15ca" category="sidebar">청구</block>
   <block id="e0860a8634b1f9ca0dc00aba7d58c748" category="sidebar">반품 불가 디스크</block>
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">미국 시민 지원</block>
@@ -2953,14 +2731,10 @@
   <block id="cf073e83f3900e4116bf15fa47e252a1" category="sidebar">스냅샷으로부터 디스크를 생성합니다</block>
   <block id="9aa8ff5deefebf063dcc15ad6c56e6f2" category="sidebar">오브젝트 스토리지 사용</block>
   <block id="9fb2c96c2b07eeb85651af0dd0232553" category="sidebar">클라우드 서비스 관리</block>
-  <block id="60961ff996ca5668ec37fbe666117adc" category="sidebar">클라우드 서비스 관리</block>
   <block id="1c4ff4148966375bdb9755ebc24f8cf9" category="sidebar">구독한 서비스 목록을 봅니다</block>
   <block id="107e5a722744b136c2b64b3b9f34ba3d" category="sidebar">가입된 서비스를 추가합니다</block>
   <block id="4c449a34cd08a335e390682a36b43ce9" category="sidebar">구독한 서비스 세부 정보를 수정합니다</block>
   <block id="bc32a38186dae6ec37fbc645cf6beafc" category="sidebar">구독한 서비스를 삭제합니다</block>
-  <block id="1783e449724614e360999417e8b10901" category="sidebar">Azure NetApp Files 관리</block>
-  <block id="17bcffb3afe645d6c1ca30ac89fadb75" category="sidebar">Google Cloud Platform용 Cloud Volumes Service 관리</block>
-  <block id="2b3328083f206d967cbcd7831dc1e1b2" category="sidebar">백업 작업</block>
   <block id="392f879ce1556a027a681fc630ec5e9b" category="sidebar">구독 관리</block>
   <block id="ed001245cece01e549906767ccb61caf" category="sidebar">서비스 요청 관리</block>
   <block id="1b4fcfaacbd0ae3e24bc82f8d7a82211" category="sidebar">사용자 관리</block>
@@ -2969,7 +2743,6 @@
   <block id="2f12e5ae44c9cf77ed83b5e5e83ea318" category="sidebar">네트워크 관리</block>
   <block id="2bd05dd0cbc467a7641e108606fa1c5a" category="sidebar">NetApp 서비스 엔진 API 참조</block>
   <block id="ab4eeed97074daacb19be5e9f701fc55" category="sidebar">API를 사용하여 서브넷을 생성합니다</block>
-  <block id="c158748a3e69a9b1c13a961e778ec66b" category="paragraph">성능 서비스 수준이 변경하더라도 볼륨은 이동되지 않습니다</block>
   <block id="1783b0f8371d7661f74ab43e7076b5ef" category="paragraph">동일한 클러스터에 있는 두 개의 서로 다른 애그리게이트가 두 서비스 수준에 사용되는 경우 볼륨의 서비스 레벨을 다른 애그리게이트로 변경해도 볼륨이 다른 애그리게이트로 이동하지 않습니다. 적응형 QoS 정책만 적용됩니다.</block>
   <block id="44d15e01a306125fbc9b5a504261f2c3" category="paragraph">FCP SVM을 생성하려면 iSCSI 활성화가 필요합니다</block>
   <block id="452ff3a7d441b2a105350eaeb7f00609" category="paragraph">SVM(스토리지 가상 시스템)을 생성하고 FCP 지원을 활성화하려면 iSCSI 인터페이스를 활성화해야 합니다.</block>
@@ -3012,11 +2785,8 @@
   <block id="5aed86d713fb69dbe024ac9088076e73" category="paragraph">* 온프레미스의 의미는 무엇입니까? *</block>
   <block id="a75a7cee34b949b2845063d48f4f6ce7" category="paragraph">* Flex Subscription 서비스의 이점은 무엇입니까? *</block>
   <block id="a3bbf620adc7e7bcc0d6001db0d7e174" category="paragraph">* NetApp Keystone 유연한 구독의 일부로 제공되는 사항 * NetApp Keystone 유연한 구독(유연한 구독)은 블록, 파일 및 오브젝트 데이터 서비스에 대한 구독 기반 서비스로, 사내에 구축할 수 있으며 NetApp, 파트너 또는 고객이 직접 운영할 수 있습니다.</block>
-  <block id="7f3c8f66eb2c4902c4723ee68d1dd702" category="paragraph">* Flex Subscription의 일부로 제공되는 스토리지 서비스는 무엇입니까? * 자세한 내용은 를 참조하십시오 <block ref="eb5228f75c5e56b970f5ae0448055097" category="inline-link-macro-rx"></block></block>
   <block id="78d9a5281ccb539856a1f4dd20094aea" category="paragraph">* 지원되는 애드온 서비스는 무엇입니까? * 고급 데이터 보호(백업 및 재해 복구) 및 FabricPool 지원 하이브리드 클라우드 계층화는 추가 비용으로 선택할 수 있는 애드온 서비스입니다.</block>
   <block id="f51aca773a35af7c6804c9de4ec05591" category="paragraph">* NetApp이 서비스 수준에서 어떤 서비스 수준을 보장합니까? * NetApp 운영 시나리오에서, NetApp Keystone은 프로비저닝되는 스토리지에 대한 IOPS/TiB와 각 서비스 수준에 대한 지연 시간을 보장합니다.</block>
-  <block id="22fbbcf2456a5d7f160b510c7b3af3ae" category="paragraph">* Flex Subscription은 어떤 기능을 제공합니까? * Flex Subscription은 단일 사이트 또는 단일 데이터 센터에 매핑되며 서로 다른 성능 서비스 수준으로 구성될 수 있습니다.</block>
-  <block id="649571bfc7e1b8f98d07b3d829506d93" category="paragraph">* 최고 수준의 계층화 및 프리미엄 계층화 성능 수준의 이점은 무엇입니까? * 계층화는 최고 수준의 계층화 및 프리미엄 계층화 성능 수준에서 지원되며, 이를 통해 스토리지 설치 공간과 관련 비용을 줄일 수 있습니다. NetApp은 데이터의 25%가 핫 데이터라고 가정하며, 나머지 75%는 사용 빈도가 적거나 콜드 스토리지로 이동합니다. 또한 사용 현황 보고서를 확인하여 데이터 액세스 빈도를 파악하고 해당 정보를 기반으로 계층화 서비스를 설정할 수 있습니다.</block>
   <block id="d6df6eff28ac44af1e13e275b0228621" category="paragraph">파트너는 NetApp에서 고객에게 구입한 것보다 더 많은 용량을 판매할 수 있습니까? * 테넌트 가입은 파트너가 구입한 용량에 의해 제한되지 않습니다. 파트너는 NetApp에서 고객에게 판매한 용량보다 더 많은 용량을 판매할 수 있습니다. 구입한 용량을 초과하는 용량을 초과 할당이라고 합니다.</block>
   <block id="1ed1cac8cc85c7270eaad5bcd4a6157f" category="paragraph">* 고객 툴과 통합하기 위해 API가 제공됩니까? * 예, RESTful API를 자체 애플리케이션에 통합할 수 있습니다. 지원 &gt; API Documentation * 으로 이동하여 Flex Subscription 서비스에 대한 API 설명서를 확인하십시오. 자세한 내용은 를 참조하십시오 <block ref="5b59c49596915ff0a388a418bca92047" category="inline-link-macro-rx"></block>.</block>
   <block id="c54f3024ff23dcfc42681979d3398492" category="paragraph">* 버스트 용량이란? * 사용량을 약정 용량보다 20% 이상 증가 또는 감소시킬 수 있습니다. 최대 용량 사용량은 매일 측정되며 사용 시에만 비용이 청구됩니다. 예를 들어, 커밋된 용량이 100TiB인 경우 최대 120TiB까지 늘릴 수 있습니다.</block>
@@ -3075,4 +2845,289 @@
   <block id="109d8311a672ab956bbde63f671b0b7c" category="paragraph">* 액세스는 어떻게 제어됩니까? *</block>
   <block id="bfc9a9f184efe2a5063de0904d04a09f" category="paragraph">* 어떤 액세스 컨트롤을 사용할 수 있습니까? *</block>
   <block id="dc621b6e8c29275d1ab76120be6c1392" category="paragraph">* 내 사용량에 대한 청구서는 어디에서 볼 수 있습니까? *</block>
+  <block id="0580b428b8b89191dd146196120083eb" category="paragraph">* 가입은 서로 상호 연계할 수 있습니까? *</block>
+  <block id="e3cfe7f33d12e36089266e1a92e5b364" category="paragraph">아니요, 구독 조건은 서로 독립적입니다.</block>
+  <block id="b3784fbd5fbd14cdb7c0951f67184db5" category="paragraph">* 백업 스토리지를 기존 구독에 추가할 수 있습니까? *</block>
+  <block id="290bc1780871dbb1423d35daee26da77" category="paragraph">백업 활용 사례의 경우 표준 또는 가치 서비스 수준을 비롯한 기존 또는 새로운 서비스 수준에 대한 기존 구독에 용량을 추가할 수 있습니다. 기존 구독의 기간은 변경되지 않습니다. 그러나 한 가지 주의해야 할 점이 있습니다. 즉, 가입 기간의 마지막 90일(서브스크립션 종료 전 마지막 90일) 내에 용량을 추가하려는 경우 최소 1년 동안 서브스크립션을 갱신해야 합니다.</block>
+  <block id="6c53919ff0d940777e3a5355a7d94094" category="list-text">작업 목록을 확인하여 오브젝트 스토리지가 성공적으로 초기화되었는지 확인합니다. 자세한 내용은 을 참조하십시오 <block ref="08ab40cd728ae5bfe16832c715077c4e" category="inline-link-macro-rx"></block>.</block>
+  <block id="ddde080f14140ee00decb283845220d5" category="cell">테넌트 및 해당 가입의 관리에 대한 모든 작업을 수행할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="f78e6cb66cb6a39b449a96220ff74114" category="inline-link-macro-rx"></block>.</block>
+  <block id="3d3808a406e801b1d588b2675afa860f" category="cell">고객 또는 테넌트 관리자는 하위 테넌트 관리와 관련된 모든 작업을 수행할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="1aa83b769be8d8ae51e2893f933a4da8" category="inline-link-macro-rx"></block>.</block>
+  <block id="7c6a71a785177471946c9cdbe943b35c" category="list-text">웹 브라우저에서 NetApp Service Engine 포털 URL로 이동합니다. 로그인 페이지가 표시됩니다.</block>
+  <block id="2ba717ee51760eb50cf2395fafc0ec65" category="list-text">NetApp 서비스 엔진에 로그인 페이지에서 사용자 이름과 암호를 입력하고 * 로그인 * 을 클릭합니다.</block>
+  <block id="c794cc715ac13b65252e49ee2c678436" category="list-text">NetApp SSO 계정 NetApp Support 사이트에서 계정을 요청할 수 있습니다. 로그인 화면에서 * NetApp SSO 계정 생성 * 을 선택하고 다음 단계를 따르면 됩니다.</block>
+  <block id="198851d87f26efc044266d58b4977aaf" category="doc">오브젝트 스토리지 그룹 및 사용자를 표시합니다</block>
+  <block id="6aa4e60518dba90fc318768cced14553" category="list-text">메뉴에서 * object storage &gt; User Management * 를 선택합니다.</block>
+  <block id="6508d92d59e4349d8fb5ee10e84881e9" category="list-text">사용자 * 및 * 그룹 * 탭을 사용하여 사용자와 그룹 간에 표시를 전환할 수 있습니다.</block>
+  <block id="4cc0ba636011fd91df08096a9dbb52a5" category="inline-link">버킷 및 그룹 액세스 정책</block>
+  <block id="13caf6a32ef96ae50bfe8ec41166c57e" category="list-text">Groups 목록에는 선택한 서브테넌트에 대해 정의된 객체 스토리지 그룹이 표시됩니다. 그룹 이름과 해당 그룹에 할당된 S3 정책이 표시됩니다. 버킷 그룹 및 S3 정책에 대한 자세한 내용은 을 참조하십시오<block ref="f533a5b48cc3e6b5ffb9cab6aaa82eb6" category="inline-link-rx"></block>.</block>
+  <block id="3f2328096477e3b7d81c6ef9f54f1066" category="paragraph">목록의 기능을 사용하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="a61f12a3491d544119bfe19d47b5cc08" category="inline-link-macro-rx"></block>.</block>
+  <block id="2a44f87120793370292710522b0a27c5" category="paragraph">이 섹션에서는 NetApp Service Engine 포털을 사용하여 를 시작하는 방법을 설명합니다.</block>
+  <block id="9febd0fa5fe3a71523d678a7c8e9f1fa" category="admonition">NetApp Service Engine 포털을 탐색하면 지역 및 영역과 같은 일부 정보가 지원 팀이 구성한 구독 설정에 따라 자동으로 채워지는 것을 볼 수 있습니다.</block>
+  <block id="a73d4f90a085724bdd6b33749a15aa50" category="paragraph">이 포털에서 활동을 시작하려면 다음을 수행합니다.</block>
+  <block id="a2f9e46ef6c1070478e1ea801a01acd3" category="list-text">NetApp Service Engine 웹 인터페이스에 로그인합니다.</block>
+  <block id="346afb1f775b2be7f65cdd131cfda084" category="list-text">NetApp SSO로 로그인하십시오. 자세한 내용은 을 참조하십시오 <block ref="b856bcfd75b6dd0d7852d724d68f7736" category="inline-link-macro-rx"></block></block>
+  <block id="ac541006b40d84d41cec02f38a235dcd" category="list-text">Tenant를 선택합니다. 대시보드가 표시됩니다. 자세한 내용은 을 참조하십시오 <block ref="51b99950f96aebac50d3a68ee27b3fbd" category="inline-link-macro-rx"></block></block>
+  <block id="b57c5857df27cc64fb5d595da8ffd751" category="paragraph">NetApp Service Engine 웹 인터페이스 개요는 을 참조하십시오 <block ref="df293938f0aee0093b3fd1ecb520ab05" category="inline-link-macro-rx"></block></block>
+  <block id="5aa8679ac0f16a7378830768b91def26" category="paragraph">서비스 요청을 통해 GSSC 팀에게 문제를 제기하여 문제를 해결하고 상태를 볼 수 있도록 업데이트 할 수 있습니다.</block>
+  <block id="a3ac7cbbd83b225effe71bfc671bb929" category="admonition">파트너 관리자인 경우에만 * 지원 &gt; 서비스 요청 * 메뉴를 볼 수 있습니다. 파트너 관리자는 대시보드에서 선택한 테넌트에 대해 발생한 서비스 요청 목록을 볼 수도 있습니다. 테넌트 관리자는 NetApp 지원을 통해 서비스 요청을 제출할 수 없습니다.</block>
+  <block id="571440db77639ab1a914f3efb7b861d7" category="paragraph">워크플로는 에 있습니다 <block ref="2adeebff5cc76037744cec149db1546d" category="inline-link-macro-rx"></block></block>
+  <block id="df058b919beee8b3a9aafbec290b866b" category="list-text">비표준 볼륨: Flex Subscription으로 가져온 볼륨은 NetApp Service Engine에서 기존 디스크 및 파일 공유와 동일한 표준을 공유합니다. 가져오기 후 이러한 디스크와 파일 공유는 Non-Standard 상태로 분류됩니다. 상태를 표준 상태로 변경하기 위한 서비스 요청을 제기합니다.</block>
+  <block id="9111918b9255f26f010ab636c932d79e" category="list-text">이 목록에 포함되지 않는 기타 모든 문제.</block>
+  <block id="a1dad3427fe66a2d356b0c33c504ca73" category="paragraph">이 섹션의 다른 항목에서는 다음에 대해 설명합니다.</block>
+  <block id="6997369c1687522b4cf15d694195da1a" category="paragraph">기존 스냅샷에서 새 디스크를 생성할 수 있습니다. 스냅샷에서 복제된 새 디스크의 속성은 스냅샷이 생성된 디스크와 동일합니다.</block>
+  <block id="54c83990c66d60d258fd9cb32e4039b4" category="list-text">왼쪽 탐색 창에서 * 블록 스토리지 * 를 선택하고 * 디스크 * 를 선택합니다. 테넌시의 기존 디스크 목록이 표시됩니다.</block>
+  <block id="d96b1a215cb40bb0345ebc1f2fefd85a" category="list-text">Create Disk * 를 클릭하고 * Clone from snapshot * 을 선택합니다. 또는 스냅샷을 클론 복제에 사용하려는 디스크를 알고 있는 경우 디스크를 찾아 해당 디스크 옆의 복사 버튼을 클릭합니다. 디스크가 작동 상태여야 합니다. 스냅샷으로부터 디스크 생성 * 화면이 테넌트의 모든 디스크와 함께 표시됩니다. 영역, 영역 및 서브테넌트별로 디스크를 필터링할 수 있습니다. 작동 중인 디스크를 선택할 수 있습니다. 개체 상태에 대한 자세한 내용은 을 참조하십시오 <block ref="5e32ddb0b2ee6eb1a1baab0807d7f57d" category="inline-link-macro-rx"></block></block>
+  <block id="718d316e4bc27e41e86d5a5f4d304fcf" category="list-text">원하는 디스크 옆의 확인란을 선택하고 * 다음 * 을 클릭합니다. 디스크에 대한 스냅샷이 표시됩니다.</block>
+  <block id="68535e6b95a2979d96018ca3546b4c22" category="admonition">선택한 디스크에서 SnapCenter 서비스 엔진 외부의 NetApp 환경에 생성된 일부 스냅샷이 있을 경우, 해당 스냅샷을 가져온 후 해당 스냅샷이 해당 선택 사항에 나열되어 있습니다. 가져온 스냅샷을 선택하고 새 디스크를 복제할 수 있습니다.</block>
+  <block id="9ea16edd58eb3cafa6943e33e379e216" category="paragraph">특정 스냅샷을 검색하거나 스케줄 유형을 선택하여 스냅샷을 필터링할 수 있습니다.</block>
+  <block id="52066d0bc9eb52184e32fa7c6c69e724" category="list-text">복제할 스냅샷 옆의 확인란을 선택하고 * 다음 * 을 클릭합니다. 새 디스크는 선택한 스냅샷의 속성을 상속합니다.</block>
+  <block id="92a71a4bf4aa16eefa65788bc19074aa" category="list-text">이름 * 과 * 디스크 경로 * 를 추가합니다. 서비스 수준 할당 * 과 같은 다른 설정을 업데이트하고 * 생성 * 을 클릭합니다. 요구 사항에 가장 적합한 서비스 수준을 선택하십시오. 를 클릭합니다</block>
+  <block id="e185a2e8bb4bff12715c93a0f9152abe" category="list-text">작업 목록에서 작업의 상태를 확인합니다. 작업 추적에 대한 자세한 내용은 을 참조하십시오 <block ref="368a1d704bdc9ee6ea14e4516dfa810f" category="inline-link-macro-rx"></block>.</block>
+  <block id="6d334cd2f8ad0d4bee6be8b87c161536" category="list-text">오브젝트 스토리지 사용자를 표시합니다 <block ref="66c6e9c4626cdbf640f3b53d94f25c63" category="inline-link-macro-rx"></block>.</block>
+  <block id="5b24f621d2c5529d9de19c530d25386b" category="list-text">올바른 서브테넌트가 선택되어 있고 * Users * 탭을 클릭했는지 확인합니다.</block>
+  <block id="1f2d6525ebb9e69db041e713ef033586" category="list-text">목록에서 사용자를 찾고 해당 그룹의 키 아이콘을 클릭합니다.</block>
+  <block id="dbaaeab9e672655870ffc9fa5fe7c16b" category="paragraph">목록의 항목 작업에 대한 자세한 내용은 을 참조하십시오 <block ref="a61f12a3491d544119bfe19d47b5cc08" category="inline-link-macro-rx"></block>.</block>
+  <block id="aae29fa4a7f13bf64ce22af144320e87" category="inline-link">정책에서 사용 권한을 지정합니다</block>
+  <block id="e67466de05712e6490e8c93350f439a6" category="list-text">S3 키 관리 * 대화 상자에 사용자의 키 목록이 표시됩니다. 키에 대한 자세한 내용은 을 참조하십시오<block ref="ddaba7313b89f71a659e8f4e1bc37488" category="inline-link-rx"></block>.</block>
+  <block id="cf90034bfcfb8992786af14eecbd3c95" category="list-text">키가 만료되도록 하려면 UTC에서 만료 날짜 및 만료 시간을 지정합니다. 그렇지 않으면 이러한 필드에 기본값을 그대로 둡니다.</block>
+  <block id="4f13e742af97bf988fd1adca65dd1d25" category="list-text">키를 만들려면 확인 표시를 클릭합니다. 액세스 키와 비밀 키를 보여주는 * S3 키 세부 정보 * 대화 상자가 표시됩니다.</block>
+  <block id="90d30d6521db2d29ace6dc1ca28b2e75" category="list-text">사용자에게 세부 정보를 알려 줄 수 있도록 준비하면서 액세스 키와 비밀 키를 모두 복사합니다.</block>
+  <block id="1512fa78a4c53f4c222d02fd68b146db" category="paragraph">S3 키 세부 정보 * 대화 상자를 닫기 전에 키 세부 정보를 캡처해야 합니다. 닫히면 키 세부 정보가 가려져 검색할 수 없게 됩니다.</block>
+  <block id="07151bee06dd2a6f6efe8c0eb20ff928" category="paragraph">공유 이름, 서비스 레벨, 용량, 스냅샷 정책, 엑스포트 정책을 변경할 수 있습니다. ACL(액세스 제어 목록) 및 파일 공유의 태그</block>
+  <block id="f13936079d5f64cabefb8136cb14c59b" category="admonition">이 방법을 사용하면 가능한 경우 공유를 다른 서비스 수준으로 이동할 수 있습니다. 서버가 해당 서비스를 지원하는 경우에만 공유 유형을 변경할 수 있습니다.</block>
+  <block id="4cdb5fa02cd86a05dcaaadd741f350e9" category="paragraph">파일 공유가 작동 상태여야 합니다. 볼륨 상태 및 작동 단계에 대한 자세한 내용은 을 참조하십시오 <block ref="329f996c576e28aa296dc49edeef71e7" category="inline-link-macro-rx"></block> 및 <block ref="5e32ddb0b2ee6eb1a1baab0807d7f57d" category="inline-link-macro-rx"></block></block>
+  <block id="1e7ae5f230c349b0d37c2d28c0a630db" category="paragraph">호스트 그룹은 디스크에 대한 액세스를 결정하기 위해 정의됩니다. 호스트 그룹에 할당된 이니시에이터 노드에 따라 해당 호스트 그룹의 액세스가 결정됩니다. 호스트 그룹을 생성할 때 이니시에이터를 추가할 수 있습니다.</block>
+  <block id="8bf4a89637b88a17fe1be4dad5d23488" category="list-title">다음 사항에 유의하십시오.</block>
+  <block id="e9a8384b76847e02ea9eb3b15adef6a3" category="list-text">호스트 그룹이 작동하지 않는 경우 호스트 그룹을 편집할 수 없으며 해당 그룹에 대해 펜 편집 아이콘이 비활성화됩니다.</block>
+  <block id="a2ee4c0694efba6ff14aeb624652be2c" category="list-text">호스트 그룹을 수정하면 호스트 그룹에 매핑된 각 디스크의 액세스가 수정됩니다.</block>
+  <block id="4cdf7c93c5637cf0b21b1501834ae244" category="list-text">목록에서 호스트 그룹을 찾아 행 끝으로 스크롤한 다음 해당 호스트 그룹에 대한 편집 아이콘(펜 아이콘)을 클릭합니다.</block>
+  <block id="479ae5edaaa0e0e7f7d443dc597b3725" category="paragraph">이 섹션에서는 디스크 세부 정보를 직접 지정하여 새 디스크를 생성하는 방법에 대해 설명합니다. 기존 디스크의 스냅샷을 기반으로 디스크를 만드는 방법에 대한 지침은 을(를) 참조하십시오 <block ref="471ead9e8cc0845a2e4733e8474d4381" category="inline-link-macro-rx"></block>.</block>
+  <block id="aaa2a456d2b0ee8dcbe6d54b5aab09e4" category="list-text">서비스 수준을 선택합니다.</block>
+  <block id="1921ba34bad67de8b98dfa58a43918f6" category="admonition">옵션을 선택하여 해당 서비스 수준에 대한 성능 세부 정보를 봅니다(최대/예상 IOPS/처리량). 요구 사항에 가장 적합한 서비스 수준을 선택하십시오.</block>
+  <block id="01622ea2e6ecb3044a5fdad11a37f1b4" category="list-text">이 디스크에 스냅샷이 필요한 경우:</block>
+  <block id="dc1e6744caa2433ba20c278ccfbdbf55" category="list-text">스냅샷을 생성할 시기를 지정합니다.</block>
+  <block id="1e135408ec7679181f1480da0599625d" category="list-text">* 시간별. * 스냅샷을 생성할 분(시간)과 보존할 시간별 스냅샷 수를 지정합니다.</block>
+  <block id="0e8c706929d26eb18be3333e7ae59ac3" category="list-text">* 매일. * 스냅샷을 생성할 시기(시 및 분)와 보존할 시간별 스냅샷 수를 지정합니다. 스냅샷을 매일 촬영해야 하는 시간을 여러 번 지정하려면 쉼표로 구분된 목록(예: 5, 10, 15, 기타</block>
+  <block id="8348032cd6c2680262fc058d2d5c1750" category="list-text">* Weekly. * 스냅샷을 생성할 시기(요일, 시간 및 분)와 보존할 주별 스냅샷 수를 지정합니다.</block>
+  <block id="4ba44c9003dbfdedd8cd9f0e06bd0348" category="list-text">* Monthly. * 스냅샷을 생성할 시기(월, 시간, 분)와 보존할 월별 스냅샷 수를 지정합니다.</block>
+  <block id="4f71c5f044ccf460d84a38a185b21a3c" category="list-text">테넌트, 하위 테넌트, 있습니다.</block>
+  <block id="e060dc507e49d9a3bbf820fbe0cb9750" category="list-text">구독에 대한 영역 및 지역을 봅니다.</block>
+  <block id="c4812789be6d5627f9548ff1c7268308" category="list-text">테넌시의 하위 테넌트를 관리하고 편집합니다.</block>
+  <block id="7335ff2753081014130e7efe5d476c51" category="list-text">영역, 영역, 하위 테넌트 및 서브넷을 봅니다.</block>
+  <block id="3d0ede0ece7757fecf8ee6f1f189455e" category="list-text">서비스 공급자가 생성한 파일 서버를 봅니다.</block>
+  <block id="75772ee1d3a1f0a0d4023186a1d42e03" category="list-text">파일 공유, 디스크 및 버킷을 생성하고 서비스 수준을 할당합니다.</block>
+  <block id="1da19e564e6234025d33274e4bf6c86b" category="list-text">Reports &gt; Capacity Utilization * 에서 테넌트 및 서브테넌트에 대한 보고서를 보고 테넌시와 서브테넌트에 대해 서비스 또는 프로비저닝된 스토리지에 대한 소비 데이터만 봅니다.</block>
+  <block id="b21bcdcc70e3486ce61f6918359621f8" category="list-text">각 서비스 및 추가 서비스(데이터 보호 및 고급 보호)에 대한 테넌트와 하위 테넌트에 대한 보고서를 * 보고서 &gt; 성능 * 에서 보고 테넌시의 성능 및 서비스 규정 준수를 확인합니다.</block>
+  <block id="57589106be28b5324e344c02a84d1248" category="paragraph">이 방법을 사용하여 오브젝트 스토리지 그룹을 생성합니다.</block>
+  <block id="15bc76902d4ca575cfcf09624b0909c2" category="list-text">객체 스토리지 &gt; 사용자 관리 &gt; 그룹 * 에서 객체 스토리지 그룹 목록을 봅니다.</block>
+  <block id="96c8050f0d67c893c12d725cb29189a2" category="list-text">올바른 서브테넌트가 선택되어 있고 * Groups * 탭을 클릭했는지 확인합니다.</block>
+  <block id="6ce1785e716d1589932993264df00b43" category="list-text">목록에서 S3 정책을 선택합니다. S3 정책에 대한 자세한 내용은 을 참조하십시오<block ref="ddaba7313b89f71a659e8f4e1bc37488" category="inline-link-rx"></block>.</block>
+  <block id="0011a2b07dda9a0bc5d1b0499e8b32a1" category="paragraph">객체 스토리지 그룹 생성은 비동기식 작업으로 실행됩니다. 작업 목록에서 작업의 상태를 확인할 수 있습니다. 작업 추적에 대한 자세한 내용은 을 참조하십시오 <block ref="368a1d704bdc9ee6ea14e4516dfa810f" category="inline-link-macro-rx"></block>.</block>
+  <block id="dfe04b78797bd9efb6487f2a8657d1db" category="inline-link-macro">데이터 보호 및 데이터 보호 고급</block>
+  <block id="dab3fbed1879168b2120dd56536c82d9" category="paragraph">또한 구독 중인 데이터 보호 및 고급 보호 서비스를 별도의 탭에서 확인 및 관리할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="780f711d9cc4c3b144e390eecf4e3c67" category="inline-link-macro-rx"></block>.</block>
+  <block id="4362040aa34f946652e2e1fb49db6949" category="list-text">[확인]을 클릭합니다. [Keystone 구독 관리] 페이지로 돌아갑니다.</block>
+  <block id="ac3f30c2dd04ee7f322762e41b9c4763" category="list-text">변경 내용 제출 * 을 클릭합니다. GSSC의 용량을 늘리기 위해 서비스 요청을 생성합니다. 메시지에 표시된 SR 번호로 서비스 요청의 진행 상황을 확인하고 추적할 수 있습니다. 추적에 대한 자세한 내용은 을 참조하십시오 <block ref="eef536a2ee52c93166224b1795fd5131" category="inline-link-macro-rx"></block>.</block>
+  <block id="df39bcd55472727f7512b52cbe91d5e3" category="paragraph">각 구독에는 각 서비스 수준 중 하나가 있을 수 있습니다. 예를 들어 구독에 이미 Extreme 및 Standard 서비스가 포함되어 있는 경우 Premium 또는 Block 서비스를 추가할 수 있습니다.</block>
+  <block id="3eebf754a44e99e90b260214e9d9a4b5" category="list-text">드롭다운 메뉴에서 구독에 추가할 서비스 수준을 선택합니다.</block>
+  <block id="0453382f4b59ee23ceca1d42c95549ef" category="list-text">드롭다운 메뉴에서 가입할 서비스 수준(예: Extreme-Tiering)을 선택하고 서비스 수준에 할당할 용량(TiB)을 추가합니다.</block>
+  <block id="9776fe3a80b7f01727450395190af9bb" category="list-text">확인 * 을 클릭합니다. Keystone 구독 관리 페이지로 돌아갑니다.</block>
+  <block id="42fee1961981b5ce385c2172e14d8b54" category="list-text">변경 내용 제출 * 을 클릭합니다. GSSC에 대한 서비스 요청이 생성됩니다. 서비스 수준을 구독에 할당합니다. 메시지에 표시된 SR 번호로 서비스 요청의 진행 상황을 확인하고 추적할 수 있습니다.</block>
+  <block id="8c4a7396f24674af1573b6084b8158de" category="paragraph">추적에 대한 자세한 내용은 을 참조하십시오 <block ref="eef536a2ee52c93166224b1795fd5131" category="inline-link-macro-rx"></block>.</block>
+  <block id="0ebbe4efe4592b11787a98f0bb0187fc" category="section-title">테넌트 가입을 생성하고 편집합니다</block>
+  <block id="15d78575deb28d3f42b0ca34112d14b0" category="paragraph">파트너 관리자인 경우 테넌트 구독을 편집할 수 있습니다. 구독에 새 서비스 수준을 추가하고 이미 추가된 서비스 수준의 용량을 편집할 수 있습니다. 새 서비스 수준을 추가하려면 다음 단계를 수행하십시오.</block>
+  <block id="9d113f3ad4ea7a6b30a46d774ea6b737" category="list-text">"+" 아이콘을 클릭하여 편집할 구독을 선택합니다.</block>
+  <block id="6c2729ddddb76bd7239ab56c6f96a835" category="list-text">가입에 새 서비스 수준 추가 * 페이지에서 새 서비스 수준을 선택하고 필요한 용량을 추가합니다. 서비스 수준이 이미 추가된 경우에는 추가하거나 삭제할 수 없습니다.</block>
+  <block id="99e60a4d8fd85ae9b160fc4b8b7a095e" category="paragraph">구독의 태그 아이콘을 클릭하여 태그를 추가할 수도 있습니다.</block>
+  <block id="68903242eda85f8b0d6f53a88ed92aef" category="paragraph">구독에 이미 할당된 서비스 수준에 대해 서비스 용량을 편집하려면 다음 단계를 따르십시오.</block>
+  <block id="5b32ddeff6d4935621c3e0953e798be4" category="list-text">v 아이콘을 클릭하여 편집할 가입을 확장합니다. 해당 구독의 서비스 수준이 표시됩니다.</block>
+  <block id="6d3ff32582752608287312830d4659fb" category="list-text">해당 편집 펜 아이콘을 클릭하여 편집할 서비스 수준을 선택합니다.</block>
+  <block id="979434ec7a1a3f5e4fcecd9592c9e0e8" category="list-text">TiB의 용량을 늘리거나 줄여 Rate Plan을 변경한다.</block>
+  <block id="9450f6b7991a26a9d5985688fdac77da" category="paragraph">서비스 수준이 변경하더라도 볼륨은 이동하지 않습니다</block>
+  <block id="87fd5dd33eacc16921f80dba26992fa6" category="list-text">객체 스토리지 &gt; 사용자 관리 &gt; 사용자 * 로 이동합니다.</block>
+  <block id="7dc8da1a6ebae4afb4e48fb1d615289b" category="list-text">작업 목록에서 작업의 상태를 확인합니다. 자세한 내용은 을 참조하십시오 <block ref="08ab40cd728ae5bfe16832c715077c4e" category="inline-link-macro-rx"></block>.</block>
+  <block id="dbf96a989bd6eca2938c302f48c35ed2" category="list-text">오브젝트 스토리지 그룹을 봅니다 <block ref="66c6e9c4626cdbf640f3b53d94f25c63" category="inline-link-macro-rx"></block>.</block>
+  <block id="c154608c9f8ffdbfa792be4ac72ad31e" category="list-text">목록에서 그룹을 찾고 해당 그룹의 편집 아이콘을 클릭합니다.</block>
+  <block id="7b8976587358fc91a72592b5e7270f4d" category="list-text">Edit Group * (그룹 편집 *) 대화 상자에서 그룹에 적용할 S3 정책을 수정합니다. S3 정책에 대한 자세한 내용은 을 참조하십시오<block ref="ddaba7313b89f71a659e8f4e1bc37488" category="inline-link-rx"></block>.</block>
+  <block id="6410d38a9298f59a077c000aa024bfb0" category="list-text">필요에 따라 정책 설명을 추가할 수 있습니다.</block>
+  <block id="4d4415939431a14b856ee445db13105b" category="list-text">Update * 를 클릭합니다. 이렇게 하면 지정된 설정으로 그룹을 수정하는 작업이 생성됩니다. 작업 추적에 대한 자세한 내용은 을 참조하십시오 <block ref="368a1d704bdc9ee6ea14e4516dfa810f" category="inline-link-macro-rx"></block>.</block>
+  <block id="7ecbe334528b181155de20af95026880" category="list-text">100TiB 용량은 단일 서비스 수준 또는 레벨의 조합으로 구성됩니다.</block>
+  <block id="2a825026966e8ca57394766cdfe5eee4" category="list-text">약정 기간 중에는 약정 용량 또는 서비스 수준을 변경할 수 없습니다.</block>
+  <block id="20e593670f6809902551ba2c79907117" category="list-text">용량 증가 또는 기간 중 높은 서비스 수준으로 변경이 가능하지만, 더 높은 서비스 수준에서 더 낮은 수준으로 이동하는 것은 허용되지 않습니다.</block>
+  <block id="0704c116940f03a6b019dbeb4c62c8e7" category="paragraph">고객의 요구사항과 사용된 스토리지 컨트롤러에 따라 NetApp은 고객 사이트에서 10GiB, 40GiB 및 100GiB 연결을 제공할 수 있습니다.</block>
+  <block id="c3000abac8572261622b53e9847c718e" category="list-text">목록에서 공유를 찾고 해당 공유의 스냅샷 아이콘을 클릭합니다. 목록의 항목 작업에 대한 자세한 내용은 을 참조하십시오 <block ref="4a0d19ebe9aa0f2533119e3056a7b078" category="inline-link-macro-rx"></block>.</block>
+  <block id="aeab146e7622ea8540b2746c27388efe" category="inline-link-macro">스냅샷에서 파일 공유를 생성합니다</block>
+  <block id="d715ed6766b6043e15747ab29d60f44d" category="paragraph">스냅샷을 사용할 수 있게 되기까지 몇 분 정도 걸릴 수 있습니다. 사용 가능한 경우 이 스냅샷을 복제하여 다른 공유를 생성할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="c364c802e134689126f9fbe7204037eb" category="inline-link-macro-rx"></block>.</block>
+  <block id="81d516a0b57ebe1f3cbb112b80f3c329" category="paragraph">디스크 이름, 호스트 그룹 매핑, 서비스 수준, 용량 및 스냅샷 정책을 변경할 수 있습니다. 이 방법을 사용하면 사용 가능한 경우 디스크를 다른 서비스 수준으로 이동할 수 있습니다.</block>
+  <block id="b953c318e559be9015759e524882d7d3" category="paragraph">디스크가 작동 상태여야 합니다. 볼륨 상태 및 작동 단계에 대한 자세한 내용은 을 참조하십시오 <block ref="329f996c576e28aa296dc49edeef71e7" category="inline-link-macro-rx"></block> 및 <block ref="5e32ddb0b2ee6eb1a1baab0807d7f57d" category="inline-link-macro-rx"></block></block>
+  <block id="8e053e7cbeb985eeb3b0bf942766c360" category="paragraph">백업 정책을 정의하여 사용자 환경에서 볼륨(파일 공유 및 디스크)의 백업을 생성하고 운영 볼륨의 여러 복제본을 원격으로 유지 관리할 수 있습니다.</block>
+  <block id="5a0871e27c73823e6a234a5e781a2736" category="admonition">볼륨에 대한 백업 정책을 생성하거나 편집할 때 시스템에 백업이 자동으로 생성됩니다. NetApp 서비스 엔진 인터페이스에서 백업을 생성할 수 없습니다. Backups API를 사용하여 볼륨에 대한 백업을 생성하고 관리할 수 있습니다.</block>
+  <block id="7e307b338560ffdc24bff161d1c49b0e" category="inline-link-macro">백업 API</block>
+  <block id="e4ec49125165d99f15399e555902da9d" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="5c5c623bc6c74764de3d52df952bfa79" category="inline-link-macro-rx"></block></block>
+  <block id="bca276363610c0bffe5c57ea00642f65" category="paragraph">소스 볼륨 백업은 Flex Subscription에 활성화된 NetApp SnapMirror 기술을 통해 사용할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="c7da18b22eff9eb9642a66b86be34489" category="inline-link-macro-rx"></block>.</block>
+  <block id="6bcd57380cee14b76c728521f156a2e2" category="paragraph">볼륨을 만들거나 편집할 때 해당 백업 일정을 정의합니다. 백업은 의도된 간격으로 수행되어 대상 시스템에 저장됩니다. 백업이 작동하려면 SnapMirror 관계를 대상 환경과 설정해야 합니다. 서로 다른 영역의 복제된 파일 공유 및 디스크는 각 클러스터의 전용 백업 스토리지 VM(SVM이라고도 함)에 저장됩니다. 서로 다른 영역에 있는 두 개의 개별 ONTAP 클러스터 간에 백업을 수행할 수 있습니다.</block>
+  <block id="13bdfe1817da9faec749493a15270cee" category="paragraph">NetApp Service Engine에서 지원하는 표준 백업 정책은 다음과 같습니다.</block>
+  <block id="80f4a01cfa25bd0b6cfaa17ab79a347b" category="paragraph">백엔드에서 생성되는 백업의 경우 볼륨은 '작동' 상태여야 합니다. 객체 상태에 대한 자세한 내용은 작동(백업의 소스 객체) 을 참조하십시오. <block ref="f657019918c506bf557a3b998908ab12" category="inline-link-macro-rx"></block>.</block>
+  <block id="7b57fdd289de9abf72b0b0d91b9cfc64" category="paragraph">볼륨이 NetApp Service Engine에서 지원하는 표준 백업 정책을 따르지 않는 경우 다음을 수행할 수 있습니다 <block ref="820a42e890838f30485ca3dc6fc5d4bc" category="inline-link-macro-rx"></block> 문제 해결을 위한 * 비표준 볼륨 * 범주.</block>
+  <block id="800033f6a6a4cd07b1f3dd3855871f01" category="paragraph">백업 * 페이지에서 파일 공유 및 디스크에 대해 생성된 백업 목록을 볼 수 있습니다. 선택한 테넌트를 기반으로 백업이 표시됩니다.</block>
+  <block id="9b547d6d564a3c524ba7de9cb76e1787" category="section-title">백업 정책 또는 일정을 편집합니다</block>
+  <block id="29b0fb2638796dbe9b65622e6e2766d3" category="paragraph">파일 공유 및 디스크를 생성하거나 편집할 때 해당 백업 정책을 정의할 수 있습니다. 백업은 사용자가 지정한 정책에 따라 백엔드에서 수행됩니다. 자세한 내용은 다음을 참조하십시오. <block ref="e96ed8ae76725ff94791bdd06014c2c0" category="inline-link-macro-rx"></block> 또는 <block ref="fa6fbe260d0612efac963dd809cbae12" category="inline-link-macro-rx"></block>.</block>
+  <block id="80e7dba60f9c97bf6b38e934937c96bd" category="admonition">기존 파일 공유 또는 디스크에 대한 백업 정책을 편집하여 백업을 예약할 수도 있습니다.</block>
+  <block id="770aa50ac5112e366e80ac5fa6f27bfc" category="section-title">백업 소스를 수정하거나 연결을 끊습니다</block>
+  <block id="37f98854031deb060affba1f810ad3df" category="list-text">왼쪽 탐색 창에서 * Backups * 를 클릭합니다. 사용자 환경의 모든 객체에 대해 생성된 백업 목록을 볼 수 있습니다.</block>
+  <block id="9d239cad785350e30c5400a957e7f775" category="list-text">목록에서 백업을 찾아(볼륨 이름으로 검색) 행 끝에 있는 편집 아이콘을 클릭합니다.</block>
+  <block id="302d6b176bf15f658ee95cbabb641331" category="list-text">필요에 따라 백업 소스와 각 백업 유형의 수를 변경합니다. 백업 소스를 * 없음(분리됨) * 으로 변경하여 소스 볼륨과 SnapMirror 관계를 분리할 수 있습니다. 소스 볼륨이 삭제되더라도 백업은 복구를 위해 분리된 백업으로 유지됩니다. 백업 객체의 상태가 변경되고 소스 볼륨의 상태(분리된 볼륨 또는 삭제된 볼륨)가 동일한 목록의 소스 볼륨 이름에 추가됩니다. 개체 상태에 대한 자세한 내용은 을 참조하십시오 <block ref="259bb3e032661eb6f9c7234bd1ac43c6" category="inline-link-macro-rx"></block></block>
+  <block id="0120794f55d7a30bc06113805912c310" category="list-text">완료 * 를 클릭합니다. 스냅샷이 수정됩니다. 원본과 SnapMirror 관계를 끊어진 경우, 즉 백업 개체를 분리된 경우 * Backups * 탭의 소스 이름이 "삭제됨"으로 나타납니다.</block>
+  <block id="dbbc25d21704e91182cec2239bac0267" category="admonition">공유 생성/공유 편집 및 디스크 생성/디스크 편집 화면에서 볼륨에 대한 * 백업 정책 * 을 비활성화하여 소스 볼륨과의 SnapMirror 관계를 해제할 수도 있습니다.</block>
+  <block id="2840e9bb75234be6d8d9f8e55463ddf7" category="section-title">백업 및 복원을 위한 지원을 요청합니다</block>
+  <block id="80cfb5bc639d5c76a137cc98c4e6c357" category="paragraph">가능합니다 <block ref="820a42e890838f30485ca3dc6fc5d4bc" category="inline-link-macro-rx"></block> 특정 복구 지점에서 파일 공유 또는 디스크를 복원합니다.</block>
+  <block id="750bcedb8daf15ce7ed1219baa69fa67" category="section-title">백업 객체를 제거합니다</block>
+  <block id="5003aa09f688688be86d017679dc812b" category="paragraph">사용하지 않는 백업 볼륨을 삭제하면 저장소 공간이 늘어납니다. 삭제된 소스의 백업 볼륨 및 복구 지점을 삭제하려면 백업 API를 사용해야 합니다.</block>
+  <block id="f8e801910d08eb6a2c3d7670a260db9b" category="admonition">백업이 삭제되면 백업의 모든 복구 지점이 삭제됩니다. 또한 기본 파일 공유 또는 디스크를 삭제하더라도 백업은 모든 복구 지점이 있는 분리된 백업으로 보존되어 복원할 수 있습니다.</block>
+  <block id="89e1d0986f1c10da01bcfc55a3823668" category="paragraph">서비스 요청 화면에서는 파트너 관리자나 테넌트의 구독에 대한 서비스 요청을 제출하고 담당 지원 팀 또는 NetApp GSSC에 서비스 요청을 제출할 수 있습니다.</block>
+  <block id="4877919c887d65caa45cf7b4bd8108e5" category="paragraph">파트너 관리자는 대시보드의 * Service Requests * 위젯에서 테넌트에 대한 가장 최근의 서비스 요청 요약을 우선순위 및 생성 시간별로 정렬할 수 있습니다. 서비스 요청 화면으로 이동하여 사용자 환경에서 발생한 모든 서비스 요청의 세부 정보를 검색하고 볼 수도 있습니다.</block>
+  <block id="67119bf1f5852126beab2d4bb0c6af4e" category="list-text">새 서비스 요청 페이지에서 요청의 범주 및 우선 순위를 선택하고 * 다음 * 을 클릭합니다. Details * 화면이 표시됩니다.</block>
+  <block id="62d6b0a7b34dc7c5fb09c6f99d4dcbef" category="admonition">세부 정보 화면의 필드는 선택한 범주에 따라 변경됩니다. 이 화면에서 서비스 요청의 선택한 범주에 대한 관련 세부 정보를 입력해야 합니다.</block>
+  <block id="77a90a232896a2082107960e5109e526" category="list-text">필수 세부 정보를 입력합니다. 다음 * 을 클릭합니다.</block>
+  <block id="f4d415a146854d849bb99a675a8294fd" category="paragraph">'Subtenant_id': 서브테넌트의 ID. 존 : 존의 이름. 이름: 디스크의 이름입니다. 디스크 경로. 프로토콜: 블록 디바이스 액세스에 사용되는 스토리지 프로토콜입니다. OS_TYPE: 호스트 운영체제의 종류이다. hostgroup_mappings: 호스트 그룹 매핑입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. size_gb: GiB의 디스크 크기입니다.</block>
+  <block id="f0a98503f7025814de673358cbfc2ebc" category="inline-link-macro">FabricPool 사용에 대한 비용 청구</block>
+  <block id="ea5f2a3107ef6a292b858bed2431fd2d" category="paragraph">청구에 대한 자세한 내용은 을 참조하십시오 <block ref="6bfa617ca63af4eb1b55b6cf1d8469f3" category="inline-link-macro-rx"></block>.</block>
+  <block id="168c963ebe528df2d070c44e9d3bf469" category="paragraph">블록 저장소는 서브테넌트에 속하며 영역 내에서 지정됩니다(서브테넌트당 영역당 블록 저장소 1개). 블록 저장소에는 iSCSI 또는 FC 프로토콜을 통해 디스크에 액세스하는 데 사용되는 네트워킹 특성(예: IP 주소 및 VLAN ID)이 있습니다. 블록 저장소에서 재해 복구 DP를 활성화할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="a77c34ddf88ef814fd6a18a00bec0fb7" category="inline-link-macro-rx"></block>.</block>
+  <block id="b79aba71b8fc051b32b93009c3e95741" category="paragraph">기존 스냅샷에서 새 파일 공유를 생성할 수 있습니다. 스냅샷에서 복제된 새 파일 공유는 스냅샷이 생성된 파일 공유와 동일한 속성을 갖습니다.</block>
+  <block id="c5c80478bcac2d6949a65b6378900387" category="list-text">Create Share * 를 클릭하고 * Clone from snapshot * 을 선택합니다. 또는 클론 복제에 사용할 스냅샷의 공유를 알고 있는 경우 파일 공유를 찾고 그 옆에 있는 복사 버튼을 클릭합니다. 공유는 작동 상태여야 합니다. 개체 상태에 대한 자세한 내용은 을 참조하십시오 <block ref="5e32ddb0b2ee6eb1a1baab0807d7f57d" category="inline-link-macro-rx"></block>. 스냅샷에서 공유 생성 * 화면이 테넌트에 대한 모든 파일 공유와 함께 표시됩니다. 영역, 영역 및 하위 테넌트별로 파일 공유를 필터링할 수 있습니다. 작동 중인 파일 공유를 선택할 수 있습니다.</block>
+  <block id="4211f65b2983c573058450f592fcb1ae" category="list-text">원하는 파일 공유 옆의 확인란을 선택하고 * 다음 * 을 클릭합니다. 파일 공유에 대한 스냅샷이 표시됩니다.</block>
+  <block id="201a10b44105a7f46600bd19700a5b0b" category="admonition">선택한 파일 공유에 대해 SnapCenter 서비스 엔진 외부의 NetApp 환경에서 일부 스냅샷이 생성된 경우, 선택한 스냅샷을 가져올 수 있습니다. 가져온 스냅샷을 선택하고 새 파일 공유를 복제할 수 있습니다.</block>
+  <block id="675fcd36774818dbea836dc02cf4d0d6" category="list-text">복제할 스냅샷 옆의 확인란을 선택하고 * 다음 * 을 클릭합니다. 새 파일 공유는 선택한 스냅샷의 속성을 상속합니다.</block>
+  <block id="278530798aa56115669d57d1e3fa9073" category="list-text">이름 * 과 * 공유 경로 * 를 추가합니다. 서비스 수준 할당 * 과 같은 다른 설정을 업데이트하고 * 생성 * 을 클릭합니다. 요구 사항에 가장 적합한 서비스 수준을 선택하십시오.</block>
+  <block id="775c0cf773e692f5b5aff6da7ff3a805" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독)은 사전 정의된 서비스 수준 또는 성능 서비스 수준에서 용량을 제공합니다.</block>
+  <block id="fda90827f7dc62058d02279d98e89377" category="paragraph">각 서비스 수준(서비스 수준)은 I/O 밀도로 정의됩니다. 이 밀도는 IOPS/TiB에 해당하는 성능(초당 입출력 작업 수[IOPS]) 및 사용된 스토리지(저장된 데이터의 TiB)의 비율입니다.</block>
+  <block id="7cb1e7ec7bd37f6e4d6191d590b40dfe" category="paragraph">Flex Subscription 서비스에서 관리하는 각 볼륨은 서비스 수준과 연결됩니다. 각 볼륨에서 사용된 모든 I/O 작업과 사용된 모든 스토리지는 볼륨의 I/O 밀도 계산에 포함됩니다.</block>
+  <block id="c369a24416627121068456b8b8aad586" category="paragraph">아래 표에는 서비스 수준이 정의되어 있습니다.</block>
+  <block id="9298a8df81bc0591b45113097c6a4118" category="section-title">스토리지 유형 차이에 대한 서비스 수준</block>
+  <block id="18cf673c6b162cc27313691486836fca" category="admonition">^1^NetApp 직접 기회에 대한 파일 공유와 블록 서비스 수준을 결합할 경우 최소 1년 및 100TiB 최소 용량을 제공합니다. ^2^채널 주도 기회를 위해 선택한 각 서비스 계층당 최소 1년 간의 기간 및 최소 명시된 용량입니다.</block>
+  <block id="c3010f4da438652aab9b42654d086f8d" category="admonition">^1^NetApp 직접 기회에 대한 파일 공유와 블록 서비스 수준을 결합할 경우 최소 1년 및 100TiB 최소 용량을 제공합니다. ^2^채널 주도 기회를 위해 선택한 서비스 계층당 최소 1년 기간 및 최소 명시된 용량. ^3^ 두 기회 유형 중 하나에 대해 선택한 서비스 계층당 최소 1년 기간 및 최소 명시된 용량.</block>
+  <block id="abafef4130ed8938c3153ad43e1ac52e" category="paragraph">NetApp Service Engine 사용자 인터페이스의 여러 화면에서 구독에 서비스 수준을 할당할 수 있습니다. 자세한 내용은 다음을 참조하십시오.</block>
+  <block id="1e40687eaf73dde4f163672091e3ee28" category="paragraph">* * * <block ref="3a337ffb28bf0d116cc65c4b009401e6" category="inline-link-macro-rx"></block></block>
+  <block id="39cd3f32af1f6142ceceefd9378ef437" category="list-text">파일 서버와 연결된 모든 재해 복구 복제 복제본입니다. 서버 삭제를 실행 취소할 수 없습니다.</block>
+  <block id="a189c66e23fd7e79d1bebf594d16fb15" category="paragraph">사용된 용량이 지정된 서비스 수준에서 할당된 용량보다 크면 버스트 소비가 기록되고 그에 따라 비용이 적용됩니다. 이 프로세스는 생성된 각 소비 레코드에 대해 발생합니다. 따라서, 소비량의 급증은 당신의 헌신적인 능력 위에 소비된 용량의 잔기와 잔기를 모두 반영한다.</block>
+  <block id="e0450cba6f565299b1277f655c94fa25" category="paragraph">가입 활성화 후 처음 60일 동안 적립된 모든 버스트 소비는 기록되지만 Flex Subscription 인보이스에 청구되지는 않습니다. 이 유예 기간은 적절한 AQoS(Adaptive Quality of Service) 설정으로 스토리지를 구성할 수 있는 시간을 부여하여 적절하게 모니터링하고 비용을 청구할 수 있도록 합니다. 스토리지를 올바르게 구성하면 예기치 않은 버스트 비용을 방지할 수 있습니다. 60일의 초기 유예 기간 이후에 발생한 모든 버스트 사용량은 다음 송장에 청구됩니다. 이 유예 기간은 기존 구독의 수정 또는 갱신에 영향을 주지 않습니다.</block>
+  <block id="17165dfb97a3399066f5846aed0c4af9" category="list-text">새 데이터가 볼륨에 기록되지 않으면 표준 및 가치 서비스 수준을 가진 클론 복제된 볼륨은 소비로 간주되지 않습니다. 예를 들어 백업 또는 복원 사용 사례에서는 클론 복제된 볼륨에서 데이터를 백업 또는 복원해도 클론 복제된 볼륨 자체의 데이터는 변경되지 않으며 소비로 간주되지 않습니다.</block>
+  <block id="acb570f757ab2e0dcfc93bbc6bebff34" category="paragraph">Flex Subscription은 서비스 수준에 따라 사용량을 측정합니다. 각 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 배포 중에는 구독한 Flex Subscription 서비스에 대한 각 QoS 정책에 대한 세부 정보가 제공됩니다. 스토리지 관리 작업 중에 예상치 못한 청구가 발생하지 않도록 서비스 수준에 따라 볼륨에 적절한 QoS 정책이 할당되었는지 확인합니다. ONTAP의 QoS 정책에 대한 자세한 내용은 을 참조하십시오 <block ref="7f8846f19a6367d0efc82511d70933cd" category="inline-link-macro-rx"></block>.</block>
+  <block id="822d70344d224e2e68e8dcf4ec044c3c" category="paragraph">SnapMirror 대상 볼륨의 가격은 소스에 할당된 서비스 수준에 대한 QoS 정책에 따라 결정됩니다. 하지만 소스에 연결된 QoS 정책이 없는 경우 사용 가능한 최저 서비스 수준을 기준으로 대상에 비용이 청구됩니다.</block>
+  <block id="cde520829ff4c329d0a877769052c136" category="paragraph">Keystone 시스템에서 ONTAP S3(Simple Storage Service) 오브젝트 스토리지 또는 NetApp StorageGRID로 데이터가 계층화되면 핫 계층(Keystone 시스템)의 사용된 용량이 계층화된 데이터 양만큼 줄어들어 결과적으로 청구되는 데 영향을 줍니다. 이는 ONTAP S3 스토리지 또는 StorageGRID 시스템이 Keystone 가입 대상에 포함되는지 여부와 관계없이 적용됩니다.</block>
+  <block id="eb71f31c80be60d1b83c15a9023c5aa0" category="paragraph">데이터를 타사 오브젝트 스토리지로 계층화하려면 Keystone 성공 매니저에게 문의하십시오.</block>
+  <block id="742eeba5dde6c1c0f5b7c867d0ee4115" category="paragraph">Keystone 가입 시 FabricPool 기술 사용에 대한 자세한 내용은 을 참조하십시오 <block ref="4488ca7c1dbfbc3a4a5cb0de9a5f943b" category="inline-link-macro-rx"></block>.</block>
+  <block id="49e55f1469134d874d5c920897870fab" category="section-title">시스템 및 루트 볼륨에 대한 청구</block>
+  <block id="6a1836144168f39941f392b695d13d99" category="paragraph"><block ref="6a1836144168f39941f392b695d13d99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd5fb265e740e897efd97ec6db65e09f" category="paragraph">파트너 관리자는 선택한 서브테넌트에 대한 월별 청구 내역을 볼 수 있습니다.</block>
+  <block id="7405166a7ce32802615fd74dd60f9ac4" category="admonition">대시보드의 * 비용 to Date * 위젯의 오른쪽 상단 모서리에 있는 화살표를 클릭하거나 위젯에서 월을 나타내는 막대를 클릭하여 청구 페이지를 볼 수도 있습니다. 선택한 월에 대한 모든 구독이 표시됩니다.</block>
+  <block id="37c88707e5f04d4dd1d96b217e3b8f6b" category="list-text">필요에 따라 월을 나타내는 막대 차트 위로 마우스를 가져가면 추가 세부 정보를 볼 수 있습니다.</block>
+  <block id="cf20fa9ddb17ee6e867a13f6b12fb817" category="paragraph">청구에 대한 자세한 내용은 를 참조하십시오 <block ref="d823bdbe3ab2a5d92501c2ec4317d1f7" category="inline-link-macro-rx"></block></block>
+  <block id="5d42f6e307c32ba43678d41bfad8cc97" category="paragraph">대시보드에서는 NetApp Keystone 스토리지 구독에 대한 간략한 개요를 제공합니다. 사용된 용량에 대한 정보, 사용량에 대한 비용 청구, 최근 알림 및 서비스 요청 등이 표시됩니다.</block>
+  <block id="e7c1f62e5048c2f9f6ff272552cf9c88" category="list-text">* 용량 활용률: * 구독한 서비스의 용량 활용률을 표시합니다(예: Keystone Flex Subscription, Keystone Flex Utility 및 클라우드 서비스). 막대 그래프를 클릭하면 각 서비스 수준에 대한 분할된 사용률 차트로 이동합니다. 각 서비스 수준과 데이터 보호, 고급 보호와 같은 애드온 서비스에 대해 사용되지 않고 소비된 사용량 및 버스트 사용량을 확인할 수 있습니다. 구독에 용량을 추가해야 하는지 또는 다른 서비스 수준을 선택해야 하는지 여부를 확인하는 데 도움이 됩니다.</block>
+  <block id="c36cfca401a5add27dc780e9de983e41" category="list-text">* 최신 비용(청구): * 이 섹션은 파트너 관리자 권한에 따라 제공됩니다. 모든 구독에 대해 집계된 월별 요금이 표시됩니다. 지난 4개월 동안의 청구 세부 정보를 볼 수 있습니다. 차트 위에 커서를 올리면 약정 사용량 및 버스트 사용량에 따라 분할 요금을 볼 수 있습니다. 구독한 서비스에 대한 구독이 여러 개인 경우 월 막대 차트를 클릭하면 구독 목록이 청구 화면에 표시됩니다. 청구에 대한 자세한 내용은 를 참조하십시오 <block ref="ff5019e651b45dce6edea337a584798f" category="inline-link-macro-rx"></block>.</block>
+  <block id="2edc01fa0cababe83981ffabed4438a7" category="paragraph">오른쪽 위 모서리에서 특정 테넌트를 선택하여 각 테넌트의 용량 사용률을 볼 수도 있습니다. Capacity Utilization and Alerts 위젯의 데이터는 선택한 테넌트의 데이터 사용 및 경고 메시지 구성을 나타내는 반면, 다른 위젯의 데이터는 일정하게 유지되고 스토리지 구독이 표시됩니다.</block>
+  <block id="8f7b38b24a6641d05d91c2c1fec9bc26" category="paragraph">멀티 테넌트 환경의 테넌트 관리자인 경우 해당 환경에 대해 구성된 용량 활용도 및 알림을 볼 수 있습니다. 자세한 내용을 보려면 위젯을 클릭하십시오. 청구 세부 정보는 서비스 공급자에게 문의하십시오.</block>
+  <block id="5e4631059cd88370a28a74ba7f45c7b3" category="list-text">용량은 각 서비스 레벨에 따라 커밋됩니다.</block>
+  <block id="c6eb79bc54b68ec5e0cc19ef77aaf577" category="list-text">약정 용량 및 추가 서비스 레벨을 기간 동안 추가할 수 있습니다.</block>
+  <block id="b7a31258533a3cf2b2f2fb992f0bfbe9" category="paragraph">사용된 용량은 서비스에서 현재 사용되고 있는 TiB 스토리지 용량을 나타냅니다. Flex Subscription 서비스는 특정 서비스 수준의 모든 볼륨에 대해 프로비저닝된 크기(사용된 논리적 또는 물리적 용량이 아님)의 합계를 해당 서비스 수준에 대해 사용된 용량으로 간주합니다. 여기에는 다음이 포함됩니다.</block>
+  <block id="6c4042dc443dec08ae243ea5ea442891" category="list-text">각 영역에 여러 개의 서브넷이 생성될 수 있습니다. 테넌시의 각 영역에 대해 할당된 VLAN 목록이 있습니다. 사용 가능한 모든 VLAN에 대해 해당 서브넷을 생성할 수 있습니다. 서브넷과 VLAN 간에는 1:1 매핑이 있다. 반면 서브넷과 영역 사이에 많은 매핑이 있습니다.</block>
+  <block id="e08a3b25a34118efdefa3a1edaa6eccf" category="list-text">존, VLAN, 서브넷 CIDR 및 포트 재정의 구성을 알고 있어야 합니다</block>
+  <block id="0b59742ede85b3ac1476e79dfe9d7ffd" category="list-text">네트워크 생성 * 을 클릭합니다. 해당하는 경우 존, VLAN 및 포트 재정의를 지정합니다. 포트 재정의가 정의된 경우 드롭다운에서 할당된 포트를 선택합니다. 해당 테넌트의 모든 네트워크 연결에 대해 이 포트는 기본 포트가 아니라 사용됩니다.</block>
+  <block id="b8e827c0152493781825b242975d6c40" category="admonition">포트 재정의는 영역 구성 중에 지원 팀에 의해 구성됩니다. 포트 재정의가 지정되지 않은 경우 네트워크는 기본 포트를 사용하고 해당 테넌트에 대한 새 VLAN을 생성합니다.</block>
+  <block id="2bdef957e1a7465023d8192c1e686bb3" category="list-text">메뉴에서 * 지원 &gt; 서비스 요청 * 을 선택합니다. 이 목록은 기본 우선 순위인 '긴급'을 기준으로 필터링됩니다.</block>
+  <block id="845fffd2b8888545a9ed124886ea1e8c" category="list-text">서비스 요청 목록을 보려면 필요한 우선 순위 및 상태를 선택합니다.</block>
+  <block id="5a589d66c965f9372a354d1f3cdb0432" category="list-text">목록에서 서비스 요청을 찾아 '상태' 열에서 상태를 확인합니다.</block>
+  <block id="02906cdb13370b573b988475d53d8ee0" category="list-text">[버킷 생성] 대화상자에서 새 버킷과 영역의 이름을 입력합니다.</block>
+  <block id="027731e3845ffc59d88ab7606bd72e51" category="list-text">Create * 를 클릭합니다. 그러면 버킷을 생성하는 작업이 생성됩니다.</block>
+  <block id="35596c7bfb8bc52ad55a54a01f5ceec3" category="list-text">작업이 완료된 후 Bucket 목록에서 서버의 상태를 확인합니다. 자세한 내용은 을 참조하십시오 <block ref="08ab40cd728ae5bfe16832c715077c4e" category="inline-link-macro-rx"></block>.</block>
+  <block id="dc944b7331a18309c1a114300ebc3a09" category="inline-link-macro">스냅샷으로부터 공유를 생성합니다</block>
+  <block id="d146e107531d3fc15b267b7b455173b6" category="paragraph">이 섹션에서는 공유 세부 정보를 직접 지정하여 새 공유를 생성하는 방법에 대해 설명합니다. 기존 공유의 스냅샷을 기반으로 새 공유를 생성하려면 를 참조하십시오 <block ref="b28ea6b79b2f3efaa9ec1026e9ce8a3d" category="inline-link-macro-rx"></block>.</block>
+  <block id="1f8f57002aec566571816a8c7bcc858f" category="list-text">스냅샷 정책을 정의하여 예약된 일정에 따라 파일 공유의 스냅샷을 캡처할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="c1f0dcbbcbcd1f1c8ac788893304a8d4" category="inline-link-macro-rx"></block>.</block>
+  <block id="73bba8e3924209258078797f0bd65b15" category="list-text">서비스 수준을 선택합니다. IOPS 및 처리량 제한은 선택한 서비스 레벨에 따라 표시됩니다.</block>
+  <block id="9bfca2b22950588e2cdfd85ab9d055c9" category="list-text">이 파일 공유에 스냅샷이 필요한 경우:</block>
+  <block id="e80987beb08eb0b73f203d10e530112d" category="list-text">* 시간별. * 스냅샷을 생성할 분(시간)과 보존할 시간별 스냅샷 수를 지정합니다.</block>
+  <block id="074901aa9935464121eb60ac62753ef6" category="list-text">* 매일. * 스냅샷을 생성할 시간(시 및 분)을 지정합니다. 스냅샷을 매일 촬영해야 하는 시간을 여러 번 지정하려면 쉼표로 구분된 목록(예: 5, 10, 15, 기타</block>
+  <block id="acffcba1bb1e8a0e9284e49f01f8eea9" category="list-text">* Weekly. * 스냅샷을 생성할 시기(요일, 시간, 분)와 보존할 주별 스냅샷 수를 지정합니다.</block>
+  <block id="f304fa4708995eb0a05a06fefd0fd77b" category="list-text">매일, 매주 및/또는 매월 각 백업 유형의 유지 개수를 지정합니다. 자세한 내용은 을 참조하십시오 <block ref="73271519b35549db6517dd8a6d50b58e" category="inline-link-macro-rx"></block>.</block>
+  <block id="e498a9e1d785f741cd1e139a1013de8d" category="list-text">목록에서 디스크를 찾고 해당 디스크의 스냅샷 아이콘을 클릭합니다. 목록의 항목 작업에 대한 자세한 내용은 을 참조하십시오 <block ref="52762e1c21e70b201ce4b2db09bd46e5" category="inline-link-macro-rx"></block>)를 클릭합니다.</block>
+  <block id="faca791a72cc10c7d158748b3fc36324" category="paragraph">스냅샷을 사용할 수 있게 되기까지 몇 분 정도 걸릴 수 있습니다. 사용 가능한 경우 이 스냅샷을 복제하여 다른 디스크를 생성할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="a027f217b2a6dd3ee53451144340339e" category="inline-link-macro-rx"></block>.</block>
+  <block id="7c19f0fb885d470df120f8153802763b" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독)을 통해 제공되는 향상된 기능을 지원하기 위해 NetApp 서비스 엔진 다양한 릴리즈에는 다음과 같은 기능이 도입되었습니다.</block>
+  <block id="67dcfbb1b00e382a9abd2aebd9355c84" category="paragraph">NetApp Keystone 유연한 구독 서비스에는 NetApp FabricPool 기술을 활용하는 계층화 기능이 포함됩니다. NetApp에서 소유, 구축, 관리하는 콜드 스토리지에 덜 사용되는 데이터를 식별하고 계층화합니다. 익스트림 계층화 또는 프리미엄 계층화 서비스 수준에 가입하여 계층화를 선택할 수 있습니다.</block>
+  <block id="f1367cc0a2a732000842d078d27637d4" category="inline-link-macro">서비스 레벨</block>
+  <block id="d02be4f3728f97b85c9e1ba3a5e00b9b" category="list-text"><block ref="d02be4f3728f97b85c9e1ba3a5e00b9b" category="inline-link-macro-rx"></block></block>
+  <block id="72b8adb2d65763d0d016194a98746bbb" category="paragraph">가져온 디스크가 NetApp Service Engine에서 사용할 수 있는 표준인 경우, 즉 디스크 작동에 필요한 모든 매개 변수를 사용할 수 있으면 해당 디스크를 "Operational" 상태로 가져와서 NetApp Service Engine을 통해 직접 관리할 수 있습니다. 그러나 일부 디스크는 NetApp 서비스 엔진의 기존 디스크와 동일한 표준에 있지 않을 수 있습니다. 가져오기 후 가져온 디스크 또는 Non-Standard 상태로 분류된다. 디스크 상태 및 작동 단계에 대한 자세한 내용은 을 참조하십시오 <block ref="5e32ddb0b2ee6eb1a1baab0807d7f57d" category="inline-link-macro-rx"></block></block>
+  <block id="2d93581e06fa8876780c8fd43fd26464" category="paragraph">디스크 목록에서 간단한 정보를 봅니다. 목록의 기능을 사용하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="a61f12a3491d544119bfe19d47b5cc08" category="inline-link-macro-rx"></block>.</block>
+  <block id="4d8fcfa50b8d3dc31f0726a686a3de75" category="paragraph">백업 API를 사용하여 사용자 환경에서 볼륨의 백업 또는 복구 지점(파일 공유 및 디스크)을 보고 관리할 수 있습니다.</block>
+  <block id="19dbc698af02f300022c166b89892888" category="paragraph">이름 : 파일 공유의 이름입니다. '공유_경로': 파일 공유의 경로입니다. 'fileserver_id': 파일 서버의 ID. size_gb: 파일 공유 크기(gibs)입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. '프로토콜': 파일 공유(NFS, CIFS 또는 멀티 프로토콜)를 액세스하는 데 사용되는 프로토콜입니다. 보안 스타일(Unix 또는 NTFS). Export_policy: 파일 공유의 내보내기 정책입니다.</block>
+  <block id="740f501b1102bb991f506fc070b69b62" category="paragraph">id: 파일 공유의 ID입니다. 이름 : 파일 공유의 이름입니다. size_gb: 파일 공유 크기(gibs)입니다. 'service_level': Standard, Premium, Premium-Tiering, Extreme 또는 Extreme-Tiering의 서비스 레벨 이름을 사용할 수 있습니다. '프로토콜': 파일 공유(NFS, CIFS 또는 멀티 프로토콜)를 액세스하는 데 사용되는 프로토콜입니다. Export_policy: 파일 공유의 내보내기 정책입니다.</block>
+  <block id="0ae4f649cb638a44103ed30a5e14cef6" category="list-text">S3 키 관리 * 대화 상자에 사용자의 키 목록이 표시됩니다.</block>
+  <block id="c07cfd1794ff312f24f76453c87f14a6" category="list-text">키 목록에서 삭제할 키를 찾아 * Delete * 아이콘을 클릭합니다.</block>
+  <block id="c0cef8704079ac9d0a8d333c712e81e7" category="paragraph">스토리지 서비스는 할당된 스토리지 용량이며 연결된 서비스 수준이 있습니다. NetApp 서비스 엔진은 최고의 익스트림, 익스트림 계층화, 프리미엄, 프리미엄 계층화, 표준 서비스 레벨, 오브젝트 서비스 레벨에서 파일 및 블록 스토리지를 제공합니다.</block>
+  <block id="beed3ed2a3622ebedadc1bce021a0a99" category="paragraph">최고 수준의 계층화 및 프리미엄 계층화 서비스 수준을 통해 콜드 데이터 또는 비활성 데이터를 모니터링하고 저비용 오브젝트 스토리지 계층으로 계층화하여 스토리지 설치 공간 및 관련 비용을 절감할 수 있습니다. 계층화 정책은 자동으로 설정되며 31일 동안 비활성 상태로 유지된 데이터는 기본적으로 계층화되어 있습니다.</block>
+  <block id="3d4d1fc7bf36f420fa99c6f26575b46b" category="inline-link-macro">서비스 레벨</block>
+  <block id="d031812ce034af3641d09a4021b0da54" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="497abe66362dea38708241c65bc89fa5" category="inline-link-macro-rx"></block>.</block>
+  <block id="89c9290084360b94aa7d480c8588eb8f" category="paragraph">파일 및 블록 스토리지 항목을 생성하면 서비스 레벨에 연결됩니다. 요구사항의 변화에 따라 서비스 수준 간에 워크로드를 이동할 수 있습니다. 최고 수준의 익스트림 계층화, 프리미엄, 프리미엄 계층화, 표준 서비스 수준은 요구사항에 맞게 스토리지를 조정할 수 있도록 다양한 수준의 I/O 성능(IOPS)과 처리량(MBPS)을 제공합니다.</block>
+  <block id="e911bcc5173ca0894b6dda6da2bdc300" category="paragraph">계층화 서비스에 대한 자세한 내용은 을 참조하십시오 <block ref="94c6f91dc11f09fa14ef2a1ab015d86b" category="inline-link-macro-rx"></block>.</block>
+  <block id="5d4907201ddbff03615305532b2cddb4" category="paragraph">최대 특정 시점까지의 서비스에 대해 버스트 사용이 허용되며, 별도의 요금 청구(가입에 정의된 대로)로 모니터링 및 청구됩니다. 용량 및 사용량에 대한 자세한 내용은 를 참조하십시오 <block ref="2f87ccdc18878c679c9bc7ba5fe93305" category="inline-link-macro-rx"></block>. 백업 및 재해 복구를 지원하는 데이터 보호 서비스도 제공됩니다.</block>
+  <block id="c6adba6217951ed0e1a8ae3a9a50e632" category="paragraph">자세한 내용은 다음을 참조하십시오.</block>
+  <block id="77c31cb6f366fee2554a50788c64aadb" category="list-text"><block ref="77c31cb6f366fee2554a50788c64aadb" category="inline-link-rx"></block></block>
+  <block id="a2ddb4431dcf2a898d386c1f3b82c926" category="inline-link">파일 서비스</block>
+  <block id="4e55f2b2dc7fadbfeab16b1c329eb9b9" category="list-text"><block ref="4e55f2b2dc7fadbfeab16b1c329eb9b9" category="inline-link-rx"></block></block>
+  <block id="85450ff0b80b6adb3c3ce5f738b79764" category="list-text"><block ref="85450ff0b80b6adb3c3ce5f738b79764" category="inline-link-rx"></block></block>
+  <block id="119be031ef4485d20c7683d291d0e9f6" category="inline-link">MetroCluster 설명서</block>
+  <block id="7ab4abf41de6d19de426375d57467f74" category="list-text"><block ref="7ab4abf41de6d19de426375d57467f74" category="inline-link-rx"></block></block>
+  <block id="5c0178adca796c95e44bf57340ccb9a6" category="list-text">해당 지역의 데이터 보호 서비스에 대한 약속을 초과합니다</block>
+  <block id="10b183cb0f66d629a1220515b8bde592" category="list-text">해당 지역의 데이터 보호 서비스에 대한 약속을 초과합니다.</block>
+  <block id="faee2c8e1167c37eb8137ff6d755cccb" category="cell">데이터 보호 서비스에 대한 약속을 초과합니다.</block>
+  <block id="917e18378785f13487328819efa30f4f" category="paragraph">데이터 보호 서비스는 데이터 백업을 지원하는 방법과 필요한 경우 복구하는 기능을 말합니다.</block>
+  <block id="94fab4b6d20e72c710b4dc92fdca1e8c" category="paragraph">NetApp Service Engine의 데이터 보호 서비스 기능은 다음과 같습니다.</block>
+  <block id="c1feb6521ae42cd94cde4c528fa434ed" category="list-text">디스크 및 공유 백업(구독의 일부로 데이터 보호 서비스 필요)</block>
+  <block id="d45ea98ac0a65345f1dd94e65bb42a2a" category="list-text">디스크 및 공유의 재해 복구(데이터 보호 또는 데이터 보호 고급 서비스 필요)</block>
+  <block id="6ceb0ddf0588a800d3609a1d6b11aa58" category="paragraph">백업은 항목의 복사본을 만들고 복제하고 사본을 원래 존 이외의 존에 저장하는 것을 말합니다. 이 존에는 각 프로토콜이 활성화되어 있으며(블록 스토리지에만 해당) MetroCluster가 활성화되지 않습니다. NetApp 서비스 엔진은 파일 및 블록 스토리지에 대한 백업을 제공합니다(구독에 데이터 보호 서비스 필요). 공유/디스크 백업은 가입 시 최저 비용 성능 계층(표준)의 백업 영역에 저장됩니다.</block>
+  <block id="f224ae50705a8eb518b8440ac9431b25" category="list-text">백업은 총 사용 용량을 차지합니다. 또한 백업에는 데이터 보호 구독 요금이 부과됩니다. 도 참조하십시오 <block ref="d8aa712671d5c6776c74e6424ca3a097" category="inline-link-macro-rx"></block>.</block>
+  <block id="69bcfb52aefab6f4be3aa7f37a3f0a77" category="paragraph">비동기식 재해 복구는 파일 및 블록 스토리지에서 사용할 수 있으며, 이 서비스에 가입되어 있는 데이터 보호 서비스가 필요합니다.</block>
+  <block id="91d2b86f168e4314f617407b7033bd53" category="list-text">재해 복구 복제본은 총 사용 용량에 기여합니다. 또한 재해 복구에는 재해 복구 구독 속도로 비용이 발생합니다. 도 참조하십시오 <block ref="d8aa712671d5c6776c74e6424ca3a097" category="inline-link-macro-rx"></block>.</block>
+  <block id="be630f9484e58240547de19490ba3bce" category="paragraph">MetroCluster는 별도의 위치 또는 장애 도메인에 상주하는 두 개의 개별 영역 간에 데이터와 구성을 동기식으로 복제하는 데이터 보호 기능입니다. 한 사이트에서 재해가 발생할 경우 관리자는 정상적인 사이트에서 데이터를 제공할 수 있습니다.</block>
+  <block id="9c0a832783463bbbb05660067ef53922" category="list-text">동기식 재해 복구는 동기식 재해 복구 서브스크립션 속도에 따른 비용을 발생시킵니다. 도 참조하십시오 <block ref="d8aa712671d5c6776c74e6424ca3a097" category="inline-link-macro-rx"></block>.</block>
+  <block id="f0cf0de0e58b8e756eb56dddb27b7554" category="paragraph">이 섹션의 그림에서는 데이터 보호 비용을 계산하는 방법을 설명합니다.</block>
+  <block id="49397b4ebb08764dcb02d0daef7ed910" category="list-text">데이터 보호 서비스 비용(원래 볼륨의 용량에 대한 비용)</block>
+  <block id="2084542f3c28bddda24a9c6902f325e2" category="paragraph">동기식 재해 복구에서는 사용 및 비용이 다음과 같이 구성됩니다.</block>
+  <block id="dc3f4e9988faa1da0926e2e92f5261bb" category="list-text">복제된 복제본이 대상의 동일한 성능 계층에서 충전됩니다(소스와 동일).</block>
+  <block id="1a7d3740cc266eca0374f4a70ee95ad8" category="list-text">데이터 보호 고급 서비스 요금입니다.</block>
+  <block id="5fe52caf721206b098580cb92dcb36f7" category="paragraph">참조 API의 경우 NetApp Service Engine 웹 인터페이스에 로그인하고 * 왼쪽 탐색 창 &gt; 지원 &gt; API 설명서 * 에서 Swagger 인터페이스를 볼 수 있습니다.</block>
+  <block id="66a0cc207bda8d47685024829c340964" category="paragraph">* Flex Subscription의 일부로 제공되는 스토리지 서비스는 무엇입니까? * 자세한 내용은 를 참조하십시오 <block ref="2d7ae50d49b6f40472431f1209fdcf6f" category="inline-link-macro-rx"></block></block>
+  <block id="d763cfba66b1ebf8cb2086744098068d" category="paragraph">* Flex Subscription은 무엇에 매핑됩니까? * Flex Subscription은 단일 사이트 또는 단일 데이터 센터에 매핑되며 다양한 서비스 수준으로 구성될 수 있습니다.</block>
+  <block id="d3867d58510e8dc8e1f07c8ccef6849c" category="paragraph">* 최고 수준의 계층화 및 프리미엄 계층화 서비스 수준의 이점은 무엇입니까? * 계층화는 최고 수준의 계층화 및 프리미엄 계층화 서비스 수준에서 지원되며, 이를 통해 스토리지 설치 공간과 관련 비용을 줄일 수 있습니다. NetApp은 데이터의 25%가 핫 데이터라고 가정하며, 나머지 75%는 사용 빈도가 적거나 콜드 스토리지로 이동합니다. 또한 사용 현황 보고서를 확인하여 데이터 액세스 빈도를 파악하고 해당 정보를 기반으로 계층화 서비스를 설정할 수 있습니다.</block>
+  <block id="91d3cce2afd7a0a49cdd35f6ecd03319" category="list-text">서버에 대해 비동기식 재해 복구 데이터 보호를 설정합니다. NetApp 서비스 엔진에서 재해 복구의 작동 방식에 대한 자세한 내용은 를 참조하십시오 <block ref="a77c34ddf88ef814fd6a18a00bec0fb7" category="inline-link-macro-rx"></block>.</block>
+  <block id="a3a3295c8ca71cbdbd8a6b7229c6e380" category="list-text">동기식 재해 복구 데이터 보호 에 가입되어 있는 경우 이 기능은 기본적으로 사용하도록 설정됩니다.</block>
+  <block id="319d8bdfe774ee2725dd60c484f69915" category="list-text">CIFS를 사용하도록 설정합니다. NFS 서비스는 기본적으로 사용하도록 설정됩니다.</block>
+  <block id="c905f5db0577e6e647ed0c7f81c2849e" category="list-text">CIFS 서버의 경우 Active Directory 자격 증명, DNS 서버, 서버 이름 및 Active Directory OU(조직 구성 단위)를 알아야 합니다. Active Directory 자격 증명은 컴퓨터를 Active Directory 도메인에 연결할 수 있는 권한이 있는 사용자에 대한 자격 증명이어야 합니다.</block>
+  <block id="460e9362f4cab8c9be8f760e6a0dfbf4" category="paragraph"><block ref="c7e0d953db804fc2899c3d7dfab9e722" category="inline-image-macro-rx" type="image"></block>단계</block>
+  <block id="f81ba4d3d20f8f43a4e0606b73abc8af" category="list-text">도메인 이름, DNS 서버 IP, 서버 이름 및 선택적으로 Active Directory 조직 구성 단위의 이름을 추가합니다.</block>
+  <block id="d8d146845f60f1b46e9a66d89f33fb23" category="admonition">동기식 재해 복구 데이터 보호 에 가입한 경우 해당 영역에 대해 이 기능이 자동으로 활성화되고 동기식 재해 복구 토글 단추가 기본적으로 활성화됩니다. 이 버튼은 비활성화할 수 없습니다.</block>
+  <block id="993bcf2759df9f59acf3f5c0f23121ba" category="list-text">필요한 경우 태그와 값을 추가할 수 있습니다.</block>
+  <block id="6e8954a7c4cfcf1082a0a2d82fb50808" category="admonition">CIFS 지원 서버를 생성하는 경우 입력한 도메인 이름(FQDN)에 대해 Active Directory 사용자 이름과 Active Directory 암호를 입력하고 * 확인 * 을 클릭해야 합니다.</block>
+  <block id="8240b24ccc41973db8acd6d12cfb4f39" category="paragraph">서버 생성은 비동기 작업으로 실행됩니다. 다음을 수행할 수 있습니다.</block>
+  <block id="5f230dce554a2eea512cf6ad0f2aec04" category="list-text">작업이 완료된 후 의 서버 목록에서 서버의 상태를 확인합니다</block>
+  <block id="5b710f992e8961de5ec796dc23d97e2a" category="paragraph">Flex Subscription은 사전 정의된 성능 서비스 수준(서비스 수준)에 스토리지 용량을 제공하는 구독 기반 서비스로, 사내에 구축할 수 있고 NetApp, 파트너 또는 고객이 운영할 수 있는 블록, 파일 및 오브젝트 데이터 유형을 제공합니다. Flex Subscription이 제공하는 기본 서비스 외에도 추가 서비스를 추가 비용으로 선택할 수 있습니다. 이러한 서비스는 아래 그림에 설명되어 있습니다.</block>
+  <block id="8a153aa7d7f3e04524a8ba26c82b5715" category="admonition">백업 및 재해 복구 서비스는 추가 서비스로 사용할 수 있고 스냅샷은 기본 스토리지 서비스의 일부로 사용할 수 있습니다.</block>
+  <block id="bc1bf94ffed46e88b5723954ed7d8ed3" category="cell">단일 영역 스냅샷(기본 스토리지 서비스의 일부로 사용 가능)</block>
+  <block id="a68082b73ad5e36bea07f138e957fef2" category="cell">시간별, 일별, 주별 및 월별 스냅샷을 기준으로 보존할 백업 수입니다</block>
+  <block id="d65f8cd5dcce368ab1e4e1c317fa36db" category="list-text">목록에서 사용자를 찾고 해당 사용자의 편집 아이콘을 클릭합니다.</block>
+  <block id="ea1458948853c05d7afdd2d8493a5bd7" category="list-text">사용자 편집 * 대화 상자에서 사용자의 개체 스토리지 그룹을 변경합니다.</block>
+  <block id="d29061be317f608ea8a5842ec8713b79" category="list-text">Update * 를 클릭합니다. 이렇게 하면 사용자 그룹을 업데이트할 작업이 생성됩니다. 작업 추적에 대한 자세한 내용은 을 참조하십시오 <block ref="368a1d704bdc9ee6ea14e4516dfa810f" category="inline-link-macro-rx"></block>.</block>
+  <block id="665858ebca91aa26802a3a86bee3458f" category="paragraph">Keystone 가입 시 용량 사용량 페이지에는 시간별 가입형 스토리지 서비스 수준별 용량 사용량이 표시됩니다. NetApp 관리자는 가입 시 모든 테넌트 및 파트너의 용량 사용 보고서를 확인할 수 있습니다. 파트너 관리자는 각 서비스 수준과 관련하여 Flex Subscription 사용에 대한 용량 보고서를 볼 수 있습니다.</block>
+  <block id="a042d1063a6b211be7ada8ceec871888" category="paragraph">이 페이지의 그래픽 보고서를 사용하여 별도의 탭에서 모든 서비스 수준에 대한 추세 사용 및 추가 데이터 보호 서비스를 확인할 수 있습니다. 서비스가 버스트 상태일 때 배너에는 현재 청구 주기에 사용된 버스트 용량이 표시됩니다.</block>
+  <block id="47231d0aa304965e78b23d4e17fde44e" category="paragraph">이 페이지의 그래픽 보고서를 사용하여 데이터 보호 및 고급 보호와 같은 추가 서비스 뿐만 아니라 모든 스토리지 서비스의 사용 추세를 별도의 탭에서 확인할 수 있습니다. 서비스가 버스트 상태일 때 배너에는 현재 청구 주기에 사용된 버스트 용량이 표시됩니다.</block>
+  <block id="8d773f3c00141970609401182079d7d0" category="list-text">목록을 보려면 메뉴에서 * 오브젝트 스토리지 &gt; 버킷 * 을 선택합니다.</block>
+  <block id="6f6cb72d544962fa333e2e34ce64f719" category="list-text">크기</block>
+  <block id="c8308b1eba7ba926a61b8fd802194386" category="list-text">오브젝트</block>
+  <block id="a2a8d61c91e599b9767a25a53af35534" category="list-text">작업(예: 버킷 삭제)</block>
+  <block id="2a96a4cfac487b5cc41e8fd4506c4230" category="sidebar">성능 서비스 레벨 또는 서비스 레벨</block>
+  <block id="469b359223644ae76f8489201eaba251" category="sidebar">Azure NetApp Files 관리</block>
+  <block id="1b0a895ad5dbae078e4d9e0514db2461" category="sidebar">Azure NetApp 계정 관리</block>
+  <block id="5397c058f4d19f86cf260de9d12c163e" category="sidebar">Azure 용량 풀을 관리합니다</block>
+  <block id="3367785c4c24c46720a1f71a3ba620db" category="sidebar">Azure 볼륨을 관리합니다</block>
+  <block id="12c44922182533b1b7bb4417b61b95ec" category="sidebar">Google Cloud Platform용 Cloud Volumes Service를 관리합니다</block>
+  <block id="8f827fcb6054a7882181161868caf231" category="sidebar">볼륨을 백업합니다</block>
 </blocks>

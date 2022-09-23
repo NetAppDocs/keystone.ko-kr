@@ -16,6 +16,8 @@ summary: Keystone 인증 및 인증
 [role="lead"]
 NetApp Service Engine REST API는 HTTP 요청을 보낼 수 있는 웹 브라우저 또는 프로그래밍 플랫폼을 사용하여 액세스할 수 있습니다. NetApp 서비스 엔진은 기본 HTTP 인증 메커니즘 및 JWT(Java Web Token) 베어러 인증을 지원합니다. API를 호출하기 전에 사용자를 인증해야 합니다.
 
+참조 API의 경우 NetApp Service Engine 웹 인터페이스에 로그인하고 * 왼쪽 탐색 창 > 지원 > API 설명서 * 에서 Swagger 인터페이스를 볼 수 있습니다.
+
 
 
 == HTTP 상태 코드입니다
