@@ -79,7 +79,7 @@ Cloud Volumes Services에 대한 구독은 NetApp 서비스 엔진 외부에서 
 | 이름 | 문자열 | Cloud Volumes Service 인스턴스의 이름입니다. 
 
 
-| cc_working_env | 문자열 | Cloud Manager 내 작업 환경 이름 
+| cc_working_env | 문자열 | BlueXP 내의 작업 환경 이름 
 
 
 | cc_client_id | 문자열 | Auth0 서비스 ID입니다. 
@@ -97,7 +97,7 @@ Cloud Volumes Services에 대한 구독은 NetApp 서비스 엔진 외부에서 
 | cc_credentials_id를 입력합니다 | 문자열 | Cloud Centra 작업 환경의 ID입니다. 
 
 
-| 'Azure_client_id'입니다 | 문자열 | 애플리케이션(클라이언트) ID입니다. Cloud Manager가 Azure Active Directory를 인증하는 데 사용할 수 있는 Active Directory 서비스 보안 주체의 ID입니다. 
+| 'Azure_client_id'입니다 | 문자열 | 애플리케이션(클라이언트) ID입니다. BlueXP에서 Azure Active Directory를 인증하는 데 사용할 수 있는 Active Directory 서비스 보안 주체의 ID입니다. 
 
 
 | 'Azure_client_secret'입니다 | 문자열 | 서비스 보안 주체 응용 프로그램에 대한 클라이언트 암호 값입니다. 
