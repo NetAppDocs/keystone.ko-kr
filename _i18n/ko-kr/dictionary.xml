@@ -3138,4 +3138,10 @@
   <block id="d717179901a081426cfa25f7009d2d04" category="cell">애플리케이션(클라이언트) ID입니다. BlueXP에서 Azure Active Directory를 인증하는 데 사용할 수 있는 Active Directory 서비스 보안 주체의 ID입니다.</block>
   <block id="a7aef034348bc38d9b7f16020d181733" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독)은 다음 서비스 이용 약관 및 설명에 따라 제공됩니다.</block>
   <block id="0493ca6a55a3d28e65cc473a5710b470" category="list-text">Flex Subscription은 최소 1년 및 최대 3년간 사용할 수 있습니다. 최초 계약 기간 이후, 서비스는 매년 갱신됩니다. 용량은 1TiB의 증분 단위로 늘릴 수 있습니다.</block>
+  <block id="b1fb6edb6a9cd7a76214562e75ef8390" category="paragraph-title">사용된 용량을 측정할 수 있습니다</block>
+  <block id="7f5043ec0394d759e4ce437fc8c9cd52" category="paragraph-title">월간 청구</block>
+  <block id="51ebf10290dc90afa947ed3f3696db87" category="paragraph-title">연간 청구</block>
+  <block id="6f79e617449041abacad9b220d0cdd03" category="paragraph-title">연속 청구 시 유예 기간</block>
+  <block id="1a616d944b2a6237298adf4b4e0db510" category="paragraph-title">비동기 재해 복구를 지원하도록 파일 서버 또는 블록 저장소를 구성합니다</block>
+  <block id="1e53e767469d41ddc55c1ff94e72e9a6" category="paragraph-title">파일 공유 또는 디스크에서 비동기식 재해 복구를 설정합니다</block>
 </blocks>

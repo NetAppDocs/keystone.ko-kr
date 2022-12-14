@@ -32,6 +32,7 @@ image:sewebiug_image25.png["오류: 그래픽 이미지가 없습니다"]
 . 확인 * 을 클릭합니다. 이렇게 하면 공유를 삭제할 작업이 생성됩니다.
 
 
+.작업을 마친 후
 공유 삭제는 비동기 작업으로 실행됩니다. 다음을 수행할 수 있습니다.
 
 * 작업 목록에서 작업의 상태를 확인합니다. 작업 추적에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/keystone/sewebiug_netapp_service_engine_web_interface_overview.html#jobs-and-job-status-indicator["여기"].
