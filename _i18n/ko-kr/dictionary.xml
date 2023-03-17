@@ -1051,17 +1051,8 @@
   <block id="535ff16d54c5fa7c75ddf6959f11a9a9" category="list-text">오브젝트 스토리지 초기화 대화 상자에서 오브젝트 스토리지에 대한 할당량을 선택하고 * 생성 * 을 클릭합니다.</block>
   <block id="7415f0fe2358bf6330318eca757e1ac6" category="paragraph"><block ref="7415f0fe2358bf6330318eca757e1ac6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7feb8545e008b64a43a24668068761be" category="summary">고객이 Active IQ Keystone에 대해 확인할 수 있는 내용</block>
-  <block id="262343e94e4c53e68a3899e4036dbba5" category="doc">Active IQ에서 Flex Subscription 고객은 무엇을 볼 수 있습니까?</block>
-  <block id="902acbb4ec533e7ef722d0120abac953" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독) 서비스에 가입한 경우 Active IQ 디지털 자문 대시보드에서 사용 보고서 및 그래프를 볼 수 있습니다.</block>
-  <block id="8aec6a2bcfb78af1fffa4f2c52dfe49d" category="inline-link-macro">Active IQ 디지털 자문 문서</block>
-  <block id="5b312d01bd3eecc97ac2f41e3e4ddf39" category="paragraph">Active IQ 디지털 어드바이저에 대한 자세한 내용은 를 참조하십시오 <block ref="8ea1c0730bcdf181af831ad867c5fa88" category="inline-link-macro-rx"></block></block>
-  <block id="2b1092032299ace7c3847b060eb7665f" category="paragraph">사이트에 NetApp 서비스 엔진이 기본적으로 설치되어 있으면 Active IQ 디지털 조언자 외에도 NetApp 서비스 엔진 인터페이스를 통해 소비 차트를 확인할 수 있습니다. 그러나 고객이 관리하는 환경에서는 NetApp 서비스 엔진 인터페이스에 액세스할 수 없으며 용량 차트 및 사용 현황 보고서는 Active IQ Digital Advisor 대시보드를 통해서만 볼 수 있습니다. 고객이 관리하는 환경에 대한 자세한 내용은 를 참조하십시오 <block ref="6c1babef94ecdfe13ce1038b7eabf5ab" category="inline-link-macro-rx"></block></block>
   <block id="e444f8631d85c8cbe1bb61d4d60f630f" category="paragraph">사이트에서 메트릭 데이터 수집 간격은 5분입니다.</block>
-  <block id="2844749536976db1a7dcb3cac896aadb" category="paragraph">고객은 유연한 구독 서비스에 가입한 경우 Active IQ 디지털 어드바이저에서 다음 정보를 볼 수 있습니다.</block>
-  <block id="69e4ec00604265b757632eda3f1e383b" category="list-text">* Keystone 유연한 구독 * 위젯: Active IQ 디지털 어드바이저에 로그인한 경우 구매한 유연한 구독 서비스에 대한 용량 사용을 요약하는 * Keystone 유연한 구독 * 위젯을 확인할 수 있습니다.</block>
-  <block id="dbba74e6f62c29e1dea79d870e9f4b53" category="list-text">위젯에서 * 세부 정보 보기 * 를 클릭하면 * Keystone-용량 활용률 * 대시보드를 볼 수 있습니다. Keystone - 용량 활용률 * 대시보드는 서비스 수준, 데이터 보호, 고급 데이터 보호 서비스 등 가입된 서비스에 따라 용량 및 사용 데이터에 대한 추가 분석 및 분석 기능을 제공합니다. 또한 대시보드에는 최근 1, 7, 30일 동안의 소비된 용량, 약정 용량 및 버스트 용량 사용량 그래프가 표시됩니다. 평균 누적 비율은 현재 청구 기간 동안 계산 및 분할됩니다.</block>
   <block id="29cb371773858a73b7aca64ff6f208f4" category="inline-link-macro">NetApp Keystone 유연한 구독으로 용량 활용도를 확인할 수 있습니다</block>
-  <block id="fc533fceebb994e8ef6bbeba15951fd9" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="30eccfcef2e1a5c7fe1b095bf8a3af1d" category="inline-link-macro-rx"></block>.</block>
   <block id="410c98fcb0c5c3d90c0e8a60a9dcc645" category="summary">유연한 Keystone 구독 성능</block>
   <block id="28307c52fb9de3f0b2b26086b89eb8f3" category="paragraph">여기에 파일, 블록 및 오브젝트 스토리지의 서비스 수준이 나와 있습니다.</block>
   <block id="89c3a4001bb90f26ff84b68cb534b8ee" category="paragraph">볼륨 레벨의 I/O 밀도 계산은 이전 주 동안의 최대 I/O 밀도를 보여 주는 것으로 보고됩니다. 최대 성능은 시간별 시간 간격에 따라 결정됩니다. 볼륨별 I/O 밀도 보고서는 각 서비스 수준에 대한 준수 여부를 측정하기 위해 매월 생성됩니다.</block>
@@ -1692,7 +1683,6 @@
   <block id="e9c80bfaff45d429248172e90bf4cf17" category="list-text">* 삭제 중. * 객체가 삭제되어 처리 중입니다.</block>
   <block id="942b6d4c89e3eda89bf1fc3fdbb422bb" category="list-text">* Queued. * 객체가 대기열에 있으며 처리 중입니다.</block>
   <block id="c6c8c040e27193ed150428f0ad7c3c1c" category="list-text">* 가져온 * NetApp 서비스 엔진 이외의 지역에 프로비저닝된 객체는 NetApp Keystone Flex Subscription(Flex Subscription) 기준을 충족하지 않을 경우 이 상태로 가져옵니다.</block>
-  <block id="3929849d264a990dc00723acaab40f6d" category="admonition">이 상태는 일반적으로 개체에 QoS 정책이 적용되지 않는다는 것을 의미하므로 NetApp 서비스 엔진에서 Flex Subscription의 일부로 관리할 수 없습니다. 편집 펜을 통해 개체를 수정하고 적절한 서비스 수준을 할당할 수 있습니다. 이렇게 하면 해당 개체의 상태가 작업 상태로 변경됩니다.</block>
   <block id="a14e6fa33d61dda2c98b6ecf326fcf81" category="list-text">* Non-Standard. * NetApp 서비스 엔진 외부에서 프로비저닝된 객체는 NetApp Keystone Flex Subscription(Flex Subscription) 기준을 충족하지 않을 경우 이 상태로 가져옵니다.</block>
   <block id="801418460dd7ff544d44c93f2ca1106b" category="inline-link-macro">서비스 요청을 제출하십시오</block>
   <block id="77c9210b10afdcdea17f78b57f8021f3" category="admonition">이 상태는 일반적으로 Flex Subscription의 일부로 NetApp 서비스 엔진에서 관리할 하나 이상의 조건이 개체가 누락됨을 의미합니다. 가능합니다 <block ref="e37ceb28c45a47909eddea846ff49620" category="inline-link-macro-rx"></block> NetApp Service Engine 포털을 통해 표준화 및 관리되며 지원 팀이 작동합니다.</block>
@@ -2247,7 +2237,6 @@
   <block id="c255734de720d66c0c72eafba01042a7" category="list-text">볼륨을 생성할 서브테넌트를 선택합니다.</block>
   <block id="401c8b82211468039719631c9be4f363" category="list-text">지역 및 네트워크를 선택합니다. 이 목록은 GCP에서 서브테넌트에 대한 Cloud Volumes Service 계정을 기반으로 필터링됩니다.</block>
   <block id="1027be2ec13d0a5c51b04348a001394d" category="list-text">볼륨의 이름을 추가합니다.</block>
-  <block id="009cb2fa973a63420fb9c3e6d19e6bf7" category="list-text">적절한 서비스 수준을 선택합니다.</block>
   <block id="42ecabf130bec289f7d0a1d1d0f32de7" category="list-text">생성 토큰으로 볼륨의 파일 경로를 입력합니다.</block>
   <block id="789713868a6149107b3da72729b9ea14" category="list-text">볼륨 할당량을 바이트 단위로 할당합니다.</block>
   <block id="2527ce275aacdb527aaf9b12e9515877" category="list-text">필요한 경우 볼륨에 대한 태그를 추가합니다.</block>
@@ -2321,7 +2310,6 @@
   <block id="bbef23cf84481110210f99b7dca9a92d" category="paragraph">* Create Disk * 는 비동기 작업으로 실행됩니다. 다음을 수행할 수 있습니다.</block>
   <block id="c136dd75ef4d76c2f5a6206073c84661" category="list-text">작업이 완료된 후 * Disks * 목록에서 디스크의 상태를 확인합니다.</block>
   <block id="30c740c15df6835e786c16943f13c878" category="summary">Keystone 서비스 수준 메트릭 및 정의</block>
-  <block id="5b28c1e596f24c136b5eb202ade03b6f" category="doc">서비스 수준 메트릭 및 정의</block>
   <block id="bd3e3fa30e712c1d806acc88cecbed18" category="paragraph">다음 용어와 정의는 NetApp Keystone Flex 가입(Flex subscription) 서비스에서 사용됩니다.</block>
   <block id="fccdf4385eaed208ed2da98088a58040" category="list-text">* GiB, TiB 및 PiB. * 1024의 기수를 사용한 데이터 스토리지 용량 측정(1GiB = 1024^3^바이트, 1TiB = 1024^4^바이트, 1PiB = 1024^5^바이트)</block>
   <block id="fdd7161b237f60b8f4481babf5f0254a" category="list-text">* IOPS/TiB. * 애플리케이션에서 요청하는 초당 프로토콜 작업을 할당된 볼륨 논리 크기로 나눕니다.</block>
@@ -2709,7 +2697,6 @@
   <block id="f1a6c6c231e8d9c62635b2a2d1978c05" category="sidebar">운영 모델 및 책임</block>
   <block id="e47f584bdec2639ea8ddd7a6ab227555" category="sidebar">테넌시 및 멀티 테넌시</block>
   <block id="456d0deba6a86c9585590550c797502d" category="sidebar">운영</block>
-  <block id="6b9cddec4dacfc2b279a47aff83fcc02" category="sidebar">유연한 구독 및 Active IQ</block>
   <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">릴리즈 노트</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="sidebar">알려진 문제</block>
@@ -2795,7 +2782,6 @@
   <block id="00b8e318a80a143ca212b4f3b0cb449f" category="paragraph">* 새 스토리지 서비스를 주문할 수 있습니까? * 예. NetApp 서비스 엔진 포털에서 새 스토리지 서비스 또는 스토리지 서비스 확장을 요청할 수 있습니다. 이 요청은 NetApp Keystone 운영 팀에서 처리한 후 사용할 수 있도록 합니다.</block>
   <block id="eff136c1ba2e8a2d6e4b14ddd6a80383" category="paragraph">* 스토리지 관련 약속은 즉시 이용할 수 있습니까? * * 요청된 용량의 양에 따라 용량이 이미 배포되었는지 또는 추가 장비를 배송하고 설치해야 하는지 여부가 결정됩니다.</block>
   <block id="f71fb6dbf8a02dfaed157786a5d1337e" category="paragraph">* 계층 간에 워크로드를 이동할 수 있습니까? * 예. 워크로드가 이동하는 계층에 사용자가 가입되어 있는 경우 계층 간에 워크로드를 이동할 수 있습니다. 하지만 성능이 저하될 수 있으므로 상위 계층에서 하위 계층으로 이동하는 것은 권장되지 않습니다. 이 프로세스는 파일 공유를 편집하고 서비스 수준 설정을 변경하는 것만으로 수행됩니다.</block>
-  <block id="0d5e545b2de42575e5208d3abb79f68c" category="paragraph">* 서비스 계층에 따라 어떤 소프트웨어 버전(예: ONTAP)이 기본적으로 설치됩니까? * 서비스 계층에 따라(예: 파일 및 블록 서비스가 포함된 ONTAP, 블록용 SANtricity 및 객체용 StorageGRID) 지원 팀이 보안 또는 기능 문제 없이 가장 안정적인 최신 릴리스를 설치합니다.</block>
   <block id="7ae9036783fb54e0a52aedfa26814f6b" category="paragraph">* 다른 운영 모델은 무엇이며 주요 활동을 책임지는 사람은 누구입니까? *</block>
   <block id="f2ac98a13f280a4eeb27bb4780175f5e" category="paragraph">* NetApp 운영 모델이란? *</block>
   <block id="7dd4b2b13e8a8a109244cccfafe4b5a5" category="paragraph">* 파트너 운영 모델이란? *</block>
@@ -2985,15 +2971,11 @@
   <block id="201a10b44105a7f46600bd19700a5b0b" category="admonition">선택한 파일 공유에 대해 SnapCenter 서비스 엔진 외부의 NetApp 환경에서 일부 스냅샷이 생성된 경우, 선택한 스냅샷을 가져올 수 있습니다. 가져온 스냅샷을 선택하고 새 파일 공유를 복제할 수 있습니다.</block>
   <block id="675fcd36774818dbea836dc02cf4d0d6" category="list-text">복제할 스냅샷 옆의 확인란을 선택하고 * 다음 * 을 클릭합니다. 새 파일 공유는 선택한 스냅샷의 속성을 상속합니다.</block>
   <block id="278530798aa56115669d57d1e3fa9073" category="list-text">이름 * 과 * 공유 경로 * 를 추가합니다. 서비스 수준 할당 * 과 같은 다른 설정을 업데이트하고 * 생성 * 을 클릭합니다. 요구 사항에 가장 적합한 서비스 수준을 선택하십시오.</block>
-  <block id="775c0cf773e692f5b5aff6da7ff3a805" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독)은 사전 정의된 서비스 수준 또는 성능 서비스 수준에서 용량을 제공합니다.</block>
-  <block id="fda90827f7dc62058d02279d98e89377" category="paragraph">각 서비스 수준(서비스 수준)은 I/O 밀도로 정의됩니다. 이 밀도는 IOPS/TiB에 해당하는 성능(초당 입출력 작업 수[IOPS]) 및 사용된 스토리지(저장된 데이터의 TiB)의 비율입니다.</block>
   <block id="7cb1e7ec7bd37f6e4d6191d590b40dfe" category="paragraph">Flex Subscription 서비스에서 관리하는 각 볼륨은 서비스 수준과 연결됩니다. 각 볼륨에서 사용된 모든 I/O 작업과 사용된 모든 스토리지는 볼륨의 I/O 밀도 계산에 포함됩니다.</block>
   <block id="c369a24416627121068456b8b8aad586" category="paragraph">아래 표에는 서비스 수준이 정의되어 있습니다.</block>
   <block id="9298a8df81bc0591b45113097c6a4118" category="section-title">스토리지 유형 차이에 대한 서비스 수준</block>
   <block id="18cf673c6b162cc27313691486836fca" category="admonition">^1^NetApp 직접 기회에 대한 파일 공유와 블록 서비스 수준을 결합할 경우 최소 1년 및 100TiB 최소 용량을 제공합니다. ^2^채널 주도 기회를 위해 선택한 각 서비스 계층당 최소 1년 간의 기간 및 최소 명시된 용량입니다.</block>
   <block id="c3010f4da438652aab9b42654d086f8d" category="admonition">^1^NetApp 직접 기회에 대한 파일 공유와 블록 서비스 수준을 결합할 경우 최소 1년 및 100TiB 최소 용량을 제공합니다. ^2^채널 주도 기회를 위해 선택한 서비스 계층당 최소 1년 기간 및 최소 명시된 용량. ^3^ 두 기회 유형 중 하나에 대해 선택한 서비스 계층당 최소 1년 기간 및 최소 명시된 용량.</block>
-  <block id="abafef4130ed8938c3153ad43e1ac52e" category="paragraph">NetApp Service Engine 사용자 인터페이스의 여러 화면에서 구독에 서비스 수준을 할당할 수 있습니다. 자세한 내용은 다음을 참조하십시오.</block>
-  <block id="1e40687eaf73dde4f163672091e3ee28" category="paragraph">* * * <block ref="3a337ffb28bf0d116cc65c4b009401e6" category="inline-link-macro-rx"></block></block>
   <block id="39cd3f32af1f6142ceceefd9378ef437" category="list-text">파일 서버와 연결된 모든 재해 복구 복제 복제본입니다. 서버 삭제를 실행 취소할 수 없습니다.</block>
   <block id="a189c66e23fd7e79d1bebf594d16fb15" category="paragraph">사용된 용량이 지정된 서비스 수준에서 할당된 용량보다 크면 버스트 소비가 기록되고 그에 따라 비용이 적용됩니다. 이 프로세스는 생성된 각 소비 레코드에 대해 발생합니다. 따라서, 소비량의 급증은 당신의 헌신적인 능력 위에 소비된 용량의 잔기와 잔기를 모두 반영한다.</block>
   <block id="e0450cba6f565299b1277f655c94fa25" category="paragraph">가입 활성화 후 처음 60일 동안 적립된 모든 버스트 소비는 기록되지만 Flex Subscription 인보이스에 청구되지는 않습니다. 이 유예 기간은 적절한 AQoS(Adaptive Quality of Service) 설정으로 스토리지를 구성할 수 있는 시간을 부여하여 적절하게 모니터링하고 비용을 청구할 수 있도록 합니다. 스토리지를 올바르게 구성하면 예기치 않은 버스트 비용을 방지할 수 있습니다. 60일의 초기 유예 기간 이후에 발생한 모든 버스트 사용량은 다음 송장에 청구됩니다. 이 유예 기간은 기존 구독의 수정 또는 갱신에 영향을 주지 않습니다.</block>
@@ -3110,7 +3092,6 @@
   <block id="6f6cb72d544962fa333e2e34ce64f719" category="list-text">크기</block>
   <block id="c8308b1eba7ba926a61b8fd802194386" category="list-text">오브젝트</block>
   <block id="a2a8d61c91e599b9767a25a53af35534" category="list-text">작업(예: 버킷 삭제)</block>
-  <block id="2a96a4cfac487b5cc41e8fd4506c4230" category="sidebar">성능 서비스 레벨 또는 서비스 레벨</block>
   <block id="469b359223644ae76f8489201eaba251" category="sidebar">Azure NetApp Files 관리</block>
   <block id="1b0a895ad5dbae078e4d9e0514db2461" category="sidebar">Azure NetApp 계정 관리</block>
   <block id="5397c058f4d19f86cf260de9d12c163e" category="sidebar">Azure 용량 풀을 관리합니다</block>
@@ -3144,4 +3125,105 @@
   <block id="6f79e617449041abacad9b220d0cdd03" category="paragraph-title">연속 청구 시 유예 기간</block>
   <block id="1a616d944b2a6237298adf4b4e0db510" category="paragraph-title">비동기 재해 복구를 지원하도록 파일 서버 또는 블록 저장소를 구성합니다</block>
   <block id="1e53e767469d41ddc55c1ff94e72e9a6" category="paragraph-title">파일 공유 또는 디스크에서 비동기식 재해 복구를 설정합니다</block>
+  <block id="66c777f6bba3f375b5c9f563b51df61b" category="list-text">적절한 서비스 수준을 선택합니다.</block>
+  <block id="89fb8980c16c92d28af72e0579cfac9c" category="summary">Keystone 구독 보고서 및 그래프</block>
+  <block id="8d0df828e022d4082415c7c86746be9f" category="doc">Flex Subscription에 대한 Digital Advisor 대시보드 및 보고</block>
+  <block id="1aa4a8544fc94c7ce0ff8c9bc46bb523" category="paragraph">Active IQ 디지털 자문업체(디지털 자문업체) 대시보드는 NetApp Keystone 구독과 관련된 사용량을 모니터링하고 보고서를 생성하는 기능을 제공합니다. Keystone 서비스 가입 시 Digital Advisor 대시보드의 * Keystone 가입 * 위젯에서 구독 및 사용 세부 정보를 확인할 수 있습니다.</block>
+  <block id="936acd8bca51b1c47ce51ce5d9e45134" category="admonition">여기에서 제공되는 정보는 ONTAP 및 StorageGRID 모두에 적용됩니다. 관련 섹션에서 예외가 지적되었습니다.</block>
+  <block id="b5d0947d6bc5e70f868d560d859163f5" category="inline-link">NetApp Keystone 서브스크립션을 통해 용량 활용도를 확인할 수 있습니다</block>
+  <block id="90022a4ed9f097be4671116b6b5b7754" category="paragraph">Keystone 디지털 자문 위젯에 대한 자세한 내용은 을 참조하십시오<block ref="553d5c0a148912943ee201440d3b98c5" category="inline-link-rx"></block>.</block>
+  <block id="af23688fe47e4923ebd83f7238688630" category="paragraph">세부 정보를 보려면 다음 단계를 수행하십시오.</block>
+  <block id="e84dede1181b53e24bdf1d55508b83bf" category="list-text">Digital Advisor에서 위젯에서 * 자세한 정보 보기 * 를 클릭하여 * Keystone 가입 * 페이지에서 볼륨에 대한 사용 세부 정보 및 알림을 확인하십시오. 또는 왼쪽 탐색 창에서 * 일반 &gt; Keystone 구독 * 으로 이동합니다.</block>
+  <block id="b49a48b1a3504debfe7fedab8ad4086d" category="paragraph">서브스크립션 세부 정보, 각 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보는 * Keystone 가입 * 화면의 여러 탭에 표시됩니다.</block>
+  <block id="3e7fbf68bb6fb2a1a061e9b1a50441d9" category="inline-link">서비스 수준 메트릭 및 정의</block>
+  <block id="1cc53c243cc7aca8f5ccf3f64e634b22" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드와 보고서에 최대 소수점 이하 두 자리까지 TiB에 표시됩니다. 사용률이 0.01TiB 미만이면 값이 로 표시됩니다<block ref="cfcd208495d565ef66e7dff9f98764da" prefix=" " category="inline-code"></block> 또는<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 기타 사용량 메트릭은 를 참조하십시오<block ref="98a30cfc42e5138070cb8b3bae486e43" category="inline-link-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오<block ref="138642b64e1fce198a03042cd762c1d6" category="inline-link-rx"></block>.</block>
+  <block id="b3c0ed0e576799a24c9e0fda06bee006" category="section-title">구독 세부 정보를 봅니다</block>
+  <block id="b5d0d2658bdd7db17a2251c2d1fa6edb" category="paragraph">계정 이름에 대한 모든 구독은 * 가입 세부 정보 * 탭에서 확인할 수 있습니다.</block>
+  <block id="3134c27d858b331bf91068bcd770722c" category="paragraph"><block ref="3134c27d858b331bf91068bcd770722c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="60d8073bb007efeabf44bc4eea759210" category="paragraph">각 구독 번호에 대해 다음 정보를 확인할 수 있습니다.</block>
+  <block id="8e43124ddee77b223f1e720973e147e7" category="list-text">* 구독 번호 *: NetApp에서 할당한 Keystone 가입 번호입니다.</block>
+  <block id="f06c1648cc175308e5d0425681e31f63" category="list-text">* 추적 ID *: 가입 활성화 시 할당된 추적 ID입니다. 구독 추적에 사용되는 각 구독 및 사이트의 고유 ID입니다.</block>
+  <block id="3644820829d44e327e43dd95769b1686" category="list-text">* 청구 기간 *: 월, 분기 또는 연간과 같은 가입 청구 기간.</block>
+  <block id="58ddac2ef16530986372a556eb9e6b7a" category="list-text">* 시작일 *: 가입일.</block>
+  <block id="b8905d711198e80b0e2927dff32cfd11" category="list-text">* 종료일 *: 가입 종료 날짜. 이 날짜를 기준으로 만료일이 임박한 구독에 대한 정보 메시지가 표시될 수 있습니다.</block>
+  <block id="83adb6d347afacf7d560a4bb6f74dfa1" category="list-text">* 사용 상태 *: 구독이 얼마나 많이 사용되었거나 초과 사용되었는지 나타냅니다. 최고 소비 레코드를 보려면 이 열을 기준으로 목록을 정렬할 수 있습니다.</block>
+  <block id="87620cf1d6b63757e4ea27dcc44a9358" category="list-text"><block ref="5d188bf7f39558255a337fa21a17a0b0" category="inline-image-macro-rx" type="image"></block>: 이 아이콘을 클릭하면 이 구독에 포함된 각 서비스 수준의 사용 내역 데이터를 볼 수 있는 * 가입 시간 시리즈 * 탭이 열립니다.</block>
+  <block id="dc73bcb00aeb285be26cfd179924fe9e" category="paragraph">구독 레코드에 대한 아래쪽 화살표를 클릭하면 자세한 내용을 볼 수 있습니다. 서비스 수준 이름, 커밋됨, 소비됨, 사용 가능한 용량, 현재 및 계산된 버스트 사용률 등의 세부 정보는 TiB로 표시됩니다. 더 높은 소비량을 기록하는 특정 서비스 수준이 강조 표시됩니다. 볼륨에 대해 생성된 모든 경고와 알림도 표시됩니다.</block>
+  <block id="706b251feaacce4536ad626d12e0cdb3" category="paragraph">Keystone 스토리지 서비스 및 관련 서비스 수준에 대한 자세한 내용은 를 참조하십시오<block ref="36a3b3cce1fbb3bc12a00ec01f92dfcb" category="inline-link-rx"></block>.</block>
+  <block id="736d5b3313fce2ba2126ffff61a7ec29" category="paragraph">다음 사용 표시기를 참조하여 각 구독의 사용 상태를 확인할 수 있습니다.</block>
+  <block id="3aaeea3f20263addb794c645bdef9c16" category="paragraph"><block ref="3aaeea3f20263addb794c645bdef9c16" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="88fa71f0a6e0dfedbb46d91cc0b37a50" category="paragraph-title">색인</block>
+  <block id="cf6ffa83aadbdcc3058434f093ea54ec" category="paragraph"><block ref="56a93b6a2a3614c3aeb1b9851c5e43f2" category="inline-image-macro-rx" type="image"></block>: 서비스 수준의 약정 용량에 대해 기록된 용량 사용량이 없습니다<block ref="bb7f7720d1162aeddd650a9a9446141b" category="inline-image-macro-rx" type="image"></block>: 소비는 정상이며, 약속된 용량의 80% 이내입니다<block ref="7646cb232eca2204ee8b299f2fdebfb4" category="inline-image-macro-rx" type="image"></block>: 최대 소비, 즉 사용량이 약속된 용량의 100% 이상에 도달하려고 합니다. Consumed * (사용량 *) 열에는 커밋된 용량의 80%를 초과하는 소비에 대한 이 표시기가 표시됩니다<block ref="2acc4efd0d7d55d52fc790f88116c2e0" category="inline-image-macro-rx" type="image"></block>: 소모량이 버스트 제한 내에 있습니다. 버스트 소비는 서비스 수준의 약정 용량 100%를 초과하는 소비량이며, 120%와 같이 합의된 최대 사용량 제한 내에 있는 소비입니다<block ref="9dd31109acddbedcca8dcf80e09eebda" category="inline-image-macro-rx" type="image"></block>: 규정된 버스트 제한을 초과하는 소비를 나타냅니다</block>
+  <block id="6258cb1a842831f15b22f87325717f37" category="section-title">과거 구독 데이터를 봅니다</block>
+  <block id="a514224616890dbac3dede8f0d533add" category="paragraph">[가입 시간 시리즈 *] 탭은 특정 기간 동안 구독의 기록 데이터를 표시합니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.</block>
+  <block id="c46ba64e2bab36ac2ede95ae5f0692dc" category="list-text">[가입 시간 시리즈 *] 탭을 클릭합니다.</block>
+  <block id="a49bb8de1f373a2c0821dd3715e2473c" category="list-text">세부 정보를 보려는 필수 구독을 선택합니다. 기본적으로 계정 이름의 첫 번째 구독이 선택됩니다.</block>
+  <block id="9ff2c2d2ffe68a2a0862d38fe356318c" category="list-text">From Date * 및 * To Date * 필드의 달력 아이콘에서 시간 범위를 선택합니다. 기본 시간 범위는 청구 기간의 시작 날짜부터 현재 날짜까지입니다.</block>
+  <block id="22dcf7d0676ff8f536ed431a7b672de7" category="list-text">세부 정보 보기 * 를 클릭합니다. 각 서비스 수준에 대한 구독의 과거 소비 데이터는 선택한 시간 범위를 기준으로 표시됩니다. 차트 위에 마우스 커서를 올려 놓으면 해당 데이터 지점에서 약정, 사용량, 버스트 및 버스트 제한 데이터의 사용량 분석을 볼 수 있습니다.</block>
+  <block id="4ace5fc4007e7d1732831506700b3e06" category="paragraph"><block ref="4ace5fc4007e7d1732831506700b3e06" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="35070e1c588eb56d935a4877ffdfdb10" category="paragraph">다음과 같은 세부 정보가 표시됩니다.</block>
+  <block id="8cdd8d8e55dfdcaf50118c634169eaf7" category="list-text">* 구독 세부 정보 *: 가입 시작 및 종료 날짜, 청구 기간(예: 분기별, 연간 등).</block>
+  <block id="12ed0205cd7410bc01e15e4b8a285019" category="list-text">* 사용 차트 *: 막대 차트는 날짜 범위에 대한 서비스 수준 이름 및 해당 서비스 수준에 대해 소비된 용량을 표시합니다. 컬렉션의 날짜 및 시간이 차트 아래쪽에 표시됩니다.</block>
+  <block id="a0844c086d0417165bb56c154e3ddbcc" category="admonition">쿼리의 날짜 범위를 기반으로 사용 차트는 30개의 데이터 요소 범위에 표시됩니다.</block>
+  <block id="3a6ef8ff534dc5701b3936464bf23441" category="paragraph">막대 차트의 다음 색상은 서비스 수준 내에 정의된 사용된 용량을 나타냅니다.</block>
+  <block id="19e499aa450e552c41a06bb0742085d6" category="list-text">녹색: 80% 이내</block>
+  <block id="744f7cb6bd1aa9077ff244891a651e80" category="list-text">황색: 80% - 100%.</block>
+  <block id="c3b2392317dad26eb62ae53f36697f5e" category="list-text">빨간색: 버스트 사용량(약정된 버스트 한도에 대한 약속된 용량의 100%)</block>
+  <block id="7673426e4a1c3cc1b97d1f96f8bd076a" category="list-text">자주색: 버스트 제한 초과 또는<block ref="a9793d8430f5962bfc6384a1d9f6d19b" prefix=" " category="inline-code"></block>.</block>
+  <block id="4bd2482822c2e802c391dac7e891d9b1" category="list-text">회색:_임시 사용량_ - 해당 기간에 대한 정확한 데이터를 사용할 수 없고 이전 데이터 수집 지점에서 사용 가능한 데이터로 대체될 때 기록됩니다.</block>
+  <block id="e87913116d2be6cac8be4e9b2fdf61e4" category="list-text">* 현재 소비 *: 서비스 레벨에 정의된 사용된 용량(TiB)에 대한 표시기입니다. 이 필드는 특정 색상을 사용합니다.</block>
+  <block id="500993209cab49c52b98999c19742b12" category="list-text">회색: 없음.</block>
+  <block id="3cc6f4aa3b6f7beebb36ba03d0894c83" category="list-text">녹색: 약속된 용량의 80% 이내</block>
+  <block id="33ac206d1e2d75015388a71d724255eb" category="list-text">황색: 약속된 용량의 80%를 초과하는 모든 소모량</block>
+  <block id="6294dd4382e993530f7872de2d246655" category="list-text">* 현재 버스트 *: 정의된 버스트 제한 내 또는 그 이상의 사용된 용량에 대한 표시기입니다. 합의된 최대 사용량(예: 약속된 용량을 20% 이상) 내에서 모든 사용량이 버스트 제한 내에 있습니다. 추가 사용은 버스트 제한을 초과하는 사용량으로 간주됩니다. 이 필드는 특정 색상을 사용합니다.</block>
+  <block id="b19e15743d3257f81d946a8133069a26" category="list-text">빨간색: 버스트.</block>
+  <block id="8cb9900bd09a496f0e4b2e4220549b55" category="list-text">자주색: 버스트 제한 초과.</block>
+  <block id="2ace5c82683c2f75d293a1427df222e4" category="list-text">* 누적 버스트 *: 현재 청구 기간 동안 매월 계산된 누적 사용량 또는 사용된 용량에 대한 표시기입니다. 누적 버스트 사용량은 서비스 수준에 대해 커밋된 용량과 사용된 용량을 기준으로 계산됩니다.<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>.</block>
+  <block id="393e226f044ba6b817b81de6d94e7276" category="admonition">현재 사용량 *, * 현재 버스트 * 및 * 누적 버스트 * 표시기는 구독의 청구 기간과 관련된 소비를 결정하며 쿼리의 날짜 범위를 기반으로 하지 않습니다.</block>
+  <block id="b99a21b99fb9e230b533835afc100672" category="section-title">시스템 세부 정보를 봅니다</block>
+  <block id="819abf779095094c4f296a2f1911a333" category="paragraph">시스템 세부 정보 * 탭에서 ONTAP의 볼륨 사용 및 기타 세부 정보를 볼 수 있습니다. StorageGRID의 경우 이 탭에는 오브젝트 스토리지 환경의 노드 및 개별 사용량이 표시됩니다.</block>
+  <block id="7fdbc37a63f55a7bf94c4f7eee9fbbb6" category="example-title">&lt;strong&gt; ONTAP 볼륨 세부 정보 &lt;/strong&gt;</block>
+  <block id="6f7e564e5f841331ad117d7eb3b3ae10" category="paragraph">ONTAP의 경우 * 시스템 세부 정보 * 탭은 Keystone 가입이 관리하는 스토리지 환경 내 볼륨의 용량 사용, 볼륨 유형, 클러스터, 애그리게이트, 서비스 레벨 등의 정보를 표시합니다.</block>
+  <block id="d2c1241be04ae4d70013755a80c6cbd2" category="list-text">시스템 세부 정보 * 탭을 클릭합니다.</block>
+  <block id="ccdbd07a063ad5631511d37c5d2f5a36" category="list-text">가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다.</block>
+  <block id="881fb88f30cf9ba2d57147ddfb898685" category="paragraph">볼륨 세부 정보가 표시됩니다. 열 머리글 옆에 있는 정보 아이콘 위에 마우스를 올려 놓으면 열을 스크롤하여 해당 열에 대해 자세히 알아볼 수 있습니다. 열을 기준으로 정렬하고 목록을 필터링하여 특정 정보를 볼 수 있습니다. 노드 계열 복사 * 버튼을 클릭하여 개별 노드 일련 번호를 복사할 수 있습니다.</block>
+  <block id="2ebe85ca38ab100590dc16fd81d18da1" category="paragraph"><block ref="2ebe85ca38ab100590dc16fd81d18da1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8b315ff987c2e0cfd5650f23e5464623" category="example-title">&lt;strong&gt; StorageGRID 노드 및 소비 세부 정보 &lt;/strong&gt;</block>
+  <block id="b3e33e1c1964ee47822698a5c69ad576" category="paragraph">StorageGRID의 경우 이 탭에는 오브젝트 스토리지 환경의 노드에 대한 논리적 사용량이 표시됩니다.</block>
+  <block id="4305e9b17980561df3c63a75f32b2075" category="list-text">가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다. 구독 번호를 선택하면 객체 스토리지 세부 정보에 대한 링크가 활성화됩니다.</block>
+  <block id="1690678f16ffa10ab1e26e44aa686db5" category="paragraph"><block ref="1690678f16ffa10ab1e26e44aa686db5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4be9bcf02510758e3d80494ef37c15b0" category="list-text">링크를 클릭하여 각 노드의 노드 이름 및 논리적 사용 정보를 확인하십시오.</block>
+  <block id="47e40976658c073c0e6048f08d9a27c6" category="paragraph"><block ref="47e40976658c073c0e6048f08d9a27c6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7ecd0726b721e17d74d280fdd93e49f8" category="section-title">보고서를 생성합니다</block>
+  <block id="4fdff89d4e1cb0e4a41e6c52ac0eca05" category="paragraph">각 탭에서 * CSV * 다운로드 버튼을 클릭하여 구독 세부 정보, 기간별 사용 데이터 및 시스템 세부 정보에 대한 보고서를 생성하고 볼 수 있습니다. <block ref="f865f0dd5bea740b7e77dd6862c1f366" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03051fbd458dd7625e7969d74dd74735" category="paragraph">세부 정보는 나중에 사용할 수 있도록 저장할 수 있는 CSV 형식으로 생성됩니다.</block>
+  <block id="e14d9b45f9f7753ca5842f57c89f2f92" category="paragraph">[가입 시간 시리즈 *] 탭에서는 쿼리의 날짜 범위 또는 일별 보고서의 기본 30개 데이터 포인트에 대한 보고서를 다운로드할 수 있습니다.</block>
+  <block id="d5b4a5bc607e49724b373b44e10a1b6d" category="paragraph"><block ref="d5b4a5bc607e49724b373b44e10a1b6d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3f564a49686a18ae09da9597e6538840" category="paragraph">그래픽 데이터가 변환되는 * Subscription Time Series * 탭의 샘플 보고서:</block>
+  <block id="0a5468723ee164f4220a0538b1ff32b4" category="paragraph"><block ref="0a5468723ee164f4220a0538b1ff32b4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">알림을 봅니다</block>
+  <block id="c71fcee7f813aa85774b9114dfba4ef1" category="paragraph">대시보드의 알림은 스토리지 환경에서 발생하는 문제를 파악할 수 있는 주의 메시지를 보냅니다.</block>
+  <block id="903961eaa166cc0c38b735276961eb0c" category="paragraph">경고는 다음 두 가지 유형이 될 수 있습니다.</block>
+  <block id="7a0a61d280e201148fcd091f8167d88f" category="list-text">* 정보 *: 가입 종료와 같은 문제의 경우 정보 경고를 볼 수 있습니다. 정보 아이콘 위에 커서를 올려 놓으면 문제에 대해 자세히 알아볼 수 있습니다.</block>
+  <block id="d08b54ee187c7327910bae3997812ee1" category="list-text">* 경고 *: 규정 위반 등의 문제가 경고로 표시됩니다. 예를 들어, AQoS(적응형 QoS) 정책이 연결되지 않은 관리 클러스터 내에 볼륨이 있는 경우 경고 메시지가 표시됩니다. 경고 메시지의 링크를 클릭하면 * 시스템 세부 정보 * 탭에서 비준수 볼륨 목록을 볼 수 있습니다.</block>
+  <block id="77561a56c28ac9cccc7140baff66eefa" category="paragraph">AQoS 정책에 대한 자세한 내용은 을 참조하십시오<block ref="eb9e151d2a405494b16ec028c9292f15" category="inline-link-rx"></block>.</block>
+  <block id="2f79ebd4f32cabd1114c688445ebf53e" category="paragraph"><block ref="2f79ebd4f32cabd1114c688445ebf53e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a8e64b58beb4844a89f1dc662bd47837" category="paragraph">이러한 주의 및 경고 메시지에 대한 자세한 내용은 NetApp 지원 팀에 문의하십시오. 자세한 내용은 을 참조하십시오<block ref="a434e165bb861f31d95108a8980bc76d" category="inline-link-rx"></block>.</block>
+  <block id="f5db195a7ff1968e337408920b956125" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독)은 사전 정의된 성능 서비스 수준(서비스 수준)에서 용량을 제공합니다.</block>
+  <block id="4c351868537e82b27bc0dc0ae18a7633" category="paragraph">각 서비스 수준은 I/O 밀도로 정의됩니다. 이 비율은 IOPS/TiB인 성능(IOPS) 및 사용된 스토리지(저장된 데이터의 TiB)의 비율입니다.</block>
+  <block id="c42f8376955b2ed929e56dac3d7fa30e" category="paragraph">NetApp Service Engine 사용자 인터페이스의 여러 화면에서 구독에 서비스 수준을 할당할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="3a337ffb28bf0d116cc65c4b009401e6" category="inline-link-macro-rx"></block>.</block>
+  <block id="80501b8cb950ef7173fcd14a0b645162" category="doc">Active IQ 디지털 어드바이저에서 유연한 구독 고객은 무엇을 볼 수 있습니까?</block>
+  <block id="10a5d15772da49e32e43a900f71621ce" category="paragraph">NetApp Keystone 유연한 구독(유연한 구독) 서비스를 구독한 경우 Active IQ 디지털 자문(디지털 자문) 대시보드에서 사용 보고서 및 그래프를 볼 수 있습니다.</block>
+  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link-macro">Digital Advisor 설명서</block>
+  <block id="199941fcffe1cc10f1d78276fb963281" category="paragraph">Digital Advisor에 대한 자세한 내용은 를 참조하십시오 <block ref="6ddd16d015a7ae88cd6e808110d98222" category="inline-link-macro-rx"></block>.</block>
+  <block id="4990a96b0c95260b0d9f8cfea8027323" category="paragraph">사이트에 NetApp Service Engine이 기본적으로 설치되어 있는 경우 Digital Advisor 외에도 NetApp Service Engine 인터페이스를 통해 소비 차트를 볼 수 있습니다. 그러나 고객이 관리하는 환경에서는 NetApp Service Engine 인터페이스에 액세스할 수 없으며, Digital Advisor 대시보드를 통해서만 용량 차트와 사용 보고서를 볼 수 있습니다. 고객이 관리하는 환경에 대한 자세한 내용은 를 참조하십시오<block ref="c3e9ea2899321a2aa6e747d59ecbded6" category="inline-link-rx"></block></block>
+  <block id="e26e1d65695e28b374df5ca908c92139" category="paragraph">고객은 Flex Subscription 서비스에 가입한 경우 Digital Advisor에서 다음 정보를 볼 수 있습니다.</block>
+  <block id="763ef308610fa0c0e4819b7d32e376db" category="list-text">* Keystone Flex Subscription * 위젯: Digital Advisor에 로그인한 경우 구입한 Flex Subscription 서비스에 대한 용량 사용을 요약하는 * Keystone Flex Subscription * 위젯을 볼 수 있습니다.</block>
+  <block id="25a073100ab530af78a4207498fddc80" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="261ab361347f64f3209b06735747fe46" category="inline-link-macro-rx"></block>.</block>
+  <block id="c8248eedf8c02ace20c31385d67a0f1e" category="paragraph">Keystone 구독 * 탭에 대한 자세한 내용은 _Digital Advisor 대시보드 및 Flex Subscription_에 대한 보고를 참조하십시오.</block>
+  <block id="efc03cbbb4d0230d7feb269ad27e9cef" category="admonition">이 상태는 일반적으로 개체에 QoS 정책이 적용되지 않는다는 것을 의미하므로 NetApp 서비스 엔진에서 Flex Subscription의 일부로 관리할 수 없습니다. 편집 펜을 통해 개체를 수정하고 적절한 서비스 수준을 할당할 수 있습니다. 이렇게 하면 해당 개체의 상태가 작업 상태로 변경됩니다.</block>
+  <block id="d7b031f9c8084a9ac68f816f54b2be3b" category="paragraph">* 서비스 계층에 따라 어떤 소프트웨어 버전(예: ONTAP)이 기본적으로 설치됩니까? * 서비스 계층에 따라(예: 파일 및 블록 서비스가 포함된 ONTAP, 블록용 SANtricity 및 객체용 StorageGRID) 지원 팀이 보안 또는 기능 문제 없이 가장 안정적인 최신 릴리스를 설치합니다.</block>
+  <block id="596c605317cc14ada22698b4c013fd32" category="sidebar">Flex Subscription의 서비스 수준</block>
+  <block id="8629d433b3c29320111a02fbc3cc079b" category="sidebar">유연한 구독 및 Active IQ 디지털 자문업체</block>
+  <block id="63d539af1a31e2f3e8acd3fdd788eac6" category="sidebar">Active IQ 디지털 어드바이저에서 보고서를 보고 생성합니다</block>
 </blocks>

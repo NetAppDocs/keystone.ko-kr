@@ -17,7 +17,7 @@ sidebar:
       entries:
       - title: 서비스 용량 정의
         url: "/nkfsosm_keystone_service_capacity_definitions.html"
-      - title: 성능 서비스 레벨 또는 서비스 레벨
+      - title: Flex Subscription의 서비스 수준
         url: "/nkfsosm_performance.html"
       - title: 서비스 수준 메트릭 및 정의
         url: "/nkfsosm_service_level_metrics_and_definitions.html"
@@ -43,8 +43,11 @@ sidebar:
       url: "/nkfsosm_site_requirements.html"
     - title: 운영
       url: "/nkfsosm_netapp_global_services_and_support_center_@gssc@.html"
-    - title: 유연한 구독 및 Active IQ
+    - title: 유연한 구독 및 Active IQ 디지털 자문업체
       url: "/nkfsosm-keystone-and-aiq.html"
+      entries:
+      - title: Active IQ 디지털 어드바이저에서 보고서를 보고 생성합니다
+        url: "/aiq-keystone-details.html"
   - title: 릴리즈 노트
     entries:
     - title: 새로운 소식
