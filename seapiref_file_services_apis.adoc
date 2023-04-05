@@ -22,7 +22,7 @@ summary: Keystone 파일 서비스 API
 
 == 파일 서버 API
 
-파일 서버 API를 사용하여 파일 서버를 보고 관리할 수 있습니다. 파일 서버에 대한 자세한 내용은 을 참조하십시오 link:hsewebiug_create_a_file_server.html["파일 서버를 생성합니다"].
+파일 서버 API를 사용하여 파일 서버를 보고 관리할 수 있습니다. 파일 서버에 대한 자세한 내용은 을 참조하십시오 link:sewebiug_create_a_file_server.html["파일 서버를 생성합니다"].
 
 [cols="1,1,3,2"]
 |===
