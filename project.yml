@@ -9,7 +9,7 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr
 sidebar:
   entries:
-  - title: NetApp Keystone 유연한 구독
+  - title: NetApp Keystone 서비스
     url: "/index.html"
     entries:
     - title: 서비스 약관 및 설명
@@ -17,7 +17,7 @@ sidebar:
       entries:
       - title: 서비스 용량 정의
         url: "/nkfsosm_keystone_service_capacity_definitions.html"
-      - title: Flex Subscription의 서비스 수준
+      - title: Keystone의 서비스 수준
         url: "/nkfsosm_performance.html"
       - title: 서비스 수준 메트릭 및 정의
         url: "/nkfsosm_service_level_metrics_and_definitions.html"
@@ -31,19 +31,19 @@ sidebar:
         url: "/nkfsosm_nrd.html"
       - title: 미국 시민 지원
         url: "/nkfsosm_uscs.html"
-      - title: 유연한 구독 및 Equinix
+      - title: Keystone과 Equinix
         url: "/nkfsosm_equinix.html"
     - title: 운영 모델 및 책임
       url: "/nkfsosm_overview.html"
     - title: 테넌시 및 멀티 테넌시
       url: "/nkfsosm_tenancy_overview.html"
-    - title: 유연한 구독 인프라
+    - title: Keystone 인프라
       url: "/nkfsosm_keystone_service_delivery_architecture_overview.html"
     - title: 사이트 요구 사항
       url: "/nkfsosm_site_requirements.html"
     - title: 운영
       url: "/nkfsosm_netapp_global_services_and_support_center_@gssc@.html"
-    - title: 유연한 구독 및 Active IQ 디지털 자문업체
+    - title: Keystone 및 Active IQ 디지털 자문
       url: "/nkfsosm-keystone-and-aiq.html"
       entries:
       - title: Active IQ 디지털 어드바이저에서 보고서를 보고 생성합니다
@@ -56,10 +56,10 @@ sidebar:
       url: "/rn_fixed_issues.html"
     - title: 알려진 문제
       url: "/rn_known_issues.html"
-  - title: 유연한 구독 FAQ
+  - title: Keystone 구독 FAQ
     url: "/nkfsfaq_overview.html"
     entries:
-    - title: 유연한 구독
+    - title: Keystone 구독
       url: "/nkfsfaq_keystone_subscription.html"
     - title: 서비스 제공 세부 정보
       url: "/nkfsfaq_service_offer_details.html"
@@ -84,7 +84,7 @@ sidebar:
         url: "/sewebiug_select_tenant.html"
       - title: NetApp 서비스 엔진 웹 인터페이스 를 참조하십시오
         url: "/sewebiug_netapp_service_engine_web_interface_overview.html"
-    - title: Flex Subscription 대시보드 보기
+    - title: Keystone 구독 플래시보드 를 봅니다
       url: "/sewebiug_dashboard.html"
     - title: 청구 보기
       url: "/sewebiug_billing.html"

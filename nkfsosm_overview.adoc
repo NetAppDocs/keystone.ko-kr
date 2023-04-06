@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: nkfsosm_overview.html 
 keywords: netapp, keystone, kfs, overview, 
-summary: NetApp Flex Subscription 개요 
+summary: NetApp Keystone 개요 
 ---
 = 운영 모델, 역할 및 책임
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: NetApp Flex Subscription 개요
 
 
 [role="lead"]
-NetApp Keystone 유연한 구독(유연한 구독)은 테넌시 모델을 기반으로 합니다.
+NetApp Keystone는 테넌시 모델을 기반으로 합니다.
 
-Flex Subscription은 서비스 제공을 위한 세 가지 운영 모델을 제공합니다.
+Keystone은 서비스 제공을 위한 3가지 운영 모델을 제공합니다.
 
 * * NetApp 운영 모델 * 을 통해 고객이 선택한 성능 계층 및 스토리지 서비스 유형에 따라 제공 서비스를 구독하고 NetApp 운영 옵션을 추가 비용으로 선택할 수 있습니다. NetApp은 아키텍처 및 제품을 정의하고, 사내에서 설치하고, NetApp 스토리지 및 IT 리소스를 사용하여 일상적인 인프라 관리 작업을 관리합니다. 사용 가능한 스토리지 서비스 유형은 파일, 블록 및 객체입니다. Cloud Volumes Service for GCP 및 AWS 기반의 스토리지 가입도 NetApp Keystone 인스턴스를 통해 관리할 수 있습니다.
 * * 파트너 운영 * 모델 * 은 NetApp 운영 모델과 유사하지만, 파트너가 최종 고객을 위해 서비스를 운영 중인 경우 이 모델에서 파트너는 참조된 계약 당사입니다. 테넌트는 파트너 또는 서비스 공급자의 고객이며 NetApp과 청구 관계가 없습니다. 파트너 운영 모델에는 일반적으로 테넌트와 최종 고객/하위 테넌트가 서비스 공급자/파트너가 청구하는 자체 서브스크립션을 보유한 멀티 테넌트 환경이 있습니다. 파트너 관리자는 모든 테넌트에 대해 관리 작업을 수행합니다. 관리자가 파트너 운영 모델에서 수행할 수 있는 기능은 NetApp에서 운영하는 모델의 admin과 다릅니다.

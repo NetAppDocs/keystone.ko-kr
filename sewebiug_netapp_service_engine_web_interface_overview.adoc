@@ -26,7 +26,7 @@ summary: NetApp 서비스 엔진 웹 인터페이스 개요
 * *NetApp 로고.* 디스플레이를 대시보드 보기로 돌아가려면 언제든지 클릭하십시오.
 * * Tenant. * 현재 선택한 Tenant를 표시합니다. 테넌트를 변경하려면 을 참조하십시오 link:sewebiug_select_tenant.html["테넌트를 선택합니다"].
 * * 작업. * 가장 최근 프로비저닝 작업의 상태를 보려면 클릭합니다. 아이콘이 색상을 변경하여 구성 작업 상태를 표시합니다. 자세한 내용은 을 참조하십시오 link:sewebiug_netapp_service_engine_web_interface_overview.html#jobs-and-job-status-indicator["작업 및 작업 상태 표시기"].
-* * 사용자 로그인. * 현재 로그인한 사용자의 이름을 표시합니다. 로그아웃하려면 이 아이콘을 클릭합니다. 자세한 내용은 을 참조하십시오 link:sewebiug_log_in_to_the_netapp_service_engine_web_interface.html#log-out-of-the-netapp-service-engine-web-interface["NetApp Service Engine 웹 인터페이스에서 로그아웃합니다"].
+* * 사용자 로그인. * 현재 로그인한 사용자의 nKeystoneame을 표시합니다. 로그아웃하려면 이 아이콘을 클릭합니다. 자세한 내용은 을 참조하십시오 link:sewebiug_log_in_to_the_netapp_service_engine_web_interface.html#log-out-of-the-netapp-service-engine-web-interface["NetApp Service Engine 웹 인터페이스에서 로그아웃합니다"].
 
 
 image:sewebiug_image9_dashboard1.png["NSE 대시보드 - 1"]
@@ -37,7 +37,7 @@ image:sewebiug_image9_dashboard2.png["NSE 대시보드 - 2"]
 
 == 대시보드 뷰
 
-대시보드에는 사용된 용량, 사용량에 대한 비용 청구, 최근 알림 및 서비스 요청 등 NetApp Keystone 스토리지 구독에 대한 정보가 표시됩니다. NetApp 서비스 엔진에 처음 로그인할 때 기본 보기가 됩니다. 대시보드에 대한 자세한 내용은 을 참조하십시오 link:sewebiug_dashboard.html["Flex Subscription 대시보드 보기"].
+대시보드에는 사용된 용량, 사용량에 대한 비용 청구, 최근 알림 및 서비스 요청 등 NetApp Keystone 스토리지 구독에 대한 정보가 표시됩니다. NetApp 서비스 엔진에 처음 로그인할 때 기본 보기가 됩니다. 대시보드에 대한 자세한 내용은 을 참조하십시오 link:sewebiug_dashboard.html["Keystone 대시보드 보기"].
 
 
 
@@ -88,15 +88,15 @@ image:sewebiug_image9_dashboard2.png["NSE 대시보드 - 2"]
 * * 운영. * 스토리지 리소스가 올바르게 프로비저닝/수정되었으며 온라인 및 작동 가능함을 나타냅니다.
 * * 삭제 중. * 객체가 삭제되어 처리 중입니다.
 * * Queued. * 객체가 대기열에 있으며 처리 중입니다.
-* * 가져온 * NetApp 서비스 엔진 이외의 지역에 프로비저닝된 객체는 NetApp Keystone Flex Subscription(Flex Subscription) 기준을 충족하지 않을 경우 이 상태로 가져옵니다.
+* * 가져온 * NetApp 서비스 엔진 외부에서 프로비저닝된 객체는 NetApp Keystone 등록 기준을 충족하지 않을 경우 이 상태로 가져옵니다.
 +
 
-NOTE: 이 상태는 일반적으로 개체에 QoS 정책이 적용되지 않는다는 것을 의미하므로 NetApp 서비스 엔진에서 Flex Subscription의 일부로 관리할 수 없습니다. 편집 펜을 통해 개체를 수정하고 적절한 서비스 수준을 할당할 수 있습니다. 이렇게 하면 해당 개체의 상태가 작업 상태로 변경됩니다.
+NOTE: 이 상태는 일반적으로 객체에 QoS 정책이 적용되지 않는다는 것을 의미하므로 NetApp Service Engine은 Keystone 가입 시 QoS 정책을 관리할 수 없습니다. 편집 펜을 통해 개체를 수정하고 적절한 서비스 수준을 할당할 수 있습니다. 이렇게 하면 해당 개체의 상태가 작업 상태로 변경됩니다.
 
-* * Non-Standard. * NetApp 서비스 엔진 외부에서 프로비저닝된 객체는 NetApp Keystone Flex Subscription(Flex Subscription) 기준을 충족하지 않을 경우 이 상태로 가져옵니다.
+* * Non-Standard. * NetApp 서비스 엔진 외부에서 프로비저닝된 객체는 NetApp Keystone 등록 기준을 충족하지 않을 경우 이 상태로 가져옵니다.
 +
 
-NOTE: 이 상태는 일반적으로 Flex Subscription의 일부로 NetApp 서비스 엔진에서 관리할 하나 이상의 조건이 개체가 누락됨을 의미합니다. 가능합니다 link:https://docs.netapp.com/us-en/keystone/sewebiug_raise_a_service_request.html["서비스 요청을 제출하십시오"] NetApp Service Engine 포털을 통해 표준화 및 관리되며 지원 팀이 작동합니다.
+NOTE: 이 상태는 일반적으로 Keystone 가입 시 NetApp 서비스 엔진이 관리하는 하나 이상의 기준이 누락된 개체를 의미합니다. 가능합니다 link:https://docs.netapp.com/us-en/keystone/sewebiug_raise_a_service_request.html["서비스 요청을 제출하십시오"] NetApp Service Engine 포털을 통해 표준화 및 관리되며 지원 팀이 작동합니다.
 
 * * 지원 부서에 문의. * 이 상태는 프로비저닝 또는 수정 작업이 완전히 완료되지 못할 때 발생합니다. 이 상태의 항목에 대해서는 지원 요청을 제기하여 문제를 해결하십시오.
 * * 운영(백업의 소스 객체) * 가능한 상태는 다음과 같습니다.

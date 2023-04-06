@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: nkfsosm_performance.html 
-keywords: netapp, keystone, performance, 
-summary: 유연한 Keystone 구독 성능 
+keywords: netapp, keystone, performance, service levels 
+summary: Keystone 퍼포먼스 서비스 수준 
 ---
 = 서비스 레벨
 :hardbreaks:
@@ -14,11 +14,11 @@ summary: 유연한 Keystone 구독 성능
 
 
 [role="lead"]
-NetApp Keystone 유연한 구독(유연한 구독)은 사전 정의된 성능 서비스 수준(서비스 수준)에서 용량을 제공합니다.
+NetApp Keystone은 사전 정의된 성능 서비스 수준(서비스 수준)에서 용량을 제공합니다.
 
 각 서비스 수준은 I/O 밀도로 정의됩니다. 이 비율은 IOPS/TiB인 성능(IOPS) 및 사용된 스토리지(저장된 데이터의 TiB)의 비율입니다.
 
-Flex Subscription 서비스에서 관리하는 각 볼륨은 서비스 수준과 연결됩니다. 각 볼륨에서 사용된 모든 I/O 작업과 사용된 모든 스토리지는 볼륨의 I/O 밀도 계산에 포함됩니다.
+Keystone 서비스로 관리되는 각 볼륨은 서비스 수준과 연결되어 있습니다. 각 볼륨에서 사용되는 모든 I/O 작업과 사용된 모든 스토리지는 볼륨의 I/O 밀도 계산에 포함됩니다.
 
 아래 표에는 서비스 수준이 정의되어 있습니다.
 
@@ -129,4 +129,4 @@ NOTE: ^1^NetApp 직접 기회에 대한 파일 공유와 블록 서비스 수준
 
 NOTE: ^1^NetApp 직접 기회에 대한 파일 공유와 블록 서비스 수준을 결합할 경우 최소 1년 및 100TiB 최소 용량을 제공합니다. ^2^채널 주도 기회를 위해 선택한 서비스 계층당 최소 1년 기간 및 최소 명시된 용량. ^3^ 두 기회 유형 중 하나에 대해 선택한 서비스 계층당 최소 1년 기간 및 최소 명시된 용량.
 
-NetApp Service Engine 사용자 인터페이스의 여러 화면에서 구독에 서비스 수준을 할당할 수 있습니다. 자세한 내용은 을 참조하십시오 link:nkfsosm_tenancy_overview.html["유연한 서브스크립션의 테넌시 및 멀티 테넌시"].
+NetApp Service Engine 사용자 인터페이스의 여러 화면에서 구독에 서비스 수준을 할당할 수 있습니다. 자세한 내용은 을 참조하십시오 link:nkfsosm_tenancy_overview.html["Keystone의 테넌시 및 멀티 테넌시"].

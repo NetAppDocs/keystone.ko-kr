@@ -4,7 +4,7 @@ permalink: nkfsfaq_keystone_subscription.html
 keywords: netapp, keystone, subscription, subscriptions, 
 summary: NetApp Keystone 구독 
 ---
-= NetApp Keystone 유연한 구독 FAQ
+= NetApp Keystone FAQ 를 참조하십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,23 +14,23 @@ summary: NetApp Keystone 구독
 
 
 [role="lead"]
-다음 질문을 통해 NetApp Keystone 유연한 구독 서비스에 대한 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.
+다음 질문을 통해 NetApp Keystone Keystone 서비스에 대한 잦은 쿼리에 대한 답변을 제공합니다.
 
-* NetApp Keystone 유연한 구독의 일부로 제공되는 사항 * NetApp Keystone 유연한 구독(유연한 구독)은 블록, 파일 및 오브젝트 데이터 서비스에 대한 구독 기반 서비스로, 사내에 구축할 수 있으며 NetApp, 파트너 또는 고객이 직접 운영할 수 있습니다.
+* NetApp Keystone의 일부로 제공되는 사항 * NetApp Keystone은 블록, 파일 및 오브젝트 데이터 서비스에 대한 가입형 기반 서비스 오퍼링으로, 사내에 구축할 수 있으며 NetApp, 파트너 또는 고객이 이용할 수 있습니다.
 
-* Flex Subscription의 일부로 제공되는 스토리지 서비스는 무엇입니까? * 자세한 내용은 를 참조하십시오 link:nkfsosm_performance.html["서비스 레벨"]
+* Keystone의 일부로 제공되는 스토리지 서비스 제공은 무엇입니까? * 자세한 내용은 를 참조하십시오 link:nkfsosm_performance.html["서비스 레벨"]
 
 * 지원되는 애드온 서비스는 무엇입니까? * 고급 데이터 보호(백업 및 재해 복구) 및 FabricPool 지원 하이브리드 클라우드 계층화는 추가 비용으로 선택할 수 있는 애드온 서비스입니다.
 
 * NetApp이 서비스 수준에서 어떤 서비스 수준을 보장합니까? * NetApp 운영 시나리오에서, NetApp Keystone은 프로비저닝되는 스토리지에 대한 IOPS/TiB와 각 서비스 수준에 대한 지연 시간을 보장합니다.
 
-* Flex Subscription은 무엇에 매핑됩니까? * Flex Subscription은 단일 사이트 또는 단일 데이터 센터에 매핑되며 다양한 서비스 수준으로 구성될 수 있습니다.
+* Keystone은 단일 사이트 또는 단일 데이터 센터에 매핑되며 다양한 서비스 수준으로 구성될 수 있습니다.
 
 * 최고 수준의 계층화 및 프리미엄 계층화 서비스 수준의 이점은 무엇입니까? * 계층화는 최고 수준의 계층화 및 프리미엄 계층화 서비스 수준에서 지원되며, 이를 통해 스토리지 설치 공간과 관련 비용을 줄일 수 있습니다. NetApp은 데이터의 25%가 핫 데이터라고 가정하며, 나머지 75%는 사용 빈도가 적거나 콜드 스토리지로 이동합니다. 또한 사용 현황 보고서를 확인하여 데이터 액세스 빈도를 파악하고 해당 정보를 기반으로 계층화 서비스를 설정할 수 있습니다.
 
 파트너는 NetApp에서 고객에게 구입한 것보다 더 많은 용량을 판매할 수 있습니까? * 테넌트 가입은 파트너가 구입한 용량에 의해 제한되지 않습니다. 파트너는 NetApp에서 고객에게 판매한 용량보다 더 많은 용량을 판매할 수 있습니다. 구입한 용량을 초과하는 용량을 초과 할당이라고 합니다.
 
-* 고객 툴과 통합하기 위해 API가 제공됩니까? * 예, RESTful API를 자체 애플리케이션에 통합할 수 있습니다. 지원 > API Documentation * 으로 이동하여 Flex Subscription 서비스에 대한 API 설명서를 확인하십시오. 자세한 내용은 를 참조하십시오 link:https://docs.netapp.com/us-en/keystone/seapiref_overview_of_netapp_service_engine_apis.html["Keystone 유연한 구독 API 가이드"].
+* 고객 툴과 통합하기 위해 API가 제공됩니까? * 예, RESTful API를 자체 애플리케이션에 통합할 수 있습니다. Keystone 서비스에 대한 API 설명서를 보려면 * 지원 > API 설명서 * 로 이동하십시오. 자세한 내용은 를 참조하십시오 link:https://docs.netapp.com/us-en/keystone/seapiref_overview_of_netapp_service_engine_apis.html["Keystone Keystone API 가이드"].
 
 * 버스트 용량이란? * 사용량을 약정 용량보다 20% 이상 증가 또는 감소시킬 수 있습니다. 최대 용량 사용량은 매일 측정되며 사용 시에만 비용이 청구됩니다. 예를 들어, 커밋된 용량이 100TiB인 경우 최대 120TiB까지 늘릴 수 있습니다.
 
@@ -44,7 +44,7 @@ summary: NetApp Keystone 구독
 
 * 약정 용량 사용량의 특정 비율에 도달하면 알림이 표시됩니까? * 예. 관리 툴은 NetApp Service Engine 대시보드를 통해 용량 사용에 대한 알림을 제공합니다.
 
-* Flex Subscription 사용량을 보려면 어떻게 해야 합니까? * NetApp 서비스 엔진은 구독하는 모든 서비스와 소비되는 양에 대한 정보가 포함된 대시보드 뷰를 제공합니다. NetApp 서비스 엔진에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/keystone/sewebiug_overview.html["여기"].
+* Keystone 사용량을 보려면 어떻게 해야 합니까? * NetApp 서비스 엔진은 등록된 모든 서비스와 소비되는 양에 대한 정보가 포함된 대시보드 뷰를 제공합니다. NetApp 서비스 엔진에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/keystone/sewebiug_overview.html["여기"].
 
 * 서비스와 관련된 문제는 어떻게 보고합니까? * NetApp Keystone 지원은 다음과 같은 다양한 채널을 통해 제공됩니다.
 

@@ -16,7 +16,7 @@ summary: Keystone 뷰 공유
 [role="lead"]
 공유 * 목록에는 선택한 테넌트에 속한 파일 공유가 표시됩니다. 목록을 보려면 메뉴에서 * 파일 서비스 > 공유 * 를 선택합니다.
 
-기존 환경에 이미 포함되어 있고 NetApp 서비스 엔진에 구성된 스토리지 VM에 속한 파일 공유는 이 화면에서 확인할 수 있으며 NetApp Keystone 유연한 구독(Flex Subscription) 서비스의 일부로 관리할 수 있습니다. NetApp 서비스 엔진 외부에서 프로비저닝된 파일 공유를 정기적으로 가져와 이 페이지에 적절한 상태 코드와 함께 나열합니다.
+기존 환경에 이미 포함되어 있고 NetApp 서비스 엔진에 구성된 스토리지 VM에 속한 파일 공유는 이 화면에서 확인할 수 있으며 NetApp Keystone 구독 서비스의 일부로 관리됩니다. NetApp 서비스 엔진 외부에서 프로비저닝된 파일 공유를 정기적으로 가져와 이 페이지에 적절한 상태 코드와 함께 나열합니다.
 
 가져온 파일 공유가 NetApp Service Engine의 허용 가능한 표준에 부합한다면, 즉 공유 작업을 제공하는 데 필요한 모든 매개 변수를 'Operational' 상태로 가져오고 NetApp Service Engine을 통해 직접 관리할 수 있습니다. 그러나 일부 공유가 NetApp Service Engine의 기존 공유와 동일한 표준을 사용하지 못할 수 있습니다. 가져오기 후 해당 파일 공유는 가져오기 또는 Non-Standard 상태로 분류됩니다. 볼륨 상태 및 작동 단계에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/keystone/sewebiug_netapp_service_engine_web_interface_overview.html#Object-states["개체 상태"]
 

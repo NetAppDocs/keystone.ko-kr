@@ -14,7 +14,7 @@ summary: Keystone 서비스 수준 메트릭 및 정의
 
 
 [role="lead"]
-다음 용어와 정의는 NetApp Keystone Flex 가입(Flex subscription) 서비스에서 사용됩니다.
+NetApp Keystone에는 다음과 같은 용어와 정의가 사용됩니다.
 
 * * GiB, TiB 및 PiB. * 1024의 기수를 사용한 데이터 스토리지 용량 측정(1GiB = 1024^3^바이트, 1TiB = 1024^4^바이트, 1PiB = 1024^5^바이트)
 * * IOPS/TiB. * 애플리케이션에서 요청하는 초당 프로토콜 작업을 할당된 볼륨 논리 크기로 나눕니다.

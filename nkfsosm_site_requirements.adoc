@@ -14,13 +14,13 @@ summary: Keystone 사이트 요구사항
 
 
 [role="lead"]
-귀사의 환경에서 공간, 랙, PDU, 전원, 디스크, 디스크, 디스크, 디스크, 디스크, 디스크, NetApp Keystone 그리고 냉각, 네트워크 및 보안 요구 사항 추가 논의.
+기존 환경에 NetApp Keystone 서비스를 사용하기 위해서는 공간, 랙, PDU, 전원, 디스크, 그리고 냉각, 네트워크 및 보안 요구 사항 추가 논의.
 
 
 
 == 공간
 
-고객이 제공할 Flex Subscription 인프라 장비를 호스팅할 설치 공간. NetApp은 최종 구성을 기준으로 중량 사양을 제공합니다.
+Keystone 인프라 장비를 호스팅할 설치 공간(고객이 제공) NetApp은 최종 구성을 기준으로 중량 사양을 제공합니다.
 
 
 
@@ -52,4 +52,4 @@ NetApp은 최종 구성 및 요구사항에 따라 냉각 요구사항 사양(�
 
 고객의 요구사항과 사용된 스토리지 컨트롤러에 따라 NetApp은 고객 사이트에서 10GiB, 40GiB 및 100GiB 연결을 제공할 수 있습니다.
 
-NetApp은 NetApp에서 제공하는 Flex Subscription Infrastructure 장치에 필요한 트랜시버만 제공합니다. 고객 장치에 필요한 송수신기 및 NetApp에서 제공하는 Flex Subscription 인프라 장치에 케이블을 연결해야 합니다.
+NetApp은 NetApp에서 제공하는 Keystone 인프라 장치에만 필요한 트랜시버를 제공합니다. 고객 장치에 필요한 트랜시버와 NetApp에서 제공하는 Keystone 인프라 장치에 케이블을 연결해야 합니다.

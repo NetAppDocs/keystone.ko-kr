@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: nkfsosm_kfs_billing.html 
-keywords: netapp, keystone, billing, flex subscription billing logic, charges, charging, billing cycle, billing schedule, MetroCluster billing, TMP temporary volumes, Adaptive QoS policy billing, cloned volumes, burst billing 
-summary: Keystone 유연한 구독 청구 
+keywords: netapp, keystone, billing, Keystone billing logic, charges, charging, billing cycle, billing schedule, MetroCluster billing, TMP temporary volumes, Adaptive QoS policy billing, cloned volumes, burst billing 
+summary: Keystone 청구 
 ---
-= 유연한 구독 요금 청구
+= Keystone 청구
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,21 +14,21 @@ summary: Keystone 유연한 구독 청구
 
 
 [role="lead"]
-NetApp Keystone 유연한 구독(유연한 구독)을 통해 스토리지 구독에 대한 예측 가능하고 사전 구매 가격을 책정할 수 있습니다.
+NetApp Keystone은 스토리지 구독에 대해 예측 가능하고 사전 가격이 책정될 수 있도록 지원합니다.
 
-자본 지출(CapEx) 또는 임대보다 운영 비용(OpEx) 소비 모델을 선호하는 경우, 유연하고 확장 가능한 소비 요구사항에 맞게 Flex Subscription 성장에 따른 지불 모델을 선택할 수 있습니다.
+자본 지출(CapEx) 또는 임대보다 운영 비용(OpEx) 소비 모델을 선호한다면, 유연하고 확장 가능한 소비 요구사항을 위해 Keystone 종량제 모델을 선택할 수 있습니다.
 
-Flex Subscription은 다음과 같은 청구 기능을 제공합니다.
+Keystone은 다음과 같은 청구 시설을 제공합니다.
 
-* 다양한 워크로드 요구사항을 충족하기 위해 IOPS 및 지연 시간 성능을 기준으로 결제 가능 Extreme, Premium, Standard, Value 등 다양한 성능 서비스 계층을 통해 구입한 Flex Subscription 서비스 수준에 따라 스토리지를 관리할 수 있습니다.
+* 다양한 워크로드 요구사항을 충족하기 위해 IOPS 및 지연 시간 성능을 기준으로 결제 가능 Extreme, Premium, Standard, Value 등의 다양한 성능 서비스 계층을 사용하면 Keystone 서비스에 대해 구매한 서비스 수준을 기반으로 스토리지를 관리할 수 있습니다.
 * 약정 용량에 대한 예측 가능한 청구와 가변(버스트) 용량 사용량에 대한 종량제 비용을 표시합니다.
 * 하드웨어, 코어 OS의 번들 가격을 선택하고 $/TiB 단일 가격을 지원할 수 있습니다. 각 스토리지 유형, 파일, 블록, 오브젝트 또는 클라우드 스토리지 서비스에 대한 단일 송장이 있습니다.
 * 서비스 및 결제에 대해 유연한 기간을 선택하십시오. 사이트당 12개월, 100TiB 이상을 선택할 수 있습니다. 그 이후에는 12개월 동안 자동 갱신하거나 월 단위로 갱신할 수 있습니다.
 
 
-Flex Subscription 청구는 약정 용량 및 가변 버스트 사용량을 기반으로 합니다.
+Keystone 청구는 확정된 용량 및 가변 버스트 소비를 기반으로 합니다.
 
-커밋된 용량 및 버스트 용량 사용에 대한 자세한 내용은 을 참조하십시오 link:nkfsosm_keystone_service_capacity_definitions.html["유연한 구독 서비스 용량 정의"].
+커밋된 용량 및 버스트 용량 사용에 대한 자세한 내용은 을 참조하십시오 link:nkfsosm_keystone_service_capacity_definitions.html["Keystone 서비스 용량 정의"].
 
 청구 세부 정보를 보는 방법에 대한 자세한 내용은 를 참조하십시오 link:sewebiug_billing.html["청구 보기"].
 
@@ -36,10 +36,10 @@ Flex Subscription 청구는 약정 용량 및 가변 버스트 사용량을 기�
 
 == 약정 용량에 따른 청구
 
-약정 용량은 관련 당사자(NetApp/파트너 및 고객)가 합의한 단일 가입으로 다양한 서비스의 용량을 가리킵니다. 이 용량은 각 Flex Subscription 주문에 명시되어 있으며 실제 소비에 관계없이 청구됩니다.
+약정 용량은 관련 당사자(NetApp/파트너 및 고객)가 합의한 단일 가입으로 다양한 서비스의 용량을 가리킵니다. 이 용량은 실제 소비량과 관계없이 각 Keystone 주문에 명시되어 있으며 청구됩니다.
 
 .사용된 용량을 측정할 수 있습니다
-NetApp은 Flex Subscription 서비스 배포의 일부로 서비스 사용을 지속적으로 모니터링 및 측정합니다. 5분마다 시스템에서 서브스크립션 서비스 이용 용량을 상세히 설명하는 소비 레코드가 생성됩니다. 이러한 레코드는 청구서 및 사용 보고서를 생성하기 위해 청구 기간 동안 집계됩니다.
+Keystone 서비스 구축의 일부로 NetApp은 서비스 소비를 지속적으로 모니터링하고 측정합니다. 5분마다 시스템에서 서브스크립션 서비스 이용 용량을 상세히 설명하는 소비 레코드가 생성됩니다. 이러한 레코드는 청구서 및 사용 보고서를 생성하기 위해 청구 기간 동안 집계됩니다.
 
 
 
@@ -51,7 +51,7 @@ NetApp은 Flex Subscription 서비스 배포의 일부로 서비스 사용을 �
 
 == 청구 일정
 
-유연한 구독 서비스는 매월 및 매년 청구됩니다.
+Keystone 서비스는 매월 및 매년 청구됩니다.
 
 .월간 청구
 송장은 매월 발송됩니다. 서비스를 사용할 수 있는 달의 경우 다음 달에 송장이 전송됩니다. 예를 들어 1월에 사용한 서비스에 대한 송장은 2월 초에 배달됩니다. 이 송장에는 약정 용량에 대한 비용 및 해당되는 경우 버스트 사용료가 포함됩니다.
@@ -60,13 +60,13 @@ NetApp은 Flex Subscription 서비스 배포의 일부로 서비스 사용을 �
 송장은 약정 용량의 최소 지불을 위해 각 가입 연도가 시작될 때 생성됩니다. 서브스크립션 시작 날짜에 생성됩니다. 다른 송장은 해당 분기에 발생한 버스트 사용량에 대한 적용 가능한 요금을 합산하여 가입 분기 말에 발송됩니다. 약정 중에 약정 용량이 변경된 경우, 약정된 용량의 변경이 발효되는 당일 송장이 발송되며, 해당 서브스크립션 연도의 나머지 기간에 대해 비례 배분된 최소 지급액을 지불하게 됩니다.
 
 .연속 청구 시 유예 기간
-가입 활성화 후 처음 60일 동안 적립된 모든 버스트 소비는 기록되지만 Flex Subscription 인보이스에 청구되지는 않습니다. 이 유예 기간은 적절한 AQoS(Adaptive Quality of Service) 설정으로 스토리지를 구성할 수 있는 시간을 부여하여 적절하게 모니터링하고 비용을 청구할 수 있도록 합니다. 스토리지를 올바르게 구성하면 예기치 않은 버스트 비용을 방지할 수 있습니다. 60일의 초기 유예 기간 이후에 발생한 모든 버스트 사용량은 다음 송장에 청구됩니다. 이 유예 기간은 기존 구독의 수정 또는 갱신에 영향을 주지 않습니다.
+가입 활성화 후 처음 60일 동안에는 누적된 모든 버스트 소비가 기록되지만 Keystone 서비스 송장에 비용이 청구되지 않습니다. 이 유예 기간은 적절한 AQoS(Adaptive Quality of Service) 설정으로 스토리지를 구성할 수 있는 시간을 부여하여 적절하게 모니터링하고 비용을 청구할 수 있도록 합니다. 스토리지를 올바르게 구성하면 예기치 않은 버스트 비용을 방지할 수 있습니다. 60일의 초기 유예 기간 이후에 발생한 모든 버스트 사용량은 다음 송장에 청구됩니다. 이 유예 기간은 기존 구독의 수정 또는 갱신에 영향을 주지 않습니다.
 
 
 
-== Flex Subscription 청구에 대한 기타 시나리오
+== Keystone 청구를 위한 기타 시나리오
 
-Flex Subscription Billing에는 몇 가지 시나리오가 있으며, 이러한 시나리오에 대해 잘 알고 있어야 합니다.
+Keystone 청구에는 여러 시나리오가 있으며, 이러한 시나리오에 대해 잘 알고 있어야 합니다.
 
 
 
@@ -84,9 +84,9 @@ ONTAP에서 볼륨을 클로닝하고 이를 사용하여 데이터를 백업 �
 
 === MetroCluster에 대한 청구
 
-고급 데이터 보호 기능은 NetApp MetroCluster를 사용하여 물리적으로 분리된 두 클러스터 간에 데이터를 미러링합니다. MetroCluster 미러링된 애그리게이트에서는 데이터가 각 클러스터에 한 번씩 두 번 기록됩니다. Flex Subscription 서비스 요금은 각 측에서 독립적으로 소비하므로 동일한 2개의 소비 기록이 생성됩니다. ONTAP 시스템 관리자(System Manager) 또는 Active IQ Unified Manager(Unified Manager)를 통해 클러스터를 모니터링할 경우 이러한 툴과 유연한 구독에 보고된 소비 내용이 일치하지 않을 수 있습니다. System Manager와 Unified Manager는 미러링된(원격) 클러스터에 볼륨을 보고하지 않으며, Flex Subscription 서비스에서 보고하는 소비 메트릭의 절반을 보고합니다.
+고급 데이터 보호 기능은 NetApp MetroCluster를 사용하여 물리적으로 분리된 두 클러스터 간에 데이터를 미러링합니다. MetroCluster 미러링된 애그리게이트에서는 데이터가 각 클러스터에 한 번씩 두 번 기록됩니다. Keystone 서비스는 각 측면에서 독립적으로 소비에 청구되므로 두 개의 동일한 소비 레코드가 생성됩니다. ONTAP 시스템 관리자(System Manager) 또는 Active IQ Unified Manager(Unified Manager)를 통해 클러스터를 모니터링하는 경우 이러한 툴과 Keystone 서비스에 보고된 소비 내용이 일치하지 않을 수 있습니다. System Manager 및 Unified Manager는 미러링된(원격) 클러스터에 볼륨을 보고하지 않으며, Keystone 서비스가 보고하는 소비 메트릭의 절반만 보고합니다.
 
-예를 들어 사이트 A와 사이트 B는 MetroCluster 구성에서 설정됩니다. 사용자가 사이트 A에서 10TB의 볼륨을 생성하면 사이트 B에서 동일한 10TB의 볼륨이 생성됩니다 Flex Subscription은 볼륨을 구분하고 각 사이트에서 10TB의 추가 소비를 기록하며 총 20TB를 늘립니다. System Manager 및 Unified Manager에서 사이트 A에서 10TB 볼륨을 생성했다고 보고합니다
+예를 들어 사이트 A와 사이트 B는 MetroCluster 구성에서 설정됩니다. 사용자가 사이트 A에서 10TB의 볼륨을 생성하면 사이트 B에서 동일한 10TB의 볼륨이 생성됩니다 Keystone은 볼륨을 구분하고 각 사이트에서 10TB의 추가 소비를 기록하며 총 20TB를 늘립니다. System Manager 및 Unified Manager에서 사이트 A에서 10TB 볼륨을 생성했다고 보고합니다
 
 
 
@@ -98,7 +98,7 @@ ONTAP에서 볼륨을 클로닝하고 이를 사용하여 데이터를 백업 �
 
 === 청구 및 적응형 QoS 정책
 
-Flex Subscription은 서비스 수준에 따라 사용량을 측정합니다. 각 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 배포 중에는 구독한 Flex Subscription 서비스에 대한 각 QoS 정책에 대한 세부 정보가 제공됩니다. 스토리지 관리 작업 중에 예상치 못한 청구가 발생하지 않도록 서비스 수준에 따라 볼륨에 적절한 QoS 정책이 할당되었는지 확인합니다. ONTAP의 QoS 정책에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS 개요를 통해 처리량 보장"].
+Keystone은 서비스 수준을 기준으로 소비를 측정합니다. 각 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 구축하는 동안 구독한 Keystone 서비스에 대한 각 QoS 정책에 대한 세부 정보가 제공됩니다. 스토리지 관리 작업 중에 예상치 못한 청구가 발생하지 않도록 서비스 수준에 따라 볼륨에 적절한 QoS 정책이 할당되었는지 확인합니다. ONTAP의 QoS 정책에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS 개요를 통해 처리량 보장"].
 
 
 
@@ -136,4 +136,4 @@ Keystone 가입 시 FabricPool 기술 사용에 대한 자세한 내용은 을 �
 
 === 시스템 및 루트 볼륨에 대한 청구
 
-시스템과 루트 볼륨은 Flex Subscription 서비스의 전체 모니터링의 일부로 모니터링되지만 계산되거나 청구되지는 않습니다. 이러한 볼륨에 대한 소비는 청구 대상에서 제외됩니다.
+시스템과 루트 볼륨은 Keystone 서비스의 전체 모니터링의 일부로 모니터링되지만 계산되거나 청구되지는 않습니다. 이러한 볼륨에 대한 소비는 청구 대상에서 제외됩니다.

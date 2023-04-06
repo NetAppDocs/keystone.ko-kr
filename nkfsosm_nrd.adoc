@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: nkfsosm_nrd.html 
 keywords: netapp, keystone, NRD, Non-returnable disk 
-summary: 유연한 Keystone 구독 및 Equinix 
+summary: Keystone과 Equinix 
 ---
 = 반품 불가 디스크 서비스입니다
 :hardbreaks:
@@ -14,14 +14,14 @@ summary: 유연한 Keystone 구독 및 Equinix
 
 
 [role="lead"]
-NetApp Keystone 유연한 구독(유연한 구독)의 일부로, NetApp은 반품 불가 디스크(NRD) 오퍼링을 확장합니다.
+NetApp Keystone 서비스의 일환으로 NetApp은 반품 불가 디스크(NRD) 오퍼링을 확장합니다.
 
-유연한 구독용 NRD 오퍼링을 구매한 경우 NetApp은 지원 및 유지 관리 작업으로 인해 전체 서비스 기간 동안 사용된 물리적 스토리지 미디어를 복구하지 않으며, 그렇지 않을 경우 NetApp이 서비스 제공에 사용되는 모든 물리적 자산을 복구합니다.
+Keystone용 NRD 오퍼링을 구매한 경우 NetApp은 지원 및 유지보수 활동 때문에 전체 서비스 기간 동안 사용된 물리적 스토리지 미디어를 복구하지 않으며, 서비스 제공 시 사용된 모든 물리적 자산을 NetApp에서 복구하지 않습니다.
 
 이 서비스를 구입한 경우 다음 사항에 유의하십시오.
 
 * 이 서비스를 구매하더라도 NetApp에서 물리적 스토리지 미디어를 복구하도록 선택할 수 있습니다.
-* NetApp이 미디어 복구에 대해 책임지지 않는 경우 서비스 기간 종료 시 Flex Subscription 서비스 제공에 사용되는 스토리지 미디어를 폐기할 수 있습니다.
+* NetApp이 미디어 복구에 대해 책임지지 않는 경우 서비스 기간 종료 시 Keystone 서비스 제공에 사용되는 스토리지 미디어 또는 디스크를 폐기할 수 있습니다.
 * 서브스크립션 갱신 시 NRD 서비스를 추가, 수정 또는 종료할 수 있으며, 계약 기간 중이지 않을 수 있습니다.
 * NRD 제공과 관련된 비용은 구독의 약정 용량에 따라 변경됩니다. 즉, 구독 기간 중에 약정 용량을 늘리도록 선택하면 NRD 비용도 함께 수정됩니다. 증가되는 용량은 커밋된 용량의 증가량에 비례합니다.
 * 서비스에 사용된 물리적 스토리지 미디어만 보존할 수 있습니다. 컨트롤러, 쉘프, 케이블, 스위치, 네트워크 카드, NetApp 소유의 기타 장비는 NetApp에 의해 복구됩니다.

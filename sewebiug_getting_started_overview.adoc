@@ -27,7 +27,7 @@ NOTE: NetApp Service Engine 포털을 탐색하면 지역 및 영역과 같은 �
 ** NetApp SSO로 로그인하십시오. 자세한 내용은 을 참조하십시오 link:sewebiug_log_in_to_the_netapp_service_engine_web_interface.html["NetApp Service Engine 웹 인터페이스에 로그인합니다"]
 
 
-* Tenant를 선택합니다. 대시보드가 표시됩니다. 자세한 내용은 을 참조하십시오 link:sewebiug_dashboard.html["Flex Subscription 대시보드 보기"]
+* Tenant를 선택합니다. 대시보드가 표시됩니다. 자세한 내용은 을 참조하십시오 link:sewebiug_dashboard.html["Keystone 대시보드 보기"]
 
 
 NetApp Service Engine 웹 인터페이스 개요는 을 참조하십시오 link:sewebiug_netapp_service_engine_web_interface_overview.html["NetApp Service Engine 웹 인터페이스 개요"]

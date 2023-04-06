@@ -4,12 +4,12 @@ permalink: nkfsosm_netapp_global_services_and_support_center_@gssc@.html
 keywords: netapp, keystone, global, services, support, center, gssc, 
 summary: 'NetApp 글로벌 서비스 및 지원 센터(GSSC)' 
 ---
-= 유연한 구독 서비스 운영
+= Keystone 서비스 운영
 :allow-uri-read: 
 
 
 [role="lead"]
-NetApp Keystone 유연한 구독 서비스는 NetApp 글로벌 서비스 및 지원 센터(GSSC), NetApp Keystone 성공 관리자 및 NetApp Keystone 서비스 제공 관리자를 활용하여 실행됩니다.
+NetApp Keystone Keystone 서비스는 NetApp 글로벌 서비스 및 지원 센터(GSSC), NetApp Keystone 성공 매니저, NetApp Keystone 서비스 제공 관리자를 활용하여 실행됩니다.
 
 
 
@@ -21,7 +21,7 @@ NetApp은 NetApp Keystone 고객에게 운영 서비스를 원격으로 제공�
 
 == 추가 정보 및 지원 연락처
 
-NetApp 글로벌 서비스 및 지원 센터(GSSC) 팀은 기본적으로 NetApp Keystone 유연한 구독 고객에 대한 서비스를 지원합니다.
+NetApp 글로벌 서비스 및 지원 센터(GSSC) 팀은 주로 NetApp Keystone 고객에 대한 서비스를 지원합니다.
 
 NetApp 서비스 엔진 포털(* 지원 > 서비스 요청*)에서 지원 관련 문제에 대한 자세한 내용을 확인하십시오.
 
