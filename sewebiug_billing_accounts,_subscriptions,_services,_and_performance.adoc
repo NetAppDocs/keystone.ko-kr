@@ -40,10 +40,10 @@ NOTE: 스토리지가 여러 데이터 센터에 필요할 경우 각 데이터 
 
 자세한 내용은 다음을 참조하십시오.
 
-* https://docs.netapp.com/us-en/keystone/sewebiug_working_with_block_storage_overview.html["블록 스토리지"]
-* https://docs.netapp.com/us-en/keystone/sewebiug_working_with_file_services_overview.html["파일 서비스"]
-* https://docs.netapp.com/us-en/keystone/sewebiug_working_with_object_storage_overview.html["오브젝트 스토리지"]
-* https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 설명서"]
+* https://["블록 스토리지"]
+* https://["파일 서비스"]
+* https://["오브젝트 스토리지"]
+* https://["MetroCluster 설명서"]
 
 
 

@@ -18,7 +18,7 @@ summary: NetApp Keystone 개요
 
 * NetApp Keystone란? *
 
-NetApp Keystone은 사내 자본 지출(capex) 대안의 포트폴리오입니다. 자세한 내용은 을 참조하십시오 https://www.netapp.com/services/keystone/["NetApp Keystone"].
+NetApp Keystone은 사내 자본 지출(capex) 대안의 포트폴리오입니다. 자세한 내용은 을 참조하십시오 https://["NetApp Keystone"].
 
 * NetApp Keystone은 고객에게 어떤 이점을 제공합니까? *
 

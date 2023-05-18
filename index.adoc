@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: index.html 
 keywords: netapp, keystone, service, offering, 
-summary: Keystone 설명서 포털에 오신 것을 환영합니다. 
+summary: NetApp Keystone은 클라우드 전반에서 스토리지 비용을 재할당할 수 있는 기능을 통해 온프레미스와 클라우드 데이터 스토리지 서비스 모두에 대한 용량제, 서비스형 스토리지 오퍼링입니다. 
 ---
 = NetApp Keystone 설명서
 :hardbreaks:
@@ -15,7 +15,7 @@ summary: Keystone 설명서 포털에 오신 것을 환영합니다.
 
 NetApp Keystone은 클라우드 전환을 지원하는 사내 자본 지출(CapEx) 대체 포트폴리오를 제공합니다. NetApp Keystone은 사내와 클라우드에 있는 스토리지 서비스를 통해 원활한 하이브리드 클라우드 경험을 제공합니다. NetApp Keystone에 대한 자세한 내용은 를 참조하십시오 link:https://www.netapp.com/services/subscriptions/keystone/["NetApp Keystone"]
 
-NetApp Keystone에 대한 자세한 내용은 를 참조하십시오 https://www.netapp.com/services/keystone/["NetApp Keystone"].
+NetApp Keystone에 대한 자세한 내용은 를 참조하십시오 https://["NetApp Keystone"].
 
 Keystone은 온프레미스 시스템에서 클라우드와 같은 경험을 제공하며 귀사의 상황에 맞게 클라우드에 연결할 수 있는 서비스형 스토리지 오퍼링입니다.
 
@@ -25,7 +25,7 @@ Keystone은 온프레미스 시스템에서 클라우드와 같은 경험을 제
 
 Keystone은 확장 가능한 용량제 구독 기반 서비스 모델로, OpEx 소비 모델을 선호하는 투자자들에게 원활한 하이브리드 클라우드 경험을 제공하여 자본 지출 또는 임대를 지원합니다. 따라서 고객은 예측할 수 없는 용량 증가를 관리하고 복잡한 조달 주기를 따르는 데 따르는 복잡성을 줄임으로써 가치 창출 시간을 단축할 수 있습니다. Keystone을 통해 고객은 비즈니스 우선순위에 맞게 경제성과 운영을 조정할 수 있습니다.
 
-image:nkfsosm_image2.png["오류: 그래픽 이미지가 없습니다"]
+image:nkfsosm_image2.png["키스톤 아치"]
 
 Keystone은 미리 정의된 성능 서비스 수준(서비스 수준)에 스토리지 용량을 제공하는 구독 기반 서비스 오퍼링으로, 온프레미스 및 NetApp, 파트너, 고객이 운영하는 블록, 파일, 오브젝트 데이터 유형에 대해 제공합니다. Keystone이 제공하는 기본 서비스 외에도 추가 비용을 통해 애드온 서비스를 선택할 수 있습니다. 이러한 서비스는 아래 그림에 설명되어 있습니다.
 
@@ -36,7 +36,7 @@ Keystone은 미리 정의된 성능 서비스 수준(서비스 수준)에 스토
 
 NOTE: Keystone은 백업 작업에 SnapVault 기술을 사용하고 재해 복구에 SnapMirror를 사용하여 데이터를 원격으로 복제하며, 애플리케이션 페일오버 및 복원을 자동으로 수행하지 않습니다.
 
-image:nkfsosm_image3.png["오류: 그래픽 이미지가 없습니다"]
+image:nkfsosm_image3.png["Keystone 서비스"]
 
 
 
@@ -53,4 +53,4 @@ Keystone은 다음과 같은 이점을 제공합니다.
 * 규정 준수, 성능 및 보안을 적절하게 제어할 수 있습니다
 
 
-image:nkfsosm_image4.png["오류: 그래픽 이미지가 없습니다"]
+image:nkfsosm_image4.png["이점"]

@@ -1,12 +1,17 @@
+---
+sidebar: sidebar 
+permalink: nkfsosm_keystone_service_capacity_definitions.html 
+keywords: netapp, keystone, service, capacity, definitions, burst, committed capacity, consumed capacity, billed capacity 
+summary: Keystone 서비스 용량 정의 
+---
 = Keystone 서비스 용량 정의
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
 
-
-정의 사이드바: 사이드바 고정 링크: nkfsosm_keystone_service_capacity_definitions.html 키워드: NetApp, Keystone, 서비스, 용량, 정의 최대 사용량, 약정 용량, 사용된 용량, 청구 용량 요약: Keystone 서비스 용량 정의 --
-
-
-
-= Keystone 서비스 용량 정의
 
 [role="lead"]
 NetApp Keystone 서비스 용량은 다음과 같습니다.

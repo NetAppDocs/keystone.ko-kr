@@ -34,7 +34,7 @@ Keystone 인프라에는 여러 구성요소가 포함되어 있습니다.
 
 NetApp Keystone와 Active IQ 통합에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/active-iq/["Active IQ 디지털 자문 문서"]
 
-image:nkfsosm_image8.png["오류: 그래픽 이미지가 없습니다"]
+image:nkfsosm_image8.png["KS - 인프라"]
 
 
 
@@ -46,7 +46,7 @@ NetApp 서비스 엔진 웹 포털을 사용하여 NetApp, 파트너 또는 고�
 * 고급 설정 및 스토리지 관리 작업을 지원하는 NetApp Service Engine REST API 세트
 
 
-image:nkfsosm_image9.png["오류: 그래픽 이미지가 없습니다"]
+image:nkfsosm_image9.png["KS - 아키텍처"]
 
 NetApp 서비스 엔진 포털은 고객이 다음 작업을 수행할 수 있는 단일 인터페이스입니다.
 

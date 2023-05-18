@@ -27,9 +27,9 @@ NetApp 서비스 엔진 포털(* 지원 > 서비스 요청*)에서 지원 관련
 
 다음 정보를 사용하여 지원 팀에 연락할 수도 있습니다.
 
-* 글로벌 서비스 연락처:https://www.netapp.com/us/contact-us/support.aspx[]
+* 글로벌 서비스 연락처:https://[]
 * 에스컬레이션해야 하는 미해결 케이스/티켓이 있는 경우 다음 주소 중 하나로 이메일을 보내주시기 바랍니다. Keystone.services@netapp.com Keystone.escalations@netapp.com
-* NetApp은 문제 해결을 위해 클라우드 기반 원격 게이트웨이 솔루션인 OpsRamp를 사용하여 NetApp Keystone 환경을 능동적으로 모니터링하고 연결합니다. OpsRamp에 대한 자세한 내용은 를 참조하십시오 https://www.opsramp.com/#[].
+* NetApp은 문제 해결을 위해 클라우드 기반 원격 게이트웨이 솔루션인 OpsRamp를 사용하여 NetApp Keystone 환경을 능동적으로 모니터링하고 연결합니다. OpsRamp에 대한 자세한 내용은 를 참조하십시오 https://[].
 
 
 
@@ -37,6 +37,6 @@ NOTE: 파트너 운영 모델에서는 테넌트 및 서브테넌트의 서비�
 
 이 문서에 설명된 정보에 대해 자세히 알아보려면 다음 문서 및/또는 웹 사이트를 검토하십시오.
 
-* NetApp Keystonehttps://www.netapp.com/us/solutions/keystone/index.aspx["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
-* NetApp 제품 설명서https://docs.netapp.com["https://docs.netapp.com"^]
+* NetApp Keystonehttps://["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
+* NetApp 제품 설명서https://["https://docs.netapp.com"^]
 

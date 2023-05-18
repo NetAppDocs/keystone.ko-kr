@@ -50,7 +50,7 @@ summary: Keystone StorageGRID 인스턴스
 | ADMIN_Rest_Uri입니다 | 문자열($Uri) | StorageGRID 관리 노드 엔드포인트 
 
 
-| '3점' | 문자열($Uri) | StorageGRID 끝점. 예: [""https://s3.examplegrid.com"[], "https://s3.location.company.com"`[] ] 
+| '3점' | 문자열($Uri) | StorageGRID 끝점. 예: [""https://[], "https://[] ] 
 
 
 | GRID_USERNAME입니다 | 문자열 | StorageGRID 사용자 이름입니다. 

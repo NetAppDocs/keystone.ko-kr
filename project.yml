@@ -21,6 +21,8 @@ sidebar:
         url: "/nkfsosm_performance.html"
       - title: 서비스 수준 메트릭 및 정의
         url: "/nkfsosm_service_level_metrics_and_definitions.html"
+      - title: Keystone의 적응형 서비스 품질
+        url: "/aqos-kfs.html"
       - title: 청구
         url: "/nkfsosm_kfs_billing.html"
       - title: 데이터 보호

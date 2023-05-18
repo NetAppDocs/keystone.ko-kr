@@ -46,7 +46,7 @@ Keystone은 서비스 제공을 위한 3가지 운영 모델을 제공합니다.
 * 구축
 * 온보드
 
-| image:check.png[""] | 없음 
+| image:check.pngcheck["확인합니다"] | 없음 
 
 
  a| 
@@ -57,7 +57,7 @@ Keystone은 서비스 제공을 위한 3가지 운영 모델을 제공합니다.
 * 관리 작업을 수행합니다
 * 경고
 
-| 없음 | image:check.png[""] 
+| 없음 | image:check.png["확인합니다"] 
 
 
  a| 
@@ -67,7 +67,7 @@ Keystone은 서비스 제공을 위한 3가지 운영 모델을 제공합니다.
 * 성능 관리
 * SLA 관리
 
-| 없음 | image:check.png[""] 
+| 없음 | image:check.png["확인합니다"] 
 
 
  a| 
@@ -78,7 +78,7 @@ Keystone은 서비스 제공을 위한 3가지 운영 모델을 제공합니다.
 * 소프트웨어 지원
 * 업그레이드 및 패치
 
-| image:check.png[""] | 없음 
+| image:check.png["확인합니다"] | 없음 
 |===
 
 

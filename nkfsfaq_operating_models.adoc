@@ -37,7 +37,7 @@ Keystone 서비스에는 3가지 운영 모델이 있습니다. 이러한 FAQ는
 * 구축
 * 온보드
 
-| image:check.png[""] | 없음 
+| image:check.png["확인합니다"] | 없음 
 
 
  a| 
@@ -48,7 +48,7 @@ Keystone 서비스에는 3가지 운영 모델이 있습니다. 이러한 FAQ는
 * 관리 작업을 수행합니다
 * 경고
 
-| 없음 | image:check.png[""] 
+| 없음 | image:check.png["확인합니다"] 
 
 
  a| 
@@ -58,7 +58,7 @@ Keystone 서비스에는 3가지 운영 모델이 있습니다. 이러한 FAQ는
 * 성능 관리
 * SLA 관리
 
-| 없음 | image:check.png[""] 
+| 없음 | image:check.png["확인합니다"] 
 
 
  a| 
@@ -69,7 +69,7 @@ Keystone 서비스에는 3가지 운영 모델이 있습니다. 이러한 FAQ는
 * 소프트웨어 지원
 * 업그레이드 및 패치
 
-| image:check.png[""] | 없음 
+| image:check.png["확인합니다"] | 없음 
 |===
 * NetApp 운영 모델이란? *
 
