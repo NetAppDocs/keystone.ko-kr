@@ -14,13 +14,13 @@ summary: 'Keystone 적응형 서비스 품질(AQoS)'
 
 
 [role="lead"]
-스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS를 사용하지 않을 경우, 여러 시스템의 부팅에 대한 워크로드 같은 특정 워크로드는 일정 기간 동안 대부분의 리소스 또는 모든 리소스를 소모하며 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오 https://["QoS 개요를 통해 처리량 보장"^].
+스토리지 서비스 품질(QoS)은 애플리케이션이 예측 가능하고 일관된 성능을 확보할 수 있도록 보장하는 중요한 기술입니다. QoS를 사용하지 않을 경우, 여러 시스템의 부팅에 대한 워크로드 같은 특정 워크로드는 일정 기간 동안 대부분의 리소스 또는 모든 리소스를 소모하며 다른 워크로드에 영향을 미칠 수 있습니다. QoS에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS 개요를 통해 처리량 보장"^].
 
 
 
 == 적응형 QoS
 
-Keystone 서비스에서 AQoS(적응형 QoS)를 사용하여 볼륨 크기에 따라 IOPS/TiB 비율을 동적으로 유지합니다. AQoS 정책에 대한 자세한 내용은 을 참조하십시오 https://["적응형 QoS에 대해 알아보십시오"^].
+Keystone 서비스에서 AQoS(적응형 QoS)를 사용하여 볼륨 크기에 따라 IOPS/TiB 비율을 동적으로 유지합니다. AQoS 정책에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["적응형 QoS에 대해 알아보십시오"^].
 
 Keystone은 클러스터가 운영 중인 경우 설정할 수 있는 AQoS 정책을 제공합니다. 모든 볼륨이 시스템에서 이미 생성되어 사용 가능한 올바른 AQoS 정책과 연결되어 있는지 확인해야 합니다.
 

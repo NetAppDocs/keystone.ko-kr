@@ -3281,4 +3281,6 @@
   <block id="2fdc90e57385ab614099e9145cde6b8e" category="paragraph"><block ref="2fdc90e57385ab614099e9145cde6b8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="be10ab795d4b4daf77ddb3146f1aac29" category="inline-image-macro">대금 청구 차트</block>
   <block id="72bd452fe460a2000d8537f422c4b81d" category="paragraph"><block ref="72bd452fe460a2000d8537f422c4b81d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="779b97a34eb91d859eaec88fd66360be" category="paragraph">[가입 시간 시리즈 *] 탭에는 특정 기간 동안 Keystone 가입 내역 데이터가 표시됩니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.</block>
+  <block id="abc995760236584824b9e9fb494224ef" category="admonition">최적의 성능 및 사용자 환경을 위해 쿼리의 날짜 범위를 3개월 이하로 제한합니다.</block>
 </blocks>
