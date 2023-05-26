@@ -2940,7 +2940,6 @@
   <block id="f06c1648cc175308e5d0425681e31f63" category="list-text">* 추적 ID *: 가입 활성화 시 할당된 추적 ID입니다. 구독 추적에 사용되는 각 구독 및 사이트의 고유 ID입니다.</block>
   <block id="3644820829d44e327e43dd95769b1686" category="list-text">* 청구 기간 *: 월, 분기 또는 연간과 같은 가입 청구 기간.</block>
   <block id="58ddac2ef16530986372a556eb9e6b7a" category="list-text">* 시작일 *: 가입일.</block>
-  <block id="b8905d711198e80b0e2927dff32cfd11" category="list-text">* 종료일 *: 가입 종료 날짜. 이 날짜를 기준으로 만료일이 임박한 구독에 대한 정보 메시지가 표시될 수 있습니다.</block>
   <block id="83adb6d347afacf7d560a4bb6f74dfa1" category="list-text">* 사용 상태 *: 구독이 얼마나 많이 사용되었거나 초과 사용되었는지 나타냅니다. 최고 소비 레코드를 보려면 이 열을 기준으로 목록을 정렬할 수 있습니다.</block>
   <block id="706b251feaacce4536ad626d12e0cdb3" category="paragraph">Keystone 스토리지 서비스 및 관련 서비스 수준에 대한 자세한 내용은 를 참조하십시오<block ref="36a3b3cce1fbb3bc12a00ec01f92dfcb" category="inline-link-rx"></block>.</block>
   <block id="736d5b3313fce2ba2126ffff61a7ec29" category="paragraph">다음 사용 표시기를 참조하여 각 구독의 사용 상태를 확인할 수 있습니다.</block>
@@ -2990,7 +2989,6 @@
   <block id="199941fcffe1cc10f1d78276fb963281" category="paragraph">Digital Advisor에 대한 자세한 내용은 를 참조하십시오 <block ref="6ddd16d015a7ae88cd6e808110d98222" category="inline-link-macro-rx"></block>.</block>
   <block id="d7b031f9c8084a9ac68f816f54b2be3b" category="paragraph">* 서비스 계층에 따라 어떤 소프트웨어 버전(예: ONTAP)이 기본적으로 설치됩니까? * 서비스 계층에 따라(예: 파일 및 블록 서비스가 포함된 ONTAP, 블록용 SANtricity 및 객체용 StorageGRID) 지원 팀이 보안 또는 기능 문제 없이 가장 안정적인 최신 릴리스를 설치합니다.</block>
   <block id="63d539af1a31e2f3e8acd3fdd788eac6" category="sidebar">Active IQ 디지털 어드바이저에서 보고서를 보고 생성합니다</block>
-  <block id="fcdba6ace545174b3125451ecdd38a60" category="admonition">막대 차트 위에 마우스 커서를 놓으면 _임시 사용량_데이터를 볼 수 있습니다. 이 값은 해당 기간의 정확한 데이터를 사용할 수 없을 때 기록된 사용량으로, 이전 데이터 수집 지점에서 사용 가능한 데이터로 대체됩니다.</block>
   <block id="bad6d4d49543b42a93697517b551920a" category="paragraph">파일 서버 API를 사용하여 파일 서버를 보고 관리할 수 있습니다. 파일 서버에 대한 자세한 내용은 을 참조하십시오 <block ref="b7c7173b32246b86fba34bb5faef1e28" category="inline-link-macro-rx"></block>.</block>
   <block id="6e7c483cdb01e24565496a3900e28fec" category="paragraph">NetApp Keystone은 사내 자본 지출(capex) 대안의 포트폴리오입니다. 자세한 내용은 을 참조하십시오<block ref="fd61a890a707ca05d29be95e1bcac169" category="inline-link-rx"></block>.</block>
   <block id="b56dfcbdbeaf347744e50267854b6402" category="paragraph">NetApp Keystone 브랜드는 Keystone 서비스와 함께 현금을 중요시하는 고객을 위한 기존 금융, 리스 및 고정/가변 옵션을 포함하는 유연한 지불 솔루션 포트폴리오를 제공합니다.</block>
@@ -3283,4 +3281,6 @@
   <block id="72bd452fe460a2000d8537f422c4b81d" category="paragraph"><block ref="72bd452fe460a2000d8537f422c4b81d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="779b97a34eb91d859eaec88fd66360be" category="paragraph">[가입 시간 시리즈 *] 탭에는 특정 기간 동안 Keystone 가입 내역 데이터가 표시됩니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.</block>
   <block id="abc995760236584824b9e9fb494224ef" category="admonition">최적의 성능 및 사용자 환경을 위해 쿼리의 날짜 범위를 3개월 이하로 제한합니다.</block>
+  <block id="e34cff1dbe58bcff4567c9224e5370c6" category="list-text">* 종료일 *: 가입 종료 날짜. 날짜가 비어 있으면 구독에 종료 날짜가 없으며 자동으로 갱신됩니다. 이 날짜를 기준으로 만료가 임박한 구독 또는 자동 갱신 정책이 연결된 구독에 대한 정보 메시지가 표시될 수 있습니다.</block>
+  <block id="85701aafc47f53d769db3988637e595c" category="admonition">빈 차트는 해당 데이터 수집 지점에 사용자 환경에서 사용할 수 있는 데이터가 없음을 나타냅니다.</block>
 </blocks>
