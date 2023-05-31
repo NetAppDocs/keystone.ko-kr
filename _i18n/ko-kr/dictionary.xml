@@ -3229,9 +3229,6 @@
   <block id="3a6fffe4877ca42144b232cb74b25c92" category="admonition">더 높은 소비량을 기록하는 특정 서비스 수준이 강조 표시됩니다. 볼륨에 대해 생성된 경고와 알림을 볼 수도 있습니다.</block>
   <block id="bd21190449b7e88db48fa0f580a8f666" category="inline-image-macro">아이콘</block>
   <block id="03ebe6f2555a5bb4e85d3a2b9f36fe2b" category="paragraph"><block ref="03ebe6f2555a5bb4e85d3a2b9f36fe2b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="47ad2f3b9648e3f48662d8605e8e8bdb" category="paragraph"><block ref="c86f468c0d26a49f12de126ed6868cbe" category="inline-image-macro-rx" type="image"></block>
-<block ref="c86f468c0d26a49f12de126ed6868cbe" category="inline-image-macro-rx" type="image"></block>
-<block ref="21452eeae7e892826e6a3f9830c7e20b" category="inline-image-macro-rx" type="image"></block>: 서비스 수준의 약정 용량에 대해 기록된 용량 사용량이 없습니다<block ref="6e54d61599459e1ccb3438749a59c870" category="inline-image-macro-rx" type="image"></block>: 소비는 정상이며, 약속된 용량의 80% 이내입니다<block ref="c64624b3993be4529190ae7782933292" category="inline-image-macro-rx" type="image"></block>: 최대 소비, 즉 사용량이 약속된 용량의 100% 이상에 도달하려고 합니다. Consumed * (사용량 *) 열에는 커밋된 용량의 80%를 초과하는 소비에 대한 이 표시기가 표시됩니다<block ref="d028059f11eb3bdde55947b1358873ff" category="inline-image-macro-rx" type="image"></block>: 소모량이 버스트 제한 내에 있습니다. 버스트 소비는 서비스 수준의 약정 용량 100%를 초과하는 소비량이며, 120%와 같이 합의된 최대 사용량 제한 내에 있는 소비입니다<block ref="8428f2683e402ce0337d14cf475231ce" category="inline-image-macro-rx" type="image"></block>: 규정된 버스트 제한을 초과하는 소비를 나타냅니다</block>
   <block id="f4cba785ff76b826ab5119954c5eab69" category="list-text">세부 정보 보기 * 를 클릭합니다. 각 서비스 수준에 대한 구독의 과거 소비 데이터는 선택한 시간 범위를 기준으로 표시됩니다. 차트 위에 마우스 커서를 올려 놓으면 해당 데이터 수집 지점의 버스트 제한 데이터 위에서 사용량 분석을 확인할 수 있습니다.</block>
   <block id="8d516947750194a36d55831e643c9530" category="inline-image-macro">내역 데이터</block>
   <block id="75c2cedbc79380dcf4efe56be06dec27" category="paragraph"><block ref="75c2cedbc79380dcf4efe56be06dec27" category="inline-image-macro-rx" type="image"></block></block>
@@ -3283,4 +3280,9 @@
   <block id="abc995760236584824b9e9fb494224ef" category="admonition">최적의 성능 및 사용자 환경을 위해 쿼리의 날짜 범위를 3개월 이하로 제한합니다.</block>
   <block id="e34cff1dbe58bcff4567c9224e5370c6" category="list-text">* 종료일 *: 가입 종료 날짜. 날짜가 비어 있으면 구독에 종료 날짜가 없으며 자동으로 갱신됩니다. 이 날짜를 기준으로 만료가 임박한 구독 또는 자동 갱신 정책이 연결된 구독에 대한 정보 메시지가 표시될 수 있습니다.</block>
   <block id="85701aafc47f53d769db3988637e595c" category="admonition">빈 차트는 해당 데이터 수집 지점에 사용자 환경에서 사용할 수 있는 데이터가 없음을 나타냅니다.</block>
+  <block id="2e4921125672d7122b9c21478a168883" category="paragraph"><block ref="21452eeae7e892826e6a3f9830c7e20b" category="inline-image-macro-rx" type="image"></block>: 서비스 수준의 약정 용량에 대해 기록된 용량 사용량이 없습니다
+<block ref="6e54d61599459e1ccb3438749a59c870" category="inline-image-macro-rx" type="image"></block>: 소비는 정상이며, 약속된 용량의 80% 이내입니다
+<block ref="c64624b3993be4529190ae7782933292" category="inline-image-macro-rx" type="image"></block>: 최대 소비, 즉 사용량이 약속된 용량의 100% 이상에 도달하려고 합니다. Consumed * (사용량 *) 열에는 커밋된 용량의 80%를 초과하는 소비에 대한 이 표시기가 표시됩니다
+<block ref="d028059f11eb3bdde55947b1358873ff" category="inline-image-macro-rx" type="image"></block>: 소모량이 버스트 제한 내에 있습니다. 버스트 소비는 서비스 수준의 약정 용량 100%를 초과하는 소비량이며, 120%와 같이 합의된 최대 사용량 제한 내에 있는 소비입니다
+<block ref="8428f2683e402ce0337d14cf475231ce" category="inline-image-macro-rx" type="image"></block>: 규정된 버스트 제한을 초과하는 소비를 나타냅니다</block>
 </blocks>
