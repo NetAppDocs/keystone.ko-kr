@@ -1130,7 +1130,6 @@
   <block id="09118463562b5775f9ff30e47161c4f9" category="cell">파일 이름(string): 보고서 파일 이름입니다.</block>
   <block id="7d5b957cd473f6eaf5ad335a9c63c4ff" category="paragraph">이 문서에 설명된 정보에 대해 자세히 알아보려면 다음 문서 및/또는 웹 사이트를 검토하십시오.</block>
   <block id="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link"><block ref="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link-rx"></block></block>
-  <block id="21a1e68164f738b8be1dae11d5a694b3" category="doc">데이터 보호</block>
   <block id="7da490627b0929eb399424269ef46d7f" category="list-text">디스크 및 공유 백업(구독의 일부로 데이터 보호 서비스 필요)</block>
   <block id="b0609401d759c5156292bcededa3ee06" category="list-text">디스크 및 공유의 재해 복구(구독의 일부로 데이터 보호 서비스 필요)</block>
   <block id="53b8c0793d8e01e805f7baa48301f0cb" category="cell">다중 지역 백업(데이터 보호 애드온)</block>
@@ -3037,7 +3036,6 @@
   <block id="56db599b367f1290318fb4abdd42ed2b" category="doc">Keystone을 위한 Digital Advisor 대시보드 및 리포팅</block>
   <block id="34c39bccff9d0d20e19cce35894ae174" category="list-text">Digital Advisor에 로그인합니다. 구매한 Keystone 서비스와 비교하여 용량 사용이 요약된 * Keystone 가입 * 위젯을 확인할 수 있습니다.</block>
   <block id="d896c0f2329a0638824e70e536ea67ae" category="list-text">Keystone 구독 * 위젯에서 * 자세한 정보 보기 * 를 클릭하여 * Keystone 구독 * 페이지에서 볼륨에 대한 사용 세부 정보와 알림을 확인하십시오. 또는 왼쪽 탐색 창에서 * 일반 &gt; Keystone 구독 * 으로 이동합니다.</block>
-  <block id="e2ffb27c2aa47f644ded27f116869dc8" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드와 보고서에 최대 소수점 이하 두 자리까지 TiB에 표시됩니다. 사용률이 0.01TiB 미만이면 값이 로 표시됩니다<block ref="cfcd208495d565ef66e7dff9f98764da" prefix=" " category="inline-code"></block> 또는<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 기타 사용량 메트릭은 를 참조하십시오<block ref="98a30cfc42e5138070cb8b3bae486e43" category="inline-link-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오<block ref="8838b1277b7691fb50f3e6bca15d5781" category="inline-link-rx"></block>.</block>
   <block id="5ce1e0f4461b25c4ab605e7e1107117a" category="paragraph">NetApp 서비스 엔진 웹 포털을 사용하면 NetApp Keystone 서비스를 관리하고 모니터링할 수 있습니다. 포털은 다음과 같은 구성 요소로 이루어져 있습니다.</block>
   <block id="0d77f7db2828214c8d1ad32c5f8b881f" category="paragraph">테넌트는 고객, 파트너 또는 청구 주체가 될 수 있습니다. 테넌트는 Keystone 가입 서비스에 대한 가입(또는 여러 가입)을 보유합니다.</block>
   <block id="f087729432bd756193396b1e0365c0c9" category="doc">NetApp 서비스 엔진에서 Keystone 대시보드 보기</block>
@@ -3180,7 +3178,6 @@
   <block id="5cee2df0715294af225b93a062c0b3bf" category="paragraph"><block ref="5cee2df0715294af225b93a062c0b3bf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f93af6ea2aaeafbfa26e3fe0954ccc1a" category="paragraph">각 서비스 수준은 I/O 밀도, 즉 IOPS/TiB/볼륨으로 정의됩니다. 볼륨당 평균 지연 시간에서 IOPS/TiB인 성능(IOPS/출력 작업/IOPS) 및 할당 스토리지 용량(TiB)의 비율입니다.</block>
   <block id="0d2770e6697ff41e6cac5eec9a3d728b" category="paragraph">볼륨의 I/O 밀도는 피크 I/O 밀도를 보고하기 위해 시간 간격으로 계산됩니다. 볼륨에 대한 I/O 밀도 보고서는 매월 생성됩니다.</block>
-  <block id="26ee386c417635b5c1e5d8ffd5bbb0bd" category="paragraph">여기에 파일, 블록 및 오브젝트 스토리지 유형에 대한 서비스 수준이 나와 있습니다.</block>
   <block id="8edf08839950862fe56f04959fd3f87b" category="section-title">파일 스토리지의 서비스 레벨</block>
   <block id="10fde21ab3bcb7083e8e5bed1ca3af80" category="cell">* 볼륨당 할당된 최대 IOPS/논리적 TiB *</block>
   <block id="0402a8a3b6eb168a997a74fb30635a37" category="cell">* 볼륨당 할당된 타겟 IOPS/논리적 TiB *</block>
@@ -3188,7 +3185,6 @@
   <block id="61871926ab208323c9981229029b2c82" category="cell">* 평균 지연 시간 *</block>
   <block id="d6b228a8ed209a51c109dc08e1f357ce" category="cell">* 블록 크기 *</block>
   <block id="bf79e80bcc6c0a1ed97c7270c5aa6360" category="section-title">파일 스토리지의 서비스 수준 자세히 보기</block>
-  <block id="c4701e06633afc0b1161fbc6049cc803" category="paragraph">서비스 수준 메트릭은 다음 조건에 따라 달라집니다.</block>
   <block id="210b39d4b6b8c3231fc8e5027adff975" category="list-text">파일 및 블록 스토리지의 서비스 수준은 ONTAP 9.7 이상을 지원합니다.</block>
   <block id="02007b308c5bfea2eb09b0fa9b7f04d5" category="list-text">서비스 수준의 IOPS/TiB/볼륨, MBps/TiB/볼륨 및 지연 시간은 볼륨에 저장된 논리적 데이터의 양, 32KB 블록 크기, 70% 읽기 및 30% 쓰기 IO 작업의 임의 조합을 기준으로 합니다.</block>
   <block id="1ce7cadb42fda63031710acdb1e36d13" category="list-text">실제 IOPS/TiB/볼륨 및 MBps/TiB/볼륨은 실제 또는 가정된 블록 크기, 시스템 워크로드 동시성 또는 입력 출력 작업에 따라 달라질 수 있습니다.</block>
@@ -3230,30 +3226,22 @@
   <block id="8d516947750194a36d55831e643c9530" category="inline-image-macro">내역 데이터</block>
   <block id="75c2cedbc79380dcf4efe56be06dec27" category="paragraph"><block ref="75c2cedbc79380dcf4efe56be06dec27" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e8f49e2b6da7339d918b4030b299167c" category="admonition">쿼리의 날짜 범위를 기반으로 사용 차트는 30개의 데이터 수집 지점 범위로 표시됩니다.</block>
-  <block id="087f6b1f88be44a104173a6f203b90b1" category="paragraph">데이터 보호에 대한 자세한 내용은 을 참조하십시오<block ref="4f245631ed62c18d2a1d6d25320b34f1" category="inline-link-rx"></block>.</block>
   <block id="04db5afbef84567f5c1ef044a2971b66" category="paragraph">ONTAP 스토리지 환경의 클러스터가 MetroCluster 설정에 구성되어 있으면 Keystone 가입 소비 데이터가 동일한 시계열 차트로 분할되어 기본 서비스 수준에 대한 기본 및 미러 사이트의 소비를 표시합니다.</block>
-  <block id="281d16d13e34f7444117e4fa04008cd2" category="admonition">소비 막대 차트는 기본 서비스 수준에 대해서만 분할됩니다. DP 서비스 수준의 경우 이 구분이 나타나지 않습니다.</block>
   <block id="e1d364a7f674f544c03d16d5e011a4cd" category="paragraph-title">데이터 보호 서비스 레벨</block>
   <block id="c3c3060e985c56412fb0189a9c010a6d" category="paragraph-title">기본 서비스 레벨</block>
-  <block id="2da97e4dcd0aded3c38f66cbf8f9886b" category="paragraph">그러나 기본 서비스 수준에서는 각 볼륨이 운영 사이트와 미러 사이트에서 프로비저닝된 것으로 충전되므로 운영 사이트와 미러 사이트의 사용량에 따라 동일한 막대 차트가 분할됩니다.</block>
   <block id="65626369a820db5271fac7f41d059e93" category="paragraph-title">기본 구독에 대해 확인할 수 있는 사항</block>
-  <block id="d8476da72783640883a9e5629643666c" category="paragraph">다음 이미지는 _Extreme_service 수준과 기본 가입 번호에 대한 차트를 표시합니다. 동일한 시계열 차트는 1차 사이트에 사용되는 색상 코드의 밝은 음영으로 미러 사이트 소비를 표시합니다. 마우스 포인터의 도구 설명은 운영 사이트와 미러 사이트의 소비 브레이크업(TiB)을 각각 1.02TiB와 1.05TiB로 표시합니다.</block>
   <block id="7cbd40b0470c3f0ea1063db9202530ff" category="inline-image-macro">MCC 기본</block>
   <block id="69ee7237e9b9f659b4b0f2cee316a662" category="paragraph"><block ref="69ee7237e9b9f659b4b0f2cee316a662" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="691f3f8af0331dffbbb99f55392f1b1d" category="paragraph">데이터 보호 Extreme_service 레벨의 경우 다음과 같은 차트가 나타납니다.</block>
   <block id="4bb0adac0644b7c8396196d410d47909" category="inline-image-macro">MCC 기본 베이스</block>
   <block id="2788c6179b3412862ccb0aa51af8fb00" category="paragraph"><block ref="2788c6179b3412862ccb0aa51af8fb00" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cd9124dc0715967bbbd4e31ad8a6f35d" category="paragraph-title">2차(미러 사이트) 구독에 대해 확인할 수 있는 사항</block>
-  <block id="780f5e670e2c04a97e27a55ce4e5fe77" category="paragraph">보조 구독을 확인하는 경우 동일한 데이터 수집 지점에서 _Extreme_service 수준에 대한 막대 차트가 반전되고 운영 사이트와 미러 사이트의 소비 중단은 각각 1.05TiB와 1.02TiB인 것을 확인할 수 있습니다.</block>
   <block id="ff58d4e2d2a69e5e91f9509907ba3bd1" category="inline-image-macro">MCC 미러</block>
   <block id="292d6b6f6df888f5de022ad6bebc7e52" category="paragraph"><block ref="292d6b6f6df888f5de022ad6bebc7e52" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="096ba4c1255ddf7f6a7f129dc338ad4d" category="paragraph">Data-Protect Extreme_service 레벨의 경우 차트가 동일한 컬렉션 지점에서 다음과 같이 나타납니다.</block>
   <block id="ab682f0abbe8b97aaec76b435ca52575" category="inline-image-macro">MCC 미러 베이스</block>
   <block id="32b6695c9f1befd719e0c7b2c28dfea1" category="paragraph"><block ref="32b6695c9f1befd719e0c7b2c28dfea1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="48d59ef93e565c1c62d4604f7ddf6561" category="inline-link">MetroCluster 데이터 보호 및 재해 복구 이해</block>
   <block id="11faa60292999fe44e704021ce9a5657" category="paragraph">MetroCluster에서 데이터를 보호하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="f22c59fda71318ed939c4a5a7c90b447" category="inline-link-rx"></block>.</block>
   <block id="793c1a98e090ba1b0f167e3a8b0c5b37" category="paragraph">볼륨 세부 정보가 표시됩니다. 열 머리글 옆에 있는 정보 아이콘 위에 마우스를 올려 놓으면 열을 스크롤하여 해당 열에 대해 자세히 알아볼 수 있습니다. 열을 기준으로 정렬하고 목록을 필터링하여 특정 정보를 볼 수 있습니다.</block>
-  <block id="6857abe02d1e9615946756081a1a8169" category="admonition">데이터 보호 서비스의 경우 MetroCluster 구성에서 볼륨이 운영 볼륨인지 미러 볼륨인지를 나타내는 추가 열이 나타납니다. 노드 계열 복사 * 버튼을 클릭하여 개별 노드 일련 번호를 복사할 수 있습니다.</block>
   <block id="0bb9d5f8cc89f1784aecd52a98b80f07" category="inline-image-macro">시스템 세부 정보 탭</block>
   <block id="8b672bec07d1efa43e526f4981ffb4e7" category="paragraph"><block ref="8b672bec07d1efa43e526f4981ffb4e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4f42ad6a3c3832d3bf584971680c1ebb" category="inline-image-macro">SG 시스템 세부 정보</block>
@@ -3280,14 +3268,28 @@
 <block ref="d028059f11eb3bdde55947b1358873ff" category="inline-image-macro-rx" type="image"></block>: 소모량이 버스트 제한 내에 있습니다. 버스트 소비는 서비스 수준의 약정 용량 100%를 초과하는 소비량이며, 120%와 같이 합의된 최대 사용량 제한 내에 있는 소비입니다
 <block ref="8428f2683e402ce0337d14cf475231ce" category="inline-image-macro-rx" type="image"></block>: 규정된 버스트 제한을 초과하는 소비를 나타냅니다</block>
   <block id="f57aa475ec783bf5f654ae84fb0b5e09" category="paragraph">Keystone은 미리 정의된 성능 서비스 수준(서비스 수준)에 데이터 스토리지 용량을 제공하거나 구독 기준으로 계획 등급을 매기십시오. Keystone 서비스로 관리되는 각 볼륨은 서비스 수준과 연결되어 있습니다.</block>
-  <block id="463e83e0e081379ee2766e73b3eecd12" category="inline-link">데이터 보호에 대한 추가 세부 정보</block>
-  <block id="03c5694e908728e2ac20cf09a2828523" category="admonition">구독에 데이터 보호 서비스 수준 또는 요금 계획이 할당된 경우 MetroCluster 설정에서 파트너 구독의 추적 ID를 확인하는 데 도움이 되는 도구 설명이 표시됩니다. MetroCluster 구성에서 파트너 구독별 상세 소비량을 확인하는 방법은 을 참조하십시오<block ref="79d54d9bd1527f09da2a1c650bb1ebe9" category="inline-link-rx"></block>.</block>
   <block id="29005d0d658d65418d353d36b2bb6f04" category="inline-link">Keystone STaaS 문서</block>
   <block id="5d37c3b0ff8e3607561838b8a2c41ce6" category="list-text">* 사용 유형 *: 여러 Keystone(버전 1) 또는 Keystone STaaS(버전 2) 구독했을 수 있습니다. 서비스 수준에 대한 요금 계획 규칙은 두 가지 구독 유형에 따라 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝된 사용량에 따라 청구되는지 아니면 논리적 사용량에 따라 청구되는지 알 수 있습니다<block ref="6654c734ccab8f440ff0825eb443dc7f" prefix=" " category="inline-code"></block> 또는<block ref="1b267619c4812cc46ee281747884ca50" prefix=" " category="inline-code"></block>. Keystone STaaS에 대한 자세한 내용은 를 참조하십시오<block ref="6e40e8ebb5f38b7cc6ad272c1589745e" category="inline-link-rx"></block>.</block>
   <block id="936ccdb97115e9f35a11d35e3d5b5cad" category="example-title">여기를 클릭하십시오</block>
-  <block id="0897cfec13f189dd654fd1a11a3ccb31" category="paragraph">데이터 보호(DP) 서비스를 구독한 경우 * 구독 시간 시리즈 * 탭의 MetroCluster 파트너 사이트에 따라 소비 데이터 분열을 볼 수 있습니다.</block>
-  <block id="ea477a5ac64777287c5e9f0ffda4e1ca" category="paragraph">DP 서비스 수준의 경우 총 소비가 분할되고 각 파트너 사이트의 사용량이 별도의 구독으로 반영되어 청구됩니다. 즉, 기본 사이트의 구독과 미러 사이트의 구독이 각각 하나씩 포함됩니다. 따라서 * Subscription Time Series * 탭에서 기본 사이트의 구독 번호를 선택하면 DP 서비스 수준에 대한 소비 차트에 기본 사이트에만 개별 소비 상세 정보가 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 하기 때문에 각 사이트의 총 사용량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.</block>
   <block id="382af8e8b2bf82c4df59a255786526a2" category="section-title">ONTAP 볼륨 세부 정보입니다</block>
   <block id="fc33c921eada2f71b3a548355734f006" category="section-title">StorageGRID 노드 및 소비 세부 정보</block>
   <block id="248ee1b5c36074ad26f09b9a95a55dca" category="admonition">단일 서비스 수준 또는 요금제에 가입한 경우 비준수 볼륨에 대한 알림을 볼 수 없습니다.</block>
+  <block id="807b74f4408b0522944c11fa3c943faa" category="inline-link">데이터 보호에 대한 추가 정보입니다</block>
+  <block id="22af05fccc86b1f0d7872faea8c654a4" category="paragraph">데이터 보호 서비스를 구독한 경우 특정 서비스 수준이 구독에 할당됩니다(예: _Data-Protect Extreme_, _Data-Protect Premium_ 등). 자세한 내용은 을 참조하십시오<block ref="ea85780aae2041c315d8d2c95c2ef380" category="inline-link-rx"></block></block>
+  <block id="1929ab48c05126f8a997e319160674e8" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드 및 보고서의 TiB에 표시되며 소수점 이하 두 자리까지 반올림됩니다. 사용률이 0.01TiB 미만이면 값이 로 표시됩니다<block ref="cfcd208495d565ef66e7dff9f98764da" prefix=" " category="inline-code"></block> 또는<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 기타 사용량 메트릭은 를 참조하십시오<block ref="98a30cfc42e5138070cb8b3bae486e43" category="inline-link-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오<block ref="8838b1277b7691fb50f3e6bca15d5781" category="inline-link-rx"></block>.</block>
+  <block id="8640c6867f9a397cb1e15b5dc86f5663" category="admonition">구독에 데이터 보호 서비스 수준 또는 요금 계획이 할당된 경우 MetroCluster 설정에서 파트너 구독의 추적 ID를 확인하는 데 도움이 되는 도구 설명이 표시됩니다. MetroCluster 구성에서 파트너 구독별 상세 소비량을 확인하는 방법은 을 참조하십시오<block ref="ea85780aae2041c315d8d2c95c2ef380" category="inline-link-rx"></block>.</block>
+  <block id="8e357471a27451528c5b9baff9e6ce0c" category="paragraph">데이터 보호 서비스를 구독한 경우 * Subscription Time Series * 탭에서 MetroCluster 파트너 사이트의 소비 데이터 분열을 확인할 수 있습니다.</block>
+  <block id="1e082e4448eecee03f6bd4c2605a41bc" category="paragraph">데이터 보호에 대한 자세한 내용은 을 참조하십시오<block ref="88c192a22c75988714ca0d6a3ba44ff9" category="inline-link-rx"></block>.</block>
+  <block id="e6b09591607b38dfa571b28e166b8e42" category="admonition">소비 막대 차트는 기본 서비스 수준에 대해서만 분할됩니다. 데이터 보호 서비스 수준의 경우 이 경계가 나타나지 않습니다.</block>
+  <block id="a5ee6c11183b804a6d34deec216a083c" category="paragraph">데이터 보호 서비스 수준의 경우 총 소비량은 파트너 사이트 간에 분할되며, 각 파트너 사이트의 사용량은 별도의 구독으로 반영 및 청구됩니다. 즉, 기본 사이트의 구독과 미러 사이트의 구독이 각각 하나씩 포함됩니다. 따라서 * Subscription Time Series * 탭에서 기본 사이트의 구독 번호를 선택하면 DP 서비스 수준에 대한 소비 차트에 기본 사이트에만 개별 소비 상세 정보가 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 하기 때문에 각 사이트의 총 사용량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.</block>
+  <block id="dc22a90e0f32f2a7c39774489ee8fb79" category="admonition">구독 정보 * 탭의 구독 ID 옆에 있는 도구 설명을 통해 MetroCluster 설정에서 파트너 구독을 확인할 수 있습니다.</block>
+  <block id="fe1654f1038a98c579f04107a47b091b" category="paragraph">기본 서비스 수준에서는 각 볼륨이 운영 사이트와 미러 사이트에서 프로비저닝된 것으로 충전되므로 운영 사이트와 미러 사이트의 사용량에 따라 동일한 막대 차트가 분할됩니다.</block>
+  <block id="6f66763d1fa17a342e4bfd7244527ffb" category="paragraph">다음 이미지는 _Extreme_service 레벨(기본 서비스 레벨) 및 기본 서브스크립션 번호에 대한 차트를 표시합니다. 동일한 시계열 차트는 1차 사이트에 사용되는 색상 코드의 밝은 음영으로 미러 사이트 소비를 표시합니다. 마우스 포인터의 도구 설명은 운영 사이트와 미러 사이트의 소비 브레이크업(TiB)을 각각 1.02TiB와 1.05TiB로 표시합니다.</block>
+  <block id="574ca73665514e03da64e46fb1e82604" category="paragraph">데이터 보호 Extreme_service 레벨(데이터 보호 서비스 레벨)의 경우 다음과 같은 차트가 나타납니다.</block>
+  <block id="de7e96b640e5109ff5e8bcbb7abf5849" category="paragraph">2차 구독을 확인하는 경우 파트너 사이트와 동일한 데이터 수집 지점에서 _Extreme_service 수준(기본 서비스 수준)의 막대 차트가 반전되고 1차 및 미러 사이트의 소비 중단은 각각 1.05TiB와 1.02TiB인 것을 확인할 수 있습니다.</block>
+  <block id="b8ed9b54db3e7d83dd75eae7e5078691" category="paragraph">데이터 보호 Extreme_service 레벨(데이터 보호 서비스 레벨)의 경우 차트는 파트너 사이트와 동일한 컬렉션 지점에서 다음과 같이 표시됩니다.</block>
+  <block id="1e77eca1979c6beac412146f5d5e17fe" category="admonition">데이터 보호 서비스의 경우 MetroCluster 구성에서 볼륨이 운영 볼륨인지 미러 볼륨인지를 나타내는 추가 열이 나타납니다. 노드 계열 복사 * 버튼을 클릭하여 개별 노드 일련 번호를 복사할 수 있습니다.</block>
+  <block id="a124cd9706a171f6aa398360fb7ee547" category="paragraph">스토리지 환경, 스토리지 및 소비 요구사항에 따라 서비스 수준을 선택합니다. 기본적으로 기본 서비스 수준을 사용할 수 있습니다. 특정 서비스를 선택한 경우 기타 서비스 수준을 추가로 이용할 수 있습니다. 예를 들어, 데이터 보호 서비스의 경우 _data-protect &lt;base-service-level&gt;_service 수준이 구독에 할당됩니다.</block>
+  <block id="12e64e130cc4e82cf93d846901ed35da" category="paragraph">여기에 파일, 블록 및 오브젝트 스토리지 유형에 대한 기본 서비스 수준이 나와 있습니다.</block>
+  <block id="6839a21037309515ac19670a2a6b09fe" category="paragraph">기본 서비스 수준 메트릭은 다음 조건에 따라 달라집니다.</block>
 </blocks>

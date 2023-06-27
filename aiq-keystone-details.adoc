@@ -31,7 +31,7 @@ Keystone 디지털 자문 위젯에 대한 자세한 내용은 을 참조하십�
 서브스크립션 세부 정보, 각 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보는 * Keystone 가입 * 화면의 여러 탭에 표시됩니다.
 
 
-NOTE: Keystone 서브스크립션의 용량 소비는 대시보드와 보고서에 최대 소수점 이하 두 자리까지 TiB에 표시됩니다. 사용률이 0.01TiB 미만이면 값이 로 표시됩니다 `0` 또는 `No Usage`. 기타 사용량 메트릭은 를 참조하십시오 https://docs.netapp.com/us-en/keystone/nkfsosm_service_level_metrics_and_definitions.html["서비스 수준 메트릭 및 정의"]. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Keystone 서비스 용량 정의"].
+NOTE: Keystone 서브스크립션의 용량 소비는 대시보드 및 보고서의 TiB에 표시되며 소수점 이하 두 자리까지 반올림됩니다. 사용률이 0.01TiB 미만이면 값이 로 표시됩니다 `0` 또는 `No Usage`. 기타 사용량 메트릭은 를 참조하십시오 https://docs.netapp.com/us-en/keystone/nkfsosm_service_level_metrics_and_definitions.html["서비스 수준 메트릭 및 정의"]. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Keystone 서비스 용량 정의"].
 
 
 
@@ -47,7 +47,7 @@ image:aiq-ks-dtls.png["구독 세부 정보 탭"]
 * * 추적 ID *: 가입 활성화 시 할당된 추적 ID입니다. 구독 추적에 사용되는 각 구독 및 사이트의 고유 ID입니다.
 +
 
-TIP: 구독에 데이터 보호 서비스 수준 또는 요금 계획이 할당된 경우 MetroCluster 설정에서 파트너 구독의 추적 ID를 확인하는 데 도움이 되는 도구 설명이 표시됩니다. MetroCluster 구성에서 파트너 구독별 상세 소비량을 확인하는 방법은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/aiq-keystone-details.html#additional-details-for-data-protection["데이터 보호에 대한 추가 세부 정보"].
+TIP: 구독에 데이터 보호 서비스 수준 또는 요금 계획이 할당된 경우 MetroCluster 설정에서 파트너 구독의 추적 ID를 확인하는 데 도움이 되는 도구 설명이 표시됩니다. MetroCluster 구성에서 파트너 구독별 상세 소비량을 확인하는 방법은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/aiq-keystone-details.html#additional-details-for-data-protection["데이터 보호에 대한 추가 정보입니다"].
 
 * * 사용 유형 *: 여러 Keystone(버전 1) 또는 Keystone STaaS(버전 2) 구독했을 수 있습니다. 서비스 수준에 대한 요금 계획 규칙은 두 가지 구독 유형에 따라 다를 수 있습니다. 이 열의 값을 보면 사용 유형이 프로비저닝된 사용량에 따라 청구되는지 아니면 논리적 사용량에 따라 청구되는지 알 수 있습니다 `v1` 또는 `v2`. Keystone STaaS에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/keystone-staas/index.html["Keystone STaaS 문서"].
 * * 청구 기간 *: 월, 분기 또는 연간과 같은 가입 청구 기간.
@@ -139,41 +139,44 @@ NOTE: 현재 사용량 *, * 현재 버스트 * 및 * 누적 버스트 * 표시�
 
 
 
-=== 데이터 보호에 대한 추가 세부 정보
+=== 데이터 보호에 대한 추가 정보입니다
 
 .여기를 클릭하십시오
 [%collapsible]
 ====
-데이터 보호(DP) 서비스를 구독한 경우 * 구독 시간 시리즈 * 탭의 MetroCluster 파트너 사이트에 따라 소비 데이터 분열을 볼 수 있습니다.
+데이터 보호 서비스를 구독한 경우 * Subscription Time Series * 탭에서 MetroCluster 파트너 사이트의 소비 데이터 분열을 확인할 수 있습니다.
 
 데이터 보호에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/nkfsosm_data_protection.html["데이터 보호"].
 
 ONTAP 스토리지 환경의 클러스터가 MetroCluster 설정에 구성되어 있으면 Keystone 가입 소비 데이터가 동일한 시계열 차트로 분할되어 기본 서비스 수준에 대한 기본 및 미러 사이트의 소비를 표시합니다.
 
 
-NOTE: 소비 막대 차트는 기본 서비스 수준에 대해서만 분할됩니다. DP 서비스 수준의 경우 이 구분이 나타나지 않습니다.
+NOTE: 소비 막대 차트는 기본 서비스 수준에 대해서만 분할됩니다. 데이터 보호 서비스 수준의 경우 이 경계가 나타나지 않습니다.
 
 .데이터 보호 서비스 레벨
-DP 서비스 수준의 경우 총 소비가 분할되고 각 파트너 사이트의 사용량이 별도의 구독으로 반영되어 청구됩니다. 즉, 기본 사이트의 구독과 미러 사이트의 구독이 각각 하나씩 포함됩니다. 따라서 * Subscription Time Series * 탭에서 기본 사이트의 구독 번호를 선택하면 DP 서비스 수준에 대한 소비 차트에 기본 사이트에만 개별 소비 상세 정보가 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 하기 때문에 각 사이트의 총 사용량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.
+데이터 보호 서비스 수준의 경우 총 소비량은 파트너 사이트 간에 분할되며, 각 파트너 사이트의 사용량은 별도의 구독으로 반영 및 청구됩니다. 즉, 기본 사이트의 구독과 미러 사이트의 구독이 각각 하나씩 포함됩니다. 따라서 * Subscription Time Series * 탭에서 기본 사이트의 구독 번호를 선택하면 DP 서비스 수준에 대한 소비 차트에 기본 사이트에만 개별 소비 상세 정보가 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 하기 때문에 각 사이트의 총 사용량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.
+
+
+TIP: 구독 정보 * 탭의 구독 ID 옆에 있는 도구 설명을 통해 MetroCluster 설정에서 파트너 구독을 확인할 수 있습니다.
 
 .기본 서비스 레벨
-그러나 기본 서비스 수준에서는 각 볼륨이 운영 사이트와 미러 사이트에서 프로비저닝된 것으로 충전되므로 운영 사이트와 미러 사이트의 사용량에 따라 동일한 막대 차트가 분할됩니다.
+기본 서비스 수준에서는 각 볼륨이 운영 사이트와 미러 사이트에서 프로비저닝된 것으로 충전되므로 운영 사이트와 미러 사이트의 사용량에 따라 동일한 막대 차트가 분할됩니다.
 
 .기본 구독에 대해 확인할 수 있는 사항
-다음 이미지는 _Extreme_service 수준과 기본 가입 번호에 대한 차트를 표시합니다. 동일한 시계열 차트는 1차 사이트에 사용되는 색상 코드의 밝은 음영으로 미러 사이트 소비를 표시합니다. 마우스 포인터의 도구 설명은 운영 사이트와 미러 사이트의 소비 브레이크업(TiB)을 각각 1.02TiB와 1.05TiB로 표시합니다.
+다음 이미지는 _Extreme_service 레벨(기본 서비스 레벨) 및 기본 서브스크립션 번호에 대한 차트를 표시합니다. 동일한 시계열 차트는 1차 사이트에 사용되는 색상 코드의 밝은 음영으로 미러 사이트 소비를 표시합니다. 마우스 포인터의 도구 설명은 운영 사이트와 미러 사이트의 소비 브레이크업(TiB)을 각각 1.02TiB와 1.05TiB로 표시합니다.
 
 image:mcc-chart.png["MCC 기본"]
 
-데이터 보호 Extreme_service 레벨의 경우 다음과 같은 차트가 나타납니다.
+데이터 보호 Extreme_service 레벨(데이터 보호 서비스 레벨)의 경우 다음과 같은 차트가 나타납니다.
 
 image:dp-src.png["MCC 기본 베이스"]
 
 .2차(미러 사이트) 구독에 대해 확인할 수 있는 사항
-보조 구독을 확인하는 경우 동일한 데이터 수집 지점에서 _Extreme_service 수준에 대한 막대 차트가 반전되고 운영 사이트와 미러 사이트의 소비 중단은 각각 1.05TiB와 1.02TiB인 것을 확인할 수 있습니다.
+2차 구독을 확인하는 경우 파트너 사이트와 동일한 데이터 수집 지점에서 _Extreme_service 수준(기본 서비스 수준)의 막대 차트가 반전되고 1차 및 미러 사이트의 소비 중단은 각각 1.05TiB와 1.02TiB인 것을 확인할 수 있습니다.
 
 image:mcc-chart-mirror.png["MCC 미러"]
 
-Data-Protect Extreme_service 레벨의 경우 차트가 동일한 컬렉션 지점에서 다음과 같이 나타납니다.
+데이터 보호 Extreme_service 레벨(데이터 보호 서비스 레벨)의 경우 차트는 파트너 사이트와 동일한 컬렉션 지점에서 다음과 같이 표시됩니다.
 
 image:dp-mir.png["MCC 미러 베이스"]
 
