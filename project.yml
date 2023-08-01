@@ -86,7 +86,7 @@ sidebar:
         url: "/sewebiug_select_tenant.html"
       - title: NetApp 서비스 엔진 웹 인터페이스 를 참조하십시오
         url: "/sewebiug_netapp_service_engine_web_interface_overview.html"
-    - title: Keystone 구독 플래시보드 를 봅니다
+    - title: Keystone 구독 대시보드 보기
       url: "/sewebiug_dashboard.html"
     - title: 청구 보기
       url: "/sewebiug_billing.html"

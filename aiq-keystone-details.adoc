@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: aiq-keystone-details.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports, MetroCluster, StorageGRID, consumption details 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports, MetroCluster, StorageGRID, consumption details, AIQ DA 
 summary: Keystone 구독 보고서 및 그래프 
 ---
 = Keystone을 위한 Digital Advisor 대시보드 및 리포팅
@@ -21,25 +21,24 @@ NOTE: 여기에서 제공되는 정보는 ONTAP 및 StorageGRID 모두에 적용
 
 Keystone 디지털 자문 위젯에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["NetApp Keystone 서브스크립션을 통해 용량 활용도를 확인할 수 있습니다"^].
 
-세부 정보를 보려면 다음 단계를 수행하십시오.
+Keystone 가입 및 사용 세부 정보를 보려면 다음 단계를 수행하십시오.
 
 .단계
 . Digital Advisor에 로그인합니다. 구매한 Keystone 서비스와 비교하여 용량 사용이 요약된 * Keystone 가입 * 위젯을 확인할 수 있습니다.
 . Keystone 구독 * 위젯에서 * 자세한 정보 보기 * 를 클릭하여 * Keystone 구독 * 페이지에서 볼륨에 대한 사용 세부 정보와 알림을 확인하십시오. 또는 왼쪽 탐색 창에서 * 일반 > Keystone 구독 * 으로 이동합니다.
-
-
 서브스크립션 세부 정보, 각 서비스 수준에 대한 사용 차트 및 볼륨 세부 정보는 * Keystone 가입 * 화면의 여러 탭에 표시됩니다.
+
 
 
 NOTE: Keystone 서브스크립션의 용량 소비는 대시보드 및 보고서의 TiB에 표시되며 소수점 이하 두 자리까지 반올림됩니다. 사용률이 0.01TiB 미만이면 값이 로 표시됩니다 `0` 또는 `No Usage`. 기타 사용량 메트릭은 를 참조하십시오 https://docs.netapp.com/us-en/keystone/nkfsosm_service_level_metrics_and_definitions.html["서비스 수준 메트릭 및 정의"]. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Keystone 서비스 용량 정의"].
 
 
 
-== 구독 세부 정보를 봅니다
+== 모든 구독을 봅니다
 
-계정 이름에 대한 모든 구독은 * 가입 세부 정보 * 탭에서 확인할 수 있습니다.
+모든 구독 * 탭에서 모든 구독 목록을 볼 수 있습니다.
 
-image:aiq-ks-dtls.png["구독 세부 정보 탭"]
+image:all-subs.png["모든 구독 탭의 이미지"]
 
 각 구독 번호에 대해 다음 정보를 확인할 수 있습니다.
 
@@ -54,17 +53,10 @@ TIP: 구독에 데이터 보호 서비스 수준 또는 요금 계획이 할당�
 * * 시작일 *: 가입일.
 * * 종료일 *: 가입 종료 날짜. 날짜가 비어 있으면 구독에 종료 날짜가 없으며 자동으로 갱신됩니다. 이 날짜를 기준으로 만료가 임박한 구독 또는 자동 갱신 정책이 연결된 구독에 대한 정보 메시지가 표시될 수 있습니다.
 * * 사용 상태 *: 구독이 얼마나 많이 사용되었거나 초과 사용되었는지 나타냅니다. 최고 소비 레코드를 보려면 이 열을 기준으로 목록을 정렬할 수 있습니다.
-* image:aiq-ks-time-icon.png["아이콘을 클릭합니다"]: 이 아이콘을 클릭하면 이 구독에 포함된 각 서비스 수준의 사용 내역 데이터를 볼 수 있는 * 가입 시간 시리즈 * 탭이 열립니다.
-
-
-구독 레코드에 대한 아래쪽 화살표를 클릭하면 자세한 내용을 볼 수 있습니다. 서비스 수준 이름, 커밋됨, 소비됨, 사용 가능한 용량, 현재 및 계산된 버스트 사용률 등의 세부 정보는 TiB로 표시됩니다.
-
-
-TIP: 더 높은 소비량을 기록하는 특정 서비스 수준이 강조 표시됩니다. 볼륨에 대해 생성된 경고와 알림을 볼 수도 있습니다.
-
-Keystone 스토리지 서비스 및 관련 서비스 수준에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["서비스 레벨"].
-
+* image:subs-dtls-icon.png["아이콘을 클릭합니다"]: 구독에 대해 이 아이콘을 클릭하면 해당 구독에 대한 추가 세부 정보가 있는 * 가입 세부 정보 * 탭이 열립니다.
+* image:aiq-ks-time-icon.png["아이콘을 클릭합니다"]: 이 아이콘을 클릭하면 이 구독에 포함된 각 서비스 수준에 대한 기간별 사용 데이터를 볼 수 있는 * Time Series * 탭이 열립니다.
 다음 사용 표시기를 참조하여 각 구독의 사용 상태를 확인할 수 있습니다.
+
 
 image:usage-indicator.png["아이콘"]
 
@@ -77,12 +69,27 @@ image:icon-purple.png["아이콘을 클릭합니다"]: 규정된 버스트 제�
 
 
 
+== 구독 세부 정보를 봅니다
+
+구독의 세부 정보를 확인하려면 * 구독 세부 정보 * 탭을 클릭하고 필요한 구독 번호를 선택합니다.
+
+image:aiq-ks-dtls.png["구독 세부 정보 탭"]
+
+서비스 수준 이름, 커밋됨, 소비됨, 사용 가능한 용량, 현재 및 계산된 버스트 사용률 등의 세부 정보는 TiB로 표시됩니다.
+
+
+TIP: 를 클릭합니다 image:icon-info.png["정보 아이콘"] 각 열 옆에 있는 아이콘 은 해당 열에 대한 포괄적인 정보를 제공합니다. 더 높은 소비량을 기록하는 특정 서비스 수준이 강조 표시됩니다. 볼륨에 대해 생성된 경고와 알림을 볼 수도 있습니다.
+
+Keystone 스토리지 서비스 및 관련 서비스 수준에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["서비스 레벨"].
+
+
+
 == 과거 구독 데이터를 봅니다
 
-[가입 시간 시리즈 *] 탭에는 특정 기간 동안 Keystone 가입 내역 데이터가 표시됩니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.
+[시간 시리즈 *] 탭에는 특정 기간 동안 Keystone 가입 내역 데이터가 표시됩니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.
 
 .단계
-. [가입 시간 시리즈 *] 탭을 클릭합니다.
+. 시간 시리즈 * 탭을 클릭합니다.
 . 세부 정보를 보려는 필수 구독을 선택합니다. 기본적으로 계정 이름의 첫 번째 구독이 선택됩니다.
 . From Date * 및 * To Date * 필드의 달력 아이콘에서 시간 범위를 선택합니다. 기본 시간 범위는 청구 기간의 시작 날짜부터 현재 날짜까지입니다.
 +
@@ -141,10 +148,10 @@ NOTE: 현재 사용량 *, * 현재 버스트 * 및 * 누적 버스트 * 표시�
 
 === 데이터 보호에 대한 추가 정보입니다
 
-.여기를 클릭하십시오
+.자세한 정보
 [%collapsible]
 ====
-데이터 보호 서비스를 구독한 경우 * Subscription Time Series * 탭에서 MetroCluster 파트너 사이트의 소비 데이터 분열을 확인할 수 있습니다.
+데이터 보호 서비스를 구독한 경우 * Time Series * 탭에서 MetroCluster 파트너 사이트의 소비 데이터 분열을 볼 수 있습니다.
 
 데이터 보호에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/nkfsosm_data_protection.html["데이터 보호"].
 
@@ -154,7 +161,7 @@ ONTAP 스토리지 환경의 클러스터가 MetroCluster 설정에 구성되어
 NOTE: 소비 막대 차트는 기본 서비스 수준에 대해서만 분할됩니다. 데이터 보호 서비스 수준의 경우 이 경계가 나타나지 않습니다.
 
 .데이터 보호 서비스 레벨
-데이터 보호 서비스 수준의 경우 총 소비량은 파트너 사이트 간에 분할되며, 각 파트너 사이트의 사용량은 별도의 구독으로 반영 및 청구됩니다. 즉, 기본 사이트의 구독과 미러 사이트의 구독이 각각 하나씩 포함됩니다. 따라서 * Subscription Time Series * 탭에서 기본 사이트의 구독 번호를 선택하면 DP 서비스 수준에 대한 소비 차트에 기본 사이트에만 개별 소비 상세 정보가 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 하기 때문에 각 사이트의 총 사용량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.
+데이터 보호 서비스 수준의 경우 총 소비량은 파트너 사이트 간에 분할되며, 각 파트너 사이트의 사용량은 별도의 구독으로 반영 및 청구됩니다. 즉, 기본 사이트의 구독과 미러 사이트의 구독이 각각 하나씩 포함됩니다. 따라서 * Time Series * 탭에서 기본 사이트의 구독 번호를 선택하면 DP 서비스 수준에 대한 소비 차트에 기본 사이트에 대한 개별 소비 상세 정보만 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 하기 때문에 각 사이트의 총 사용량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.
 
 
 TIP: 구독 정보 * 탭의 구독 ID 옆에 있는 도구 설명을 통해 MetroCluster 설정에서 파트너 구독을 확인할 수 있습니다.
@@ -193,7 +200,7 @@ MetroCluster에서 데이터를 보호하는 방법에 대한 자세한 내용�
 
 === ONTAP 볼륨 세부 정보입니다
 
-.여기를 클릭하십시오
+.자세한 정보
 [%collapsible]
 ====
 ONTAP의 경우 * 시스템 세부 정보 * 탭은 Keystone 가입이 관리하는 스토리지 환경 내 볼륨의 용량 사용, 볼륨 유형, 클러스터, 애그리게이트, 서비스 레벨 등의 정보를 표시합니다.
@@ -217,7 +224,7 @@ image:aiq-ks-sysdtls.png["시스템 세부 정보 탭"]
 
 === StorageGRID 노드 및 소비 세부 정보
 
-.여기를 클릭하십시오
+.자세한 정보
 [%collapsible]
 ====
 StorageGRID의 경우 이 탭에는 오브젝트 스토리지 환경의 노드에 대한 논리적 사용량이 표시됩니다.
@@ -243,11 +250,11 @@ image:sg-link-2.png["SG 팝업"]
 
 세부 정보는 나중에 사용할 수 있도록 저장할 수 있는 CSV 형식으로 생성됩니다.
 
-[가입 시간 시리즈 *] 탭에서는 쿼리의 날짜 범위 또는 일별 보고서의 기본 30개 데이터 수집 지점에 대한 보고서를 다운로드할 수 있습니다.
+Time Series * (시간 시리즈 *) 탭에서는 쿼리의 날짜 범위 또는 일별 보고서의 기본 30개 데이터 수집 지점에 대한 보고서를 다운로드할 수 있습니다.
 
 image:aiq-report-dnld.png["보고서 샘플"]
 
-그래픽 데이터가 변환되는 * Subscription Time Series * 탭의 샘플 보고서:
+그래픽 데이터가 변환되는 * Time Series * 탭의 샘플 보고서:
 
 image:report.png["보고서 샘플"]
 
