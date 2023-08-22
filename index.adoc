@@ -15,8 +15,6 @@ summary: NetApp Keystone은 클라우드 전반에서 스토리지 비용을 재
 
 NetApp Keystone은 클라우드 전환을 지원하는 사내 자본 지출(CapEx) 대체 포트폴리오를 제공합니다. NetApp Keystone은 사내와 클라우드에 있는 스토리지 서비스를 통해 원활한 하이브리드 클라우드 경험을 제공합니다. NetApp Keystone에 대한 자세한 내용은 를 참조하십시오 link:https://www.netapp.com/services/subscriptions/keystone/["NetApp Keystone"]
 
-NetApp Keystone에 대한 자세한 내용은 를 참조하십시오 https://www.netapp.com/services/keystone/["NetApp Keystone"].
-
 Keystone은 온프레미스 시스템에서 클라우드와 같은 경험을 제공하며 귀사의 상황에 맞게 클라우드에 연결할 수 있는 서비스형 스토리지 오퍼링입니다.
 
 
@@ -54,3 +52,5 @@ Keystone은 다음과 같은 이점을 제공합니다.
 
 
 image:nkfsosm_image4.png["이점"]
+
+Keystone 서비스는 NetApp Keystone STaaS 오퍼링과 다릅니다. NetApp Keystone STaaS에 대한 자세한 내용은 https://docs.netapp.com/us-en/keystone-staas/index.html[Keystone STaaS]를 참조하십시오.

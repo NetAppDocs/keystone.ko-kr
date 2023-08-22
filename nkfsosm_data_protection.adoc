@@ -24,7 +24,7 @@ NetApp Keystone 데이터 보호 서비스는 데이터를 백업하고 필요�
 
 NOTE: 백업 및 재해 복구 서비스는 추가 서비스로 사용할 수 있고 스냅샷은 기본 스토리지 서비스의 일부로 사용할 수 있습니다.
 
-데이터 보호 서비스를 구독한 경우 특정 서비스 수준이 구독에 할당됩니다(예: _Data-Protect Extreme_, _Data-Protect Premium_ 등). 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/aiq-keystone-details.html#additional-details-for-data-protection["데이터 보호에 대한 추가 정보입니다"]
+데이터 보호 서비스를 구독한 경우 특정 서비스 수준이 구독에 할당됩니다(예: _Data-Protect Extreme_, _Data-Protect Premium_ 등). 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/keystone/aiq-keystone-details.html#reference-charts-for-data-protection["데이터 보호에 대한 참조 차트"].
 
 |===
 |  | 단일 영역 스냅샷(기본 스토리지 서비스의 일부로 사용 가능) | 다중 지역 백업(데이터 보호 애드온) | 다중 지역 재해 복구(데이터 보호 애드온) 
