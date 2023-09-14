@@ -33,7 +33,7 @@ NetApp Service Engine 대시보드는 다음과 같은 새 구성 요소를 포�
 * * 용량 활용도 * 구독한 서비스에 사용된 용량을 확인하는 데 사용됩니다.
 * * 모든 구독에 대해 집계된 월별 요금을 보기 위한 월별 요금(청구) *.
 * * 알림 * 사용자 환경에서 가장 최근의 알림 요약을 볼 수 있습니다.
-* * 서비스 요청 * 사용자 환경에서 생성된 최신 서비스 요청 목록을 표시합니다. 자세한 내용은 을 참조하십시오 link:sewebiug_dashboard.html["Keystone 대시보드 보기"].
+* * 서비스 요청 * 사용자 환경에서 생성된 최신 서비스 요청 목록을 표시합니다.
 
 
 
@@ -42,13 +42,13 @@ NetApp Service Engine 대시보드는 다음과 같은 새 구성 요소를 포�
 
 새로운 * 청구 * 화면이 추가되어 간편하게 액세스할 수 있고 과거 청구 데이터를 계산할 수 있습니다. 이 화면에서는 모든 구독한 서비스와 관련된 월별 요금을 전체적으로 볼 수 있습니다.
 
-대시보드의 * Monthly Billes * 위젯이나 * administration > Billing * 에서 이 화면으로 이동하여 구독한 모든 서비스에 대한 월별 구독 수준의 요금 분업을 확인할 수 있습니다. 청구 데이터는 약정 및 버스트 용량 사용량을 기준으로 하며, 이전 개월 동안 사용할 수 있습니다. 자세한 내용은 을 참조하십시오 link:sewebiug_billing.html["청구 보기"].
+대시보드의 * Monthly Billes * 위젯이나 * administration > Billing * 에서 이 화면으로 이동하여 구독한 모든 서비스에 대한 월별 구독 수준의 요금 분업을 확인할 수 있습니다. 청구 데이터는 약정 및 버스트 용량 사용량을 기준으로 하며, 이전 개월 동안 사용할 수 있습니다.
 
 
 
 === New Alerts(새 경고) 화면
 
-이 릴리즈에는 시스템에서 생성하고 사용자가 생성한 모든 경고가 나열된 새 * Alerts * 화면이 도입되었습니다. 또한 이 화면을 통해 사용자 환경과 관련된 중요 이벤트에 대한 사용자 지정 경고 메시지를 만들어 다른 사용자에게 전달할 수 있습니다. 필요에 따라 알림을 보고 해제할 수 있습니다. 자세한 내용은 을 참조하십시오 link:sewebiug_alerts.html["알림을 생성하고 관리합니다"].
+이 릴리즈에는 시스템에서 생성하고 사용자가 생성한 모든 경고가 나열된 새 * Alerts * 화면이 도입되었습니다. 또한 이 화면을 통해 사용자 환경과 관련된 중요 이벤트에 대한 사용자 지정 경고 메시지를 만들어 다른 사용자에게 전달할 수 있습니다. 필요에 따라 알림을 보고 해제할 수 있습니다.
 
 
 
@@ -77,18 +77,6 @@ NetApp Service Engine 사용자 인터페이스에서 다음과 같은 개선 �
 * * 가입: * 파트너 관리자는 * 가입 * > * Keystone 가입 * 및 * 가입 * > * 테넌트 구독 * 에서 구독 및 테넌트 구독을 각각 확인하고 업데이트할 수 있습니다. 테넌트 관리자는 테넌트 구독만 볼 수 있습니다.
 * * 사용자: * 역할에 따라 필요에 따라 테넌시에 있는 신규 또는 기존 사용자에게 권한을 할당할 수 있습니다. 이 역할은 NetApp 관리자, 읽기 전용 권한이 있는 NetApp 관리자, 파트너 관리자 또는 테넌트 관리자일 수 있습니다. 파트너 관리자는 파트너 관리자 또는 테넌트 관리자 역할만 새 사용자에게 할당할 수 있습니다. 테넌트 관리자 사용자는 테넌트 관리자 역할만 다른 사용자에게 할당할 수 있습니다.
 * * 네트워크 메뉴: * 파트너 관리자는 테넌시에 대해 정의된 네트워크를 볼 수 있습니다. 또한 * networks * > * subnets * 에서 서브테넌트와 존에 대한 서브넷을 생성할 수 있습니다. 이는 최종 고객 또는 하위 테넌트가 스토리지를 프로비저닝하는 동안 필요합니다.
-* API 지원: "/Tenants/{tenant_id}/zones/{zone_name}/subnets" 및 "/tenant/{tenant_id}/zones/{zone_name}/subnets/{id}/tags" API는 서브테넌트의 서브넷을 만들고 보기 위해 이 릴리스의 일부로 제공됩니다.
-
-
-이 기능에 대한 자세한 내용은 다음 링크를 참조하십시오.
-
-* link:nkfsosm_overview.html["운영 모델, 역할 및 책임"]
-* link:nkfsosm_tenancy_overview.html["Keystone의 테넌시 및 멀티 테넌시"]
-* link:sewebiug_dashboard.html["Keystone 대시보드 보기"]
-* link:sewebiug_working_with_reports.html["보고서 보기"]
-* link:sewebiug_managing_subscriptions.html["구독 관리"]
-* link:sewebiug_managing_tenants_and_subtenants.html["테넌트 및 하위 테넌트 관리"]
-* link:sewebiug_define_network_configurations.html["테넌트 및 하위 테넌트에 대한 네트워크를 정의합니다"]
 
 
 
@@ -150,7 +138,7 @@ SnapCenter 서비스 엔진과 NetApp 통합 시, 이제 NetApp 서비스 엔진
 
 === CIFS 공유에 대한 사용자 액세스를 제한하는 데 필요한 프로비저닝
 
-이제 CIFS(SMB) 또는 다중 프로토콜 공유에서 사용자 액세스를 제한하는 ACL(액세스 제어 목록)을 지정할 수 있습니다. ACL에 추가할 AD(Active Directory) 설정에 따라 Windows 사용자 또는 그룹을 지정할 수 있습니다.link:https://docs.netapp.com/us-en/keystone/sewebiug_create_a_new_file_share.html#steps["자세한 정보"].
+이제 CIFS(SMB) 또는 다중 프로토콜 공유에서 사용자 액세스를 제한하는 ACL(액세스 제어 목록)을 지정할 수 있습니다. ACL에 추가할 AD(Active Directory) 설정에 따라 Windows 사용자 또는 그룹을 지정할 수 있습니다.
 
 
 
@@ -201,19 +189,19 @@ NetApp 서비스 엔진은 호스트 그룹의 사용을 지원합니다. 호스
 
 ==== 제안된 변경으로 인해 버스트 용량이 발생할 경우 알림
 
-제안된 프로비저닝에서 구독이 급증하도록 야기되는 변경 사항을 표시하는 알림입니다. 사용자는 구독이 급증하거나 작업을 계속하지 않도록 선택할 수 있습니다.link:sewebiug_billing_accounts,_subscriptions,_services,_and_performance.html#burst-usage-notifications["자세한 정보"].
+제안된 프로비저닝에서 구독이 급증하도록 야기되는 변경 사항을 표시하는 알림입니다. 사용자는 구독이 급증하거나 작업을 계속하지 않도록 선택할 수 있습니다.
 
 
 
 ==== 버스트 가입 시 알림
 
-구독이 버스트 상태일 때 알림 배너가 표시됩니다.link:sewebiug_billing_accounts,_subscriptions,_services,_and_performance.html#burst-usage-notifications["자세한 정보"].
+구독이 버스트 상태일 때 알림 배너가 표시됩니다.
 
 
 
 ==== 용량 보고서에 버스트 사용량이 표시됩니다
 
-구독이 버스트 된 일수와 사용된 버스트 용량의 수량을 보여 주는 용량 보고서입니다.link:sewebiug_working_with_reports.html#capacity-usage["자세한 정보"].
+구독이 버스트 된 일수와 사용된 버스트 용량의 수량을 보여 주는 용량 보고서입니다.
 
 
 

@@ -41,7 +41,7 @@ NetApp Keystone 서비스 용량은 다음과 같습니다.
 
 * 커밋된 용량을 줄일 수 없습니다
 * 가입 만료 90일 전에는 약정 용량을 늘릴 수 없습니다. 단, 12개월 추가 기간 동안 가입을 갱신해야 합니다.
-* NetApp 서비스 엔진 인터페이스 또는 Keystone 성공 관리자를 통해 확정된 용량을 변경할 수 있습니다. 변경 요청에 대한 자세한 내용은 을 참조하십시오 link:sewebiug_raise_a_service_request.html["서비스 요청을 제출하십시오"].
+* Keystone Success Manager를 통해 약정 용량의 변경 사항을 요청할 수 있습니다.
 
 
 

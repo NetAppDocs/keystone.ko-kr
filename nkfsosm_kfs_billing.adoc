@@ -30,8 +30,6 @@ Keystone 청구는 확정된 용량 및 가변 버스트 소비를 기반으로 
 
 커밋된 용량 및 버스트 용량 사용에 대한 자세한 내용은 을 참조하십시오 link:nkfsosm_keystone_service_capacity_definitions.html["Keystone 서비스 용량 정의"].
 
-청구 세부 정보를 보는 방법에 대한 자세한 내용은 를 참조하십시오 link:sewebiug_billing.html["청구 보기"].
-
 
 
 == 약정 용량에 따른 청구

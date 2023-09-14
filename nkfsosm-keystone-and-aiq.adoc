@@ -47,6 +47,8 @@ TIP: 구독 * 탭에서 필터링된 구독 목록을 보려면 * 구독 * 링�
 
 
 
+image:db-card.png["SLA 미적용"]
+
 Digital Advisor에 대한 자세한 내용은 를 참조하십시오 link:https://docs.netapp.com/us-en/active-iq/index.html["Digital Advisor 설명서"].
 
 Keystone 구독 * 탭에 대한 내용은 _Digital Advisor 대시보드 및 Keystone_ 보고 를 참조하십시오.
