@@ -30,6 +30,6 @@ Keystone 인프라에는 여러 구성요소가 포함되어 있습니다.
 * OpsRamp, Active IQ Digital Advisor, Active IQ Unified Manager 등의 서비스를 관리하고 운영하는 툴
 
 
-NetApp Keystone와 Active IQ 통합에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/active-iq/["Active IQ 디지털 자문 문서"]
+Active IQ와 NetApp Keystone 통합에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/active-iq/["Active IQ 디지털 자문 문서"^]
 
 image:nkfsosm_image8.png["KS - 인프라"]

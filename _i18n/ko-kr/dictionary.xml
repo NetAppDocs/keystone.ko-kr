@@ -174,7 +174,6 @@
   <block id="1a8f20342523eaa8f9195dffa647161c" category="list-text">규정 준수, 성능 및 보안을 적절하게 제어할 수 있습니다</block>
   <block id="e926c4b1e2cbc184aaebed3300b65528" category="summary">NetApp Keystone 개요</block>
   <block id="f7182ba3d28df04fc9e3174e93f4e48f" category="paragraph">다음 질문을 통해 NetApp Keystone에 대한 자주 묻는 질문에 대한 답변을 얻을 수 있습니다.</block>
-  <block id="495428b6203b94e86f7bb39ebd14943f" category="paragraph">NetApp Keystone은 자본 지출 및 하이브리드 클라우드 전략의 핵심 요소를 연결하여 민첩성, 재무 유연성을 제공하고, 금융 위험을 줄여 고객이 현금 유동성과 비즈니스 요구사항을 충족하도록 지원합니다.</block>
   <block id="d3b10007d7035a7c568a3955a37eed8b" category="paragraph">사내는 코로케이션 시설에서 고객 소유 데이터 센터 또는 고객 소유 공간으로 정의됩니다. 고객은 공간, 전력 및 냉각에 대한 책임이 있습니다.</block>
   <block id="6fbd5ba12eeaf6cdc7cb2be883e1855d" category="list-text">규정 준수, 성능 및 보안에 대한 적절한 제어 가능 자세한 내용은 을 참조하십시오 <block ref="074845093102bf29a3fca45f5b6d3cea" category="inline-link-macro-rx"></block>.</block>
   <block id="10288ddd3c9dd46deaa222ee129df3fb" category="doc">미국 시민 지원(USCS)</block>
@@ -202,9 +201,7 @@
   <block id="6dd89d8ee4d83062ef9dba0e795d0094" category="paragraph">NetApp은 NetApp Keystone 고객에게 운영 서비스를 원격으로 제공합니다. 이러한 서비스에는 자산 및 구성 관리, 용량 및 성능 관리, 변경 관리, 이벤트, 인시던트 및 문제 관리, 서비스 요청 이행, 보고 등 스토리지 관리 활동 전반에 걸쳐 광범위한 운영 분야가 포함됩니다. NetApp은 필요에 따라 제어 상태와 지원 증거를 보여줍니다.</block>
   <block id="0a01a33e5f29d399207cdf2d0bedd8e4" category="section-title">추가 정보 및 지원 연락처</block>
   <block id="50785ea5474768c3e245af56e1cfa84d" category="paragraph">다음 정보를 사용하여 지원 팀에 연락할 수도 있습니다.</block>
-  <block id="9ce6a2c2337576ef546d52eea3aa5f7b" category="list-text">글로벌 서비스 연락처:<block ref="85c2386291061c6540196c84b0b38a60" category="inline-link-rx"></block></block>
   <block id="b5595970f33e0d17ec97d1f894153b1d" category="list-text">에스컬레이션해야 하는 미해결 케이스/티켓이 있는 경우 다음 주소 중 하나로 이메일을 보내주시기 바랍니다. Keystone.services@netapp.com Keystone.escalations@netapp.com</block>
-  <block id="1427c4269ac71009fcf20e320f428d42" category="list-text">NetApp은 문제 해결을 위해 클라우드 기반 원격 게이트웨이 솔루션인 OpsRamp를 사용하여 NetApp Keystone 환경을 능동적으로 모니터링하고 연결합니다. OpsRamp에 대한 자세한 내용은 를 참조하십시오<block ref="ddbfe3d63449639712fee69542f32fdc" category="inline-link-rx"></block>.</block>
   <block id="1523e236f7bfe808de9462c9c7d217ab" category="admonition">파트너 운영 모델에서는 테넌트 및 서브테넌트의 서비스 요청이 파트너의 서비스 데스크에 할당됩니다. 파트너의 지원 툴은 OpsRamp 및 GSSC 애플리케이션과 통합할 수 있습니다. L3 문제만 GSSC를 통해 NetApp으로 에스컬레이션됩니다.</block>
   <block id="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link"><block ref="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link-rx"></block></block>
   <block id="1c6d9d150de7c9865ab3839ec9e99e4b" category="list-text">NetApp Keystone<block ref="4b675bc45aec5ce1523a19f69a2ff928" category="inline-link-rx"></block></block>
@@ -215,7 +212,6 @@
   <block id="c9f8c46c19cc33ee0a4a750a7062ea9e" category="list-text">서비스 요구사항에 맞게 제품의 용량을 늘리거나 줄입니다.</block>
   <block id="c922e260c91e9dfb9972aed0ec4df400" category="list-text">서비스 요구사항에 맞게 아키텍처, 기술 및/또는 제품을 수정합니다.</block>
   <block id="25ee4245ff35e15ec0a6dda5f6cd1765" category="inline-link-macro">Active IQ 디지털 자문 문서</block>
-  <block id="32577a69f048903f418e8743cf0bac99" category="paragraph">NetApp Keystone와 Active IQ 통합에 대한 자세한 내용은 을 참조하십시오 <block ref="38a54c9e880fa18a2a1c016836ec12db" category="inline-link-macro-rx"></block></block>
   <block id="10bc620b6bb0f1ce4ea88e07efee73a6" category="summary">서비스 제공 세부 정보</block>
   <block id="81ffcf182e9bafd1ef112dadd81c3f06" category="paragraph">가입 후 마지막 90일 이내에 요청이 이루어지면 최소 12개월 동안 기간이 연장되어야 하는 경우를 제외하고 모든 추가 사항은 기존 기간 동안 상호 적용됩니다.</block>
   <block id="353851e3be472d2e7deedffb8c84e9cd" category="paragraph">예. 새 구독은 기존 구독과 별도로 새 용어를 사용할 수 있습니다.</block>
@@ -501,7 +497,6 @@
   <block id="3cc6f4aa3b6f7beebb36ba03d0894c83" category="list-text">녹색: 약속된 용량의 80% 이내</block>
   <block id="8cb9900bd09a496f0e4b2e4220549b55" category="list-text">자주색: 버스트 제한 초과.</block>
   <block id="ccdbd07a063ad5631511d37c5d2f5a36" category="list-text">가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다.</block>
-  <block id="b3e33e1c1964ee47822698a5c69ad576" category="paragraph">StorageGRID의 경우 이 탭에는 오브젝트 스토리지 환경의 노드에 대한 논리적 사용량이 표시됩니다.</block>
   <block id="4305e9b17980561df3c63a75f32b2075" category="list-text">가입 번호를 선택합니다. 기본적으로 사용 가능한 첫 번째 구독 번호가 선택됩니다. 구독 번호를 선택하면 객체 스토리지 세부 정보에 대한 링크가 활성화됩니다.</block>
   <block id="4be9bcf02510758e3d80494ef37c15b0" category="list-text">링크를 클릭하여 각 노드의 노드 이름 및 논리적 사용 정보를 확인하십시오.</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="section-title">보고서를 생성합니다</block>
@@ -512,12 +507,9 @@
   <block id="7a0a61d280e201148fcd091f8167d88f" category="list-text">* 정보 *: 가입 종료와 같은 문제의 경우 정보 경고를 볼 수 있습니다. 정보 아이콘 위에 커서를 올려 놓으면 문제에 대해 자세히 알아볼 수 있습니다.</block>
   <block id="77561a56c28ac9cccc7140baff66eefa" category="paragraph">AQoS 정책에 대한 자세한 내용은 을 참조하십시오<block ref="eb9e151d2a405494b16ec028c9292f15" category="inline-link-rx"></block>.</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link-macro">Digital Advisor 설명서</block>
-  <block id="199941fcffe1cc10f1d78276fb963281" category="paragraph">Digital Advisor에 대한 자세한 내용은 를 참조하십시오 <block ref="6ddd16d015a7ae88cd6e808110d98222" category="inline-link-macro-rx"></block>.</block>
   <block id="d7b031f9c8084a9ac68f816f54b2be3b" category="paragraph">* 서비스 계층에 따라 어떤 소프트웨어 버전(예: ONTAP)이 기본적으로 설치됩니까? * 서비스 계층에 따라(예: 파일 및 블록 서비스가 포함된 ONTAP, 블록용 SANtricity 및 객체용 StorageGRID) 지원 팀이 보안 또는 기능 문제 없이 가장 안정적인 최신 릴리스를 설치합니다.</block>
   <block id="63d539af1a31e2f3e8acd3fdd788eac6" category="sidebar">Active IQ 디지털 어드바이저에서 보고서를 보고 생성합니다</block>
-  <block id="6e7c483cdb01e24565496a3900e28fec" category="paragraph">NetApp Keystone은 사내 자본 지출(capex) 대안의 포트폴리오입니다. 자세한 내용은 을 참조하십시오<block ref="fd61a890a707ca05d29be95e1bcac169" category="inline-link-rx"></block>.</block>
   <block id="b56dfcbdbeaf347744e50267854b6402" category="paragraph">NetApp Keystone 브랜드는 Keystone 서비스와 함께 현금을 중요시하는 고객을 위한 기존 금융, 리스 및 고정/가변 옵션을 포함하는 유연한 지불 솔루션 포트폴리오를 제공합니다.</block>
-  <block id="24d6e3237eff35d6312792ed10370533" category="paragraph">* Keystone 서비스(OPEX, 클라우드와 같은 경험): * * * 100% OPEX를 선호하므로 고객의 대차대조표에 자산이 포함되지 않음 * 사용/매출 * 예상 용량 증가와 함께 비용을 조정하고자 하는 내부/외부 서비스 공급자 * 일반적인 스토리지 작업(마이그레이션, 기술 업데이트, 업그레이드, 등) * 클라우드로 워크로드를 마이그레이션하기 전의 단기 솔루션 * 클라우드에서 사내로 워크로드를 다시 이동</block>
   <block id="582e8b474c4c411c4bfbaa64ebf38461" category="paragraph">NetApp Keystone는 새롭고 유연한 온프레미스 구독 기반 조달 모델입니다. 고객은 리소스 관리의 장애물을 제거하고 긴 조달 주기를 거치는 등, 가치 창출 시간을 앞당길 수 있습니다. Keystone 서비스를 통해 고객은 비즈니스 우선순위에 맞게 경제성을 조정할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="e54def7567bc3788d2fec2fa9a5026d4" category="inline-link-macro-rx"></block>.</block>
   <block id="2c73325886a5bb00150c4f6251e0fe6d" category="paragraph">* Keystone 서비스의 이점은 무엇입니까? *</block>
   <block id="e8fae73e1864731d82c5af04538f4b0b" category="paragraph">Keystone 서비스의 몇 가지 이점은 다음과 같습니다.</block>
@@ -547,8 +539,6 @@
   <block id="20b4ea3e54bbb671333b0c25e036fe6a" category="doc">Keystone 고객이 Active IQ 디지털 어드바이저에서 볼 수 있는 것은 무엇입니까?</block>
   <block id="ac7fc128fe615de511649c7809bb0ec8" category="paragraph">Keystone 구독 * 탭에 대한 내용은 _Digital Advisor 대시보드 및 Keystone_ 보고 를 참조하십시오.</block>
   <block id="885a7272db12515ccb176ecc5739bfc0" category="doc">NetApp Keystone 설명서</block>
-  <block id="145c91ad690a40803e735d925eb2a0c0" category="paragraph">NetApp Keystone은 클라우드 전환을 지원하는 사내 자본 지출(CapEx) 대체 포트폴리오를 제공합니다. NetApp Keystone은 사내와 클라우드에 있는 스토리지 서비스를 통해 원활한 하이브리드 클라우드 경험을 제공합니다. NetApp Keystone에 대한 자세한 내용은 를 참조하십시오 <block ref="17e1729d4a77db88a0bc2ee74a2207b1" category="inline-link-macro-rx"></block></block>
-  <block id="0d69482788575b4bd217c8a319671e69" category="paragraph">Keystone은 온프레미스 시스템에서 클라우드와 같은 경험을 제공하며 귀사의 상황에 맞게 클라우드에 연결할 수 있는 서비스형 스토리지 오퍼링입니다.</block>
   <block id="1ce2096c300f78bbb8389ca2603e6dd9" category="section-title">키스톤</block>
   <block id="dfd9c8ba87a9db36016def228530476e" category="paragraph">Keystone은 확장 가능한 용량제 구독 기반 서비스 모델로, OpEx 소비 모델을 선호하는 투자자들에게 원활한 하이브리드 클라우드 경험을 제공하여 자본 지출 또는 임대를 지원합니다. 따라서 고객은 예측할 수 없는 용량 증가를 관리하고 복잡한 조달 주기를 따르는 데 따르는 복잡성을 줄임으로써 가치 창출 시간을 단축할 수 있습니다. Keystone을 통해 고객은 비즈니스 우선순위에 맞게 경제성과 운영을 조정할 수 있습니다.</block>
   <block id="35ebbaa256ff5268b49ad1df4ec0903e" category="paragraph">Keystone은 미리 정의된 성능 서비스 수준(서비스 수준)에 스토리지 용량을 제공하는 구독 기반 서비스 오퍼링으로, 온프레미스 및 NetApp, 파트너, 고객이 운영하는 블록, 파일, 오브젝트 데이터 유형에 대해 제공합니다. Keystone이 제공하는 기본 서비스 외에도 추가 비용을 통해 애드온 서비스를 선택할 수 있습니다. 이러한 서비스는 아래 그림에 설명되어 있습니다.</block>
@@ -609,7 +599,6 @@
   <block id="73cadb4cf764cf8de417608b2e01a846" category="paragraph">Keystone 청구에는 여러 시나리오가 있으며, 이러한 시나리오에 대해 잘 알고 있어야 합니다.</block>
   <block id="c68cd2dd4a31efe466d1886be77feb62" category="paragraph">고급 데이터 보호 기능은 NetApp MetroCluster를 사용하여 물리적으로 분리된 두 클러스터 간에 데이터를 미러링합니다. MetroCluster 미러링된 애그리게이트에서는 데이터가 각 클러스터에 한 번씩 두 번 기록됩니다. Keystone 서비스는 각 측면에서 독립적으로 소비에 청구되므로 두 개의 동일한 소비 레코드가 생성됩니다. ONTAP 시스템 관리자(System Manager) 또는 Active IQ Unified Manager(Unified Manager)를 통해 클러스터를 모니터링하는 경우 이러한 툴과 Keystone 서비스에 보고된 소비 내용이 일치하지 않을 수 있습니다. System Manager 및 Unified Manager는 미러링된(원격) 클러스터에 볼륨을 보고하지 않으며, Keystone 서비스가 보고하는 소비 메트릭의 절반만 보고합니다.</block>
   <block id="863a9d45d089efa7ff5b220d1f48def5" category="paragraph">예를 들어 사이트 A와 사이트 B는 MetroCluster 구성에서 설정됩니다. 사용자가 사이트 A에서 10TB의 볼륨을 생성하면 사이트 B에서 동일한 10TB의 볼륨이 생성됩니다 Keystone은 볼륨을 구분하고 각 사이트에서 10TB의 추가 소비를 기록하며 총 20TB를 늘립니다. System Manager 및 Unified Manager에서 사이트 A에서 10TB 볼륨을 생성했다고 보고합니다</block>
-  <block id="22e96e3e6c691983133335693638184e" category="paragraph">Keystone은 서비스 수준을 기준으로 소비를 측정합니다. 각 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 구축하는 동안 구독한 Keystone 서비스에 대한 각 QoS 정책에 대한 세부 정보가 제공됩니다. 스토리지 관리 작업 중에 예상치 못한 청구가 발생하지 않도록 서비스 수준에 따라 볼륨에 적절한 QoS 정책이 할당되었는지 확인합니다. ONTAP의 QoS 정책에 대한 자세한 내용은 을 참조하십시오 <block ref="7f8846f19a6367d0efc82511d70933cd" category="inline-link-macro-rx"></block>.</block>
   <block id="3655e8bb18b4941a3bf9ce392c24bbb4" category="paragraph">시스템과 루트 볼륨은 Keystone 서비스의 전체 모니터링의 일부로 모니터링되지만 계산되거나 청구되지는 않습니다. 이러한 볼륨에 대한 소비는 청구 대상에서 제외됩니다.</block>
   <block id="3bcb6d1fca14513cd4ba1820a95c6248" category="paragraph">이전 릴리스의 NetApp 서비스 엔진에서 발견된 다음과 같은 문제가 NetApp Keystone 서비스를 성공적으로 사용하도록 수정되었습니다.</block>
   <block id="db8a4745324737dff61880f7b9bc6a6d" category="paragraph">기존 환경에 NetApp Keystone 서비스를 사용하기 위해서는 공간, 랙, PDU, 전원, 디스크, 그리고 냉각, 네트워크 및 보안 요구 사항 추가 논의.</block>
@@ -723,8 +712,6 @@
 <block ref="8428f2683e402ce0337d14cf475231ce" category="inline-image-macro-rx" type="image"></block>: 규정된 버스트 제한을 초과하는 소비를 나타냅니다</block>
   <block id="f57aa475ec783bf5f654ae84fb0b5e09" category="paragraph">Keystone은 미리 정의된 성능 서비스 수준(서비스 수준)에 데이터 스토리지 용량을 제공하거나 구독 기준으로 계획 등급을 매기십시오. Keystone 서비스로 관리되는 각 볼륨은 서비스 수준과 연결되어 있습니다.</block>
   <block id="29005d0d658d65418d353d36b2bb6f04" category="inline-link">Keystone STaaS 문서</block>
-  <block id="382af8e8b2bf82c4df59a255786526a2" category="section-title">ONTAP 볼륨 세부 정보입니다</block>
-  <block id="fc33c921eada2f71b3a548355734f006" category="section-title">StorageGRID 노드 및 소비 세부 정보</block>
   <block id="248ee1b5c36074ad26f09b9a95a55dca" category="admonition">단일 서비스 수준 또는 요금제에 가입한 경우 비준수 볼륨에 대한 알림을 볼 수 없습니다.</block>
   <block id="1e082e4448eecee03f6bd4c2605a41bc" category="paragraph">데이터 보호에 대한 자세한 내용은 을 참조하십시오<block ref="88c192a22c75988714ca0d6a3ba44ff9" category="inline-link-rx"></block>.</block>
   <block id="e6b09591607b38dfa571b28e166b8e42" category="admonition">소비 막대 차트는 기본 서비스 수준에 대해서만 분할됩니다. 데이터 보호 서비스 수준의 경우 이 경계가 나타나지 않습니다.</block>
@@ -744,7 +731,6 @@
   <block id="5c5d0bc72c60ee286bac97972345b3e3" category="paragraph">서비스 수준 이름, 커밋됨, 소비됨, 사용 가능한 용량, 현재 및 계산된 버스트 사용률 등의 세부 정보는 TiB로 표시됩니다.</block>
   <block id="6d3602bc1499d37d6352a07745fe82a3" category="inline-image-macro">정보 아이콘</block>
   <block id="d99c74aa854c016d1663a41aa2c66269" category="admonition">를 클릭합니다 <block ref="41cd2369ab2f394456f5dd45b77d6e7d" category="inline-image-macro-rx" type="image"></block> 각 열 옆에 있는 아이콘 은 해당 열에 대한 포괄적인 정보를 제공합니다. 더 높은 소비량을 기록하는 특정 서비스 수준이 강조 표시됩니다. 볼륨에 대해 생성된 경고와 알림을 볼 수도 있습니다.</block>
-  <block id="124cd0f2df6f1c0e90303ec188b16200" category="section-title">구독 보기</block>
   <block id="6f6820b3819d1f9a5599f177155b219a" category="paragraph">구독 * 탭에서 구독 목록을 볼 수 있습니다.</block>
   <block id="65c3e42df0d651d4e8f2a553285c0e5e" category="paragraph">다음 정보를 볼 수 있습니다. 특정 필드 및 열의 경우 데이터에 대한 추가 정보를 제공하는 정보 또는 경고 아이콘 및 도구 설명이 표시될 수 있습니다.</block>
   <block id="ecfa40530fcd54d45bfb62da27433416" category="inline-link">데이터 보호에 대한 참조 차트</block>
@@ -753,11 +739,9 @@
   <block id="53ec3249395a2d124f78a90b59e4a6dc" category="list-text"><block ref="f5416884a5e4dfec0dfa2f3734568648" category="inline-image-macro-rx" type="image"></block>: 구독에 대해 이 아이콘을 클릭하면 해당 구독에 대한 추가 세부 정보가 있는 * Current Usage * 탭이 열립니다.</block>
   <block id="141902c98dffb4dbb2b0c0708294ef44" category="list-text"><block ref="435e416487181a998706b8fd7ece7b01" category="inline-image-macro-rx" type="image"></block>: 이 아이콘을 클릭하면 * Capacity Trend * 탭이 열리고 이 구독에 포함된 각 서비스 수준에 대한 사용 내역 데이터가 표시됩니다.
 다음 사용 표시기를 참조하여 각 구독의 사용 상태를 확인할 수 있습니다.</block>
-  <block id="2c7a9e8572a9ecd9910d8c030192e772" category="section-title">구독에 대한 사용 세부 정보를 봅니다</block>
   <block id="7076fb4d44d686edc10dffd665d66717" category="paragraph">구독에 대한 세부 정보를 확인하려면 * Current Usage * 탭을 클릭하고 필요한 구독 번호를 선택합니다.</block>
   <block id="9589f5efb3ba98ee4ca1d2943fd95176" category="inline-image-macro">현재 사용 현황 탭</block>
   <block id="78186fd7282f13506d01c231dbe6998b" category="paragraph"><block ref="78186fd7282f13506d01c231dbe6998b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d1ee1008d1ce164e525dc97a67d40db9" category="section-title">사용 현황 내역 데이터를 봅니다</block>
   <block id="a4369c61f00316f67d280309b8795cde" category="paragraph">Capacity Trend * 탭에는 특정 기간 동안의 Keystone 구독에 대한 기간별 데이터가 표시됩니다. 수직 그래프에는 선택한 시간 범위의 사용 상세 정보와 보고서를 비교 및 생성할 수 있는 적절한 표시기가 표시됩니다.</block>
   <block id="c55747de1491eae1cf9b3dcb88464eb6" category="list-text">Capacity Trend * 탭을 클릭합니다.</block>
   <block id="f78e637f004f2f88d00788573427275d" category="paragraph">데이터 보호 서비스를 구독한 경우 * 용량 추세 * 탭에서 MetroCluster 파트너 사이트의 소비 데이터 분할을 확인할 수 있습니다.</block>
@@ -765,7 +749,6 @@
   <block id="9e4646f0a1f084400c82a4d9adb3c5e9" category="paragraph">데이터 보호 서비스 수준의 경우 총 소비량은 파트너 사이트 간에 분할되며, 각 파트너 사이트의 사용량은 별도의 구독으로 반영 및 청구됩니다. 즉, 기본 사이트의 구독과 미러 사이트의 구독이 각각 하나씩 포함됩니다. 그렇기 때문에 * Capacity Trend * 탭에서 운영 사이트의 구독 번호를 선택하면 DP 서비스 수준의 소비 차트에는 운영 사이트의 개별 소비 상세 정보만 표시됩니다. MetroCluster 구성의 각 파트너 사이트는 소스 및 미러 역할을 하기 때문에 각 사이트의 총 사용량에는 해당 사이트에서 생성된 소스 및 미러 볼륨이 포함됩니다.</block>
   <block id="47936f2018d590ad77c1798883b8e83d" category="admonition">현재 사용 * 탭에서 구독의 태킹 ID 옆에 있는 도구 설명을 통해 MetroCluster 설정에서 파트너 구독을 식별할 수 있습니다.</block>
   <block id="55bb74ba279f3e7dcbdc89ee0cf694b1" category="paragraph">다음 이미지는 _Extreme_service 레벨(기본 서비스 레벨) 및 기본 서브스크립션 번호에 대한 차트를 표시합니다. 동일한 내역 데이터 차트는 기본 사이트에 사용된 색상 코드의 밝은 음영으로 미러 사이트 소비를 표시합니다. 마우스 포인터의 도구 설명은 운영 사이트와 미러 사이트의 소비 브레이크업(TiB)을 각각 1.02TiB와 1.05TiB로 표시합니다.</block>
-  <block id="f9eade15df63147aad555cc771e3c457" category="section-title">볼륨 및 객체 세부 정보 보기</block>
   <block id="ceee14333e6ef0ff6abd717629178c90" category="paragraph">볼륨 및 개체 * 탭에서 ONTAP의 볼륨에 대한 사용 및 기타 세부 정보를 볼 수 있습니다. StorageGRID의 경우 이 탭에는 오브젝트 스토리지 환경의 노드 및 개별 사용량이 표시됩니다.</block>
   <block id="85ad17660a3b75d2c5921cb6d92dac69" category="admonition">이 탭의 이름은 사이트의 배포 특성에 따라 다릅니다. 볼륨과 오브젝트 스토리지가 모두 있는 경우 * Volumes &amp; Objects * 탭이 표시됩니다. 스토리지 환경에 볼륨만 있는 경우 이름이 * Volumes * 로 변경됩니다. 개체 저장소에만 * Objects * 탭이 표시됩니다.</block>
   <block id="29d153ac1b0e976addd91c96cb93899a" category="paragraph">ONTAP의 경우 * 볼륨 * 탭에는 Keystone 구독으로 관리하는 스토리지 환경에서 볼륨의 용량 사용, 볼륨 유형, 클러스터, 애그리게이트 및 서비스 수준과 같은 정보가 표시됩니다.</block>
@@ -779,7 +762,6 @@
   <block id="e4f5a3ba9afe1c0ef49c7a88d48bfdef" category="paragraph">Capacity Trend * 탭에서 쿼리 날짜 범위의 기본 데이터 수집 지점 30개 또는 일별 보고서에 대한 보고서를 다운로드할 수 있습니다.</block>
   <block id="ae133bb1aeacd8e8e2cacbda0dd91045" category="paragraph">그래픽 데이터가 변환되는 * Capacity Trend * 탭의 샘플 보고서:</block>
   <block id="cfa76bbfd0724f28399538bdb3182c2e" category="list-text">* 경고 *: 규정 위반 등의 문제가 경고로 표시됩니다. 예를 들어, AQoS(적응형 QoS) 정책이 연결되지 않은 관리 클러스터 내에 볼륨이 있는 경우 경고 메시지가 표시됩니다. 경고 메시지의 링크를 클릭하면 * Volumes * 탭에서 비준수 볼륨 목록을 볼 수 있습니다.</block>
-  <block id="071760749b2d34723658c7f204d747c2" category="paragraph">Keystone 서비스는 NetApp Keystone STaaS 오퍼링과 다릅니다. NetApp Keystone STaaS에 대한 자세한 내용은 https://docs.netapp.com/us-en/keystone-staas/index.html[Keystone STaaS]를 참조하십시오.</block>
   <block id="b993f038d2034f1e515890abbc93997a" category="paragraph">NetApp Keystone 서비스를 구독한 경우 Active IQ 디지털 어드바이저(디지털 어드바이저) 대시보드의 * Keystone 구독 * 위젯에서 구독에 대한 개요를 볼 수 있습니다.</block>
   <block id="cd1d0a92ecd44f4cdc0312fcb6508f6a" category="paragraph">Digital Advisor는 * 이전/새 대시보드로 전환 * 버튼을 통해 다양한 수준의 구독 데이터 및 사용 정보를 파악할 수 있는 통합 대시보드를 제공합니다.</block>
   <block id="225101b6a3b9351114a047a3df14351f" category="paragraph-title">기본(이전) 대시보드</block>
@@ -841,9 +823,6 @@ Active IQ Digital Advisor 대시보드.</block>
   <block id="4679c89d8e6576b50c0ec6dc84d66501" category="paragraph">* Keystone 사용법은 어떻게 볼 수 있습니까? *
 Active IQ Digital Advisor는 구독하는 모든 서비스 및 소비량에 대한 정보가 포함된 대시보드 보기를 제공합니다.</block>
   <block id="5ca214ff5f0a53028e6d59319fa58c02" category="list-text">OpsRamp, Active IQ Digital Advisor, Active IQ Unified Manager 등의 서비스를 관리하고 운영하는 툴</block>
-  <block id="24cba01226edf9c3d3a2a54ff2dcb01b" category="section-title">ONTAP 볼륨 성능을 확인합니다</block>
-  <block id="3b53297f45bd7b71fc7268ad58677e21" category="paragraph">Keystone 구독에서 관리하는 ONTAP 볼륨의 성능 세부 정보를 보려면 * 성능 * 탭을 클릭하십시오.</block>
-  <block id="0fb53446c9ba4fb31807c3858dd35fc5" category="paragraph">ONTAP 볼륨의 성능 메트릭을 보는 데 이 탭을 사용하지 못할 수도 있습니다. 이 탭을 보려면 지원 부서에 문의하십시오.</block>
   <block id="6e72d1d005343795162600a4ae63ec11" category="list-text">성능 * 탭을 클릭합니다.</block>
   <block id="f1addfc8f24f051397cc85f6926bf8ed" category="list-text">가입 번호를 선택합니다. 기본적으로 첫 번째 가입 번호가 선택됩니다.</block>
   <block id="f642e4642652119f9ec47a2dc27c51ff" category="list-text">목록에서 필요한 볼륨 이름을 선택합니다.</block>
@@ -876,7 +855,6 @@ Active IQ Digital Advisor는 구독하는 모든 서비스 및 소비량에 대�
   <block id="308838aa7669887098042a1899ce59bc" category="list-text">클론 볼륨의 크기가 상위 볼륨의 10% 미만이면(상위 볼륨에 사용된 물리적 용량과 비교하여 클론 볼륨에 사용된 물리적 용량) 충전이 무료입니다.</block>
   <block id="80a3381e7f0324d1481403cc81d8b605" category="list-text">클론된 볼륨에 대해 24시간 유예 기간이 없으며 클론의 크기만 고려됩니다.</block>
   <block id="5e46e614581cd458f9521294062d3783" category="list-text">클론 볼륨이 상위 물리적 크기의 10%를 초과하면 클론이 표준 볼륨(논리적 사용된 용량)으로 청구됩니다.</block>
-  <block id="e8176abe19fdbbe4305962be219084b2" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드 및 보고서의 TiB에 표시되며 소수점 이하 두 자리까지 반올림됩니다. 사용률이 0.01TiB 미만이면 값이 로 표시됩니다<block ref="cfcd208495d565ef66e7dff9f98764da" prefix=" " category="inline-code"></block> 또는<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 이 탭에서 쿼리에 대해 입력한 현지 시간은 UTC 시간으로 변환됩니다. 따라서 쿼리된 시간에 따라 반환되는 데이터에 약간의 차이가 있을 수 있습니다.</block>
   <block id="bc175ffde055d74266df92b003372145" category="paragraph">사용 메트릭에 대한 자세한 내용은 을 참조하십시오<block ref="98a30cfc42e5138070cb8b3bae486e43" category="inline-link-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오<block ref="8838b1277b7691fb50f3e6bca15d5781" category="inline-link-rx"></block>.</block>
   <block id="ef67282c9adc01fdca335af4d78a2c4b" category="list-text">내역 데이터를 보고 용량 사용 추세를 분석하려면 * Capacity Trend * 를 선택합니다. 과거 버스트 사용량 데이터를 보고 청구된 사용량을 송장에 따라 분석하려면 * 누적된 버스트 * 를 선택합니다.</block>
   <block id="856c97744d50a2803c2f50202219de2d" category="section-title">용량 추세를 봅니다</block>
@@ -896,4 +874,49 @@ Active IQ Digital Advisor는 구독하는 모든 서비스 및 소비량에 대�
 예. KSM을 통해 새 스토리지 서비스 또는 스토리지 서비스 확장을 요청할 수 있습니다. 이 요청은 NetApp Keystone 운영 팀에서 처리한 후 사용할 수 있도록 합니다.</block>
   <block id="4c81eafa216c925957e13d302baa98d5" category="paragraph">토글 단추 * 현재 사용량 표시 * 를 클릭하여 현재 청구 기간의 사용량, 버스트 사용량 및 누적 버스트 데이터를 볼 수 있습니다. 이러한 세부 정보는 쿼리의 날짜 범위를 기반으로 하지 않습니다.</block>
   <block id="6b7dfe5a7e219d1bb1b0d4dec89d1cb1" category="list-text">* 누적된 버스트 *: 현재 청구 기간 동안 매월 계산된 누적된 버스트 사용량 또는 소비된 용량에 대한 표시입니다. 누적 버스트 사용량은 서비스 수준에 대해 커밋된 용량과 사용된 용량을 기준으로 계산됩니다.<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>.</block>
+  <block id="55ebd4c218d718ea0a386f47034aead0" category="admonition">Keystone 서브스크립션의 용량 소비는 대시보드 및 보고서의 TiB에 표시되며 소수점 이하 두 자리까지 반올림됩니다. 사용률이 0.01TiB 미만이면 값이 로 표시됩니다<block ref="cfcd208495d565ef66e7dff9f98764da" prefix=" " category="inline-code"></block> 또는<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>. 이러한 화면의 데이터는 UTC 시간(서버 시간대)으로 표시됩니다. 쿼리에 날짜를 입력하면 UTC 시간으로 자동 간주됩니다.</block>
+  <block id="4ca2c509994c2776d0880357b4e8e5be" category="section-title">구독</block>
+  <block id="7bda1caf81a50434b697a77547d44d7b" category="section-title">현재 사용량</block>
+  <block id="0216eab7518e0e4fdc8204cf7851e91d" category="section-title">용량 추세</block>
+  <block id="f42687f947044be78dee6a0694a81b36" category="section-title">볼륨 및 개체</block>
+  <block id="8f092439f16c9c5581e8d659a9bb4b87" category="section-title">ONTAP 볼륨 세부 정보를 봅니다</block>
+  <block id="cb67c9d23f0b301b102268a125b50a37" category="section-title">StorageGRID 노드 및 소비를 확인하십시오</block>
+  <block id="2272e3f7fcc52d12a73359d3442b6c97" category="paragraph">StorageGRID의 경우 이 탭에는 객체 스토리지에 대한 노드의 논리적 사용량이 표시됩니다.</block>
+  <block id="c924d4b9159ee2f418e7b229760b27c4" category="paragraph">성능 * 탭을 사용하면 Keystone 구독에서 관리하는 ONTAP 볼륨의 성능 메트릭을 볼 수 있습니다.</block>
+  <block id="7ba09bc952ba88a83b198dfe99dd1b5b" category="admonition">이 탭은 선택적으로 사용할 수 있습니다. 이 탭을 보려면 지원 부서에 문의하십시오.</block>
+  <block id="ea0790ab58e29bdb6a0b4a7986dd20de" category="paragraph">NetApp Keystone는 온프레미스 자본 지출(CapEx) 대체 포트폴리오입니다.
+자세한 내용은 을 참조하십시오<block ref="9963a8f92b82c24556b6cf3f93f9cf01" category="inline-link-rx"></block>.</block>
+  <block id="6a186e31fa62af5688fc7f9a558228c6" category="paragraph">NetApp Keystone은 CapEx 및 하이브리드 클라우드 전략의 주요 요소인 민첩성, 재무 유연성, 재무 위험 감소를 서로 연계하고 고객이 현금 유동성 및 비즈니스 요구사항을 충족하도록 지원합니다.</block>
+  <block id="ca2bb866b65fc8d371fc5285eee616fd" category="paragraph">* Keystone 서비스(OpEx, 클라우드형 경험): *
+* 100% OpEx를 선호하므로 자산이 고객의 대차대조표에 포함되지 않습니다
+* 사용량/수익에 맞춰 비용을 조정하고자 하는 내부/외부 서비스 공급자
+* 예측할 수 없는 용량 증가로 인한 워크로드
+* 일반적인 스토리지 작업(마이그레이션, 기술 업데이트, 업그레이드 등)에서 재할당된 IT 리소스
+* 워크로드를 클라우드로 마이그레이션하기 전의 단기적인 솔루션입니다
+* 클라우드에서 온프레미스로 워크로드를 다시 이동합니다</block>
+  <block id="713eba9264ecd6dcec7e059fd8fccd59" category="paragraph">Active IQ와 NetApp Keystone 통합에 대한 자세한 내용은 을 참조하십시오 <block ref="019062d897cd11a84b6a9bd561348232" category="inline-link-macro-rx"></block></block>
+  <block id="88895084439cc3245895b1c40dc5b078" category="inline-link">Keystone 관심 목록을 사용하여 검색합니다</block>
+  <block id="3cb912b7972d94adf5ac9309c4a5eb9e" category="paragraph">고객 이름이나 여러 고객이 포함된 관심 목록 이름으로 검색하여 Keystone 구독 세부 정보를 검색할 수 있습니다. 관심 목록별로 Keystone 구독을 검색하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="90d7dda9685d678434ce5d3ddf105ca3" category="inline-link-rx"></block>.</block>
+  <block id="9eb8ff0f43ab3ce564117624a689cfa3" category="paragraph">Digital Advisor는 * 이전/새 대시보드로 전환 * 버튼을 통해 다양한 수준의 구독 데이터 및 사용 정보에 대한 통찰력을 제공하는 통합 대시보드를 제공합니다.</block>
+  <block id="ec320302792fadf1fb74b4bb4f95a5fe" category="paragraph">Digital Advisor에 대한 자세한 내용은 를 참조하십시오 <block ref="f78431e9c5ef7b1f6a39775f41d0ce9b" category="inline-link-macro-rx"></block>.</block>
+  <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="inline-link">시청목록 이해</block>
+  <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="inline-link">시청목록 생성</block>
+  <block id="a0c517f9e5b0470cce1ab7fde8c0d1ce" category="paragraph">시청자 목록은 Active IQ 디지털 어드바이저(디지털 어드바이저)의 기능입니다. 자세한 내용은 을 참조하십시오<block ref="5d023a7962c7eae7e0af56f6e7f92603" category="inline-link-rx"></block>. 시청목록 생성에 대한 자세한 내용은 을 참조하십시오<block ref="2539846485ed670b4851c404ba8cd9b6" category="inline-link-rx"></block>.</block>
+  <block id="d6d5dda3f71292dc9b9bfd9faa422261" category="paragraph">Keystone은 여러 고객의 구독 세부 정보를 보기 위해 관심 목록 생성 및 검색 기능을 지원합니다. 다음 단계에 따라 Keystone 고객을 위한 관심 목록을 만드십시오.</block>
+  <block id="f8c7b17178ac0d47587fe4209212f845" category="list-text">관심 목록 생성 * 화면에서 Keystone 시청목록 이름을 입력합니다.</block>
+  <block id="64ea3eba889d16f29451cc4848d6c028" category="list-text">Add Systems By * 필드에서 * Category * 를 선택합니다. [범주 선택] 필드에서 * 고객 * 이 기본적으로 선택됩니다.</block>
+  <block id="d8447fc06a5237aca92d786e6825230b" category="list-text">이름을 기준으로 필요한 고객을 검색하고 추가합니다. 세부 정보를 볼 수 있는 고객만 추가할 수 있습니다.</block>
+  <block id="f8473050e13ea949931f27320fdc622c" category="list-text">시청목록 만들기 * 를 클릭합니다. Digital Advisor(디지털 어드바이저) 화면에 새 시청목록에 대한 데이터가 표시됩니다.</block>
+  <block id="a00124ff9147e5d1d2b0bc9bff470b3b" category="paragraph">Digital Advisor 화면에서 관심 목록으로 검색할 때 * Keystone 구독 * 위젯의 * 구독 * 드롭다운 목록에서 고객과 해당 구독을 볼 수 있습니다.</block>
+  <block id="0af63610aa0a1cbdd9b28f3ab335a1cb" category="admonition">Keystone 구독 * 위젯에서 _new_dashboard를 보는 경우 * 이전 대시보드로 전환 * 을 클릭하여 목록을 봅니다.</block>
+  <block id="09b8df283a9d3625b41a2aec11f57e19" category="inline-image-macro">감시 목록 화면</block>
+  <block id="c86f5272a87d0abd4169f3e4142fb226" category="paragraph"><block ref="c86f5272a87d0abd4169f3e4142fb226" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e8808496ef57db983baa3d6f130a519e" category="paragraph">Keystone은 서비스 수준을 기준으로 소비를 측정합니다. 각 서비스 수준은 특정 적응형 서비스 품질(QoS) 정책과 연계됩니다. 구축하는 동안 구독한 Keystone 서비스에 대한 각 QoS 정책에 대한 세부 정보가 제공됩니다. 스토리지 관리 작업 중에 예상치 못한 청구가 발생하지 않도록 서비스 수준에 따라 볼륨에 적절한 QoS 정책이 할당되었는지 확인합니다.
+ONTAP의 QoS 정책에 대한 자세한 내용은 을 참조하십시오 <block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>.</block>
+  <block id="f930c01e0aac92361d4825590812eac2" category="list-text">글로벌 서비스 연락처:
+<block ref="bf96aa6f30328ac08de4c7360f300fa2" category="inline-link-rx"></block></block>
+  <block id="5a624918f56031a706088347bd639b0c" category="list-text">NetApp은 문제 해결을 위해 클라우드 기반 원격 게이트웨이 솔루션인 OpsRamp를 사용하여 NetApp Keystone 환경을 능동적으로 모니터링하고 연결합니다. OpsRamp에 대한 자세한 내용은 를 참조하십시오<block ref="b0785310a3e3aab23e00d7c61eb4b72d" category="inline-link-rx"></block>.</block>
+  <block id="53ee52defbf70af2e9afed973e812462" category="paragraph">NetApp Keystone는 클라우드 전환을 지원하기 위한 온프레미스 자본 지출(CapEx) 대체 포트폴리오입니다. NetApp Keystone은 사내와 클라우드에 있는 스토리지 서비스를 통해 원활한 하이브리드 클라우드 경험을 제공합니다.
+NetApp Keystone에 대한 자세한 내용은 를 참조하십시오 <block ref="17e1729d4a77db88a0bc2ee74a2207b1" category="inline-link-macro-rx"></block></block>
+  <block id="073ad031fe3412f290d7e3ed4beeb9b4" category="paragraph">Keystone 서비스는 NetApp Keystone STaaS 오퍼링과 다릅니다. NetApp Keystone STaaS에 대한 자세한 내용은 https://docs.netapp.com/us-en/keystone-staas/index.html[Keystone STaaS 를 참조하십시오.</block>
 </blocks>
