@@ -856,16 +856,12 @@ Active IQ Digital Advisor는 구독하는 모든 서비스 및 소비량에 대�
   <block id="80a3381e7f0324d1481403cc81d8b605" category="list-text">클론된 볼륨에 대해 24시간 유예 기간이 없으며 클론의 크기만 고려됩니다.</block>
   <block id="5e46e614581cd458f9521294062d3783" category="list-text">클론 볼륨이 상위 물리적 크기의 10%를 초과하면 클론이 표준 볼륨(논리적 사용된 용량)으로 청구됩니다.</block>
   <block id="bc175ffde055d74266df92b003372145" category="paragraph">사용 메트릭에 대한 자세한 내용은 을 참조하십시오<block ref="98a30cfc42e5138070cb8b3bae486e43" category="inline-link-rx"></block>. Keystone에서 사용되는 다양한 기능에 대한 자세한 내용은 을 참조하십시오<block ref="8838b1277b7691fb50f3e6bca15d5781" category="inline-link-rx"></block>.</block>
-  <block id="ef67282c9adc01fdca335af4d78a2c4b" category="list-text">내역 데이터를 보고 용량 사용 추세를 분석하려면 * Capacity Trend * 를 선택합니다. 과거 버스트 사용량 데이터를 보고 청구된 사용량을 송장에 따라 분석하려면 * 누적된 버스트 * 를 선택합니다.</block>
   <block id="856c97744d50a2803c2f50202219de2d" category="section-title">용량 추세를 봅니다</block>
   <block id="b7d541aea481ae26f60f1033b3cab726" category="paragraph">Capacity Trend * 옵션을 선택한 경우 다음 단계를 수행합니다.</block>
   <block id="f4c8dae91522d3ec93e26aff56248527" category="list-text">From Date * 및 * To Date * 필드의 달력 아이콘에서 시간 범위를 선택합니다. 쿼리의 날짜 범위를 선택합니다. 날짜 범위는 월 시작 날짜 또는 구독 시작 날짜부터 현재 날짜까지 또는 구독 종료 날짜일 수 있습니다. 미래 날짜는 선택할 수 없습니다.</block>
   <block id="9a1db55a20b384661303cf6789a6fed8" category="list-text">세부 정보 보기 * 를 클릭합니다. 각 서비스 수준에 대한 구독의 과거 소비 데이터는 선택한 시간 범위를 기준으로 표시됩니다.</block>
   <block id="5c0d50dc2c715b658984931c688519eb" category="paragraph">막대 차트에는 서비스 레벨 이름과 해당 서비스 레벨에 대해 사용된 용량이 날짜 범위에 표시됩니다. 컬렉션의 날짜 및 시간이 차트 아래쪽에 표시됩니다. 쿼리의 날짜 범위를 기반으로 사용 차트는 30개의 데이터 수집 지점 범위로 표시됩니다. 차트 위에 마우스 커서를 올려 놓으면 해당 데이터 수집 지점의 버스트 제한 데이터 위에서 사용량 분석을 확인할 수 있습니다.</block>
   <block id="f8eaf321d70fdf3e9d097bb407d56130" category="paragraph">막대 도표의 다음 색상은 서비스 수준 내에서 정의된 소비 용량을 나타냅니다. 차트의 월별 데이터는 세로 선으로 구분됩니다.</block>
-  <block id="a122d7ff9fbb0694ecb095cdf8f27baa" category="section-title">기간별 버스트 데이터를 봅니다</block>
-  <block id="7f4aafd34e1281a2bb7098e5b06084bd" category="paragraph">[누적된 버스트] 옵션을 선택한 경우 기본적으로 지난 12개월 동안의 월별 누적된 버스트 사용량 데이터를 볼 수 있습니다. 지난 30개월까지의 날짜 범위를 기준으로 쿼리할 수 있습니다.</block>
-  <block id="75ddfeb3beb9d2a265ac2ce3b66ef050" category="admonition">누적된 버스트 사용량 또는 소비된 용량은 현재 청구 기간에 대해 매월 계산됩니다. 계산된 버스트 사용량은 다음 공식에 의해 서비스 수준에 대해 커밋된 용량 및 사용된 용량을 기준으로 계산됩니다.<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>.</block>
   <block id="952c204f277570032cf6454e003c63da" category="inline-image-macro">누적된 버스트 사용량 차트</block>
   <block id="b9e135b5bcd23b0beff424e32497e77c" category="paragraph"><block ref="b9e135b5bcd23b0beff424e32497e77c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="36234decc68306d26e71012f98474aa1" category="paragraph">이 기능은 미리 보기 전용 모드에서 사용할 수 있습니다. 이 기능에 대한 자세한 내용은 KSM에 문의하십시오.</block>
@@ -919,4 +915,8 @@ ONTAP의 QoS 정책에 대한 자세한 내용은 을 참조하십시오 <block 
   <block id="53ee52defbf70af2e9afed973e812462" category="paragraph">NetApp Keystone는 클라우드 전환을 지원하기 위한 온프레미스 자본 지출(CapEx) 대체 포트폴리오입니다. NetApp Keystone은 사내와 클라우드에 있는 스토리지 서비스를 통해 원활한 하이브리드 클라우드 경험을 제공합니다.
 NetApp Keystone에 대한 자세한 내용은 를 참조하십시오 <block ref="17e1729d4a77db88a0bc2ee74a2207b1" category="inline-link-macro-rx"></block></block>
   <block id="073ad031fe3412f290d7e3ed4beeb9b4" category="paragraph">Keystone 서비스는 NetApp Keystone STaaS 오퍼링과 다릅니다. NetApp Keystone STaaS에 대한 자세한 내용은 https://docs.netapp.com/us-en/keystone-staas/index.html[Keystone STaaS 를 참조하십시오.</block>
+  <block id="989f69001ddcc32301bcbd805f65e578" category="list-text">내역 데이터를 보고 용량 사용 추세를 분석하려면 * Capacity Trend * 를 선택합니다. 송장이 생성된 과거 버스트 사용량 데이터를 보려면 * 송장 발행된 버스트 * 를 선택합니다. 이 데이터를 사용하여 송장에 따라 청구된 사용량을 분석할 수 있습니다.</block>
+  <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">송장 발행된 누적 버스트 보기</block>
+  <block id="db0ef40224829d8428d6c42004012b26" category="paragraph">송장 발행된 버스트 * 옵션을 선택한 경우 기본적으로 청구된 마지막 12개월 동안의 월별 누적 버스트 사용량 데이터를 볼 수 있습니다. 지난 30개월까지의 날짜 범위를 기준으로 쿼리할 수 있습니다. 막대 차트는 송장 발행된 데이터에 대해 표시되며 사용량이 아직 청구되지 않은 경우 해당 월의 _Pending_이 표시됩니다.</block>
+  <block id="393673167b0e2f5fe79a42f45c884852" category="admonition">송장 발행된 버스트 사용량은 서비스 수준의 커밋된 용량 및 사용된 용량을 기준으로 청구 기간별로 계산됩니다.</block>
 </blocks>
