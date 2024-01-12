@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head class="at-element-marker">
+  <title>Keystone의 테넌시 및 멀티 테넌시</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Keystone의 테넌시 및 멀티 테넌시" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/ko-kr/keystone/nkfsosm_tenancy_overview.html" />
+	<meta property="og:description" content="NetApp Keystone Keystone 가입 테넌시 개요" />
+  <meta property="og:image" content="https://docs.netapp.com/ko-kr/keystone/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="NetApp Keystone Keystone 가입 테넌시 개요">
+  <meta name="keywords" content=" netapp, keystone, tenants, subtenants, hierarchy, tenancy"><!-- Icons -->
+  <link rel="icon" href="/ko-kr/keystone/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/ko-kr/keystone/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/ko-kr/keystone/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/ko-kr/keystone/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/ko-kr/keystone/nkfsosm_tenancy_overview.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/keystone/nkfsosm_tenancy_overview.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/keystone/nkfsosm_tenancy_overview.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/keystone/nkfsosm_tenancy_overview.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/keystone/nkfsosm_tenancy_overview.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/keystone/nkfsosm_tenancy_overview.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/keystone/nkfsosm_tenancy_overview.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/keystone/nkfsosm_tenancy_overview.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/keystone/nkfsosm_tenancy_overview.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/keystone/nkfsosm_tenancy_overview.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/keystone/nkfsosm_tenancy_overview.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/keystone/js/na-search.js'></script><script src='/ko-kr/keystone/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/ko-kr/keystone/js/custom-dropdown.js'></script>
+  <script src='/ko-kr/keystone/js/FileSaver.min.js'></script>
+  <script src='/ko-kr/keystone/js/jszip-utils.min.js'></script>
+  <script src='/ko-kr/keystone/js/jszip.min.js'></script><script src='/ko-kr/keystone/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/ko-kr/keystone/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/kr">
+                <image id="ie-header-logo" src="/ko-kr/keystone/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/support-and-training/documentation/">문서</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/ko-kr/keystone/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">한국어</span>
+                    <img src="/ko-kr/keystone/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/ko-kr/keystone/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/ko-kr/keystone/nkfsosm_tenancy_overview.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/us-en/keystone/nkfsosm_tenancy_overview.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ja-jp/keystone/nkfsosm_tenancy_overview.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-cn/keystone/nkfsosm_tenancy_overview.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-tw/keystone/nkfsosm_tenancy_overview.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/de-de/keystone/nkfsosm_tenancy_overview.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/es-es/keystone/nkfsosm_tenancy_overview.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/keystone/nkfsosm_tenancy_overview.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/it-it/keystone/nkfsosm_tenancy_overview.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/ko-kr/keystone/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">모든 NetApp</span>
+                    <img src="/ko-kr/keystone/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/ko-kr/keystone/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">지원</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">기술 자료</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/ko/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">교육</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/ko-kr/keystone/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/ko-kr/keystone/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">모든 문서</a>
+    </li>
+    
+    
+
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/ko-kr/keystone/">-->
+      Keystone
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/ko-kr/keystone/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/ko-kr/keystone/search.html" 
+        data-type="widget"
+        data-placeholder="설명서 검색"
+        data-no-results-found="{query}에 대한 결과를 찾을 수 없습니다"
+        data-did-you-mean="{suggestion}을(를) 검색하십시오."
+        data-no-results-found-did-you-mean="{query}에 대한 결과가 없습니다. {suggestion}을(를) 찾고 계시는 건가요?"
+        data-results-found="{hitCount}개의 결과를 찾았습니다"
+        data-error-message="오류가 발생했습니다. 다시 시도해 주십시오."
+        data-error-reset="검색 재설정"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp Keystone 서비스"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ko-kr/keystone/index.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/keystone/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/keystone/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> NetApp Keystone 서비스</div>-->
+         NetApp Keystone 서비스
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="서비스 약관 및 설명"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_service_terms_and_description_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/nkfsosm_service_terms_and_description_overview.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/keystone/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/keystone/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 서비스 약관 및 설명</div>-->
+         서비스 약관 및 설명
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="서비스 용량 정의"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_keystone_service_capacity_definitions.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/keystone/nkfsosm_keystone_service_capacity_definitions.html">
+        서비스 용량 정의
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Keystone의 서비스 수준"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_performance.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/keystone/nkfsosm_performance.html">
+        Keystone의 서비스 수준
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="서비스 수준 메트릭 및 정의"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_service_level_metrics_and_definitions.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/keystone/nkfsosm_service_level_metrics_and_definitions.html">
+        서비스 수준 메트릭 및 정의
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Keystone의 적응형 서비스 품질"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/aqos-kfs.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/keystone/aqos-kfs.html">
+        Keystone의 적응형 서비스 품질
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="청구"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_kfs_billing.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/keystone/nkfsosm_kfs_billing.html">
+        청구
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="데이터 보호"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_data_protection.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/keystone/nkfsosm_data_protection.html">
+        데이터 보호
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="계층화"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_tiering.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/keystone/nkfsosm_tiering.html">
+        계층화
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="반품 불가 디스크"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_nrd.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/keystone/nkfsosm_nrd.html">
+        반품 불가 디스크
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="미국 시민 지원"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_uscs.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/keystone/nkfsosm_uscs.html">
+        미국 시민 지원
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Keystone과 Equinix"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_equinix.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/keystone/nkfsosm_equinix.html">
+        Keystone과 Equinix
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="운영 모델 및 책임"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/nkfsosm_overview.html">
+        운영 모델 및 책임
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="테넌시 및 멀티 테넌시"
+      data-li-level="2#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_tenancy_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/nkfsosm_tenancy_overview.html">
+        테넌시 및 멀티 테넌시
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Keystone 인프라"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_keystone_service_delivery_architecture_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/nkfsosm_keystone_service_delivery_architecture_overview.html">
+        Keystone 인프라
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="사이트 요구 사항"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_site_requirements.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/nkfsosm_site_requirements.html">
+        사이트 요구 사항
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="운영"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm_netapp_global_services_and_support_center_@gssc@.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/nkfsosm_netapp_global_services_and_support_center_@gssc@.html">
+        운영
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Keystone 및 Active IQ 디지털 자문"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsosm-keystone-and-aiq.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/nkfsosm-keystone-and-aiq.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/keystone/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/keystone/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Keystone 및 Active IQ 디지털 자문</div>-->
+         Keystone 및 Active IQ 디지털 자문
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Active IQ 디지털 어드바이저에서 보고서를 보고 생성합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/aiq-keystone-details.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/keystone/aiq-keystone-details.html">
+        Active IQ 디지털 어드바이저에서 보고서를 보고 생성합니다
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="릴리즈 노트"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/keystone/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/keystone/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 릴리즈 노트</div>-->
+         릴리즈 노트
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="새로운 소식"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/rn_whats_new.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/rn_whats_new.html">
+        새로운 소식
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="해결된 문제"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/rn_fixed_issues.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/rn_fixed_issues.html">
+        해결된 문제
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="알려진 문제"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/rn_known_issues.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/rn_known_issues.html">
+        알려진 문제
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Keystone 구독 FAQ"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsfaq_overview.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ko-kr/keystone/nkfsfaq_overview.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/keystone/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/keystone/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Keystone 구독 FAQ</div>-->
+         Keystone 구독 FAQ
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Keystone 구독"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsfaq_keystone_subscription.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/nkfsfaq_keystone_subscription.html">
+        Keystone 구독
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="서비스 제공 세부 정보"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsfaq_service_offer_details.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/nkfsfaq_service_offer_details.html">
+        서비스 제공 세부 정보
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="운영 모델"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/nkfsfaq_operating_models.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/keystone/nkfsfaq_operating_models.html">
+        운영 모델
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="법적 고지"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/nkfsosm_tenancy_overview.html" 
+      dale-entry-url="/legal-notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ko-kr/keystone/legal-notices.html">
+        법적 고지
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/ko-kr/keystone"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/ko-kr/keystone"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <img src="/ko-kr/keystone/images/notification-icons.svg" class="luci-icon" alt="" />
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> 본 한국어 번역은 사용자 편의를 위해 제공되는 기계 번역입니다. 영어 버전과 한국어 버전이 서로 어긋나는 경우에는 언제나 영어 버전이 우선합니다. </span>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </span>
+  </div><div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">Keystone의 테넌시 및 멀티 테넌시</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2023-05-18 18:24:54 +0000">05/18/2023</time>
+        
+    
+    
+        <span>기여자
+        </span>
+    
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/ko-kr/keystone/images/discuss-sm.svg" alt="" class="github-icon" />변경 제안</span>
+        <img src="/ko-kr/keystone/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/ko-kr/keystone/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/keystone.ko-kr/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/ko-kr/keystone/nkfsosm_tenancy_overview.html&page-title=Keystone의 테넌시 및 멀티 테넌시" class="page-nav-contribute-link" role="button">문서 변경사항 요청</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/keystone/blob/main/nkfsosm_tenancy_overview.adoc" class="page-nav-contribute-link" role="button">이 페이지 편집</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >기여하는 방법 알아보기</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/ko-kr/keystone/images/pdf-icon.png" alt="" width="16" height="16"/>PDF<img src="/ko-kr/keystone/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/ko-kr/keystone/pdfs/fullsite-sidebar/NetApp_Keystone_설명서.pdf" >
+                    <img src="/ko-kr/keystone/images/pdf-icon.png" alt="" width="16" height="16"/>이 문서 사이트의 PDF</a>
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/keystone/pdfs/sidebar/NetApp_Keystone_서비스.pdf" 
+            
+          >
+            <img src="/ko-kr/keystone/images/pdf-icon.png" alt="" width="16" height="16"/>
+            NetApp Keystone 서비스
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/keystone/pdfs/sidebar/서비스_약관_및_설명.pdf" 
+            
+          >
+            <img src="/ko-kr/keystone/images/pdf-icon.png" alt="" width="16" height="16"/>
+            서비스 약관 및 설명
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/keystone/pdfs/sidebar/Keystone_및_Active_IQ_디지털_자문.pdf" 
+            
+          >
+            <img src="/ko-kr/keystone/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Keystone 및 Active IQ 디지털 자문
+          </a>
+          
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/keystone/pdfs/sidebar/릴리즈_노트.pdf" 
+            
+          >
+            <img src="/ko-kr/keystone/images/pdf-icon.png" alt="" width="16" height="16"/>
+            릴리즈 노트
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/keystone/pdfs/sidebar/Keystone_구독_FAQ.pdf" 
+            
+          >
+            <img src="/ko-kr/keystone/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Keystone 구독 FAQ
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/ko-kr/keystone/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>별도의 PDF 문서 모음<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>NetApp Keystone는 논리적 스토리지 리소스를 소유하는 계층적 엔터티로 * Tenant * 및 * Subtenant * 의 개념을 사용합니다. 다중 테넌시의 개념도 지원되며, 여러 테넌트가 파트너 또는 서비스 공급자에 종속됩니다. 엔터티 파트너 및 서비스 공급자는 여기에서 동일한 의미로 사용됩니다.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/keystone/images/note.svg" alt="참고">
+</td>
+<td class="content">
+Keystone과 관련하여 단일 테넌시는 NetApp 운영 모델이며 멀티 테넌시는 파트너 운영 모델입니다.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<div class="title">테넌트</div>
+<p>테넌트는 Keystone에 정의된 주요 청구 엔티티입니다. Keystone에 온보딩하고 서비스에 대한 가입을 보유하고 있는 각 고객은 Keystone 테넌트로 존재합니다. 고객은 테넌트를 온보딩하고 가입 날짜 및 약정 조건을 추적하기 위해 NetApp에 고객 이름 및/또는 ID를 제공합니다.</p>
+</div>
+<div class="paragraph">
+<p>멀티 테넌시에서 파트너는 Keystone 환경에서 NetApp의 테넌트/고객입니다. 파트너는 최종 고객/하위 테넌트에 연결된 여러 테넌트 또는 고객을 확보할 수 있습니다. 이 모델에서 테넌트/하위 테넌트는 서비스 공급자의 고객이며 NetApp과 청구 관계가 없습니다.</p>
+</div>
+<div class="paragraph">
+<div class="title">하위 테넌트</div>
+<p>Keystone 하위 테넌트는 다대일 관계를 가진 상위 테넌트 내에 완전히 존재합니다. 서브테넌트는 테넌시 내에서 논리적 리소스 분리를 제공하며 표시 보고 기준으로 사용됩니다. 모든 스토리지 리소스(파일 서비스, 블록 스토리지 및 오브젝트 스토리지)는 서브테넌트에 속합니다.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="./media/nkfsosm_image10.png" alt="테넌시 아키텍처"></span></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="netapp-운영단일-테넌시-환경의-가입형-모델">NetApp 운영(단일 테넌시) 환경의 가입형 모델</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>NetApp admin 또는 GSSC가 테넌트 및 존에 대해 구독을 만듭니다.</p>
+</li>
+<li>
+<p>구독 이름은 테넌트가 구독하는 청구 엔티티로부터 파생됩니다.</p>
+</li>
+<li>
+<p>구독에서 시작 날짜 및 계약 기간이 구성됩니다.</p>
+</li>
+<li>
+<p>각 테넌트 존마다 활성 서브스크립션이 하나만 있을 수 있습니다</p>
+</li>
+<li>
+<p>하나의 가입에는 여러 요금제가 포함될 수 있으며 각 요금제는 서비스 수준에 해당합니다.</p>
+</li>
+<li>
+<p>각 요금제에는 서비스 수준별로 약정 용량이 있습니다.</p>
+</li>
+<li>
+<p>서비스 수준은 다음과 같습니다.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>익스트림</p>
+</li>
+<li>
+<p>익스트림 계층화</p>
+</li>
+<li>
+<p>성능</p>
+</li>
+<li>
+<p>성능 계층화</p>
+</li>
+<li>
+<p>값</p>
+</li>
+<li>
+<p>각 서비스 수준에 대한 데이터 보호</p>
+</li>
+<li>
+<p>Extreme, Performance, Value를 위한 고급 데이터 보호 기능을 제공합니다</p>
+</li>
+<li>
+<p>스토리지 오브젝트</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="멀티-테넌트multi-tenant-환경의-서브스크립션-모델">멀티 테넌트(multi-tenant) 환경의 서브스크립션 모델</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>서비스 공급자는 Keystone 고객이며 테넌트로 가입되어 있습니다. 서브스크립션은 다음을 기반으로 합니다.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>서비스 수준 및 영역별 약정</p>
+</li>
+<li>
+<p>최소 100TiB의 할당된 용량에 대해 비용이 청구됩니다</p>
+</li>
+<li>
+<p>버스트 요금은 약정 용량의 100-120%에 적용됩니다</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>NetApp은 공급자에게 일반 테넌시 조건의 일부로 매월 요금을 부과합니다.</p>
+</li>
+<li>
+<p>테넌트가 서비스 수준을 사용할 수 있도록 하려면 서비스 공급자 또는 파트너가 먼저 서비스 수준에 대한 Keystone을 갖추고 있어야 합니다.</p>
+</li>
+<li>
+<p>서비스 공급자는 서비스 수준, 영역 및 유연한 최소 구성에 따라 테넌트 구독을 만듭니다.</p>
+</li>
+<li>
+<p>서비스 공급자는 NetApp에서 구입한 것보다 더 많은 용량을 테넌트에 판매할 수 있습니다(초과 할당). 따라서 테넌트가 사용하는 용량은 서비스 공급자가 구독한 용량에 의해 제한되지 않습니다.</p>
+</li>
+<li>
+<p>테넌트는 사용 현황 보고서에 '버스트'로 표시되는 구독 용량에 대해 스토리지 용량을 사용할 수 있습니다.</p>
+</li>
+<li>
+<p>테넌트 사용 보고서는 매일 또는 매월 확인할 수 있습니다.</p>
+</li>
+<li>
+<p>테넌트는 해당 Keystone 서브스크립션에 비해 더 오랜 기간 서브스크립션을 생성할 수 있지만, 해당 활동 중에 최종 고객에게 경고 메시지가 표시됩니다.</p>
+</li>
+<li>
+<p>파트너의 Keystone 가입이 NetApp 관리자 또는 GSSC에 의해 구성됩니다. Keystone 가입 및 테넌트 가입의 관리는 파트너 관리자 역할을 가진 사용자가 수행합니다.</p>
+</li>
+<li>
+<p>테넌트 관리자 역할을 가진 사용자는 파트너의 Keystone 가입이 아닌 테넌트 가입만 볼 수 있습니다. 고객은 지정된 구독을 업데이트하여 용량 및 서비스 수준을 변경할 수 있습니다. 추가 구독에 대한 서비스 요청을 제기할 수 있습니다.</p>
+</li>
+<li>
+<p>파트너 관리자는 기존 구독이 만료된 경우 또는 기존 구독이 더 이상 유효하지 않은 경우 이후 날짜에 다른 구독을 만들 수 있습니다. 새 구독의 시작 날짜는 현재 종료 날짜보다 이후여야 합니다.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/ko-kr/keystone/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/ko-kr/keystone/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">이 페이지에서</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">이용 약관</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">개인 정보 보호 정책</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">쿠키 정책</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">쿠키 설정</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">이 페이지에 대한 피드백 보내기</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/ko-kr/keystone/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/ko-kr/keystone/js/prism.js'></script>
+      <script type="text/javascript" src='/ko-kr/keystone/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/ko-kr/keystone/js/ie-tabbed-blocks.js'></script>
+    <script src='/ko-kr/keystone/js/ie-sidebar.js'></script>
+  </body>
+
+</html>
